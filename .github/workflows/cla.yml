@@ -6,6 +6,12 @@ on:
     types: [opened, synchronize]
   merge_group:
 
+permissions:
+  actions: write
+  contents: write
+  pull-requests: write
+  statuses: write
+
 jobs:
   CLAssistant:
     runs-on: ubuntu-latest
