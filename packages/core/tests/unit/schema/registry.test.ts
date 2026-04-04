@@ -372,4 +372,49 @@ describe("SchemaRegistry", () => {
 			expect(field).toBeNull();
 		});
 	});
+
+	describe("Label Uniqueness", () => {
+		it.todo("should reject creating a collection with a duplicate label", async () => {
+			await registry.createCollection({ slug: "posts", label: "Articles" });
+
+			await expect(
+				registry.createCollection({ slug: "news", label: "Articles" }),
+			).rejects.toThrow();
+		});
+
+		it.todo("should reject creating a collection with a duplicate singular label", async () => {
+			await registry.createCollection({
+				slug: "posts",
+				label: "Posts",
+				labelSingular: "Post",
+			});
+
+			await expect(
+				registry.createCollection({
+					slug: "news",
+					label: "News",
+					labelSingular: "Post",
+				}),
+			).rejects.toThrow();
+		});
+
+		it.todo("should reject updating a collection label to one already in use", async () => {
+			await registry.createCollection({ slug: "posts", label: "Posts" });
+			await registry.createCollection({ slug: "pages", label: "Pages" });
+
+			await expect(registry.updateCollection("pages", { label: "Posts" })).rejects.toThrow();
+		});
+
+		it("should allow updating a collection to keep its own label", async () => {
+			await registry.createCollection({ slug: "posts", label: "Posts" });
+
+			// Updating other fields while keeping the same label should not throw
+			const updated = await registry.updateCollection("posts", {
+				label: "Posts",
+				description: "Blog posts",
+			});
+
+			expect(updated.description).toBe("Blog posts");
+		});
+	});
 });
