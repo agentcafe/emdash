@@ -1,5 +1,19 @@
 # @emdash-cms/admin
 
+## 0.2.0
+
+### Minor Changes
+
+- [#111](https://github.com/emdash-cms/emdash/pull/111) [`87b0439`](https://github.com/emdash-cms/emdash/commit/87b0439927454a275833992de4244678b47b9aa3) Thanks [@mvanhorn](https://github.com/mvanhorn)! - Adds repeater field type for structured repeating data
+
+### Patch Changes
+
+- [#99](https://github.com/emdash-cms/emdash/pull/99) [`3b6b75b`](https://github.com/emdash-cms/emdash/commit/3b6b75b01b5674776cb588506d75042d4a2745ea) Thanks [@all3f0r1](https://github.com/all3f0r1)! - Fix content list not fetching beyond the first API page when navigating to the last client-side page
+
+- [#377](https://github.com/emdash-cms/emdash/pull/377) [`5eeab91`](https://github.com/emdash-cms/emdash/commit/5eeab918820f680ea8b46903df7d69969af8b8ee) Thanks [@Pouf5](https://github.com/Pouf5)! - Fixes new content always being created with locale `en` regardless of which locale is selected in the collection locale switcher. The "Add New" link now forwards the active locale to the new-content route, and the new-content page passes it through to the create API.
+
+- [#185](https://github.com/emdash-cms/emdash/pull/185) [`e3f7db8`](https://github.com/emdash-cms/emdash/commit/e3f7db8bb670bb7444632ab0cd4e680e4c9029b3) Thanks [@ophirbucai](https://github.com/ophirbucai)! - Fixes field scroll-into-view not triggering when navigating to a field via URL parameter.
+
 ## 0.1.1
 
 ### Patch Changes
