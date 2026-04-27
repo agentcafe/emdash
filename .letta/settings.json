@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"\nimport re, json\n\nwith open('/Users/agentcafe/.config/kilo/kilo.jsonc', 'r', encoding='utf-8') as f:\n    raw = f.read()\n\n# Strip // comments\nstripped = re.sub(r'//[^\\n]*', '', raw)\n\n# Find all literal control characters (newlines, tabs, etc.) inside JSON strings\n# Scan character by character\nin_string = False\nescape_next = False\nfor i, ch in enumerate(stripped):\n    if escape_next:\n        escape_next = False\n        continue\n    if ch == '\\\\\\\\':\n        escape_next = True\n        continue\n    if ch == '\\\"':\n        in_string = not in_string\n        continue\n    if in_string and ord(ch) < 0x20:\n        # Find line number\n        line_num = stripped[:i].count('\\n') + 1\n        col = i - stripped[:i].rfind('\\n')\n        print(f'Control char U+{ord(ch):04X} at line {line_num}, col {col}, char {i}')\n        # Show context\n        print('  Context:', repr(stripped[max(0,i-30):i+30]))\n        print()\n\" 2)"
+    ]
+  }
+}

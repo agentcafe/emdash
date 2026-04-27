@@ -1,0 +1,161 @@
+- generic [active] [ref=e1]:
+    - banner [ref=e2]:
+        - navigation [ref=e3]:
+            - link "My Blog" [ref=e4] [cursor=pointer]:
+                - /url: /
+            - generic [ref=e5]:
+                - searchbox "Search..." [ref=e7]
+                - generic [ref=e8]:
+                    - link "Home" [ref=e9] [cursor=pointer]:
+                        - /url: /
+                    - link "About" [ref=e10] [cursor=pointer]:
+                        - /url: /pages/about
+                    - link "Posts" [ref=e11] [cursor=pointer]:
+                        - /url: /posts
+    - main [ref=e12]:
+        - generic [ref=e13]:
+            - generic [ref=e15]:
+                - link "Geometric pattern carved into white paper" [ref=e16] [cursor=pointer]:
+                    - /url: /posts/notes-on-simplicity
+                    - img "Geometric pattern carved into white paper" [ref=e18]
+                - generic [ref=e19]:
+                    - generic [ref=e20]:
+                        - time [ref=e21]: April 25, 2026
+                        - generic [ref=e23]: 1 min read
+                    - link "Notes on Simplicity" [ref=e24] [cursor=pointer]:
+                        - /url: /posts/notes-on-simplicity
+                        - heading "Notes on Simplicity" [level=1] [ref=e25]
+                    - paragraph [ref=e26]: Simplicity isn't the absence of complexity. It's the result of understanding a problem well enough to solve it cleanly.
+                    - link "Opinion" [ref=e28] [cursor=pointer]:
+                        - /url: /tag/opinion
+            - generic [ref=e29]:
+                - heading "Latest" [level=2] [ref=e31]
+                - generic [ref=e32]:
+                    - article [ref=e33]:
+                        - link "Code on a screen with a dark theme Apr 25, 2026 1 min A Weekend with a Side Project No stakeholders, no deadlines, no Jira tickets. Just you and a dumb idea that might turn into something." [ref=e34] [cursor=pointer]:
+                            - /url: /posts/a-weekend-with-a-side-project
+                            - img "Code on a screen with a dark theme" [ref=e36]
+                            - generic [ref=e37]:
+                                - generic [ref=e38]:
+                                    - time [ref=e39]: Apr 25, 2026
+                                    - generic [ref=e41]: 1 min
+                                - heading "A Weekend with a Side Project" [level=2] [ref=e42]
+                                - paragraph [ref=e43]: No stakeholders, no deadlines, no Jira tickets. Just you and a dumb idea that might turn into something.
+                        - link "Creativity" [ref=e45] [cursor=pointer]:
+                            - /url: /tag/creativity
+                    - article [ref=e46]:
+                        - link "Pencils and design tools on a desk Apr 25, 2026 1 min Designing with Constraints Limitations aren't obstacles to creativity. They're the structure that makes creativity possible." [ref=e47] [cursor=pointer]:
+                            - /url: /posts/designing-with-constraints
+                            - img "Pencils and design tools on a desk" [ref=e49]
+                            - generic [ref=e50]:
+                                - generic [ref=e51]:
+                                    - time [ref=e52]: Apr 25, 2026
+                                    - generic [ref=e54]: 1 min
+                                - heading "Designing with Constraints" [level=2] [ref=e55]
+                                - paragraph [ref=e56]: Limitations aren't obstacles to creativity. They're the structure that makes creativity possible.
+                        - link "Creativity" [ref=e58] [cursor=pointer]:
+                            - /url: /tag/creativity
+                    - article [ref=e59]:
+                        - link "Wrenches and hand tools hanging on a workshop wall Apr 25, 2026 2 min Small Tools, Big Impact The best developer tools do one thing well and get out of your way. A love letter to focused software." [ref=e60] [cursor=pointer]:
+                            - /url: /posts/small-tools-big-impact
+                            - img "Wrenches and hand tools hanging on a workshop wall" [ref=e62]
+                            - generic [ref=e63]:
+                                - generic [ref=e64]:
+                                    - time [ref=e65]: Apr 25, 2026
+                                    - generic [ref=e67]: 2 min
+                                - heading "Small Tools, Big Impact" [level=2] [ref=e68]
+                                - paragraph [ref=e69]: The best developer tools do one thing well and get out of your way. A love letter to focused software.
+                        - link "Tools" [ref=e71] [cursor=pointer]:
+                            - /url: /tag/tools
+                    - article [ref=e72]:
+                        - link "Notebook and pen on a desk Apr 25, 2026 2 min Learning in Public Writing about what you're learning is the fastest way to find out what you don't actually understand." [ref=e73] [cursor=pointer]:
+                            - /url: /posts/learning-in-public
+                            - img "Notebook and pen on a desk" [ref=e75]
+                            - generic [ref=e76]:
+                                - generic [ref=e77]:
+                                    - time [ref=e78]: Apr 25, 2026
+                                    - generic [ref=e80]: 2 min
+                                - heading "Learning in Public" [level=2] [ref=e81]
+                                - paragraph [ref=e82]: Writing about what you're learning is the fastest way to find out what you don't actually understand.
+                        - link "Opinion" [ref=e84] [cursor=pointer]:
+                            - /url: /tag/opinion
+                    - article [ref=e85]:
+                        - link "Laptop and coffee on a wooden table EmDash Editorial Apr 25, 2026 1 min The Case for Static Static sites aren't a step backwards. They're what you get when you take performance and simplicity seriously." [ref=e86] [cursor=pointer]:
+                            - /url: /posts/the-case-for-static
+                            - img "Laptop and coffee on a wooden table" [ref=e88]
+                            - generic [ref=e89]:
+                                - generic [ref=e90]:
+                                    - generic [ref=e93]: EmDash Editorial
+                                    - time [ref=e95]: Apr 25, 2026
+                                    - generic [ref=e97]: 1 min
+                                - heading "The Case for Static" [level=2] [ref=e98]
+                                - paragraph [ref=e99]: Static sites aren't a step backwards. They're what you get when you take performance and simplicity seriously.
+                        - generic [ref=e100]:
+                            - link "Opinion" [ref=e101] [cursor=pointer]:
+                                - /url: /tag/opinion
+                            - link "Web Development" [ref=e102] [cursor=pointer]:
+                                - /url: /tag/webdev
+                    - article [ref=e103]:
+                        - link "Code on a monitor in a dark room EmDash Editorial +1 Apr 25, 2026 1 min Building for the Long Term The frameworks will change. The databases will change. What survives is the clarity of your thinking." [ref=e104] [cursor=pointer]:
+                            - /url: /posts/building-for-the-long-term
+                            - img "Code on a monitor in a dark room" [ref=e106]
+                            - generic [ref=e107]:
+                                - generic [ref=e108]:
+                                    - generic [ref=e109]:
+                                        - generic [ref=e111]: EmDash Editorial
+                                        - generic "Guest Contributor" [ref=e112]: "+1"
+                                    - time [ref=e114]: Apr 25, 2026
+                                    - generic [ref=e116]: 1 min
+                                - heading "Building for the Long Term" [level=2] [ref=e117]
+                                - paragraph [ref=e118]: The frameworks will change. The databases will change. What survives is the clarity of your thinking.
+                        - link "Opinion" [ref=e120] [cursor=pointer]:
+                            - /url: /tag/opinion
+    - contentinfo [ref=e121]:
+        - generic [ref=e122]:
+            - generic [ref=e123]:
+                - generic [ref=e124]:
+                    - link "My Blog" [ref=e125] [cursor=pointer]:
+                        - /url: /
+                    - paragraph [ref=e126]: Thoughts, stories, and ideas.
+                - generic [ref=e127]:
+                    - heading "Navigate" [level=4] [ref=e128]
+                    - list [ref=e129]:
+                        - listitem [ref=e130]:
+                            - link "Home" [ref=e131] [cursor=pointer]:
+                                - /url: /
+                        - listitem [ref=e132]:
+                            - link "All Posts" [ref=e133] [cursor=pointer]:
+                                - /url: /posts
+                        - listitem [ref=e134]:
+                            - link "About" [ref=e135] [cursor=pointer]:
+                                - /url: /pages/about
+                - generic [ref=e136]:
+                    - heading "Connect" [level=4] [ref=e137]
+                    - list [ref=e138]:
+                        - listitem [ref=e139]:
+                            - link "Home" [ref=e140] [cursor=pointer]:
+                                - /url: /
+                        - listitem [ref=e141]:
+                            - link "About" [ref=e142] [cursor=pointer]:
+                                - /url: /pages/about
+                        - listitem [ref=e143]:
+                            - link "Posts" [ref=e144] [cursor=pointer]:
+                                - /url: /posts
+                        - listitem [ref=e145]:
+                            - link "RSS Feed" [ref=e146] [cursor=pointer]:
+                                - /url: /rss.xml
+                - generic [ref=e149]:
+                    - heading "About" [level=3] [ref=e150]
+                    - paragraph [ref=e152]: A blog about software, design, and the occasional stray thought.
+            - generic [ref=e153]:
+                - paragraph [ref=e154]:
+                    - text: Powered by
+                    - link "EmDash" [ref=e155] [cursor=pointer]:
+                        - /url: https://emdashcms.com
+                - generic [ref=e156]:
+                    - button "Light mode" [ref=e157] [cursor=pointer]:
+                        - img [ref=e158]
+                    - button "Dark mode" [ref=e164] [cursor=pointer]:
+                        - img [ref=e165]
+                    - button "System theme" [ref=e167] [cursor=pointer]:
+                        - img [ref=e168]

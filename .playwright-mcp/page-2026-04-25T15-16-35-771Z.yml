@@ -1,0 +1,141 @@
+- generic [active] [ref=e1]:
+    - link "Skip to main content" [ref=e2] [cursor=pointer]:
+        - /url: "#main-content"
+    - banner [ref=e3]:
+        - navigation "Primary navigation" [ref=e4]:
+            - link "TechHire" [ref=e5] [cursor=pointer]:
+                - /url: /
+            - searchbox "Search jobs, companies, or skills..." [ref=e8]
+            - generic [ref=e9]:
+                - generic [ref=e10]:
+                    - link "Home" [ref=e11] [cursor=pointer]:
+                        - /url: /
+                    - link "About" [ref=e12] [cursor=pointer]:
+                        - /url: /pages/about
+                    - link "Posts" [ref=e13] [cursor=pointer]:
+                        - /url: /posts
+                - link "Post a Job" [ref=e14] [cursor=pointer]:
+                    - /url: /_emdash/admin/content/jobs/new
+                - link "Sign in" [ref=e15] [cursor=pointer]:
+                    - /url: /_emdash/admin
+    - main [ref=e16]:
+        - generic [ref=e18]:
+            - generic [ref=e19]:
+                - button "Open filters" [ref=e20]:
+                    - img [ref=e21]
+                    - text: Filters
+                - tablist "View mode" [ref=e23]:
+                    - tab "List" [selected] [ref=e24] [cursor=pointer]:
+                        - img [ref=e25]
+                        - text: List
+                    - tab "Kanban" [ref=e26] [cursor=pointer]:
+                        - img [ref=e27]
+                        - text: Kanban
+            - complementary "Filter jobs" [ref=e32]:
+                - generic [ref=e33]:
+                    - heading "Filters" [level=2] [ref=e35]
+                    - generic [ref=e36]:
+                        - text: Category
+                        - generic [ref=e37]:
+                            - radio "All Categories" [checked] [ref=e38]
+                            - radio "Design 0" [ref=e39] [cursor=pointer]
+                            - radio "Development 0" [ref=e40] [cursor=pointer]
+                            - radio "Notes 0" [ref=e41] [cursor=pointer]
+                    - generic [ref=e42]:
+                        - text: Location
+                        - combobox "Location" [ref=e43]:
+                            - option "All locations" [selected]
+                    - generic [ref=e44]:
+                        - text: Job Type
+                        - combobox "Job Type" [ref=e45]:
+                            - option "All types" [selected]
+                            - option "Full-time"
+                            - option "Part-time"
+                            - option "Contract"
+                            - option "Freelance"
+                    - generic [ref=e46]:
+                        - text: Salary Range
+                        - combobox "Salary Range" [ref=e47]:
+                            - option "Any salary" [selected]
+                            - option "$50k+"
+                            - option "$80k+"
+                            - option "$100k+"
+                            - option "$150k+"
+                    - generic [ref=e48]:
+                        - text: Experience
+                        - combobox "Experience" [ref=e49]:
+                            - option "Any level" [selected]
+                            - option "Junior"
+                            - option "Mid-level"
+                            - option "Senior"
+            - generic [ref=e50]:
+                - generic [ref=e51]:
+                    - heading "Find your next role" [level=1] [ref=e52]
+                    - paragraph [ref=e53]: 0 jobs found
+                - generic [ref=e54]:
+                    - img [ref=e56]
+                    - heading "No jobs match your filters" [level=2] [ref=e59]
+                    - paragraph [ref=e60]: Try adjusting your search criteria or clearing all filters.
+                    - link "Clear all filters" [ref=e61] [cursor=pointer]:
+                        - /url: /jobs
+    - contentinfo [ref=e62]:
+        - generic [ref=e63]:
+            - generic [ref=e64]:
+                - generic [ref=e65]:
+                    - link "TechHire" [ref=e66] [cursor=pointer]:
+                        - /url: /
+                    - paragraph [ref=e67]: Find your next tech role. Connect with companies that value your skills.
+                - generic [ref=e68]:
+                    - heading "For Job Seekers" [level=4] [ref=e69]
+                    - list [ref=e70]:
+                        - listitem [ref=e71]:
+                            - link "Browse Jobs" [ref=e72] [cursor=pointer]:
+                                - /url: /jobs
+                        - listitem [ref=e73]:
+                            - link "Engineering" [ref=e74] [cursor=pointer]:
+                                - /url: /jobs?category=engineering
+                        - listitem [ref=e75]:
+                            - link "Design" [ref=e76] [cursor=pointer]:
+                                - /url: /jobs?category=design
+                        - listitem [ref=e77]:
+                            - link "Product" [ref=e78] [cursor=pointer]:
+                                - /url: /jobs?category=product
+                - generic [ref=e79]:
+                    - heading "For Employers" [level=4] [ref=e80]
+                    - list [ref=e81]:
+                        - listitem [ref=e82]:
+                            - link "Post a Job" [ref=e83] [cursor=pointer]:
+                                - /url: /_emdash/admin/content/jobs/new
+                        - listitem [ref=e84]:
+                            - link "About TechHire" [ref=e85] [cursor=pointer]:
+                                - /url: /pages/about
+                - generic [ref=e86]:
+                    - heading "Connect" [level=4] [ref=e87]
+                    - list [ref=e88]:
+                        - listitem [ref=e89]:
+                            - link "Twitter" [ref=e90] [cursor=pointer]:
+                                - /url: https://twitter.com
+                                - img [ref=e91]
+                                - text: Twitter
+                        - listitem [ref=e93]:
+                            - link "GitHub" [ref=e94] [cursor=pointer]:
+                                - /url: https://github.com
+                                - img [ref=e95]
+                                - text: GitHub
+                        - listitem [ref=e97]:
+                            - link "LinkedIn" [ref=e98] [cursor=pointer]:
+                                - /url: https://linkedin.com
+                                - img [ref=e99]
+                                - text: LinkedIn
+                - generic [ref=e105]:
+                    - heading "About" [level=3] [ref=e106]
+                    - paragraph [ref=e108]: A blog about software, design, and the occasional stray thought.
+            - generic [ref=e109]:
+                - paragraph [ref=e110]: © 2026 TechHire. All rights reserved.
+                - generic [ref=e111]:
+                    - button "Light mode" [ref=e112]:
+                        - img [ref=e113]
+                    - button "Dark mode" [ref=e119]:
+                        - img [ref=e120]
+                    - button "System theme" [ref=e122]:
+                        - img [ref=e123]

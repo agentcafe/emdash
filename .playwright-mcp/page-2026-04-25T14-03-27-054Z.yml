@@ -1,0 +1,792 @@
+- generic [ref=e2]:
+    - generic [ref=e3]:
+        - button "Toggle sidebar" [pressed] [ref=e7] [cursor=pointer]:
+            - img [ref=e9]
+        - generic:
+            - heading "Kumo" [level=1]
+        - complementary [ref=e28]:
+            - generic [ref=e30]:
+                - button "Search..." [ref=e31]:
+                    - img [ref=e32]
+                    - generic [ref=e34]: Search...
+                - list [ref=e35]:
+                    - listitem [ref=e36]:
+                        - link "Home" [ref=e37] [cursor=pointer]:
+                            - /url: /
+                    - listitem [ref=e38]:
+                        - link "Installation" [ref=e39] [cursor=pointer]:
+                            - /url: /installation
+                    - listitem [ref=e40]:
+                        - link "Contributing" [ref=e41] [cursor=pointer]:
+                            - /url: /contributing
+                    - listitem [ref=e42]:
+                        - link "Colors" [ref=e43] [cursor=pointer]:
+                            - /url: /colors
+                    - listitem [ref=e44]:
+                        - link "Accessibility" [ref=e45] [cursor=pointer]:
+                            - /url: /accessibility
+                    - listitem [ref=e46]:
+                        - link "Figma Resources" [ref=e47] [cursor=pointer]:
+                            - /url: /figma
+                    - listitem [ref=e48]:
+                        - link "CLI" [ref=e49] [cursor=pointer]:
+                            - /url: /cli
+                    - listitem [ref=e50]:
+                        - link "Registry" [ref=e51] [cursor=pointer]:
+                            - /url: /registry
+                    - listitem [ref=e52]:
+                        - link "Changelog" [ref=e53] [cursor=pointer]:
+                            - /url: /changelog
+                - generic [ref=e55]:
+                    - button "Components" [ref=e56] [cursor=pointer]:
+                        - generic [ref=e57]: Components
+                        - img [ref=e58]
+                    - list [ref=e60]:
+                        - listitem [ref=e61]:
+                            - link "Autocomplete" [ref=e62] [cursor=pointer]:
+                                - /url: /components/autocomplete
+                        - listitem [ref=e63]:
+                            - link "Badge" [ref=e64] [cursor=pointer]:
+                                - /url: /components/badge
+                        - listitem [ref=e65]:
+                            - link "Banner" [ref=e66] [cursor=pointer]:
+                                - /url: /components/banner
+                        - listitem [ref=e67]:
+                            - link "Breadcrumbs" [ref=e68] [cursor=pointer]:
+                                - /url: /components/breadcrumbs
+                        - listitem [ref=e69]:
+                            - link "Button" [ref=e70] [cursor=pointer]:
+                                - /url: /components/button
+                        - listitem [ref=e71]:
+                            - link "Checkbox" [ref=e72] [cursor=pointer]:
+                                - /url: /components/checkbox
+                        - listitem [ref=e73]:
+                            - link "Clipboard Text" [ref=e74] [cursor=pointer]:
+                                - /url: /components/clipboard-text
+                        - listitem [ref=e75]:
+                            - link "Cloudflare Logo" [ref=e76] [cursor=pointer]:
+                                - /url: /components/cloudflare-logo
+                        - listitem [ref=e77]:
+                            - link "CodeHighlighted" [ref=e78] [cursor=pointer]:
+                                - /url: /components/code-highlighted
+                        - listitem [ref=e79]:
+                            - link "Collapsible" [ref=e80] [cursor=pointer]:
+                                - /url: /components/collapsible
+                        - listitem [ref=e81]:
+                            - link "Combobox" [ref=e82] [cursor=pointer]:
+                                - /url: /components/combobox
+                        - listitem [ref=e83]:
+                            - link "Command Palette" [ref=e84] [cursor=pointer]:
+                                - /url: /components/command-palette
+                        - listitem [ref=e85]:
+                            - link "Date Picker" [ref=e86] [cursor=pointer]:
+                                - /url: /components/date-picker
+                        - listitem [ref=e87]:
+                            - link "Dialog" [ref=e88] [cursor=pointer]:
+                                - /url: /components/dialog
+                        - listitem [ref=e89]:
+                            - link "Dropdown" [ref=e90] [cursor=pointer]:
+                                - /url: /components/dropdown
+                        - listitem [ref=e91]:
+                            - link "Empty" [ref=e92] [cursor=pointer]:
+                                - /url: /components/empty
+                        - listitem [ref=e93]:
+                            - link "Flow" [ref=e94] [cursor=pointer]:
+                                - /url: /components/flow
+                        - listitem [ref=e95]:
+                            - link "Grid" [ref=e96] [cursor=pointer]:
+                                - /url: /components/grid
+                        - listitem [ref=e97]:
+                            - link "Input" [ref=e98] [cursor=pointer]:
+                                - /url: /components/input
+                        - listitem [ref=e99]:
+                            - link "InputArea" [ref=e100] [cursor=pointer]:
+                                - /url: /components/input-area
+                        - listitem [ref=e101]:
+                            - link "InputGroup" [ref=e102] [cursor=pointer]:
+                                - /url: /components/input-group
+                        - listitem [ref=e103]:
+                            - link "Label" [ref=e104] [cursor=pointer]:
+                                - /url: /components/label
+                        - listitem [ref=e105]:
+                            - link "Layer Card" [ref=e106] [cursor=pointer]:
+                                - /url: /components/layer-card
+                        - listitem [ref=e107]:
+                            - link "Link" [ref=e108] [cursor=pointer]:
+                                - /url: /components/link
+                        - listitem [ref=e109]:
+                            - link "Loader" [ref=e110] [cursor=pointer]:
+                                - /url: /components/loader
+                        - listitem [ref=e111]:
+                            - link "MenuBar" [ref=e112] [cursor=pointer]:
+                                - /url: /components/menu-bar
+                        - listitem [ref=e113]:
+                            - link "Meter" [ref=e114] [cursor=pointer]:
+                                - /url: /components/meter
+                        - listitem [ref=e115]:
+                            - link "Pagination" [ref=e116] [cursor=pointer]:
+                                - /url: /components/pagination
+                        - listitem [ref=e117]:
+                            - link "Popover" [ref=e118] [cursor=pointer]:
+                                - /url: /components/popover
+                        - listitem [ref=e119]:
+                            - link "Radio" [ref=e120] [cursor=pointer]:
+                                - /url: /components/radio
+                        - listitem [ref=e121]:
+                            - link "Select" [ref=e122] [cursor=pointer]:
+                                - /url: /components/select
+                        - listitem [ref=e123]:
+                            - link "Sensitive Input" [ref=e124] [cursor=pointer]:
+                                - /url: /components/sensitive-input
+                        - listitem [ref=e125]:
+                            - link "Sidebar" [ref=e126] [cursor=pointer]:
+                                - /url: /components/sidebar
+                        - listitem [ref=e127]:
+                            - link "Skeleton Line" [ref=e128] [cursor=pointer]:
+                                - /url: /components/skeleton-line
+                        - listitem [ref=e129]:
+                            - link "Switch" [ref=e130] [cursor=pointer]:
+                                - /url: /components/switch
+                        - listitem [ref=e131]:
+                            - link "Table" [ref=e132] [cursor=pointer]:
+                                - /url: /components/table
+                        - listitem [ref=e133]:
+                            - link "Table of Contents" [ref=e134] [cursor=pointer]:
+                                - /url: /components/table-of-contents
+                        - listitem [ref=e135]:
+                            - link "Tabs" [ref=e136] [cursor=pointer]:
+                                - /url: /components/tabs
+                        - listitem [ref=e137]:
+                            - link "Text" [ref=e138] [cursor=pointer]:
+                                - /url: /components/text
+                        - listitem [ref=e139]:
+                            - link "Toast" [ref=e140] [cursor=pointer]:
+                                - /url: /components/toast
+                        - listitem [ref=e141]:
+                            - link "Tooltip" [ref=e142] [cursor=pointer]:
+                                - /url: /components/tooltip
+                - generic [ref=e143]:
+                    - button "Charts" [ref=e144] [cursor=pointer]:
+                        - generic [ref=e145]: Charts
+                        - img [ref=e146]
+                    - list [ref=e148]:
+                        - listitem [ref=e149]:
+                            - link "Charts" [ref=e150] [cursor=pointer]:
+                                - /url: /charts
+                        - listitem [ref=e151]:
+                            - link "Colors" [ref=e152] [cursor=pointer]:
+                                - /url: /charts/colors
+                        - listitem [ref=e153]:
+                            - link "Timeseries" [ref=e154] [cursor=pointer]:
+                                - /url: /charts/timeseries
+                        - listitem [ref=e155]:
+                            - link "Custom Chart" [ref=e156] [cursor=pointer]:
+                                - /url: /charts/custom
+                - generic [ref=e157]:
+                    - button "Blocks" [ref=e158] [cursor=pointer]:
+                        - generic [ref=e159]: Blocks
+                        - img [ref=e160]
+                    - list [ref=e162]:
+                        - listitem [ref=e163]:
+                            - link "Page Header" [ref=e164] [cursor=pointer]:
+                                - /url: /blocks/page-header
+                        - listitem [ref=e165]:
+                            - link "Resource List" [ref=e166] [cursor=pointer]:
+                                - /url: /blocks/resource-list
+                        - listitem [ref=e167]:
+                            - link "Delete Resource" [ref=e168] [cursor=pointer]:
+                                - /url: /blocks/delete-resource
+    - generic [ref=e170]:
+        - banner [ref=e172]:
+            - generic [ref=e173]:
+                - generic:
+                    - generic: Toast
+                    - link "View source on GitHub":
+                        - /url: https://github.com/cloudflare/kumo/blob/main/packages/kumo/src/components/toast/toast.tsx
+                        - img
+                - link "@cloudflare/kumo" [ref=e174] [cursor=pointer]:
+                    - /url: https://github.com/cloudflare/kumo
+            - button "Toggle theme" [ref=e176] [cursor=pointer]:
+                - img [ref=e177]
+        - generic [ref=e181]:
+            - generic [ref=e182]:
+                - heading "Toast" [level=1] [ref=e183]
+                - link "View source on GitHub" [ref=e184] [cursor=pointer]:
+                    - /url: https://github.com/cloudflare/kumo/blob/main/packages/kumo/src/components/toast/toast.tsx
+                    - img [ref=e185]
+                - generic [ref=e189]:
+                    - button "Copy page" [ref=e190] [cursor=pointer]:
+                        - img [ref=e191]
+                        - generic [ref=e193]: Copy page
+                    - button "Copy page options" [ref=e194] [cursor=pointer]:
+                        - img [ref=e195]
+            - paragraph [ref=e197]: A notification system for displaying brief, non-intrusive messages to users.
+        - main [ref=e198]:
+            - generic [ref=e201]:
+                - generic [ref=e202]:
+                    - generic [ref=e204]:
+                        - button "Show toast" [ref=e207] [cursor=pointer]
+                        - generic [ref=e209]:
+                            - code [ref=e211]:
+                                - generic [ref=e212]: 'import { Toasty } from "@cloudflare/kumo";'
+                                - generic [ref=e213]: "export function ToastBasicDemo() {"
+                                - generic [ref=e214]: return (
+                                - generic [ref=e215]: <Toasty>
+                                - generic [ref=e216]: <ToastTriggerButton />
+                                - generic [ref=e217]: </Toasty>
+                                - generic [ref=e218]: );
+                                - generic [ref=e219]: "}"
+                            - button "Copy code to clipboard" [ref=e220] [cursor=pointer]:
+                                - generic [ref=e221]:
+                                    - img [ref=e223]
+                                    - img [ref=e226]
+                    - generic [ref=e228]:
+                        - 'heading "Link to section: Installation" [level=2] [ref=e229]':
+                            - 'link "Link to section: Installation" [ref=e230] [cursor=pointer]':
+                                - /url: "#installation"
+                                - img [ref=e232]
+                                - text: Installation
+                        - 'heading "Link to section: Barrel" [level=3] [ref=e234]':
+                            - 'link "Link to section: Barrel" [ref=e235] [cursor=pointer]':
+                                - /url: "#barrel"
+                                - img [ref=e237]
+                                - text: Barrel
+                        - generic [ref=e239]:
+                            - code [ref=e241]:
+                                - generic [ref=e242]: 'import { Toasty, useKumoToastManager } from "@cloudflare/kumo";'
+                            - button "Copy code to clipboard" [ref=e243] [cursor=pointer]:
+                                - generic [ref=e244]:
+                                    - img [ref=e246]
+                                    - img [ref=e249]
+                        - 'heading "Link to section: Granular" [level=3] [ref=e251]':
+                            - 'link "Link to section: Granular" [ref=e252] [cursor=pointer]':
+                                - /url: "#granular"
+                                - img [ref=e254]
+                                - text: Granular
+                        - generic [ref=e256]:
+                            - code [ref=e258]:
+                                - generic [ref=e259]: 'import { Toasty, useKumoToastManager } from "@cloudflare/kumo/components/toast";'
+                            - button "Copy code to clipboard" [ref=e260] [cursor=pointer]:
+                                - generic [ref=e261]:
+                                    - img [ref=e263]
+                                    - img [ref=e266]
+                    - generic [ref=e268]:
+                        - 'heading "Link to section: Usage" [level=2] [ref=e269]':
+                            - 'link "Link to section: Usage" [ref=e270] [cursor=pointer]':
+                                - /url: "#usage"
+                                - img [ref=e272]
+                                - text: Usage
+                        - paragraph
+                        - paragraph [ref=e274]:
+                            - text: "The toast system consists of two parts: the"
+                            - code [ref=e275]: Toasty
+                            - text: provider component and the
+                            - code [ref=e276]: useKumoToastManager()
+                            - text: hook for triggering toasts.
+                        - paragraph
+                        - generic [ref=e277]:
+                            - code [ref=e279]:
+                                - generic [ref=e280]: 'import { Toasty, useKumoToastManager, Button } from "@cloudflare/kumo";'
+                                - generic [ref=e281]: "function ToastTrigger() {"
+                                - generic [ref=e282]: const toastManager = useKumoToastManager();
+                                - generic [ref=e283]: return (
+                                - generic [ref=e284]: <Button
+                                - generic [ref=e285]: "onClick={() =>"
+                                - generic [ref=e286]: "toastManager.add({"
+                                - generic [ref=e287]: 'title: "Success!",'
+                                - generic [ref=e288]: 'description: "Your changes have been saved.",'
+                                - generic [ref=e289]: "})"
+                                - generic [ref=e290]: "}"
+                                - generic [ref=e291]: ">"
+                                - generic [ref=e292]: Save changes
+                                - generic [ref=e293]: </Button>
+                                - generic [ref=e294]: );
+                                - generic [ref=e295]: "}"
+                                - generic [ref=e296]: "export default function App() {"
+                                - generic [ref=e297]: return (
+                                - generic [ref=e298]: <Toasty>
+                                - generic [ref=e299]: <ToastTrigger />
+                                - generic [ref=e300]: "{/* Rest of your app */}"
+                                - generic [ref=e301]: </Toasty>
+                                - generic [ref=e302]: );
+                                - generic [ref=e303]: "}"
+                            - button "Copy code to clipboard" [ref=e304] [cursor=pointer]:
+                                - generic [ref=e305]:
+                                    - img [ref=e307]
+                                    - img [ref=e310]
+                    - generic [ref=e312]:
+                        - 'heading "Link to section: Setup" [level=2] [ref=e313]':
+                            - 'link "Link to section: Setup" [ref=e314] [cursor=pointer]':
+                                - /url: "#setup"
+                                - img [ref=e316]
+                                - text: Setup
+                        - paragraph
+                        - paragraph [ref=e318]:
+                            - text: Wrap your application (or a section of it) with the
+                            - code [ref=e319]: Toasty
+                            - text: provider. This sets up the toast context and renders the toast viewport.
+                        - paragraph
+                        - generic [ref=e320]:
+                            - code [ref=e322]:
+                                - generic [ref=e323]: // In your app root or layout
+                                - generic [ref=e324]: 'import { Toasty } from "@cloudflare/kumo";'
+                                - generic [ref=e325]: "export function Layout({ children }) {"
+                                - generic [ref=e326]: "return <Toasty>{children}</Toasty>;"
+                                - generic [ref=e327]: "}"
+                            - button "Copy code to clipboard" [ref=e328] [cursor=pointer]:
+                                - generic [ref=e329]:
+                                    - img [ref=e331]
+                                    - img [ref=e334]
+                    - generic [ref=e336]:
+                        - 'heading "Link to section: Examples" [level=2] [ref=e337]':
+                            - 'link "Link to section: Examples" [ref=e338] [cursor=pointer]':
+                                - /url: "#examples"
+                                - img [ref=e340]
+                                - text: Examples
+                        - 'heading "Link to section: Title and Description" [level=3] [ref=e342]':
+                            - 'link "Link to section: Title and Description" [ref=e343] [cursor=pointer]':
+                                - /url: "#title-and-description"
+                                - img [ref=e345]
+                                - text: Title and Description
+                        - paragraph [ref=e347]: A complete toast with both title and description.
+                        - generic [ref=e348]:
+                            - button "Show toast" [ref=e351] [cursor=pointer]
+                            - generic [ref=e353]:
+                                - code [ref=e355]:
+                                    - generic [ref=e356]: 'import { Toasty } from "@cloudflare/kumo";'
+                                    - generic [ref=e357]: "export function ToastBasicDemo() {"
+                                    - generic [ref=e358]: return (
+                                    - generic [ref=e359]: <Toasty>
+                                    - generic [ref=e360]: <ToastTriggerButton />
+                                    - generic [ref=e361]: </Toasty>
+                                    - generic [ref=e362]: );
+                                    - generic [ref=e363]: "}"
+                                - button "Copy code to clipboard" [ref=e364] [cursor=pointer]:
+                                    - generic [ref=e365]:
+                                        - img [ref=e367]
+                                        - img [ref=e370]
+                        - 'heading "Link to section: Title Only" [level=3] [ref=e372]':
+                            - 'link "Link to section: Title Only" [ref=e373] [cursor=pointer]':
+                                - /url: "#title-only"
+                                - img [ref=e375]
+                                - text: Title Only
+                        - paragraph [ref=e377]: A simple toast with just a title for brief messages.
+                        - generic [ref=e378]:
+                            - button "Title only" [ref=e381] [cursor=pointer]
+                            - generic [ref=e383]:
+                                - code [ref=e385]:
+                                    - generic [ref=e386]: 'import { Toasty } from "@cloudflare/kumo";'
+                                    - generic [ref=e387]: "export function ToastTitleOnlyDemo() {"
+                                    - generic [ref=e388]: return (
+                                    - generic [ref=e389]: <Toasty>
+                                    - generic [ref=e390]: <ToastTitleOnlyButton />
+                                    - generic [ref=e391]: </Toasty>
+                                    - generic [ref=e392]: );
+                                    - generic [ref=e393]: "}"
+                                - button "Copy code to clipboard" [ref=e394] [cursor=pointer]:
+                                    - generic [ref=e395]:
+                                        - img [ref=e397]
+                                        - img [ref=e400]
+                        - 'heading "Link to section: Description Only" [level=3] [ref=e402]':
+                            - 'link "Link to section: Description Only" [ref=e403] [cursor=pointer]':
+                                - /url: "#description-only"
+                                - img [ref=e405]
+                                - text: Description Only
+                        - paragraph [ref=e407]: A toast with only a description for more detailed messages.
+                        - generic [ref=e408]:
+                            - button "Description only" [ref=e411] [cursor=pointer]
+                            - generic [ref=e413]:
+                                - code [ref=e415]:
+                                    - generic [ref=e416]: 'import { Toasty } from "@cloudflare/kumo";'
+                                    - generic [ref=e417]: "export function ToastDescriptionOnlyDemo() {"
+                                    - generic [ref=e418]: return (
+                                    - generic [ref=e419]: <Toasty>
+                                    - generic [ref=e420]: <ToastDescriptionOnlyButton />
+                                    - generic [ref=e421]: </Toasty>
+                                    - generic [ref=e422]: );
+                                    - generic [ref=e423]: "}"
+                                - button "Copy code to clipboard" [ref=e424] [cursor=pointer]:
+                                    - generic [ref=e425]:
+                                        - img [ref=e427]
+                                        - img [ref=e430]
+                        - 'heading "Link to section: Success Variant" [level=3] [ref=e432]':
+                            - 'link "Link to section: Success Variant" [ref=e433] [cursor=pointer]':
+                                - /url: "#success-variant"
+                                - img [ref=e435]
+                                - text: Success Variant
+                        - paragraph [ref=e437]: Use the success variant for confirmations and positive outcomes.
+                        - generic [ref=e438]:
+                            - button "Deploy Worker" [ref=e441] [cursor=pointer]
+                            - generic [ref=e443]:
+                                - code [ref=e445]:
+                                    - generic [ref=e446]: 'import { Toasty } from "@cloudflare/kumo";'
+                                    - generic [ref=e447]: "export function ToastSuccessDemo() {"
+                                    - generic [ref=e448]: return (
+                                    - generic [ref=e449]: <Toasty>
+                                    - generic [ref=e450]: <ToastSuccessButton />
+                                    - generic [ref=e451]: </Toasty>
+                                    - generic [ref=e452]: );
+                                    - generic [ref=e453]: "}"
+                                - button "Copy code to clipboard" [ref=e454] [cursor=pointer]:
+                                    - generic [ref=e455]:
+                                        - img [ref=e457]
+                                        - img [ref=e460]
+                        - 'heading "Link to section: Multiple Toasts" [level=3] [ref=e462]':
+                            - 'link "Link to section: Multiple Toasts" [ref=e463] [cursor=pointer]':
+                                - /url: "#multiple-toasts"
+                                - img [ref=e465]
+                                - text: Multiple Toasts
+                        - paragraph
+                        - paragraph [ref=e467]: Multiple toasts stack and animate smoothly. Hover over the stack to expand them.
+                        - paragraph
+                        - generic [ref=e468]:
+                            - button "Show multiple toasts" [ref=e471] [cursor=pointer]
+                            - generic [ref=e473]:
+                                - code [ref=e475]:
+                                    - generic [ref=e476]: 'import { Toasty } from "@cloudflare/kumo";'
+                                    - generic [ref=e477]: "export function ToastMultipleDemo() {"
+                                    - generic [ref=e478]: return (
+                                    - generic [ref=e479]: <Toasty>
+                                    - generic [ref=e480]: <ToastMultipleButton />
+                                    - generic [ref=e481]: </Toasty>
+                                    - generic [ref=e482]: );
+                                    - generic [ref=e483]: "}"
+                                - button "Copy code to clipboard" [ref=e484] [cursor=pointer]:
+                                    - generic [ref=e485]:
+                                        - img [ref=e487]
+                                        - img [ref=e490]
+                        - 'heading "Link to section: Error Variant" [level=3] [ref=e492]':
+                            - 'link "Link to section: Error Variant" [ref=e493] [cursor=pointer]':
+                                - /url: "#error-variant"
+                                - img [ref=e495]
+                                - text: Error Variant
+                        - paragraph [ref=e497]: Use the error variant for critical issues that need attention.
+                        - generic [ref=e498]:
+                            - button "Show error toast" [ref=e501] [cursor=pointer]
+                            - generic [ref=e503]:
+                                - code [ref=e505]:
+                                    - generic [ref=e506]: 'import { Toasty } from "@cloudflare/kumo";'
+                                    - generic [ref=e507]: "export function ToastErrorDemo() {"
+                                    - generic [ref=e508]: return (
+                                    - generic [ref=e509]: <Toasty>
+                                    - generic [ref=e510]: <ToastErrorButton />
+                                    - generic [ref=e511]: </Toasty>
+                                    - generic [ref=e512]: );
+                                    - generic [ref=e513]: "}"
+                                - button "Copy code to clipboard" [ref=e514] [cursor=pointer]:
+                                    - generic [ref=e515]:
+                                        - img [ref=e517]
+                                        - img [ref=e520]
+                        - 'heading "Link to section: Warning Variant" [level=3] [ref=e522]':
+                            - 'link "Link to section: Warning Variant" [ref=e523] [cursor=pointer]':
+                                - /url: "#warning-variant"
+                                - img [ref=e525]
+                                - text: Warning Variant
+                        - paragraph [ref=e527]: Use the warning variant for cautionary messages.
+                        - generic [ref=e528]:
+                            - button "Show warning toast" [ref=e531] [cursor=pointer]
+                            - generic [ref=e533]:
+                                - code [ref=e535]:
+                                    - generic [ref=e536]: 'import { Toasty } from "@cloudflare/kumo";'
+                                    - generic [ref=e537]: "export function ToastWarningDemo() {"
+                                    - generic [ref=e538]: return (
+                                    - generic [ref=e539]: <Toasty>
+                                    - generic [ref=e540]: <ToastWarningButton />
+                                    - generic [ref=e541]: </Toasty>
+                                    - generic [ref=e542]: );
+                                    - generic [ref=e543]: "}"
+                                - button "Copy code to clipboard" [ref=e544] [cursor=pointer]:
+                                    - generic [ref=e545]:
+                                        - img [ref=e547]
+                                        - img [ref=e550]
+                        - 'heading "Link to section: Info Variant" [level=3] [ref=e552]':
+                            - 'link "Link to section: Info Variant" [ref=e553] [cursor=pointer]':
+                                - /url: "#info-variant"
+                                - img [ref=e555]
+                                - text: Info Variant
+                        - paragraph [ref=e557]: Use the info variant for neutral informational messages.
+                        - generic [ref=e558]:
+                            - button "Show info toast" [ref=e561] [cursor=pointer]
+                            - generic [ref=e563]:
+                                - code [ref=e565]:
+                                    - generic [ref=e566]: 'import { Toasty } from "@cloudflare/kumo";'
+                                    - generic [ref=e567]: "export function ToastInfoDemo() {"
+                                    - generic [ref=e568]: return (
+                                    - generic [ref=e569]: <Toasty>
+                                    - generic [ref=e570]: <ToastInfoButton />
+                                    - generic [ref=e571]: </Toasty>
+                                    - generic [ref=e572]: );
+                                    - generic [ref=e573]: "}"
+                                - button "Copy code to clipboard" [ref=e574] [cursor=pointer]:
+                                    - generic [ref=e575]:
+                                        - img [ref=e577]
+                                        - img [ref=e580]
+                        - 'heading "Link to section: Custom Content" [level=3] [ref=e582]':
+                            - 'link "Link to section: Custom Content" [ref=e583] [cursor=pointer]':
+                                - /url: "#custom-content"
+                                - img [ref=e585]
+                                - text: Custom Content
+                        - paragraph [ref=e587]: Use the content prop to render completely custom toast content.
+                        - generic [ref=e588]:
+                            - button "Show custom content" [ref=e591] [cursor=pointer]
+                            - generic [ref=e593]:
+                                - code [ref=e595]:
+                                    - generic [ref=e596]: 'import { Toasty } from "@cloudflare/kumo";'
+                                    - generic [ref=e597]: "export function ToastCustomContentDemo() {"
+                                    - generic [ref=e598]: return (
+                                    - generic [ref=e599]: <Toasty>
+                                    - generic [ref=e600]: <ToastCustomContentButton />
+                                    - generic [ref=e601]: </Toasty>
+                                    - generic [ref=e602]: );
+                                    - generic [ref=e603]: "}"
+                                - button "Copy code to clipboard" [ref=e604] [cursor=pointer]:
+                                    - generic [ref=e605]:
+                                        - img [ref=e607]
+                                        - img [ref=e610]
+                        - 'heading "Link to section: Action Buttons" [level=3] [ref=e612]':
+                            - 'link "Link to section: Action Buttons" [ref=e613] [cursor=pointer]':
+                                - /url: "#action-buttons"
+                                - img [ref=e615]
+                                - text: Action Buttons
+                        - paragraph [ref=e617]: Add action buttons to toasts for user interaction.
+                        - generic [ref=e618]:
+                            - button "Show with actions" [ref=e621] [cursor=pointer]
+                            - generic [ref=e623]:
+                                - code [ref=e625]:
+                                    - generic [ref=e626]: 'import { Toasty } from "@cloudflare/kumo";'
+                                    - generic [ref=e627]: "export function ToastActionsDemo() {"
+                                    - generic [ref=e628]: return (
+                                    - generic [ref=e629]: <Toasty>
+                                    - generic [ref=e630]: <ToastActionsButton />
+                                    - generic [ref=e631]: </Toasty>
+                                    - generic [ref=e632]: );
+                                    - generic [ref=e633]: "}"
+                                - button "Copy code to clipboard" [ref=e634] [cursor=pointer]:
+                                    - generic [ref=e635]:
+                                        - img [ref=e637]
+                                        - img [ref=e640]
+                        - 'heading "Link to section: Promise" [level=3] [ref=e642]':
+                            - 'link "Link to section: Promise" [ref=e643] [cursor=pointer]':
+                                - /url: "#promise"
+                                - img [ref=e645]
+                                - text: Promise
+                        - paragraph
+                        - paragraph [ref=e647]: Use the promise method to show loading, success, and error states automatically.
+                        - paragraph
+                        - generic [ref=e648]:
+                            - button "Deploy with promise" [ref=e651] [cursor=pointer]
+                            - generic [ref=e653]:
+                                - code [ref=e655]:
+                                    - generic [ref=e656]: 'import { Toasty } from "@cloudflare/kumo";'
+                                    - generic [ref=e657]: "export function ToastPromiseDemo() {"
+                                    - generic [ref=e658]: return (
+                                    - generic [ref=e659]: <Toasty>
+                                    - generic [ref=e660]: <ToastPromiseButton />
+                                    - generic [ref=e661]: </Toasty>
+                                    - generic [ref=e662]: );
+                                    - generic [ref=e663]: "}"
+                                - button "Copy code to clipboard" [ref=e664] [cursor=pointer]:
+                                    - generic [ref=e665]:
+                                        - img [ref=e667]
+                                        - img [ref=e670]
+                    - generic [ref=e672]:
+                        - 'heading "Link to section: API Reference" [level=2] [ref=e673]':
+                            - 'link "Link to section: API Reference" [ref=e674] [cursor=pointer]':
+                                - /url: "#api-reference"
+                                - img [ref=e676]
+                                - text: API Reference
+                        - 'heading "Link to section: Toasty" [level=3] [ref=e678]':
+                            - 'link "Link to section: Toasty" [ref=e679] [cursor=pointer]':
+                                - /url: "#toasty"
+                                - img [ref=e681]
+                                - text: Toasty
+                        - paragraph [ref=e683]: The provider component that wraps your app and manages the toast system.
+                        - table [ref=e685]:
+                            - rowgroup [ref=e686]:
+                                - row "Prop Type Default Description" [ref=e687]:
+                                    - columnheader "Prop" [ref=e688]
+                                    - columnheader "Type" [ref=e689]
+                                    - columnheader "Default" [ref=e690]
+                                    - columnheader "Description" [ref=e691]
+                            - rowgroup [ref=e692]:
+                                - row "variant \"default\" | \"success\" | \"error\" | \"warning\" | \"info\" \"default\" -" [ref=e693]:
+                                    - cell "variant" [ref=e694]
+                                    - cell "\"default\" | \"success\" | \"error\" | \"warning\" | \"info\"" [ref=e695]:
+                                        - code [ref=e696]: '"default" | "success" | "error" | "warning" | "info"'
+                                    - cell "\"default\"" [ref=e697]:
+                                        - code [ref=e698]: '"default"'
+                                    - cell "-" [ref=e699]
+                                - row "className string - Additional CSS classes" [ref=e700]:
+                                    - cell "className" [ref=e701]
+                                    - cell "string" [ref=e702]:
+                                        - code [ref=e703]: string
+                                    - cell "-" [ref=e704]
+                                    - cell "Additional CSS classes" [ref=e705]
+                                - row "children ReactNode - Child elements" [ref=e706]:
+                                    - cell "children" [ref=e707]
+                                    - cell "ReactNode" [ref=e708]:
+                                        - code [ref=e709]: ReactNode
+                                    - cell "-" [ref=e710]
+                                    - cell "Child elements" [ref=e711]
+                        - 'heading "Link to section: useKumoToastManager()" [level=3] [ref=e712]':
+                            - 'link "Link to section: useKumoToastManager()" [ref=e713] [cursor=pointer]':
+                                - /url: "#usekumotoastmanager"
+                                - img [ref=e715]
+                                - text: useKumoToastManager()
+                        - paragraph [ref=e717]: A hook that returns the toast manager for creating toasts.
+                        - generic [ref=e718]:
+                            - code [ref=e720]:
+                                - generic [ref=e721]: const toastManager = useKumoToastManager();
+                                - generic [ref=e722]: // Add a toast
+                                - generic [ref=e723]: toastManager.add(options);
+                                - generic [ref=e724]: // Promise-based toast
+                                - generic [ref=e725]: "toastManager.promise(asyncFn(), {"
+                                - generic [ref=e726]: "loading: options,"
+                                - generic [ref=e727]: "success: (data) => options,"
+                                - generic [ref=e728]: "error: (err) => options,"
+                                - generic [ref=e729]: "});"
+                            - button "Copy code to clipboard" [ref=e730] [cursor=pointer]:
+                                - generic [ref=e731]:
+                                    - img [ref=e733]
+                                    - img [ref=e736]
+                        - 'heading "Link to section: Toast Options" [level=3] [ref=e738]':
+                            - 'link "Link to section: Toast Options" [ref=e739] [cursor=pointer]':
+                                - /url: "#toast-options"
+                                - img [ref=e741]
+                                - text: Toast Options
+                        - paragraph [ref=e743]:
+                            - text: Options passed to
+                            - code [ref=e744]: toastManager.add()
+                            - text: and promise handlers.
+                        - table [ref=e746]:
+                            - rowgroup [ref=e747]:
+                                - row "Prop Type Default Description" [ref=e748]:
+                                    - columnheader "Prop" [ref=e749]
+                                    - columnheader "Type" [ref=e750]
+                                    - columnheader "Default" [ref=e751]
+                                    - columnheader "Description" [ref=e752]
+                            - rowgroup [ref=e753]:
+                                - row "title string — The toast title displayed prominently." [ref=e754]:
+                                    - cell "title" [ref=e755]
+                                    - cell "string" [ref=e756]
+                                    - cell "—" [ref=e757]
+                                    - cell "The toast title displayed prominently." [ref=e758]
+                                - row "description string — Secondary text displayed below the title." [ref=e759]:
+                                    - cell "description" [ref=e760]
+                                    - cell "string" [ref=e761]
+                                    - cell "—" [ref=e762]
+                                    - cell "Secondary text displayed below the title." [ref=e763]
+                                - row "variant “default” | “success” | “error” | “warning” | “info\" \"default” Visual style of the toast." [ref=e764]:
+                                    - cell "variant" [ref=e765]
+                                    - cell "“default” | “success” | “error” | “warning” | “info\"" [ref=e766]:
+                                        - paragraph [ref=e767]: “default” | “success” | “error” | “warning” | “info"
+                                    - cell "\"default”" [ref=e768]
+                                    - cell "Visual style of the toast." [ref=e769]
+                                - row "content ReactNode — Custom content to render inside the toast. Overrides title and description." [ref=e770]:
+                                    - cell "content" [ref=e771]
+                                    - cell "ReactNode" [ref=e772]
+                                    - cell "—" [ref=e773]
+                                    - cell "Custom content to render inside the toast. Overrides title and description." [ref=e774]:
+                                        - paragraph [ref=e775]: Custom content to render inside the toast. Overrides title and description.
+                                - row "actions ButtonProps[] — Array of button props to render as action buttons." [ref=e776]:
+                                    - cell "actions" [ref=e777]
+                                    - cell "ButtonProps[]" [ref=e778]
+                                    - cell "—" [ref=e779]
+                                    - cell "Array of button props to render as action buttons." [ref=e780]
+                                - row "timeout number 5000 Time in milliseconds before the toast auto-dismisses." [ref=e781]:
+                                    - cell "timeout" [ref=e782]
+                                    - cell "number" [ref=e783]
+                                    - cell "5000" [ref=e784]
+                                    - cell "Time in milliseconds before the toast auto-dismisses." [ref=e785]:
+                                        - paragraph [ref=e786]: Time in milliseconds before the toast auto-dismisses.
+                - complementary [ref=e787]:
+                    - navigation "Table of contents" [ref=e790]:
+                        - paragraph [ref=e791]: On this page
+                        - list [ref=e792]:
+                            - listitem [ref=e793]:
+                                - link "Installation" [ref=e794] [cursor=pointer]:
+                                    - /url: "#installation"
+                                    - generic [ref=e795]: Installation
+                                - list [ref=e796]:
+                                    - listitem [ref=e797]:
+                                        - link "Barrel" [ref=e798] [cursor=pointer]:
+                                            - /url: "#barrel"
+                                            - generic [ref=e799]: Barrel
+                                    - listitem [ref=e800]:
+                                        - link "Granular" [ref=e801] [cursor=pointer]:
+                                            - /url: "#granular"
+                                            - generic [ref=e802]: Granular
+                            - listitem [ref=e803]:
+                                - link "Usage" [ref=e804] [cursor=pointer]:
+                                    - /url: "#usage"
+                                    - generic [ref=e805]: Usage
+                            - listitem [ref=e806]:
+                                - link "Setup" [ref=e807] [cursor=pointer]:
+                                    - /url: "#setup"
+                                    - generic [ref=e808]: Setup
+                            - listitem [ref=e809]:
+                                - link "Examples" [ref=e810] [cursor=pointer]:
+                                    - /url: "#examples"
+                                    - generic [ref=e811]: Examples
+                                - list [ref=e812]:
+                                    - listitem [ref=e813]:
+                                        - link "Title and Description" [ref=e814] [cursor=pointer]:
+                                            - /url: "#title-and-description"
+                                            - generic [ref=e815]: Title and Description
+                                    - listitem [ref=e816]:
+                                        - link "Title Only" [ref=e817] [cursor=pointer]:
+                                            - /url: "#title-only"
+                                            - generic [ref=e818]: Title Only
+                                    - listitem [ref=e819]:
+                                        - link "Description Only" [ref=e820] [cursor=pointer]:
+                                            - /url: "#description-only"
+                                            - generic [ref=e821]: Description Only
+                                    - listitem [ref=e822]:
+                                        - link "Success Variant" [ref=e823] [cursor=pointer]:
+                                            - /url: "#success-variant"
+                                            - generic [ref=e824]: Success Variant
+                                    - listitem [ref=e825]:
+                                        - link "Multiple Toasts" [ref=e826] [cursor=pointer]:
+                                            - /url: "#multiple-toasts"
+                                            - generic [ref=e827]: Multiple Toasts
+                                    - listitem [ref=e828]:
+                                        - link "Error Variant" [ref=e829] [cursor=pointer]:
+                                            - /url: "#error-variant"
+                                            - generic [ref=e830]: Error Variant
+                                    - listitem [ref=e831]:
+                                        - link "Warning Variant" [ref=e832] [cursor=pointer]:
+                                            - /url: "#warning-variant"
+                                            - generic [ref=e833]: Warning Variant
+                                    - listitem [ref=e834]:
+                                        - link "Info Variant" [ref=e835] [cursor=pointer]:
+                                            - /url: "#info-variant"
+                                            - generic [ref=e836]: Info Variant
+                                    - listitem [ref=e837]:
+                                        - link "Custom Content" [ref=e838] [cursor=pointer]:
+                                            - /url: "#custom-content"
+                                            - generic [ref=e839]: Custom Content
+                                    - listitem [ref=e840]:
+                                        - link "Action Buttons" [ref=e841] [cursor=pointer]:
+                                            - /url: "#action-buttons"
+                                            - generic [ref=e842]: Action Buttons
+                                    - listitem [ref=e843]:
+                                        - link "Promise" [ref=e844] [cursor=pointer]:
+                                            - /url: "#promise"
+                                            - generic [ref=e845]: Promise
+                            - listitem [ref=e846]:
+                                - link "API Reference" [ref=e847] [cursor=pointer]:
+                                    - /url: "#api-reference"
+                                    - generic [ref=e848]: API Reference
+                                - list [ref=e849]:
+                                    - listitem [ref=e850]:
+                                        - link "Toasty" [ref=e851] [cursor=pointer]:
+                                            - /url: "#toasty"
+                                            - generic [ref=e852]: Toasty
+                                    - listitem [ref=e853]:
+                                        - link "useKumoToastManager()" [ref=e854] [cursor=pointer]:
+                                            - /url: "#usekumotoastmanager"
+                                            - generic [ref=e855]: useKumoToastManager()
+                                    - listitem [ref=e856]:
+                                        - link "Toast Options" [ref=e857] [cursor=pointer]:
+                                            - /url: "#toast-options"
+                                            - generic [ref=e858]: Toast Options

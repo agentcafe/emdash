@@ -1,0 +1,9 @@
+[     446ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/chunk-YOW52ESE.js?v=9a3e18bf:20102
+[   26931ms] [WARNING] [Kumo Input]: Input must have an accessible name. Provide either:
+  - label prop: <Input label='Email' />
+  - placeholder + aria-label: <Input placeholder='Email' aria-label='Email address' />
+  - aria-labelledby for custom label association @ http://localhost:4321/node_modules/.vite/deps/@cloudflare_kumo.js?v=9a3e18bf:4337
+[   26960ms] [WARNING] [Kumo Input]: Input must have an accessible name. Provide either:
+  - label prop: <Input label='Email' />
+  - placeholder + aria-label: <Input placeholder='Email' aria-label='Email address' />
+  - aria-labelledby for custom label association @ http://localhost:4321/node_modules/.vite/deps/@cloudflare_kumo.js?v=9a3e18bf:4337

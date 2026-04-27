@@ -1,0 +1,1430 @@
+- generic [ref=e2]:
+    - generic [ref=e3]:
+        - button "Toggle sidebar" [pressed] [ref=e7] [cursor=pointer]:
+            - img [ref=e9]
+        - generic:
+            - heading "Kumo" [level=1]
+        - complementary [ref=e28]:
+            - generic [ref=e30]:
+                - button "Search..." [ref=e31]:
+                    - img [ref=e32]
+                    - generic [ref=e34]: Search...
+                - list [ref=e35]:
+                    - listitem [ref=e36]:
+                        - link "Home" [ref=e37] [cursor=pointer]:
+                            - /url: /
+                    - listitem [ref=e38]:
+                        - link "Installation" [ref=e39] [cursor=pointer]:
+                            - /url: /installation
+                    - listitem [ref=e40]:
+                        - link "Contributing" [ref=e41] [cursor=pointer]:
+                            - /url: /contributing
+                    - listitem [ref=e42]:
+                        - link "Colors" [ref=e43] [cursor=pointer]:
+                            - /url: /colors
+                    - listitem [ref=e44]:
+                        - link "Accessibility" [ref=e45] [cursor=pointer]:
+                            - /url: /accessibility
+                    - listitem [ref=e46]:
+                        - link "Figma Resources" [ref=e47] [cursor=pointer]:
+                            - /url: /figma
+                    - listitem [ref=e48]:
+                        - link "CLI" [ref=e49] [cursor=pointer]:
+                            - /url: /cli
+                    - listitem [ref=e50]:
+                        - link "Registry" [ref=e51] [cursor=pointer]:
+                            - /url: /registry
+                    - listitem [ref=e52]:
+                        - link "Changelog" [ref=e53] [cursor=pointer]:
+                            - /url: /changelog
+                - generic [ref=e55]:
+                    - button "Components" [ref=e56] [cursor=pointer]:
+                        - generic [ref=e57]: Components
+                        - img [ref=e58]
+                    - list [ref=e60]:
+                        - listitem [ref=e61]:
+                            - link "Autocomplete" [ref=e62] [cursor=pointer]:
+                                - /url: /components/autocomplete
+                        - listitem [ref=e63]:
+                            - link "Badge" [ref=e64] [cursor=pointer]:
+                                - /url: /components/badge
+                        - listitem [ref=e65]:
+                            - link "Banner" [ref=e66] [cursor=pointer]:
+                                - /url: /components/banner
+                        - listitem [ref=e67]:
+                            - link "Breadcrumbs" [ref=e68] [cursor=pointer]:
+                                - /url: /components/breadcrumbs
+                        - listitem [ref=e69]:
+                            - link "Button" [ref=e70] [cursor=pointer]:
+                                - /url: /components/button
+                        - listitem [ref=e71]:
+                            - link "Checkbox" [ref=e72] [cursor=pointer]:
+                                - /url: /components/checkbox
+                        - listitem [ref=e73]:
+                            - link "Clipboard Text" [ref=e74] [cursor=pointer]:
+                                - /url: /components/clipboard-text
+                        - listitem [ref=e75]:
+                            - link "Cloudflare Logo" [ref=e76] [cursor=pointer]:
+                                - /url: /components/cloudflare-logo
+                        - listitem [ref=e77]:
+                            - link "CodeHighlighted" [ref=e78] [cursor=pointer]:
+                                - /url: /components/code-highlighted
+                        - listitem [ref=e79]:
+                            - link "Collapsible" [ref=e80] [cursor=pointer]:
+                                - /url: /components/collapsible
+                        - listitem [ref=e81]:
+                            - link "Combobox" [ref=e82] [cursor=pointer]:
+                                - /url: /components/combobox
+                        - listitem [ref=e83]:
+                            - link "Command Palette" [ref=e84] [cursor=pointer]:
+                                - /url: /components/command-palette
+                        - listitem [ref=e85]:
+                            - link "Date Picker" [ref=e86] [cursor=pointer]:
+                                - /url: /components/date-picker
+                        - listitem [ref=e87]:
+                            - link "Dialog" [ref=e88] [cursor=pointer]:
+                                - /url: /components/dialog
+                        - listitem [ref=e89]:
+                            - link "Dropdown" [ref=e90] [cursor=pointer]:
+                                - /url: /components/dropdown
+                        - listitem [ref=e91]:
+                            - link "Empty" [ref=e92] [cursor=pointer]:
+                                - /url: /components/empty
+                        - listitem [ref=e93]:
+                            - link "Flow" [ref=e94] [cursor=pointer]:
+                                - /url: /components/flow
+                        - listitem [ref=e95]:
+                            - link "Grid" [ref=e96] [cursor=pointer]:
+                                - /url: /components/grid
+                        - listitem [ref=e97]:
+                            - link "Input" [ref=e98] [cursor=pointer]:
+                                - /url: /components/input
+                        - listitem [ref=e99]:
+                            - link "InputArea" [ref=e100] [cursor=pointer]:
+                                - /url: /components/input-area
+                        - listitem [ref=e101]:
+                            - link "InputGroup" [ref=e102] [cursor=pointer]:
+                                - /url: /components/input-group
+                        - listitem [ref=e103]:
+                            - link "Label" [ref=e104] [cursor=pointer]:
+                                - /url: /components/label
+                        - listitem [ref=e105]:
+                            - link "Layer Card" [ref=e106] [cursor=pointer]:
+                                - /url: /components/layer-card
+                        - listitem [ref=e107]:
+                            - link "Link" [ref=e108] [cursor=pointer]:
+                                - /url: /components/link
+                        - listitem [ref=e109]:
+                            - link "Loader" [ref=e110] [cursor=pointer]:
+                                - /url: /components/loader
+                        - listitem [ref=e111]:
+                            - link "MenuBar" [ref=e112] [cursor=pointer]:
+                                - /url: /components/menu-bar
+                        - listitem [ref=e113]:
+                            - link "Meter" [ref=e114] [cursor=pointer]:
+                                - /url: /components/meter
+                        - listitem [ref=e115]:
+                            - link "Pagination" [ref=e116] [cursor=pointer]:
+                                - /url: /components/pagination
+                        - listitem [ref=e117]:
+                            - link "Popover" [ref=e118] [cursor=pointer]:
+                                - /url: /components/popover
+                        - listitem [ref=e119]:
+                            - link "Radio" [ref=e120] [cursor=pointer]:
+                                - /url: /components/radio
+                        - listitem [ref=e121]:
+                            - link "Select" [ref=e122] [cursor=pointer]:
+                                - /url: /components/select
+                        - listitem [ref=e123]:
+                            - link "Sensitive Input" [ref=e124] [cursor=pointer]:
+                                - /url: /components/sensitive-input
+                        - listitem [ref=e125]:
+                            - link "Sidebar" [ref=e126] [cursor=pointer]:
+                                - /url: /components/sidebar
+                        - listitem [ref=e127]:
+                            - link "Skeleton Line" [ref=e128] [cursor=pointer]:
+                                - /url: /components/skeleton-line
+                        - listitem [ref=e129]:
+                            - link "Switch" [ref=e130] [cursor=pointer]:
+                                - /url: /components/switch
+                        - listitem [ref=e131]:
+                            - link "Table" [ref=e132] [cursor=pointer]:
+                                - /url: /components/table
+                        - listitem [ref=e133]:
+                            - link "Table of Contents" [ref=e134] [cursor=pointer]:
+                                - /url: /components/table-of-contents
+                        - listitem [ref=e135]:
+                            - link "Tabs" [ref=e136] [cursor=pointer]:
+                                - /url: /components/tabs
+                        - listitem [ref=e137]:
+                            - link "Text" [ref=e138] [cursor=pointer]:
+                                - /url: /components/text
+                        - listitem [ref=e139]:
+                            - link "Toast" [ref=e140] [cursor=pointer]:
+                                - /url: /components/toast
+                        - listitem [ref=e141]:
+                            - link "Tooltip" [ref=e142] [cursor=pointer]:
+                                - /url: /components/tooltip
+                - generic [ref=e143]:
+                    - button "Charts" [ref=e144] [cursor=pointer]:
+                        - generic [ref=e145]: Charts
+                        - img [ref=e146]
+                    - list [ref=e148]:
+                        - listitem [ref=e149]:
+                            - link "Charts" [ref=e150] [cursor=pointer]:
+                                - /url: /charts
+                        - listitem [ref=e151]:
+                            - link "Colors" [ref=e152] [cursor=pointer]:
+                                - /url: /charts/colors
+                        - listitem [ref=e153]:
+                            - link "Timeseries" [ref=e154] [cursor=pointer]:
+                                - /url: /charts/timeseries
+                        - listitem [ref=e155]:
+                            - link "Custom Chart" [ref=e156] [cursor=pointer]:
+                                - /url: /charts/custom
+                - generic [ref=e157]:
+                    - button "Blocks" [ref=e158] [cursor=pointer]:
+                        - generic [ref=e159]: Blocks
+                        - img [ref=e160]
+                    - list [ref=e162]:
+                        - listitem [ref=e163]:
+                            - link "Page Header" [ref=e164] [cursor=pointer]:
+                                - /url: /blocks/page-header
+                        - listitem [ref=e165]:
+                            - link "Resource List" [ref=e166] [cursor=pointer]:
+                                - /url: /blocks/resource-list
+                        - listitem [ref=e167]:
+                            - link "Delete Resource" [ref=e168] [cursor=pointer]:
+                                - /url: /blocks/delete-resource
+    - generic [ref=e170]:
+        - banner [ref=e172]:
+            - generic [ref=e173]:
+                - generic:
+                    - generic: Select
+                    - link "View source on GitHub":
+                        - /url: https://github.com/cloudflare/kumo/blob/main/packages/kumo/src/components/select/select.tsx
+                        - img
+                    - link "View Base UI documentation":
+                        - /url: https://base-ui.com/react/components/select
+                        - img "Base UI"
+                - link "@cloudflare/kumo" [ref=e174] [cursor=pointer]:
+                    - /url: https://github.com/cloudflare/kumo
+            - button "Toggle theme" [ref=e176] [cursor=pointer]:
+                - img [ref=e177]
+        - generic [ref=e181]:
+            - generic [ref=e182]:
+                - heading "Select" [level=1] [ref=e183]
+                - link "View source on GitHub" [ref=e184] [cursor=pointer]:
+                    - /url: https://github.com/cloudflare/kumo/blob/main/packages/kumo/src/components/select/select.tsx
+                    - img [ref=e185]
+                - link "View Base UI documentation" [ref=e187] [cursor=pointer]:
+                    - /url: https://base-ui.com/react/components/select
+                    - img "Base UI" [ref=e188]
+                - generic [ref=e193]:
+                    - button "Copy page" [ref=e194] [cursor=pointer]:
+                        - img [ref=e195]
+                        - generic [ref=e197]: Copy page
+                    - button "Copy page options" [ref=e198] [cursor=pointer]:
+                        - img [ref=e199]
+            - paragraph [ref=e201]: Displays a list of options for the user to pick from—triggered by a button.
+        - main [ref=e202]:
+            - generic [ref=e205]:
+                - generic [ref=e206]:
+                    - generic [ref=e208]:
+                        - generic [ref=e211]:
+                            - generic [ref=e213]: Favorite Fruit
+                            - combobox "Favorite Fruit" [ref=e214] [cursor=pointer]:
+                                - generic [ref=e215]: Apple
+                                - img [ref=e217]
+                            - textbox [ref=e219]: apple
+                        - generic [ref=e221]:
+                            - code [ref=e223]:
+                                - generic [ref=e224]: 'import { useState } from "react";'
+                                - generic [ref=e225]: 'import { Select } from "@cloudflare/kumo";'
+                                - generic [ref=e226]: /** Basic Select with visible label - the recommended pattern. */
+                                - generic [ref=e227]: "export function SelectBasicDemo() {"
+                                - generic [ref=e228]: const [value, setValue] = useState("apple");
+                                - generic [ref=e229]: return (
+                                - generic [ref=e230]: <Select
+                                - generic [ref=e231]: label="Favorite Fruit"
+                                - generic [ref=e232]: className="w-[200px]"
+                                - generic [ref=e233]: "value={value}"
+                                - generic [ref=e234]: 'onValueChange={(v) => setValue(v ?? "apple")}'
+                                - generic [ref=e235]: 'items={{ apple: "Apple", banana: "Banana", cherry: "Cherry" }}'
+                                - generic [ref=e236]: />
+                                - generic [ref=e237]: );
+                                - generic [ref=e238]: "}"
+                            - button "Copy code to clipboard" [ref=e239] [cursor=pointer]:
+                                - generic [ref=e240]:
+                                    - img [ref=e242]
+                                    - img [ref=e245]
+                    - generic [ref=e247]:
+                        - 'heading "Link to section: Installation" [level=2] [ref=e248]':
+                            - 'link "Link to section: Installation" [ref=e249] [cursor=pointer]':
+                                - /url: "#installation"
+                                - img [ref=e251]
+                                - text: Installation
+                        - 'heading "Link to section: Barrel" [level=3] [ref=e253]':
+                            - 'link "Link to section: Barrel" [ref=e254] [cursor=pointer]':
+                                - /url: "#barrel"
+                                - img [ref=e256]
+                                - text: Barrel
+                        - generic [ref=e258]:
+                            - code [ref=e260]:
+                                - generic [ref=e261]: 'import { Select } from "@cloudflare/kumo";'
+                            - button "Copy code to clipboard" [ref=e262] [cursor=pointer]:
+                                - generic [ref=e263]:
+                                    - img [ref=e265]
+                                    - img [ref=e268]
+                        - 'heading "Link to section: Granular" [level=3] [ref=e270]':
+                            - 'link "Link to section: Granular" [ref=e271] [cursor=pointer]':
+                                - /url: "#granular"
+                                - img [ref=e273]
+                                - text: Granular
+                        - generic [ref=e275]:
+                            - code [ref=e277]:
+                                - generic [ref=e278]: 'import { Select } from "@cloudflare/kumo/components/select";'
+                            - button "Copy code to clipboard" [ref=e279] [cursor=pointer]:
+                                - generic [ref=e280]:
+                                    - img [ref=e282]
+                                    - img [ref=e285]
+                    - generic [ref=e287]:
+                        - 'heading "Link to section: Usage" [level=2] [ref=e288]':
+                            - 'link "Link to section: Usage" [ref=e289] [cursor=pointer]':
+                                - /url: "#usage"
+                                - img [ref=e291]
+                                - text: Usage
+                        - generic [ref=e293]:
+                            - code [ref=e295]:
+                                - generic [ref=e296]: 'import { Select } from "@cloudflare/kumo";'
+                                - generic [ref=e297]: "export default function Example() {"
+                                - generic [ref=e298]: const [value, setValue] = useState("apple");
+                                - generic [ref=e299]: return (
+                                - generic [ref=e300]: <Select
+                                - generic [ref=e301]: label="Favorite Fruit"
+                                - generic [ref=e302]: "value={value}"
+                                - generic [ref=e303]: 'onValueChange={(v) => setValue(v ?? "apple")}'
+                                - generic [ref=e304]: 'items={{ apple: "Apple", banana: "Banana", cherry: "Cherry" }}'
+                                - generic [ref=e305]: />
+                                - generic [ref=e306]: );
+                                - generic [ref=e307]: "}"
+                            - button "Copy code to clipboard" [ref=e308] [cursor=pointer]:
+                                - generic [ref=e309]:
+                                    - img [ref=e311]
+                                    - img [ref=e314]
+                    - generic [ref=e316]:
+                        - 'heading "Link to section: Examples" [level=2] [ref=e317]':
+                            - 'link "Link to section: Examples" [ref=e318] [cursor=pointer]':
+                                - /url: "#examples"
+                                - img [ref=e320]
+                                - text: Examples
+                        - 'heading "Link to section: Basic" [level=3] [ref=e322]':
+                            - 'link "Link to section: Basic" [ref=e323] [cursor=pointer]':
+                                - /url: "#basic"
+                                - img [ref=e325]
+                                - text: Basic
+                        - paragraph
+                        - paragraph [ref=e327]:
+                            - text: A select with a visible label. When you provide the
+                            - code [ref=e328]: label
+                            - text: prop, the select automatically renders inside a Field wrapper with the label displayed above it.
+                        - paragraph
+                        - generic [ref=e329]:
+                            - generic [ref=e332]:
+                                - generic [ref=e334]: Favorite Fruit
+                                - combobox "Favorite Fruit" [ref=e335] [cursor=pointer]:
+                                    - generic [ref=e336]: Apple
+                                    - img [ref=e338]
+                                - textbox [ref=e340]: apple
+                            - generic [ref=e342]:
+                                - code [ref=e344]:
+                                    - generic [ref=e345]: 'import { useState } from "react";'
+                                    - generic [ref=e346]: 'import { Select } from "@cloudflare/kumo";'
+                                    - generic [ref=e347]: /** Basic Select with visible label - the recommended pattern. */
+                                    - generic [ref=e348]: "export function SelectBasicDemo() {"
+                                    - generic [ref=e349]: const [value, setValue] = useState("apple");
+                                    - generic [ref=e350]: return (
+                                    - generic [ref=e351]: <Select
+                                    - generic [ref=e352]: label="Favorite Fruit"
+                                    - generic [ref=e353]: className="w-[200px]"
+                                    - generic [ref=e354]: "value={value}"
+                                    - generic [ref=e355]: 'onValueChange={(v) => setValue(v ?? "apple")}'
+                                    - generic [ref=e356]: 'items={{ apple: "Apple", banana: "Banana", cherry: "Cherry" }}'
+                                    - generic [ref=e357]: />
+                                    - generic [ref=e358]: );
+                                    - generic [ref=e359]: "}"
+                                - button "Copy code to clipboard" [ref=e360] [cursor=pointer]:
+                                    - generic [ref=e361]:
+                                        - img [ref=e363]
+                                        - img [ref=e366]
+                    - generic [ref=e368]:
+                        - 'heading "Link to section: Sizes" [level=3] [ref=e369]':
+                            - 'link "Link to section: Sizes" [ref=e370] [cursor=pointer]':
+                                - /url: "#sizes"
+                                - img [ref=e372]
+                                - text: Sizes
+                        - paragraph
+                        - paragraph [ref=e374]:
+                            - text: Use the
+                            - code [ref=e375]: size
+                            - text: prop to match Input sizing (xs, sm, base, lg).
+                        - paragraph
+                        - generic [ref=e376]:
+                            - generic [ref=e379]:
+                                - generic [ref=e380]:
+                                    - generic [ref=e381]: xs
+                                    - generic [ref=e382]:
+                                        - combobox "Select size xs" [ref=e383] [cursor=pointer]:
+                                            - generic [ref=e384]: Choose...
+                                            - img [ref=e386]
+                                        - textbox [ref=e388]
+                                - generic [ref=e389]:
+                                    - generic [ref=e390]: sm
+                                    - generic [ref=e391]:
+                                        - combobox "Select size sm" [ref=e392] [cursor=pointer]:
+                                            - generic [ref=e393]: Choose...
+                                            - img [ref=e395]
+                                        - textbox [ref=e397]
+                                - generic [ref=e398]:
+                                    - generic [ref=e399]: base
+                                    - generic [ref=e400]:
+                                        - combobox "Select size base" [ref=e401] [cursor=pointer]:
+                                            - generic [ref=e402]: Choose...
+                                            - img [ref=e404]
+                                        - textbox [ref=e406]
+                                - generic [ref=e407]:
+                                    - generic [ref=e408]: lg
+                                    - generic [ref=e409]:
+                                        - combobox "Select size lg" [ref=e410] [cursor=pointer]:
+                                            - generic [ref=e411]: Choose...
+                                            - img [ref=e413]
+                                        - textbox [ref=e415]
+                            - generic [ref=e417]:
+                                - code [ref=e419]:
+                                    - generic [ref=e420]: 'import { Select } from "@cloudflare/kumo";'
+                                    - generic [ref=e421]: /** Select trigger sizes (xs/sm/base/lg) matching Input and Combobox. */
+                                    - generic [ref=e422]: "export function SelectSizesDemo() {"
+                                    - generic [ref=e423]: return (
+                                    - generic [ref=e424]: <div className="grid gap-4">
+                                    - generic [ref=e425]: <div className="flex items-center gap-3">
+                                    - generic [ref=e426]: <span className="w-10 text-sm text-kumo-subtle">xs</span>
+                                    - generic [ref=e427]: <Select
+                                    - generic [ref=e428]: aria-label="Select size xs"
+                                    - generic [ref=e429]: size="xs"
+                                    - generic [ref=e430]: className="w-[200px]"
+                                    - generic [ref=e431]: placeholder="Choose..."
+                                    - generic [ref=e432]: 'items={{ a: "Option A", b: "Option B" }}'
+                                    - generic [ref=e433]: />
+                                    - generic [ref=e434]: </div>
+                                    - generic [ref=e435]: <div className="flex items-center gap-3">
+                                    - generic [ref=e436]: <span className="w-10 text-sm text-kumo-subtle">sm</span>
+                                    - generic [ref=e437]: <Select
+                                    - generic [ref=e438]: aria-label="Select size sm"
+                                    - generic [ref=e439]: size="sm"
+                                    - generic [ref=e440]: className="w-[200px]"
+                                    - generic [ref=e441]: placeholder="Choose..."
+                                    - generic [ref=e442]: 'items={{ a: "Option A", b: "Option B" }}'
+                                    - generic [ref=e443]: />
+                                    - generic [ref=e444]: </div>
+                                    - generic [ref=e445]: <div className="flex items-center gap-3">
+                                    - generic [ref=e446]: <span className="w-10 text-sm text-kumo-subtle">base</span>
+                                    - generic [ref=e447]: <Select
+                                    - generic [ref=e448]: aria-label="Select size base"
+                                    - generic [ref=e449]: size="base"
+                                    - generic [ref=e450]: className="w-[200px]"
+                                    - generic [ref=e451]: placeholder="Choose..."
+                                    - generic [ref=e452]: 'items={{ a: "Option A", b: "Option B" }}'
+                                    - generic [ref=e453]: />
+                                    - generic [ref=e454]: </div>
+                                    - generic [ref=e455]: <div className="flex items-center gap-3">
+                                    - generic [ref=e456]: <span className="w-10 text-sm text-kumo-subtle">lg</span>
+                                    - generic [ref=e457]: <Select
+                                    - generic [ref=e458]: aria-label="Select size lg"
+                                    - generic [ref=e459]: size="lg"
+                                    - generic [ref=e460]: className="w-[200px]"
+                                    - generic [ref=e461]: placeholder="Choose..."
+                                    - generic [ref=e462]: 'items={{ a: "Option A", b: "Option B" }}'
+                                    - generic [ref=e463]: />
+                                    - generic [ref=e464]: </div>
+                                    - generic [ref=e465]: </div>
+                                    - generic [ref=e466]: );
+                                    - generic [ref=e467]: "}"
+                                - button "Copy code to clipboard" [ref=e468] [cursor=pointer]:
+                                    - generic [ref=e469]:
+                                        - img [ref=e471]
+                                        - img [ref=e474]
+                    - generic [ref=e476]:
+                        - 'heading "Link to section: Without Visible Label" [level=3] [ref=e477]':
+                            - 'link "Link to section: Without Visible Label" [ref=e478] [cursor=pointer]':
+                                - /url: "#without-visible-label"
+                                - img [ref=e480]
+                                - text: Without Visible Label
+                        - paragraph
+                        - paragraph [ref=e482]:
+                            - text: When a visible label isn’t needed (e.g., in compact UIs or when context is clear), use
+                            - code [ref=e483]: aria-label
+                            - text: for accessibility.
+                        - paragraph
+                        - generic [ref=e484]:
+                            - generic [ref=e487]:
+                                - combobox "Select a fruit" [ref=e488] [cursor=pointer]:
+                                    - generic [ref=e489]: Apple
+                                    - img [ref=e491]
+                                - textbox [ref=e493]: apple
+                            - generic [ref=e495]:
+                                - code [ref=e497]:
+                                    - generic [ref=e498]: 'import { useState } from "react";'
+                                    - generic [ref=e499]: 'import { Select } from "@cloudflare/kumo";'
+                                    - generic [ref=e500]: /** Select without visible label - use aria-label for accessibility. */
+                                    - generic [ref=e501]: "export function SelectWithoutLabelDemo() {"
+                                    - generic [ref=e502]: const [value, setValue] = useState("apple");
+                                    - generic [ref=e503]: return (
+                                    - generic [ref=e504]: <Select
+                                    - generic [ref=e505]: aria-label="Select a fruit"
+                                    - generic [ref=e506]: className="w-[200px]"
+                                    - generic [ref=e507]: "value={value}"
+                                    - generic [ref=e508]: 'onValueChange={(v) => setValue(v ?? "apple")}'
+                                    - generic [ref=e509]: 'items={{ apple: "Apple", banana: "Banana", cherry: "Cherry" }}'
+                                    - generic [ref=e510]: />
+                                    - generic [ref=e511]: );
+                                    - generic [ref=e512]: "}"
+                                - button "Copy code to clipboard" [ref=e513] [cursor=pointer]:
+                                    - generic [ref=e514]:
+                                        - img [ref=e516]
+                                        - img [ref=e519]
+                    - generic [ref=e521]:
+                        - 'heading "Link to section: With Description and Error" [level=3] [ref=e522]':
+                            - 'link "Link to section: With Description and Error" [ref=e523] [cursor=pointer]':
+                                - /url: "#with-description-and-error"
+                                - img [ref=e525]
+                                - text: With Description and Error
+                        - paragraph
+                        - paragraph [ref=e527]: Select integrates with the Field wrapper to show description text and validation errors.
+                        - paragraph
+                        - generic [ref=e528]:
+                            - generic [ref=e531]:
+                                - generic [ref=e533]: Issue Type
+                                - combobox "Issue Type" [ref=e534] [cursor=pointer]:
+                                    - img [ref=e536]
+                                - textbox [ref=e538]
+                                - generic [ref=e539]: Please select an issue type
+                            - generic [ref=e541]:
+                                - code [ref=e543]:
+                                    - generic [ref=e544]: 'import { useState } from "react";'
+                                    - generic [ref=e545]: 'import { Select } from "@cloudflare/kumo";'
+                                    - generic [ref=e546]: /** Select with label, description, and error handling. */
+                                    - generic [ref=e547]: "export function SelectWithFieldDemo() {"
+                                    - generic [ref=e548]: const [value, setValue] = useState<string | null>(null);
+                                    - generic [ref=e549]: return (
+                                    - generic [ref=e550]: <Select
+                                    - generic [ref=e551]: label="Issue Type"
+                                    - generic [ref=e552]: description="Choose the category that best describes your issue"
+                                    - generic [ref=e553]: 'error={!value ? "Please select an issue type" : undefined}'
+                                    - generic [ref=e554]: className="w-[280px]"
+                                    - generic [ref=e555]: "value={value}"
+                                    - generic [ref=e556]: "onValueChange={(v) => setValue(v as string | null)}"
+                                    - generic [ref=e557]: "items={{"
+                                    - generic [ref=e558]: 'bug: "Bug",'
+                                    - generic [ref=e559]: 'documentation: "Documentation",'
+                                    - generic [ref=e560]: 'feature: "Feature",'
+                                    - generic [ref=e561]: "}}"
+                                    - generic [ref=e562]: />
+                                    - generic [ref=e563]: );
+                                    - generic [ref=e564]: "}"
+                                - button "Copy code to clipboard" [ref=e565] [cursor=pointer]:
+                                    - generic [ref=e566]:
+                                        - img [ref=e568]
+                                        - img [ref=e571]
+                    - generic [ref=e573]:
+                        - 'heading "Link to section: Placeholder" [level=3] [ref=e574]':
+                            - 'link "Link to section: Placeholder" [ref=e575] [cursor=pointer]':
+                                - /url: "#placeholder"
+                                - img [ref=e577]
+                                - text: Placeholder
+                        - paragraph
+                        - paragraph [ref=e579]:
+                            - text: Use the
+                            - code [ref=e580]: placeholder
+                            - text: prop to show text when no value is selected. When using
+                            - code [ref=e581]: renderValue
+                            - text: to customize the display of selected values, the placeholder is shown instead of calling
+                            - code [ref=e582]: renderValue
+                            - text: when the value is
+                            - code [ref=e583]: "null"
+                            - text: .
+                        - paragraph
+                        - generic [ref=e584]:
+                            - code [ref=e586]:
+                                - generic [ref=e587]: <Select
+                                - generic [ref=e588]: placeholder="Select a user..."
+                                - generic [ref=e589]: "value={user}"
+                                - generic [ref=e590]: "renderValue={(user) => user.name} // Only called when user is not null"
+                                - generic [ref=e591]: />
+                            - button "Copy code to clipboard" [ref=e592] [cursor=pointer]:
+                                - generic [ref=e593]:
+                                    - img [ref=e595]
+                                    - img [ref=e598]
+                        - generic [ref=e600]:
+                            - generic [ref=e603]:
+                                - generic [ref=e605]: Category
+                                - combobox "Category" [ref=e606] [cursor=pointer]:
+                                    - generic [ref=e607]: Choose a category...
+                                    - img [ref=e609]
+                                - textbox [ref=e611]
+                            - generic [ref=e613]:
+                                - code [ref=e615]:
+                                    - generic [ref=e616]: 'import { useState } from "react";'
+                                    - generic [ref=e617]: 'import { Select } from "@cloudflare/kumo";'
+                                    - generic [ref=e618]: /** Select with placeholder text when no value is selected. */
+                                    - generic [ref=e619]: "export function SelectPlaceholderDemo() {"
+                                    - generic [ref=e620]: const [value, setValue] = useState<string | null>(null);
+                                    - generic [ref=e621]: return (
+                                    - generic [ref=e622]: <Select
+                                    - generic [ref=e623]: label="Category"
+                                    - generic [ref=e624]: placeholder="Choose a category..."
+                                    - generic [ref=e625]: className="w-[200px]"
+                                    - generic [ref=e626]: "value={value}"
+                                    - generic [ref=e627]: "onValueChange={(v) => setValue(v as string | null)}"
+                                    - generic [ref=e628]: "items={{"
+                                    - generic [ref=e629]: 'bug: "Bug",'
+                                    - generic [ref=e630]: 'documentation: "Documentation",'
+                                    - generic [ref=e631]: 'feature: "Feature",'
+                                    - generic [ref=e632]: "}}"
+                                    - generic [ref=e633]: />
+                                    - generic [ref=e634]: );
+                                    - generic [ref=e635]: "}"
+                                - button "Copy code to clipboard" [ref=e636] [cursor=pointer]:
+                                    - generic [ref=e637]:
+                                        - img [ref=e639]
+                                        - img [ref=e642]
+                    - generic [ref=e644]:
+                        - 'heading "Link to section: Label with Tooltip" [level=3] [ref=e645]':
+                            - 'link "Link to section: Label with Tooltip" [ref=e646] [cursor=pointer]':
+                                - /url: "#label-with-tooltip"
+                                - img [ref=e648]
+                                - text: Label with Tooltip
+                        - paragraph
+                        - paragraph [ref=e650]:
+                            - text: Add a tooltip icon next to the label for additional context using
+                            - code [ref=e651]: labelTooltip
+                            - text: .
+                        - paragraph
+                        - generic [ref=e652]:
+                            - generic [ref=e655]:
+                                - generic [ref=e657]:
+                                    - text: Priority
+                                    - button "More information" [ref=e658] [cursor=pointer]:
+                                        - img [ref=e659]
+                                - combobox "Priority" [ref=e661] [cursor=pointer]:
+                                    - generic [ref=e662]: Select priority
+                                    - img [ref=e664]
+                                - textbox [ref=e666]
+                            - generic [ref=e668]:
+                                - code [ref=e670]:
+                                    - generic [ref=e671]: 'import { useState } from "react";'
+                                    - generic [ref=e672]: 'import { Select } from "@cloudflare/kumo";'
+                                    - generic [ref=e673]: /** Select with label tooltip for additional context. */
+                                    - generic [ref=e674]: "export function SelectWithTooltipDemo() {"
+                                    - generic [ref=e675]: const [value, setValue] = useState<string | null>(null);
+                                    - generic [ref=e676]: return (
+                                    - generic [ref=e677]: <Select
+                                    - generic [ref=e678]: label="Priority"
+                                    - generic [ref=e679]: labelTooltip="Higher priority issues are addressed first"
+                                    - generic [ref=e680]: placeholder="Select priority"
+                                    - generic [ref=e681]: className="w-[200px]"
+                                    - generic [ref=e682]: "value={value}"
+                                    - generic [ref=e683]: "onValueChange={(v) => setValue(v as string | null)}"
+                                    - generic [ref=e684]: "items={{"
+                                    - generic [ref=e685]: 'low: "Low",'
+                                    - generic [ref=e686]: 'medium: "Medium",'
+                                    - generic [ref=e687]: 'high: "High",'
+                                    - generic [ref=e688]: 'critical: "Critical",'
+                                    - generic [ref=e689]: "}}"
+                                    - generic [ref=e690]: />
+                                    - generic [ref=e691]: );
+                                    - generic [ref=e692]: "}"
+                                - button "Copy code to clipboard" [ref=e693] [cursor=pointer]:
+                                    - generic [ref=e694]:
+                                        - img [ref=e696]
+                                        - img [ref=e699]
+                    - generic [ref=e701]:
+                        - 'heading "Link to section: Custom Rendering" [level=3] [ref=e702]':
+                            - 'link "Link to section: Custom Rendering" [ref=e703] [cursor=pointer]':
+                                - /url: "#custom-rendering"
+                                - img [ref=e705]
+                                - text: Custom Rendering
+                        - paragraph
+                        - paragraph [ref=e707]:
+                            - text: Use
+                            - code [ref=e708]: renderValue
+                            - text: to customize how the selected value appears in the trigger button. This is useful when working with complex object data structures instead of simple string values.
+                        - paragraph
+                        - generic [ref=e709]:
+                            - generic [ref=e712]:
+                                - generic [ref=e714]: Language
+                                - combobox "Language" [ref=e715] [cursor=pointer]:
+                                    - generic [ref=e717]: 🇬🇧 English
+                                    - img [ref=e719]
+                                - textbox [ref=e721]: en
+                            - generic [ref=e723]:
+                                - code [ref=e725]:
+                                    - generic [ref=e726]: 'import { useState } from "react";'
+                                    - generic [ref=e727]: 'import { Select } from "@cloudflare/kumo";'
+                                    - generic [ref=e728]: /** Select with custom rendering for complex option display. */
+                                    - generic [ref=e729]: "export function SelectCustomRenderingDemo() {"
+                                    - generic [ref=e730]: const [value, setValue] = useState(languages[0]);
+                                    - generic [ref=e731]: return (
+                                    - generic [ref=e732]: <Select
+                                    - generic [ref=e733]: label="Language"
+                                    - generic [ref=e734]: className="w-[200px]"
+                                    - generic [ref=e735]: "renderValue={(v) => ("
+                                    - generic [ref=e736]: <span>
+                                    - generic [ref=e737]: "{v.emoji} {v.label}"
+                                    - generic [ref=e738]: </span>
+                                    - generic [ref=e739]: ")}"
+                                    - generic [ref=e740]: "value={value}"
+                                    - generic [ref=e741]: "onValueChange={(v) => setValue(v as (typeof languages)[0])}"
+                                    - generic [ref=e742]: ">"
+                                    - generic [ref=e743]: "{languages.map((language) => ("
+                                    - generic [ref=e744]: "<Select.Option key={language.value} value={language}>"
+                                    - generic [ref=e745]: "{language.emoji} {language.label}"
+                                    - generic [ref=e746]: </Select.Option>
+                                    - generic [ref=e747]: "))}"
+                                    - generic [ref=e748]: </Select>
+                                    - generic [ref=e749]: );
+                                    - generic [ref=e750]: "}"
+                                - button "Copy code to clipboard" [ref=e751] [cursor=pointer]:
+                                    - generic [ref=e752]:
+                                        - img [ref=e754]
+                                        - img [ref=e757]
+                        - paragraph
+                        - paragraph [ref=e759]:
+                            - text: The
+                            - code [ref=e760]: renderValue
+                            - text: function is only called when a value is selected. Use
+                            - code [ref=e761]: placeholder
+                            - text: to define what to show when no value is selected.
+                        - paragraph
+                        - paragraph
+                        - paragraph [ref=e762]: Select compares value with items to find which one is selected. For object items, it will compare if the object is the same reference not by value by default. If you want to compare object items by value, you can use
+                        - code [ref=e763]:
+                            - paragraph [ref=e764]: isItemEqualToValue
+                        - paragraph [ref=e765]: prop.
+                        - paragraph
+                        - generic [ref=e766]:
+                            - code [ref=e768]:
+                                - generic [ref=e769]: <Select
+                                - generic [ref=e770]: className="w-[200px]"
+                                - generic [ref=e771]: placeholder="Select a language..."
+                                - generic [ref=e772]: "renderValue={(v) => ("
+                                - generic [ref=e773]: <span>
+                                - generic [ref=e774]: "{v.emoji} {v.label}"
+                                - generic [ref=e775]: </span>
+                                - generic [ref=e776]: ")}"
+                                - generic [ref=e777]: "value={value}"
+                                - generic [ref=e778]: "onValueChange={(v) => setValue(v)}"
+                                - generic [ref=e779]: // Provides custom comparison logic
+                                - generic [ref=e780]: "isItemEqualToValue={(item, value) => item.value === value.value}"
+                                - generic [ref=e781]: ">"
+                                - generic [ref=e782]: "{languages.map((language) => ("
+                                - generic [ref=e783]: "<Select.Option key={language.value} value={language}>"
+                                - generic [ref=e784]: "{language.emoji} {language.label}"
+                                - generic [ref=e785]: </Select.Option>
+                                - generic [ref=e786]: "))}"
+                                - generic [ref=e787]: </Select>
+                            - button "Copy code to clipboard" [ref=e788] [cursor=pointer]:
+                                - generic [ref=e789]:
+                                    - img [ref=e791]
+                                    - img [ref=e794]
+                    - generic [ref=e796]:
+                        - 'heading "Link to section: Loading" [level=3] [ref=e797]':
+                            - 'link "Link to section: Loading" [ref=e798] [cursor=pointer]':
+                                - /url: "#loading"
+                                - img [ref=e800]
+                                - text: Loading
+                        - paragraph
+                        - paragraph [ref=e802]:
+                            - text: A select component with loading state. The loading state is passed to the component via the
+                            - code [ref=e803]: loading
+                            - text: prop.
+                        - paragraph
+                        - generic [ref=e804]:
+                            - generic [ref=e806]:
+                                - paragraph [ref=e807]: Loading State
+                                - generic [ref=e809]:
+                                    - combobox "Loading select" [disabled] [ref=e810]:
+                                        - img [ref=e813]
+                                    - textbox [disabled] [ref=e815]
+                                - paragraph [ref=e816]: Loading From Server (simulated 2s delay)
+                                - generic [ref=e818]:
+                                    - generic [ref=e820]: Assignee
+                                    - combobox "Assignee" [disabled] [ref=e821]:
+                                        - img [ref=e824]
+                                    - textbox [disabled] [ref=e826]
+                            - generic [ref=e828]:
+                                - code [ref=e830]:
+                                    - generic [ref=e831]: 'import { Select } from "@cloudflare/kumo";'
+                                    - generic [ref=e832]: /** Select in loading state. */
+                                    - generic [ref=e833]: "export function SelectLoadingDemo() {"
+                                    - generic [ref=e834]: return <Select aria-label="Loading select" className="w-[200px]" loading />;
+                                    - generic [ref=e835]: "}"
+                                - button "Copy code to clipboard" [ref=e836] [cursor=pointer]:
+                                    - generic [ref=e837]:
+                                        - img [ref=e839]
+                                        - img [ref=e842]
+                    - generic [ref=e844]:
+                        - 'heading "Link to section: Multiple Selection" [level=3] [ref=e845]':
+                            - 'link "Link to section: Multiple Selection" [ref=e846] [cursor=pointer]':
+                                - /url: "#multiple-selection"
+                                - img [ref=e848]
+                                - text: Multiple Selection
+                        - paragraph
+                        - paragraph [ref=e850]:
+                            - text: Enable multiple selection with the
+                            - code [ref=e851]: multiple
+                            - text: prop. The value becomes an array of selected items. Use
+                            - code [ref=e852]: placeholder
+                            - text: for the empty state and
+                            - code [ref=e853]: renderValue
+                            - text: to customize how selections are displayed.
+                        - paragraph
+                        - generic [ref=e854]:
+                            - code [ref=e856]:
+                                - generic [ref=e857]: <Select
+                                - generic [ref=e858]: multiple
+                                - generic [ref=e859]: placeholder="Select columns..."
+                                - generic [ref=e860]: "value={selectedColumns}"
+                                - generic [ref=e861]: 'renderValue={(columns) => columns.join(", ")}'
+                                - generic [ref=e862]: "onValueChange={setSelectedColumns}"
+                                - generic [ref=e863]: ">"
+                                - generic [ref=e864]: <Select.Option value="name">Name</Select.Option>
+                                - generic [ref=e865]: <Select.Option value="email">Email</Select.Option>
+                                - generic [ref=e866]: </Select>
+                            - button "Copy code to clipboard" [ref=e867] [cursor=pointer]:
+                                - generic [ref=e868]:
+                                    - img [ref=e870]
+                                    - img [ref=e873]
+                        - generic [ref=e875]:
+                            - generic [ref=e878]:
+                                - generic [ref=e880]: Visible Columns
+                                - combobox "Visible Columns" [ref=e881] [cursor=pointer]:
+                                    - generic [ref=e882]: Name, Location, Size
+                                    - img [ref=e884]
+                                - textbox [ref=e886]: '["Name","Location","Size"]'
+                            - generic [ref=e888]:
+                                - code [ref=e890]:
+                                    - generic [ref=e891]: 'import { useState } from "react";'
+                                    - generic [ref=e892]: 'import { Select } from "@cloudflare/kumo";'
+                                    - generic [ref=e893]: /** Multi-select for choosing multiple values. */
+                                    - generic [ref=e894]: "export function SelectMultipleDemo() {"
+                                    - generic [ref=e895]: const [value, setValue] = useState<string[]>(["Name", "Location", "Size"]);
+                                    - generic [ref=e896]: return (
+                                    - generic [ref=e897]: <Select
+                                    - generic [ref=e898]: label="Visible Columns"
+                                    - generic [ref=e899]: className="w-[250px]"
+                                    - generic [ref=e900]: multiple
+                                    - generic [ref=e901]: "renderValue={(value) => {"
+                                    - generic [ref=e902]: "if (value.length > 3) {"
+                                    - generic [ref=e903]: return (
+                                    - generic [ref=e904]: <span className="line-clamp-1">
+                                    - generic [ref=e905]: '{value.slice(0, 2).join(", ") + ` and ${value.length - 2} more`}'
+                                    - generic [ref=e906]: </span>
+                                    - generic [ref=e907]: );
+                                    - generic [ref=e908]: "}"
+                                    - generic [ref=e909]: 'return <span>{value.join(", ")}</span>;'
+                                    - generic [ref=e910]: "}}"
+                                    - generic [ref=e911]: "value={value}"
+                                    - generic [ref=e912]: "onValueChange={(v) => setValue(v as string[])}"
+                                    - generic [ref=e913]: ">"
+                                    - generic [ref=e914]: <Select.Option value="Name">Name</Select.Option>
+                                    - generic [ref=e915]: <Select.Option value="Location">Location</Select.Option>
+                                    - generic [ref=e916]: <Select.Option value="Size">Size</Select.Option>
+                                    - generic [ref=e917]: <Select.Option value="Read">Read</Select.Option>
+                                    - generic [ref=e918]: <Select.Option value="Write">Write</Select.Option>
+                                    - generic [ref=e919]: <Select.Option value="CreatedAt">Created At</Select.Option>
+                                    - generic [ref=e920]: </Select>
+                                    - generic [ref=e921]: );
+                                    - generic [ref=e922]: "}"
+                                - button "Copy code to clipboard" [ref=e923] [cursor=pointer]:
+                                    - generic [ref=e924]:
+                                        - img [ref=e926]
+                                        - img [ref=e929]
+                    - generic [ref=e931]:
+                        - 'heading "Link to section: More Example" [level=3] [ref=e932]':
+                            - 'link "Link to section: More Example" [ref=e933] [cursor=pointer]':
+                                - /url: "#more-example"
+                                - img [ref=e935]
+                                - text: More Example
+                        - generic [ref=e937]:
+                            - generic [ref=e940]:
+                                - generic [ref=e942]: Author
+                                - combobox "Author" [ref=e943] [cursor=pointer]:
+                                    - generic [ref=e944]: Select an author
+                                    - img [ref=e946]
+                                - textbox [ref=e948]
+                                - paragraph [ref=e949]: Select the primary author for this document
+                            - generic [ref=e951]:
+                                - code [ref=e953]:
+                                    - generic [ref=e954]: 'import { useState } from "react";'
+                                    - generic [ref=e955]: 'import { Select, Text } from "@cloudflare/kumo";'
+                                    - generic [ref=e956]: /** Select with complex object values and custom option rendering. */
+                                    - generic [ref=e957]: "export function SelectComplexDemo() {"
+                                    - generic [ref=e958]: const [value, setValue] = useState<(typeof authors)[0] | null>(null);
+                                    - generic [ref=e959]: return (
+                                    - generic [ref=e960]: <Select
+                                    - generic [ref=e961]: label="Author"
+                                    - generic [ref=e962]: description="Select the primary author for this document"
+                                    - generic [ref=e963]: placeholder="Select an author"
+                                    - generic [ref=e964]: className="w-[200px]"
+                                    - generic [ref=e965]: "onValueChange={(v) => setValue(v as (typeof authors)[0] | null)}"
+                                    - generic [ref=e966]: "value={value}"
+                                    - generic [ref=e967]: "isItemEqualToValue={(item, value) => item?.id === value?.id}"
+                                    - generic [ref=e968]: "renderValue={(author) => author.name}"
+                                    - generic [ref=e969]: ">"
+                                    - generic [ref=e970]: "{authors.map((author) => ("
+                                    - generic [ref=e971]: "<Select.Option key={author.id} value={author}>"
+                                    - generic [ref=e972]: <div className="flex w-[300px] items-center justify-between gap-2">
+                                    - generic [ref=e973]: "<Text>{author.name}</Text>"
+                                    - generic [ref=e974]: '<Text variant="secondary">{author.title}</Text>'
+                                    - generic [ref=e975]: </div>
+                                    - generic [ref=e976]: </Select.Option>
+                                    - generic [ref=e977]: "))}"
+                                    - generic [ref=e978]: </Select>
+                                    - generic [ref=e979]: );
+                                    - generic [ref=e980]: "}"
+                                - button "Copy code to clipboard" [ref=e981] [cursor=pointer]:
+                                    - generic [ref=e982]:
+                                        - img [ref=e984]
+                                        - img [ref=e987]
+                    - generic [ref=e989]:
+                        - 'heading "Link to section: Disabled Options" [level=3] [ref=e990]':
+                            - 'link "Link to section: Disabled Options" [ref=e991] [cursor=pointer]':
+                                - /url: "#disabled-options"
+                                - img [ref=e993]
+                                - text: Disabled Options
+                        - paragraph
+                        - paragraph [ref=e995]:
+                            - text: Options can be disabled with the
+                            - code [ref=e996]: disabled
+                            - text: prop. Disabled options are greyed out and cannot be selected.
+                        - paragraph
+                        - generic [ref=e997]:
+                            - generic [ref=e1000]:
+                                - generic [ref=e1002]: Deployment Region
+                                - combobox "Deployment Region" [ref=e1003] [cursor=pointer]:
+                                    - generic [ref=e1004]: Choose a region...
+                                    - img [ref=e1006]
+                                - textbox [ref=e1008]
+                            - generic [ref=e1010]:
+                                - code [ref=e1012]:
+                                    - generic [ref=e1013]: 'import { useState } from "react";'
+                                    - generic [ref=e1014]: 'import { Select } from "@cloudflare/kumo";'
+                                    - generic [ref=e1015]: /** Select with disabled options that cannot be selected. */
+                                    - generic [ref=e1016]: "export function SelectDisabledOptionsDemo() {"
+                                    - generic [ref=e1017]: const [value, setValue] = useState<Region | null>(null);
+                                    - generic [ref=e1018]: return (
+                                    - generic [ref=e1019]: <Select
+                                    - generic [ref=e1020]: label="Deployment Region"
+                                    - generic [ref=e1021]: placeholder="Choose a region..."
+                                    - generic [ref=e1022]: className="w-[250px]"
+                                    - generic [ref=e1023]: "value={value}"
+                                    - generic [ref=e1024]: "onValueChange={(v) => setValue(v as Region | null)}"
+                                    - generic [ref=e1025]: "isItemEqualToValue={(item, val) => item.value === val.value}"
+                                    - generic [ref=e1026]: ">"
+                                    - generic [ref=e1027]: "{regions.map((region) => ("
+                                    - generic [ref=e1028]: <Select.Option
+                                    - generic [ref=e1029]: "key={region.value}"
+                                    - generic [ref=e1030]: "value={region}"
+                                    - generic [ref=e1031]: "disabled={region.disabled}"
+                                    - generic [ref=e1032]: ">"
+                                    - generic [ref=e1033]: "{region.label}"
+                                    - generic [ref=e1034]: </Select.Option>
+                                    - generic [ref=e1035]: "))}"
+                                    - generic [ref=e1036]: </Select>
+                                    - generic [ref=e1037]: );
+                                    - generic [ref=e1038]: "}"
+                                - button "Copy code to clipboard" [ref=e1039] [cursor=pointer]:
+                                    - generic [ref=e1040]:
+                                        - img [ref=e1042]
+                                        - img [ref=e1045]
+                    - generic [ref=e1047]:
+                        - 'heading "Link to section: Disabled Items (via items prop)" [level=3] [ref=e1048]':
+                            - 'link "Link to section: Disabled Items (via items prop)" [ref=e1049] [cursor=pointer]':
+                                - /url: "#disabled-items-via-items-prop"
+                                - img [ref=e1051]
+                                - text: Disabled Items (via items prop)
+                        - paragraph
+                        - paragraph [ref=e1053]:
+                            - text: The
+                            - code [ref=e1054]: items
+                            - text: object-map prop accepts descriptor objects with
+                            - code [ref=e1055]: disabled
+                            - text: alongside plain string values.
+                        - paragraph
+                        - generic [ref=e1056]:
+                            - generic [ref=e1059]:
+                                - generic [ref=e1061]: Plan
+                                - combobox "Plan" [ref=e1062] [cursor=pointer]:
+                                    - generic [ref=e1063]: Free
+                                    - img [ref=e1065]
+                                - textbox [ref=e1067]: free
+                            - generic [ref=e1069]:
+                                - code [ref=e1071]:
+                                    - generic [ref=e1072]: 'import { useState } from "react";'
+                                    - generic [ref=e1073]: 'import { Select } from "@cloudflare/kumo";'
+                                    - generic [ref=e1074]: /** Select using the items prop with disabled descriptors. */
+                                    - generic [ref=e1075]: "export function SelectDisabledItemsDemo() {"
+                                    - generic [ref=e1076]: const [value, setValue] = useState<string | null>("free");
+                                    - generic [ref=e1077]: return (
+                                    - generic [ref=e1078]: <Select
+                                    - generic [ref=e1079]: label="Plan"
+                                    - generic [ref=e1080]: className="w-[200px]"
+                                    - generic [ref=e1081]: "value={value}"
+                                    - generic [ref=e1082]: "onValueChange={(v) => setValue(v as string | null)}"
+                                    - generic [ref=e1083]: "items={{"
+                                    - generic [ref=e1084]: 'free: "Free",'
+                                    - generic [ref=e1085]: 'pro: "Pro",'
+                                    - generic [ref=e1086]: 'business: { label: "Business", disabled: true },'
+                                    - generic [ref=e1087]: 'enterprise: { label: "Enterprise", disabled: true },'
+                                    - generic [ref=e1088]: "}}"
+                                    - generic [ref=e1089]: />
+                                    - generic [ref=e1090]: );
+                                    - generic [ref=e1091]: "}"
+                                - button "Copy code to clipboard" [ref=e1092] [cursor=pointer]:
+                                    - generic [ref=e1093]:
+                                        - img [ref=e1095]
+                                        - img [ref=e1098]
+                    - generic [ref=e1100]:
+                        - 'heading "Link to section: Grouped Options" [level=3] [ref=e1101]':
+                            - 'link "Link to section: Grouped Options" [ref=e1102] [cursor=pointer]':
+                                - /url: "#grouped-options"
+                                - img [ref=e1104]
+                                - text: Grouped Options
+                        - paragraph
+                        - paragraph [ref=e1106]:
+                            - text: Use
+                            - code [ref=e1107]: Select.Group
+                            - text: ","
+                            - code [ref=e1108]: Select.GroupLabel
+                            - text: ", and"
+                            - code [ref=e1109]: Select.Separator
+                            - text: to organize options under labeled headers with visual dividers.
+                        - paragraph
+                        - generic [ref=e1110]:
+                            - generic [ref=e1113]:
+                                - generic [ref=e1115]: Food
+                                - combobox "Food" [ref=e1116] [cursor=pointer]:
+                                    - generic [ref=e1117]: Pick a food...
+                                    - img [ref=e1119]
+                                - textbox [ref=e1121]
+                            - generic [ref=e1123]:
+                                - code [ref=e1125]:
+                                    - generic [ref=e1126]: 'import { useState } from "react";'
+                                    - generic [ref=e1127]: 'import { Select } from "@cloudflare/kumo";'
+                                    - generic [ref=e1128]: /** Select with grouped options organized under labeled headers. */
+                                    - generic [ref=e1129]: "export function SelectGroupedDemo() {"
+                                    - generic [ref=e1130]: const [value, setValue] = useState<Food | null>(null);
+                                    - generic [ref=e1131]: return (
+                                    - generic [ref=e1132]: <Select
+                                    - generic [ref=e1133]: label="Food"
+                                    - generic [ref=e1134]: placeholder="Pick a food..."
+                                    - generic [ref=e1135]: className="w-[220px]"
+                                    - generic [ref=e1136]: "value={value}"
+                                    - generic [ref=e1137]: "onValueChange={(v) => setValue(v as Food | null)}"
+                                    - generic [ref=e1138]: "isItemEqualToValue={(item, val) => item.value === val.value}"
+                                    - generic [ref=e1139]: ">"
+                                    - generic [ref=e1140]: <Select.Group>
+                                    - generic [ref=e1141]: <Select.GroupLabel>Fruits</Select.GroupLabel>
+                                    - generic [ref=e1142]: "{foods.fruits.map((food) => ("
+                                    - generic [ref=e1143]: "<Select.Option key={food.value} value={food}>"
+                                    - generic [ref=e1144]: "{food.label}"
+                                    - generic [ref=e1145]: </Select.Option>
+                                    - generic [ref=e1146]: "))}"
+                                    - generic [ref=e1147]: </Select.Group>
+                                    - generic [ref=e1148]: <Select.Separator />
+                                    - generic [ref=e1149]: <Select.Group>
+                                    - generic [ref=e1150]: <Select.GroupLabel>Vegetables</Select.GroupLabel>
+                                    - generic [ref=e1151]: "{foods.vegetables.map((food) => ("
+                                    - generic [ref=e1152]: "<Select.Option key={food.value} value={food}>"
+                                    - generic [ref=e1153]: "{food.label}"
+                                    - generic [ref=e1154]: </Select.Option>
+                                    - generic [ref=e1155]: "))}"
+                                    - generic [ref=e1156]: </Select.Group>
+                                    - generic [ref=e1157]: </Select>
+                                    - generic [ref=e1158]: );
+                                    - generic [ref=e1159]: "}"
+                                - button "Copy code to clipboard" [ref=e1160] [cursor=pointer]:
+                                    - generic [ref=e1161]:
+                                        - img [ref=e1163]
+                                        - img [ref=e1166]
+                    - generic [ref=e1168]:
+                        - 'heading "Link to section: Groups with Disabled Options" [level=3] [ref=e1169]':
+                            - 'link "Link to section: Groups with Disabled Options" [ref=e1170] [cursor=pointer]':
+                                - /url: "#groups-with-disabled-options"
+                                - img [ref=e1172]
+                                - text: Groups with Disabled Options
+                        - paragraph
+                        - paragraph [ref=e1174]: Combine groups, separators, and disabled options with info tooltips to clearly separate available and unavailable choices.
+                        - paragraph
+                        - generic [ref=e1175]:
+                            - generic [ref=e1178]:
+                                - generic [ref=e1180]: Server Region
+                                - combobox "Server Region" [ref=e1181] [cursor=pointer]:
+                                    - generic [ref=e1182]: Select a region...
+                                    - img [ref=e1184]
+                                - textbox [ref=e1186]
+                            - generic [ref=e1188]:
+                                - code [ref=e1190]:
+                                    - generic [ref=e1191]: 'import { useState } from "react";'
+                                    - generic [ref=e1192]: 'import { Select } from "@cloudflare/kumo";'
+                                    - generic [ref=e1193]: /** Grouped select with disabled options and info tooltips. */
+                                    - generic [ref=e1194]: "export function SelectGroupedWithDisabledDemo() {"
+                                    - generic [ref=e1195]: const [value, setValue] = useState<ServerRegion | null>(null);
+                                    - generic [ref=e1196]: return (
+                                    - generic [ref=e1197]: <Select
+                                    - generic [ref=e1198]: label="Server Region"
+                                    - generic [ref=e1199]: placeholder="Select a region..."
+                                    - generic [ref=e1200]: className="w-[260px]"
+                                    - generic [ref=e1201]: "value={value}"
+                                    - generic [ref=e1202]: "onValueChange={(v) => setValue(v as ServerRegion | null)}"
+                                    - generic [ref=e1203]: "isItemEqualToValue={(item, val) => item.value === val.value}"
+                                    - generic [ref=e1204]: ">"
+                                    - generic [ref=e1205]: <Select.Group>
+                                    - generic [ref=e1206]: <Select.GroupLabel>Available</Select.GroupLabel>
+                                    - generic [ref=e1207]: "{serverRegions.available.map((region) => ("
+                                    - generic [ref=e1208]: "<Select.Option key={region.value} value={region}>"
+                                    - generic [ref=e1209]: "{region.label}"
+                                    - generic [ref=e1210]: </Select.Option>
+                                    - generic [ref=e1211]: "))}"
+                                    - generic [ref=e1212]: </Select.Group>
+                                    - generic [ref=e1213]: <Select.Separator />
+                                    - generic [ref=e1214]: <Select.Group>
+                                    - generic [ref=e1215]: <Select.GroupLabel>Unavailable</Select.GroupLabel>
+                                    - generic [ref=e1216]: "{serverRegions.unavailable.map((region) => ("
+                                    - generic [ref=e1217]: "<Select.Option key={region.value} value={region} disabled>"
+                                    - generic [ref=e1218]: "{region.label}"
+                                    - generic [ref=e1219]: </Select.Option>
+                                    - generic [ref=e1220]: "))}"
+                                    - generic [ref=e1221]: </Select.Group>
+                                    - generic [ref=e1222]: </Select>
+                                    - generic [ref=e1223]: );
+                                    - generic [ref=e1224]: "}"
+                                - button "Copy code to clipboard" [ref=e1225] [cursor=pointer]:
+                                    - generic [ref=e1226]:
+                                        - img [ref=e1228]
+                                        - img [ref=e1231]
+                    - generic [ref=e1233]:
+                        - 'heading "Link to section: Long List (Scrolling Test)" [level=3] [ref=e1234]':
+                            - 'link "Link to section: Long List (Scrolling Test)" [ref=e1235] [cursor=pointer]':
+                                - /url: "#long-list-scrolling-test"
+                                - img [ref=e1237]
+                                - text: Long List (Scrolling Test)
+                        - paragraph
+                        - paragraph [ref=e1239]: A select component with many options to test popup scrolling behavior. The popup should scroll smoothly without bounce/overscroll issues.
+                        - paragraph
+                        - generic [ref=e1240]:
+                            - generic [ref=e1243]:
+                                - generic [ref=e1245]: Long List Select
+                                - combobox "Long List Select" [ref=e1246] [cursor=pointer]:
+                                    - generic [ref=e1247]: Choose an option...
+                                    - img [ref=e1249]
+                                - textbox [ref=e1251]
+                                - paragraph [ref=e1252]: Tests scrolling behavior with many options
+                            - generic [ref=e1254]:
+                                - code [ref=e1256]:
+                                    - generic [ref=e1257]: 'import { useState } from "react";'
+                                    - generic [ref=e1258]: 'import { Select } from "@cloudflare/kumo";'
+                                    - generic [ref=e1259]: /** Select with a long list to test popup scrolling behavior. */
+                                    - generic [ref=e1260]: "export function SelectLongListDemo() {"
+                                    - generic [ref=e1261]: const [value, setValue] = useState<LongListItem | null>(null);
+                                    - generic [ref=e1262]: return (
+                                    - generic [ref=e1263]: <Select
+                                    - generic [ref=e1264]: label="Long List Select"
+                                    - generic [ref=e1265]: description="Tests scrolling behavior with many options"
+                                    - generic [ref=e1266]: placeholder="Choose an option..."
+                                    - generic [ref=e1267]: className="w-[220px]"
+                                    - generic [ref=e1268]: "value={value}"
+                                    - generic [ref=e1269]: "onValueChange={(v) => setValue(v as LongListItem | null)}"
+                                    - generic [ref=e1270]: "isItemEqualToValue={(item, val) => item.value === val.value}"
+                                    - generic [ref=e1271]: ">"
+                                    - generic [ref=e1272]: "{longListItems.map((item) => ("
+                                    - generic [ref=e1273]: "<Select.Option key={item.value} value={item}>"
+                                    - generic [ref=e1274]: "{item.label}"
+                                    - generic [ref=e1275]: </Select.Option>
+                                    - generic [ref=e1276]: "))}"
+                                    - generic [ref=e1277]: </Select>
+                                    - generic [ref=e1278]: );
+                                    - generic [ref=e1279]: "}"
+                                - button "Copy code to clipboard" [ref=e1280] [cursor=pointer]:
+                                    - generic [ref=e1281]:
+                                        - img [ref=e1283]
+                                        - img [ref=e1286]
+                    - generic [ref=e1288]:
+                        - 'heading "Link to section: API Reference" [level=2] [ref=e1289]':
+                            - 'link "Link to section: API Reference" [ref=e1290] [cursor=pointer]':
+                                - /url: "#api-reference"
+                                - img [ref=e1292]
+                                - text: API Reference
+                        - 'heading "Link to section: Select" [level=3] [ref=e1294]':
+                            - 'link "Link to section: Select" [ref=e1295] [cursor=pointer]':
+                                - /url: "#select"
+                                - img [ref=e1297]
+                                - text: Select
+                        - table [ref=e1300]:
+                            - rowgroup [ref=e1301]:
+                                - row "Prop Type Default Description" [ref=e1302]:
+                                    - columnheader "Prop" [ref=e1303]
+                                    - columnheader "Type" [ref=e1304]
+                                    - columnheader "Default" [ref=e1305]
+                                    - columnheader "Description" [ref=e1306]
+                            - rowgroup [ref=e1307]:
+                                - 'row "className string - Additional CSS classes merged via `cn()`." [ref=e1308]':
+                                    - cell "className" [ref=e1309]
+                                    - cell "string" [ref=e1310]:
+                                        - code [ref=e1311]: string
+                                    - cell "-" [ref=e1312]
+                                    - 'cell "Additional CSS classes merged via `cn()`." [ref=e1313]'
+                                - row "size \"xs\" | \"sm\" | \"base\" | \"lg\" \"base\" Size of the select trigger. Matches Input component sizes." [ref=e1314]:
+                                    - cell "size" [ref=e1315]
+                                    - cell "\"xs\" | \"sm\" | \"base\" | \"lg\"" [ref=e1316]:
+                                        - code [ref=e1317]: '"xs" | "sm" | "base" | "lg"'
+                                    - cell "\"base\"" [ref=e1318]:
+                                        - code [ref=e1319]: '"base"'
+                                    - cell "Size of the select trigger. Matches Input component sizes." [ref=e1320]
+                                - 'row "label ReactNode - Label content for the select. When provided, enables the Field wrapper with a visible label above the select. For accessibility without a visible label, use `aria-label` instead." [ref=e1321]':
+                                    - cell "label" [ref=e1322]
+                                    - cell "ReactNode" [ref=e1323]:
+                                        - code [ref=e1324]: ReactNode
+                                    - cell "-" [ref=e1325]
+                                    - 'cell "Label content for the select. When provided, enables the Field wrapper with a visible label above the select. For accessibility without a visible label, use `aria-label` instead." [ref=e1326]'
+                                - row "hideLabel boolean - -" [ref=e1327]:
+                                    - cell "hideLabel" [ref=e1328]
+                                    - cell "boolean" [ref=e1329]:
+                                        - code [ref=e1330]: boolean
+                                    - cell "-" [ref=e1331]
+                                    - cell "-" [ref=e1332]
+                                - row "placeholder string - Placeholder text shown when no value is selected." [ref=e1333]:
+                                    - cell "placeholder" [ref=e1334]
+                                    - cell "string" [ref=e1335]:
+                                        - code [ref=e1336]: string
+                                    - cell "-" [ref=e1337]
+                                    - cell "Placeholder text shown when no value is selected." [ref=e1338]
+                                - 'row "loading boolean - When `true`, shows a skeleton loader in place of the selected value." [ref=e1339]':
+                                    - cell "loading" [ref=e1340]
+                                    - cell "boolean" [ref=e1341]:
+                                        - code [ref=e1342]: boolean
+                                    - cell "-" [ref=e1343]
+                                    - 'cell "When `true`, shows a skeleton loader in place of the selected value." [ref=e1344]'
+                                - row "disabled boolean - Whether the select is disabled." [ref=e1345]:
+                                    - cell "disabled" [ref=e1346]
+                                    - cell "boolean" [ref=e1347]:
+                                        - code [ref=e1348]: boolean
+                                    - cell "-" [ref=e1349]
+                                    - cell "Whether the select is disabled." [ref=e1350]
+                                - 'row "required boolean - Whether the select is required. When `false`, shows \"(optional)\" text." [ref=e1351]':
+                                    - cell "required" [ref=e1352]
+                                    - cell "boolean" [ref=e1353]:
+                                        - code [ref=e1354]: boolean
+                                    - cell "-" [ref=e1355]
+                                    - 'cell "Whether the select is required. When `false`, shows \"(optional)\" text." [ref=e1356]'
+                                - row "labelTooltip ReactNode - Tooltip content displayed next to the label via an info icon." [ref=e1357]:
+                                    - cell "labelTooltip" [ref=e1358]
+                                    - cell "ReactNode" [ref=e1359]:
+                                        - code [ref=e1360]: ReactNode
+                                    - cell "-" [ref=e1361]
+                                    - cell "Tooltip content displayed next to the label via an info icon." [ref=e1362]
+                                - row "value string - Currently selected value (controlled mode)." [ref=e1363]:
+                                    - cell "value" [ref=e1364]
+                                    - cell "string" [ref=e1365]:
+                                        - code [ref=e1366]: string
+                                    - cell "-" [ref=e1367]
+                                    - cell "Currently selected value (controlled mode)." [ref=e1368]
+                                - 'row "children ReactNode - `Select.Option` elements to render in the dropdown." [ref=e1369]':
+                                    - cell "children" [ref=e1370]
+                                    - cell "ReactNode" [ref=e1371]:
+                                        - code [ref=e1372]: ReactNode
+                                    - cell "-" [ref=e1373]
+                                    - 'cell "`Select.Option` elements to render in the dropdown." [ref=e1374]'
+                                - row "description ReactNode - Helper text displayed below the select." [ref=e1375]:
+                                    - cell "description" [ref=e1376]
+                                    - cell "ReactNode" [ref=e1377]:
+                                        - code [ref=e1378]: ReactNode
+                                    - cell "-" [ref=e1379]
+                                    - cell "Helper text displayed below the select." [ref=e1380]
+                                - 'row "error string | object - Error message string or validation error object with `match` key." [ref=e1381]':
+                                    - cell "error" [ref=e1382]
+                                    - cell "string | object" [ref=e1383]:
+                                        - code [ref=e1384]: string | object
+                                    - cell "-" [ref=e1385]
+                                    - 'cell "Error message string or validation error object with `match` key." [ref=e1386]'
+                                - 'row "onValueChange (value: string) => void - Callback when selection changes" [ref=e1387]':
+                                    - cell "onValueChange" [ref=e1388]
+                                    - 'cell "(value: string) => void" [ref=e1389]':
+                                        - code [ref=e1390]: "(value: string) => void"
+                                    - cell "-" [ref=e1391]
+                                    - cell "Callback when selection changes" [ref=e1392]
+                                - row "defaultValue string - Initial value for uncontrolled mode" [ref=e1393]:
+                                    - cell "defaultValue" [ref=e1394]
+                                    - cell "string" [ref=e1395]:
+                                        - code [ref=e1396]: string
+                                    - cell "-" [ref=e1397]
+                                    - cell "Initial value for uncontrolled mode" [ref=e1398]
+                        - 'heading "Link to section: Select.Option" [level=3] [ref=e1399]':
+                            - 'link "Link to section: Select.Option" [ref=e1400] [cursor=pointer]':
+                                - /url: "#selectoption"
+                                - img [ref=e1402]
+                                - text: Select.Option
+                        - generic [ref=e1404]:
+                            - table [ref=e1405]:
+                                - rowgroup [ref=e1406]:
+                                    - row "Prop Type Default" [ref=e1407]:
+                                        - columnheader "Prop" [ref=e1408]
+                                        - columnheader "Type" [ref=e1409]
+                                        - columnheader "Default" [ref=e1410]
+                                - rowgroup
+                            - paragraph [ref=e1411]: No component-specific props. Accepts standard HTML attributes.
+                        - 'heading "Link to section: Select.Group" [level=3] [ref=e1412]':
+                            - 'link "Link to section: Select.Group" [ref=e1413] [cursor=pointer]':
+                                - /url: "#selectgroup"
+                                - img [ref=e1415]
+                                - text: Select.Group
+                        - paragraph
+                        - paragraph [ref=e1417]:
+                            - text: Groups related options together with an accessible
+                            - code [ref=e1418]: role=“group”
+                            - text: . Use with
+                        - code [ref=e1419]:
+                            - paragraph [ref=e1420]: Select.GroupLabel
+                        - paragraph [ref=e1421]: to provide a visible heading.
+                        - paragraph
+                        - 'heading "Link to section: Select.GroupLabel" [level=3] [ref=e1422]':
+                            - 'link "Link to section: Select.GroupLabel" [ref=e1423] [cursor=pointer]':
+                                - /url: "#selectgrouplabel"
+                                - img [ref=e1425]
+                                - text: Select.GroupLabel
+                        - paragraph
+                        - paragraph [ref=e1427]:
+                            - text: A visible heading for a
+                            - code [ref=e1428]: Select.Group
+                            - text: . Automatically associated with its parent group for accessibility.
+                        - paragraph
+                        - 'heading "Link to section: Select.Separator" [level=3] [ref=e1429]':
+                            - 'link "Link to section: Select.Separator" [ref=e1430] [cursor=pointer]':
+                                - /url: "#selectseparator"
+                                - img [ref=e1432]
+                                - text: Select.Separator
+                        - paragraph [ref=e1434]:
+                            - text: A visual divider line between option groups. Renders with
+                            - code [ref=e1435]: role=“separator”
+                            - text: .
+                - complementary [ref=e1436]:
+                    - navigation "Table of contents" [ref=e1439]:
+                        - paragraph [ref=e1440]: On this page
+                        - list [ref=e1441]:
+                            - listitem [ref=e1442]:
+                                - link "Installation" [ref=e1443] [cursor=pointer]:
+                                    - /url: "#installation"
+                                    - generic [ref=e1444]: Installation
+                                - list [ref=e1445]:
+                                    - listitem [ref=e1446]:
+                                        - link "Barrel" [ref=e1447] [cursor=pointer]:
+                                            - /url: "#barrel"
+                                            - generic [ref=e1448]: Barrel
+                                    - listitem [ref=e1449]:
+                                        - link "Granular" [ref=e1450] [cursor=pointer]:
+                                            - /url: "#granular"
+                                            - generic [ref=e1451]: Granular
+                            - listitem [ref=e1452]:
+                                - link "Usage" [ref=e1453] [cursor=pointer]:
+                                    - /url: "#usage"
+                                    - generic [ref=e1454]: Usage
+                            - listitem [ref=e1455]:
+                                - link "Examples" [ref=e1456] [cursor=pointer]:
+                                    - /url: "#examples"
+                                    - generic [ref=e1457]: Examples
+                                - list [ref=e1458]:
+                                    - listitem [ref=e1459]:
+                                        - link "Basic" [ref=e1460] [cursor=pointer]:
+                                            - /url: "#basic"
+                                            - generic [ref=e1461]: Basic
+                                    - listitem [ref=e1462]:
+                                        - link "Sizes" [ref=e1463] [cursor=pointer]:
+                                            - /url: "#sizes"
+                                            - generic [ref=e1464]: Sizes
+                                    - listitem [ref=e1465]:
+                                        - link "Without Visible Label" [ref=e1466] [cursor=pointer]:
+                                            - /url: "#without-visible-label"
+                                            - generic [ref=e1467]: Without Visible Label
+                                    - listitem [ref=e1468]:
+                                        - link "With Description and Error" [ref=e1469] [cursor=pointer]:
+                                            - /url: "#with-description-and-error"
+                                            - generic [ref=e1470]: With Description and Error
+                                    - listitem [ref=e1471]:
+                                        - link "Placeholder" [ref=e1472] [cursor=pointer]:
+                                            - /url: "#placeholder"
+                                            - generic [ref=e1473]: Placeholder
+                                    - listitem [ref=e1474]:
+                                        - link "Label with Tooltip" [ref=e1475] [cursor=pointer]:
+                                            - /url: "#label-with-tooltip"
+                                            - generic [ref=e1476]: Label with Tooltip
+                                    - listitem [ref=e1477]:
+                                        - link "Custom Rendering" [ref=e1478] [cursor=pointer]:
+                                            - /url: "#custom-rendering"
+                                            - generic [ref=e1479]: Custom Rendering
+                                    - listitem [ref=e1480]:
+                                        - link "Loading" [ref=e1481] [cursor=pointer]:
+                                            - /url: "#loading"
+                                            - generic [ref=e1482]: Loading
+                                    - listitem [ref=e1483]:
+                                        - link "Multiple Selection" [ref=e1484] [cursor=pointer]:
+                                            - /url: "#multiple-selection"
+                                            - generic [ref=e1485]: Multiple Selection
+                                    - listitem [ref=e1486]:
+                                        - link "More Example" [ref=e1487] [cursor=pointer]:
+                                            - /url: "#more-example"
+                                            - generic [ref=e1488]: More Example
+                                    - listitem [ref=e1489]:
+                                        - link "Disabled Options" [ref=e1490] [cursor=pointer]:
+                                            - /url: "#disabled-options"
+                                            - generic [ref=e1491]: Disabled Options
+                                    - listitem [ref=e1492]:
+                                        - link "Disabled Items (via items prop)" [ref=e1493] [cursor=pointer]:
+                                            - /url: "#disabled-items-via-items-prop"
+                                            - generic [ref=e1494]: Disabled Items (via items prop)
+                                    - listitem [ref=e1495]:
+                                        - link "Grouped Options" [ref=e1496] [cursor=pointer]:
+                                            - /url: "#grouped-options"
+                                            - generic [ref=e1497]: Grouped Options
+                                    - listitem [ref=e1498]:
+                                        - link "Groups with Disabled Options" [ref=e1499] [cursor=pointer]:
+                                            - /url: "#groups-with-disabled-options"
+                                            - generic [ref=e1500]: Groups with Disabled Options
+                                    - listitem [ref=e1501]:
+                                        - link "Long List (Scrolling Test)" [ref=e1502] [cursor=pointer]:
+                                            - /url: "#long-list-scrolling-test"
+                                            - generic [ref=e1503]: Long List (Scrolling Test)
+                            - listitem [ref=e1504]:
+                                - link "API Reference" [ref=e1505] [cursor=pointer]:
+                                    - /url: "#api-reference"
+                                    - generic [ref=e1506]: API Reference
+                                - list [ref=e1507]:
+                                    - listitem [ref=e1508]:
+                                        - link "Select" [ref=e1509] [cursor=pointer]:
+                                            - /url: "#select"
+                                            - generic [ref=e1510]: Select
+                                    - listitem [ref=e1511]:
+                                        - link "Select.Option" [ref=e1512] [cursor=pointer]:
+                                            - /url: "#selectoption"
+                                            - generic [ref=e1513]: Select.Option
+                                    - listitem [ref=e1514]:
+                                        - link "Select.Group" [ref=e1515] [cursor=pointer]:
+                                            - /url: "#selectgroup"
+                                            - generic [ref=e1516]: Select.Group
+                                    - listitem [ref=e1517]:
+                                        - link "Select.GroupLabel" [ref=e1518] [cursor=pointer]:
+                                            - /url: "#selectgrouplabel"
+                                            - generic [ref=e1519]: Select.GroupLabel
+                                    - listitem [ref=e1520]:
+                                        - link "Select.Separator" [ref=e1521] [cursor=pointer]:
+                                            - /url: "#selectseparator"
+                                            - generic [ref=e1522]: Select.Separator

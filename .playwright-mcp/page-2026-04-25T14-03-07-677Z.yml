@@ -1,0 +1,526 @@
+- generic [ref=e2]:
+    - generic [ref=e3]:
+        - button "Toggle sidebar" [pressed] [ref=e7] [cursor=pointer]:
+            - img [ref=e9]
+        - generic:
+            - heading "Kumo" [level=1]
+        - complementary [ref=e28]:
+            - generic [ref=e30]:
+                - button "Search..." [ref=e31]:
+                    - img [ref=e32]
+                    - generic [ref=e34]: Search...
+                - list [ref=e35]:
+                    - listitem [ref=e36]:
+                        - link "Home" [ref=e37] [cursor=pointer]:
+                            - /url: /
+                    - listitem [ref=e38]:
+                        - link "Installation" [ref=e39] [cursor=pointer]:
+                            - /url: /installation
+                    - listitem [ref=e40]:
+                        - link "Contributing" [ref=e41] [cursor=pointer]:
+                            - /url: /contributing
+                    - listitem [ref=e42]:
+                        - link "Colors" [ref=e43] [cursor=pointer]:
+                            - /url: /colors
+                    - listitem [ref=e44]:
+                        - link "Accessibility" [ref=e45] [cursor=pointer]:
+                            - /url: /accessibility
+                    - listitem [ref=e46]:
+                        - link "Figma Resources" [ref=e47] [cursor=pointer]:
+                            - /url: /figma
+                    - listitem [ref=e48]:
+                        - link "CLI" [ref=e49] [cursor=pointer]:
+                            - /url: /cli
+                    - listitem [ref=e50]:
+                        - link "Registry" [ref=e51] [cursor=pointer]:
+                            - /url: /registry
+                    - listitem [ref=e52]:
+                        - link "Changelog" [ref=e53] [cursor=pointer]:
+                            - /url: /changelog
+                - generic [ref=e55]:
+                    - button "Components" [ref=e56] [cursor=pointer]:
+                        - generic [ref=e57]: Components
+                        - img [ref=e58]
+                    - list [ref=e60]:
+                        - listitem [ref=e61]:
+                            - link "Autocomplete" [ref=e62] [cursor=pointer]:
+                                - /url: /components/autocomplete
+                        - listitem [ref=e63]:
+                            - link "Badge" [ref=e64] [cursor=pointer]:
+                                - /url: /components/badge
+                        - listitem [ref=e65]:
+                            - link "Banner" [ref=e66] [cursor=pointer]:
+                                - /url: /components/banner
+                        - listitem [ref=e67]:
+                            - link "Breadcrumbs" [ref=e68] [cursor=pointer]:
+                                - /url: /components/breadcrumbs
+                        - listitem [ref=e69]:
+                            - link "Button" [ref=e70] [cursor=pointer]:
+                                - /url: /components/button
+                        - listitem [ref=e71]:
+                            - link "Checkbox" [ref=e72] [cursor=pointer]:
+                                - /url: /components/checkbox
+                        - listitem [ref=e73]:
+                            - link "Clipboard Text" [ref=e74] [cursor=pointer]:
+                                - /url: /components/clipboard-text
+                        - listitem [ref=e75]:
+                            - link "Cloudflare Logo" [ref=e76] [cursor=pointer]:
+                                - /url: /components/cloudflare-logo
+                        - listitem [ref=e77]:
+                            - link "CodeHighlighted" [ref=e78] [cursor=pointer]:
+                                - /url: /components/code-highlighted
+                        - listitem [ref=e79]:
+                            - link "Collapsible" [ref=e80] [cursor=pointer]:
+                                - /url: /components/collapsible
+                        - listitem [ref=e81]:
+                            - link "Combobox" [ref=e82] [cursor=pointer]:
+                                - /url: /components/combobox
+                        - listitem [ref=e83]:
+                            - link "Command Palette" [ref=e84] [cursor=pointer]:
+                                - /url: /components/command-palette
+                        - listitem [ref=e85]:
+                            - link "Date Picker" [ref=e86] [cursor=pointer]:
+                                - /url: /components/date-picker
+                        - listitem [ref=e87]:
+                            - link "Dialog" [ref=e88] [cursor=pointer]:
+                                - /url: /components/dialog
+                        - listitem [ref=e89]:
+                            - link "Dropdown" [ref=e90] [cursor=pointer]:
+                                - /url: /components/dropdown
+                        - listitem [ref=e91]:
+                            - link "Empty" [ref=e92] [cursor=pointer]:
+                                - /url: /components/empty
+                        - listitem [ref=e93]:
+                            - link "Flow" [ref=e94] [cursor=pointer]:
+                                - /url: /components/flow
+                        - listitem [ref=e95]:
+                            - link "Grid" [ref=e96] [cursor=pointer]:
+                                - /url: /components/grid
+                        - listitem [ref=e97]:
+                            - link "Input" [ref=e98] [cursor=pointer]:
+                                - /url: /components/input
+                        - listitem [ref=e99]:
+                            - link "InputArea" [ref=e100] [cursor=pointer]:
+                                - /url: /components/input-area
+                        - listitem [ref=e101]:
+                            - link "InputGroup" [ref=e102] [cursor=pointer]:
+                                - /url: /components/input-group
+                        - listitem [ref=e103]:
+                            - link "Label" [ref=e104] [cursor=pointer]:
+                                - /url: /components/label
+                        - listitem [ref=e105]:
+                            - link "Layer Card" [ref=e106] [cursor=pointer]:
+                                - /url: /components/layer-card
+                        - listitem [ref=e107]:
+                            - link "Link" [ref=e108] [cursor=pointer]:
+                                - /url: /components/link
+                        - listitem [ref=e109]:
+                            - link "Loader" [ref=e110] [cursor=pointer]:
+                                - /url: /components/loader
+                        - listitem [ref=e111]:
+                            - link "MenuBar" [ref=e112] [cursor=pointer]:
+                                - /url: /components/menu-bar
+                        - listitem [ref=e113]:
+                            - link "Meter" [ref=e114] [cursor=pointer]:
+                                - /url: /components/meter
+                        - listitem [ref=e115]:
+                            - link "Pagination" [ref=e116] [cursor=pointer]:
+                                - /url: /components/pagination
+                        - listitem [ref=e117]:
+                            - link "Popover" [ref=e118] [cursor=pointer]:
+                                - /url: /components/popover
+                        - listitem [ref=e119]:
+                            - link "Radio" [ref=e120] [cursor=pointer]:
+                                - /url: /components/radio
+                        - listitem [ref=e121]:
+                            - link "Select" [ref=e122] [cursor=pointer]:
+                                - /url: /components/select
+                        - listitem [ref=e123]:
+                            - link "Sensitive Input" [ref=e124] [cursor=pointer]:
+                                - /url: /components/sensitive-input
+                        - listitem [ref=e125]:
+                            - link "Sidebar" [ref=e126] [cursor=pointer]:
+                                - /url: /components/sidebar
+                        - listitem [ref=e127]:
+                            - link "Skeleton Line" [ref=e128] [cursor=pointer]:
+                                - /url: /components/skeleton-line
+                        - listitem [ref=e129]:
+                            - link "Switch" [ref=e130] [cursor=pointer]:
+                                - /url: /components/switch
+                        - listitem [ref=e131]:
+                            - link "Table" [ref=e132] [cursor=pointer]:
+                                - /url: /components/table
+                        - listitem [ref=e133]:
+                            - link "Table of Contents" [ref=e134] [cursor=pointer]:
+                                - /url: /components/table-of-contents
+                        - listitem [ref=e135]:
+                            - link "Tabs" [ref=e136] [cursor=pointer]:
+                                - /url: /components/tabs
+                        - listitem [ref=e137]:
+                            - link "Text" [ref=e138] [cursor=pointer]:
+                                - /url: /components/text
+                        - listitem [ref=e139]:
+                            - link "Toast" [ref=e140] [cursor=pointer]:
+                                - /url: /components/toast
+                        - listitem [ref=e141]:
+                            - link "Tooltip" [ref=e142] [cursor=pointer]:
+                                - /url: /components/tooltip
+                - generic [ref=e143]:
+                    - button "Charts" [ref=e144] [cursor=pointer]:
+                        - generic [ref=e145]: Charts
+                        - img [ref=e146]
+                    - list [ref=e148]:
+                        - listitem [ref=e149]:
+                            - link "Charts" [ref=e150] [cursor=pointer]:
+                                - /url: /charts
+                        - listitem [ref=e151]:
+                            - link "Colors" [ref=e152] [cursor=pointer]:
+                                - /url: /charts/colors
+                        - listitem [ref=e153]:
+                            - link "Timeseries" [ref=e154] [cursor=pointer]:
+                                - /url: /charts/timeseries
+                        - listitem [ref=e155]:
+                            - link "Custom Chart" [ref=e156] [cursor=pointer]:
+                                - /url: /charts/custom
+                - generic [ref=e157]:
+                    - button "Blocks" [ref=e158] [cursor=pointer]:
+                        - generic [ref=e159]: Blocks
+                        - img [ref=e160]
+                    - list [ref=e162]:
+                        - listitem [ref=e163]:
+                            - link "Page Header" [ref=e164] [cursor=pointer]:
+                                - /url: /blocks/page-header
+                        - listitem [ref=e165]:
+                            - link "Resource List" [ref=e166] [cursor=pointer]:
+                                - /url: /blocks/resource-list
+                        - listitem [ref=e167]:
+                            - link "Delete Resource" [ref=e168] [cursor=pointer]:
+                                - /url: /blocks/delete-resource
+    - generic [ref=e170]:
+        - banner [ref=e172]:
+            - generic [ref=e173]:
+                - generic:
+                    - generic: Layer Card
+                    - link "View source on GitHub":
+                        - /url: https://github.com/cloudflare/kumo/blob/main/packages/kumo/src/components/layer-card/layer-card.tsx
+                        - img
+                - link "@cloudflare/kumo" [ref=e174] [cursor=pointer]:
+                    - /url: https://github.com/cloudflare/kumo
+            - button "Toggle theme" [ref=e176] [cursor=pointer]:
+                - img [ref=e177]
+        - generic [ref=e181]:
+            - generic [ref=e182]:
+                - heading "Layer Card" [level=1] [ref=e183]
+                - link "View source on GitHub" [ref=e184] [cursor=pointer]:
+                    - /url: https://github.com/cloudflare/kumo/blob/main/packages/kumo/src/components/layer-card/layer-card.tsx
+                    - img [ref=e185]
+                - generic [ref=e189]:
+                    - button "Copy page" [ref=e190] [cursor=pointer]:
+                        - img [ref=e191]
+                        - generic [ref=e193]: Copy page
+                    - button "Copy page options" [ref=e194] [cursor=pointer]:
+                        - img [ref=e195]
+            - paragraph [ref=e197]: A card component with a layered visual effect, perfect for navigation or feature highlights.
+        - main [ref=e198]:
+            - generic [ref=e201]:
+                - generic [ref=e202]:
+                    - generic [ref=e204]:
+                        - generic [ref=e207]:
+                            - generic [ref=e208]:
+                                - generic [ref=e209]: Next Steps
+                                - button "Go to next steps" [ref=e210] [cursor=pointer]:
+                                    - img [ref=e211]
+                            - generic [ref=e213]: Get started with Kumo
+                        - generic [ref=e215]:
+                            - code [ref=e217]:
+                                - generic [ref=e218]: 'import { LayerCard, Button } from "@cloudflare/kumo";'
+                                - generic [ref=e219]: 'import { ArrowRightIcon } from "@phosphor-icons/react";'
+                                - generic [ref=e220]: "export function LayerCardDemo() {"
+                                - generic [ref=e221]: return (
+                                - generic [ref=e222]: <LayerCard>
+                                - generic [ref=e223]: <LayerCard.Secondary className="flex items-center justify-between">
+                                - generic [ref=e224]: <div>Next Steps</div>
+                                - generic [ref=e225]: <Button
+                                - generic [ref=e226]: variant="ghost"
+                                - generic [ref=e227]: size="sm"
+                                - generic [ref=e228]: shape="square"
+                                - generic [ref=e229]: aria-label="Go to next steps"
+                                - generic [ref=e230]: ">"
+                                - generic [ref=e231]: "<ArrowRightIcon size={16} />"
+                                - generic [ref=e232]: </Button>
+                                - generic [ref=e233]: </LayerCard.Secondary>
+                                - generic [ref=e234]: <LayerCard.Primary>Get started with Kumo</LayerCard.Primary>
+                                - generic [ref=e235]: </LayerCard>
+                                - generic [ref=e236]: );
+                                - generic [ref=e237]: "}"
+                            - button "Copy code to clipboard" [ref=e238] [cursor=pointer]:
+                                - generic [ref=e239]:
+                                    - img [ref=e241]
+                                    - img [ref=e244]
+                    - generic [ref=e246]:
+                        - 'heading "Link to section: Installation" [level=2] [ref=e247]':
+                            - 'link "Link to section: Installation" [ref=e248] [cursor=pointer]':
+                                - /url: "#installation"
+                                - img [ref=e250]
+                                - text: Installation
+                        - 'heading "Link to section: Barrel" [level=3] [ref=e252]':
+                            - 'link "Link to section: Barrel" [ref=e253] [cursor=pointer]':
+                                - /url: "#barrel"
+                                - img [ref=e255]
+                                - text: Barrel
+                        - generic [ref=e257]:
+                            - code [ref=e259]:
+                                - generic [ref=e260]: 'import { LayerCard } from "@cloudflare/kumo";'
+                            - button "Copy code to clipboard" [ref=e261] [cursor=pointer]:
+                                - generic [ref=e262]:
+                                    - img [ref=e264]
+                                    - img [ref=e267]
+                        - 'heading "Link to section: Granular" [level=3] [ref=e269]':
+                            - 'link "Link to section: Granular" [ref=e270] [cursor=pointer]':
+                                - /url: "#granular"
+                                - img [ref=e272]
+                                - text: Granular
+                        - generic [ref=e274]:
+                            - code [ref=e276]:
+                                - generic [ref=e277]: 'import { LayerCard } from "@cloudflare/kumo/components/layer-card";'
+                            - button "Copy code to clipboard" [ref=e278] [cursor=pointer]:
+                                - generic [ref=e279]:
+                                    - img [ref=e281]
+                                    - img [ref=e284]
+                    - generic [ref=e286]:
+                        - 'heading "Link to section: Usage" [level=2] [ref=e287]':
+                            - 'link "Link to section: Usage" [ref=e288] [cursor=pointer]':
+                                - /url: "#usage"
+                                - img [ref=e290]
+                                - text: Usage
+                        - generic [ref=e292]:
+                            - code [ref=e294]:
+                                - generic [ref=e295]: 'import { LayerCard } from "@cloudflare/kumo";'
+                                - generic [ref=e296]: "export default function Example() {"
+                                - generic [ref=e297]: return (
+                                - generic [ref=e298]: <LayerCard className="w-[250px]">
+                                - generic [ref=e299]: <LayerCard.Secondary>Documentation</LayerCard.Secondary>
+                                - generic [ref=e300]: <LayerCard.Primary>Learn how to use Kumo components</LayerCard.Primary>
+                                - generic [ref=e301]: </LayerCard>
+                                - generic [ref=e302]: );
+                                - generic [ref=e303]: "}"
+                            - button "Copy code to clipboard" [ref=e304] [cursor=pointer]:
+                                - generic [ref=e305]:
+                                    - img [ref=e307]
+                                    - img [ref=e310]
+                        - paragraph
+                        - paragraph [ref=e312]:
+                            - code [ref=e313]: LayerCard
+                            - text: also supports a simple surface-style mode for cases where you do not need a secondary header row. In those cases, render content directly inside
+                            - code [ref=e314]: LayerCard
+                            - text: instead of wrapping it in
+                            - code [ref=e315]: LayerCard.Primary
+                            - text: .
+                        - paragraph
+                        - generic [ref=e316]:
+                            - code [ref=e318]:
+                                - generic [ref=e319]: 'import { LayerCard } from "@cloudflare/kumo";'
+                                - generic [ref=e320]: "export default function Example() {"
+                                - generic [ref=e321]: return (
+                                - generic [ref=e322]: <LayerCard className="w-[250px] p-4">
+                                - generic [ref=e323]: Learn how to use Kumo components
+                                - generic [ref=e324]: </LayerCard>
+                                - generic [ref=e325]: );
+                                - generic [ref=e326]: "}"
+                            - button "Copy code to clipboard" [ref=e327] [cursor=pointer]:
+                                - generic [ref=e328]:
+                                    - img [ref=e330]
+                                    - img [ref=e333]
+                    - generic [ref=e335]:
+                        - 'heading "Link to section: Examples" [level=2] [ref=e336]':
+                            - 'link "Link to section: Examples" [ref=e337] [cursor=pointer]':
+                                - /url: "#examples"
+                                - img [ref=e339]
+                                - text: Examples
+                        - 'heading "Link to section: Basic Card" [level=3] [ref=e341]':
+                            - 'link "Link to section: Basic Card" [ref=e342] [cursor=pointer]':
+                                - /url: "#basic-card"
+                                - img [ref=e344]
+                                - text: Basic Card
+                        - generic [ref=e346]:
+                            - generic [ref=e349]:
+                                - generic [ref=e350]: Getting Started
+                                - paragraph [ref=e352]: Quick start guide for new users
+                            - generic [ref=e354]:
+                                - code [ref=e356]:
+                                    - generic [ref=e357]: 'import { LayerCard } from "@cloudflare/kumo";'
+                                    - generic [ref=e358]: "export function LayerCardBasicDemo() {"
+                                    - generic [ref=e359]: return (
+                                    - generic [ref=e360]: <LayerCard className="w-[250px]">
+                                    - generic [ref=e361]: <LayerCard.Secondary>Getting Started</LayerCard.Secondary>
+                                    - generic [ref=e362]: <LayerCard.Primary>
+                                    - generic [ref=e363]: <p className="text-sm text-kumo-subtle">
+                                    - generic [ref=e364]: Quick start guide for new users
+                                    - generic [ref=e365]: </p>
+                                    - generic [ref=e366]: </LayerCard.Primary>
+                                    - generic [ref=e367]: </LayerCard>
+                                    - generic [ref=e368]: );
+                                    - generic [ref=e369]: "}"
+                                - button "Copy code to clipboard" [ref=e370] [cursor=pointer]:
+                                    - generic [ref=e371]:
+                                        - img [ref=e373]
+                                        - img [ref=e376]
+                        - 'heading "Link to section: Surface-style Card" [level=3] [ref=e378]':
+                            - 'link "Link to section: Surface-style Card" [ref=e379] [cursor=pointer]':
+                                - /url: "#surface-style-card"
+                                - img [ref=e381]
+                                - text: Surface-style Card
+                        - paragraph
+                        - paragraph [ref=e383]:
+                            - text: For simple card containers, render content directly inside
+                            - code [ref=e384]: LayerCard
+                            - text: without
+                            - code [ref=e385]: LayerCard.Primary
+                            - text: .
+                        - paragraph
+                        - generic [ref=e386]:
+                            - paragraph [ref=e390]: Quick start guide for new users
+                            - generic [ref=e392]:
+                                - code [ref=e394]:
+                                    - generic [ref=e395]: 'import { LayerCard } from "@cloudflare/kumo";'
+                                    - generic [ref=e396]: "export function LayerCardSurfaceDemo() {"
+                                    - generic [ref=e397]: return (
+                                    - generic [ref=e398]: <LayerCard className="w-[250px] p-4">
+                                    - generic [ref=e399]: <p className="text-sm text-kumo-subtle">Quick start guide for new users</p>
+                                    - generic [ref=e400]: </LayerCard>
+                                    - generic [ref=e401]: );
+                                    - generic [ref=e402]: "}"
+                                - button "Copy code to clipboard" [ref=e403] [cursor=pointer]:
+                                    - generic [ref=e404]:
+                                        - img [ref=e406]
+                                        - img [ref=e409]
+                        - 'heading "Link to section: Multiple Cards" [level=3] [ref=e411]':
+                            - 'link "Link to section: Multiple Cards" [ref=e412] [cursor=pointer]':
+                                - /url: "#multiple-cards"
+                                - img [ref=e414]
+                                - text: Multiple Cards
+                        - generic [ref=e416]:
+                            - generic [ref=e419]:
+                                - generic [ref=e420]:
+                                    - generic [ref=e421]: Components
+                                    - paragraph [ref=e423]: Browse all components
+                                - generic [ref=e424]:
+                                    - generic [ref=e425]: Examples
+                                    - paragraph [ref=e427]: View code examples
+                            - generic [ref=e429]:
+                                - code [ref=e431]:
+                                    - generic [ref=e432]: 'import { LayerCard } from "@cloudflare/kumo";'
+                                    - generic [ref=e433]: "export function LayerCardMultipleDemo() {"
+                                    - generic [ref=e434]: return (
+                                    - generic [ref=e435]: <div className="flex gap-4">
+                                    - generic [ref=e436]: <LayerCard className="w-[200px]">
+                                    - generic [ref=e437]: <LayerCard.Secondary>Components</LayerCard.Secondary>
+                                    - generic [ref=e438]: <LayerCard.Primary>
+                                    - generic [ref=e439]: <p className="text-sm">Browse all components</p>
+                                    - generic [ref=e440]: </LayerCard.Primary>
+                                    - generic [ref=e441]: </LayerCard>
+                                    - generic [ref=e442]: <LayerCard className="w-[200px]">
+                                    - generic [ref=e443]: <LayerCard.Secondary>Examples</LayerCard.Secondary>
+                                    - generic [ref=e444]: <LayerCard.Primary>
+                                    - generic [ref=e445]: <p className="text-sm">View code examples</p>
+                                    - generic [ref=e446]: </LayerCard.Primary>
+                                    - generic [ref=e447]: </LayerCard>
+                                    - generic [ref=e448]: </div>
+                                    - generic [ref=e449]: );
+                                    - generic [ref=e450]: "}"
+                                - button "Copy code to clipboard" [ref=e451] [cursor=pointer]:
+                                    - generic [ref=e452]:
+                                        - img [ref=e454]
+                                        - img [ref=e457]
+                    - generic [ref=e459]:
+                        - 'heading "Link to section: API Reference" [level=2] [ref=e460]':
+                            - 'link "Link to section: API Reference" [ref=e461] [cursor=pointer]':
+                                - /url: "#api-reference"
+                                - img [ref=e463]
+                                - text: API Reference
+                        - table [ref=e466]:
+                            - rowgroup [ref=e467]:
+                                - row "Prop Type Default Description" [ref=e468]:
+                                    - columnheader "Prop" [ref=e469]
+                                    - columnheader "Type" [ref=e470]
+                                    - columnheader "Default" [ref=e471]
+                                    - columnheader "Description" [ref=e472]
+                            - rowgroup [ref=e473]:
+                                - 'row "render ReactNode - Allows you to replace the component''s HTML element with a different tag, or compose it with another component. Accepts a `ReactElement` or a function that returns the element to render." [ref=e474]':
+                                    - cell "render" [ref=e475]
+                                    - cell "ReactNode" [ref=e476]:
+                                        - code [ref=e477]: ReactNode
+                                    - cell "-" [ref=e478]
+                                    - 'cell "Allows you to replace the component''s HTML element with a different tag, or compose it with another component. Accepts a `ReactElement` or a function that returns the element to render." [ref=e479]'
+                                - row "children ReactNode - -" [ref=e480]:
+                                    - cell "children" [ref=e481]
+                                    - cell "ReactNode" [ref=e482]:
+                                        - code [ref=e483]: ReactNode
+                                    - cell "-" [ref=e484]
+                                    - cell "-" [ref=e485]
+                                - row "className string - -" [ref=e486]:
+                                    - cell "className" [ref=e487]
+                                    - cell "string" [ref=e488]:
+                                        - code [ref=e489]: string
+                                    - cell "-" [ref=e490]
+                                    - cell "-" [ref=e491]
+                                - row "id string - -" [ref=e492]:
+                                    - cell "id" [ref=e493]
+                                    - cell "string" [ref=e494]:
+                                        - code [ref=e495]: string
+                                    - cell "-" [ref=e496]
+                                    - cell "-" [ref=e497]
+                                - row "lang string - -" [ref=e498]:
+                                    - cell "lang" [ref=e499]
+                                    - cell "string" [ref=e500]:
+                                        - code [ref=e501]: string
+                                    - cell "-" [ref=e502]
+                                    - cell "-" [ref=e503]
+                                - row "title string - -" [ref=e504]:
+                                    - cell "title" [ref=e505]
+                                    - cell "string" [ref=e506]:
+                                        - code [ref=e507]: string
+                                    - cell "-" [ref=e508]
+                                    - cell "-" [ref=e509]
+                - complementary [ref=e510]:
+                    - navigation "Table of contents" [ref=e513]:
+                        - paragraph [ref=e514]: On this page
+                        - list [ref=e515]:
+                            - listitem [ref=e516]:
+                                - link "Installation" [ref=e517] [cursor=pointer]:
+                                    - /url: "#installation"
+                                    - generic [ref=e518]: Installation
+                                - list [ref=e519]:
+                                    - listitem [ref=e520]:
+                                        - link "Barrel" [ref=e521] [cursor=pointer]:
+                                            - /url: "#barrel"
+                                            - generic [ref=e522]: Barrel
+                                    - listitem [ref=e523]:
+                                        - link "Granular" [ref=e524] [cursor=pointer]:
+                                            - /url: "#granular"
+                                            - generic [ref=e525]: Granular
+                            - listitem [ref=e526]:
+                                - link "Usage" [ref=e527] [cursor=pointer]:
+                                    - /url: "#usage"
+                                    - generic [ref=e528]: Usage
+                            - listitem [ref=e529]:
+                                - link "Examples" [ref=e530] [cursor=pointer]:
+                                    - /url: "#examples"
+                                    - generic [ref=e531]: Examples
+                                - list [ref=e532]:
+                                    - listitem [ref=e533]:
+                                        - link "Basic Card" [ref=e534] [cursor=pointer]:
+                                            - /url: "#basic-card"
+                                            - generic [ref=e535]: Basic Card
+                                    - listitem [ref=e536]:
+                                        - link "Surface-style Card" [ref=e537] [cursor=pointer]:
+                                            - /url: "#surface-style-card"
+                                            - generic [ref=e538]: Surface-style Card
+                                    - listitem [ref=e539]:
+                                        - link "Multiple Cards" [ref=e540] [cursor=pointer]:
+                                            - /url: "#multiple-cards"
+                                            - generic [ref=e541]: Multiple Cards
+                            - listitem [ref=e542]:
+                                - link "API Reference" [ref=e543] [cursor=pointer]:
+                                    - /url: "#api-reference"
+                                    - generic [ref=e544]: API Reference

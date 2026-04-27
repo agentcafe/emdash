@@ -1,0 +1,69 @@
+- generic [active] [ref=e1]:
+    - banner [ref=e2]:
+        - navigation [ref=e3]:
+            - link "My Blog" [ref=e4] [cursor=pointer]:
+                - /url: /
+            - generic [ref=e5]:
+                - searchbox "Search..." [ref=e7]
+                - generic [ref=e8]:
+                    - link "Home" [ref=e9] [cursor=pointer]:
+                        - /url: /
+                    - link "About" [ref=e10] [cursor=pointer]:
+                        - /url: /pages/about
+                    - link "Posts" [ref=e11] [cursor=pointer]:
+                        - /url: /posts
+    - main [ref=e12]:
+        - generic [ref=e13]:
+            - heading "404" [level=1] [ref=e14]
+            - paragraph [ref=e15]: The page you're looking for doesn't exist.
+            - link "Go back home" [ref=e16] [cursor=pointer]:
+                - /url: /
+    - contentinfo [ref=e17]:
+        - generic [ref=e18]:
+            - generic [ref=e19]:
+                - generic [ref=e20]:
+                    - link "My Blog" [ref=e21] [cursor=pointer]:
+                        - /url: /
+                    - paragraph [ref=e22]: Thoughts, stories, and ideas.
+                - generic [ref=e23]:
+                    - heading "Navigate" [level=4] [ref=e24]
+                    - list [ref=e25]:
+                        - listitem [ref=e26]:
+                            - link "Home" [ref=e27] [cursor=pointer]:
+                                - /url: /
+                        - listitem [ref=e28]:
+                            - link "All Posts" [ref=e29] [cursor=pointer]:
+                                - /url: /posts
+                        - listitem [ref=e30]:
+                            - link "About" [ref=e31] [cursor=pointer]:
+                                - /url: /pages/about
+                - generic [ref=e32]:
+                    - heading "Connect" [level=4] [ref=e33]
+                    - list [ref=e34]:
+                        - listitem [ref=e35]:
+                            - link "Home" [ref=e36] [cursor=pointer]:
+                                - /url: /
+                        - listitem [ref=e37]:
+                            - link "About" [ref=e38] [cursor=pointer]:
+                                - /url: /pages/about
+                        - listitem [ref=e39]:
+                            - link "Posts" [ref=e40] [cursor=pointer]:
+                                - /url: /posts
+                        - listitem [ref=e41]:
+                            - link "RSS Feed" [ref=e42] [cursor=pointer]:
+                                - /url: /rss.xml
+                - generic [ref=e45]:
+                    - heading "About" [level=3] [ref=e46]
+                    - paragraph [ref=e48]: A blog about software, design, and the occasional stray thought.
+            - generic [ref=e49]:
+                - paragraph [ref=e50]:
+                    - text: Powered by
+                    - link "EmDash" [ref=e51] [cursor=pointer]:
+                        - /url: https://emdashcms.com
+                - generic [ref=e52]:
+                    - button "Light mode" [ref=e53] [cursor=pointer]:
+                        - img [ref=e54]
+                    - button "Dark mode" [ref=e60] [cursor=pointer]:
+                        - img [ref=e61]
+                    - button "System theme" [ref=e63] [cursor=pointer]:
+                        - img [ref=e64]

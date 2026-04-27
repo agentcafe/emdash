@@ -1,0 +1,724 @@
+- generic [ref=e2]:
+    - generic [ref=e3]:
+        - button "Toggle sidebar" [pressed] [ref=e7] [cursor=pointer]:
+            - img [ref=e9]
+        - generic:
+            - heading "Kumo" [level=1]
+        - complementary [ref=e28]:
+            - generic [ref=e30]:
+                - button "Search..." [ref=e31]:
+                    - img [ref=e32]
+                    - generic [ref=e34]: Search...
+                - list [ref=e35]:
+                    - listitem [ref=e36]:
+                        - link "Home" [ref=e37] [cursor=pointer]:
+                            - /url: /
+                    - listitem [ref=e38]:
+                        - link "Installation" [ref=e39] [cursor=pointer]:
+                            - /url: /installation
+                    - listitem [ref=e40]:
+                        - link "Contributing" [ref=e41] [cursor=pointer]:
+                            - /url: /contributing
+                    - listitem [ref=e42]:
+                        - link "Colors" [ref=e43] [cursor=pointer]:
+                            - /url: /colors
+                    - listitem [ref=e44]:
+                        - link "Accessibility" [ref=e45] [cursor=pointer]:
+                            - /url: /accessibility
+                    - listitem [ref=e46]:
+                        - link "Figma Resources" [ref=e47] [cursor=pointer]:
+                            - /url: /figma
+                    - listitem [ref=e48]:
+                        - link "CLI" [ref=e49] [cursor=pointer]:
+                            - /url: /cli
+                    - listitem [ref=e50]:
+                        - link "Registry" [ref=e51] [cursor=pointer]:
+                            - /url: /registry
+                    - listitem [ref=e52]:
+                        - link "Changelog" [ref=e53] [cursor=pointer]:
+                            - /url: /changelog
+                - generic [ref=e55]:
+                    - button "Components" [ref=e56] [cursor=pointer]:
+                        - generic [ref=e57]: Components
+                        - img [ref=e58]
+                    - list [ref=e60]:
+                        - listitem [ref=e61]:
+                            - link "Autocomplete" [ref=e62] [cursor=pointer]:
+                                - /url: /components/autocomplete
+                        - listitem [ref=e63]:
+                            - link "Badge" [ref=e64] [cursor=pointer]:
+                                - /url: /components/badge
+                        - listitem [ref=e65]:
+                            - link "Banner" [ref=e66] [cursor=pointer]:
+                                - /url: /components/banner
+                        - listitem [ref=e67]:
+                            - link "Breadcrumbs" [ref=e68] [cursor=pointer]:
+                                - /url: /components/breadcrumbs
+                        - listitem [ref=e69]:
+                            - link "Button" [ref=e70] [cursor=pointer]:
+                                - /url: /components/button
+                        - listitem [ref=e71]:
+                            - link "Checkbox" [ref=e72] [cursor=pointer]:
+                                - /url: /components/checkbox
+                        - listitem [ref=e73]:
+                            - link "Clipboard Text" [ref=e74] [cursor=pointer]:
+                                - /url: /components/clipboard-text
+                        - listitem [ref=e75]:
+                            - link "Cloudflare Logo" [ref=e76] [cursor=pointer]:
+                                - /url: /components/cloudflare-logo
+                        - listitem [ref=e77]:
+                            - link "CodeHighlighted" [ref=e78] [cursor=pointer]:
+                                - /url: /components/code-highlighted
+                        - listitem [ref=e79]:
+                            - link "Collapsible" [ref=e80] [cursor=pointer]:
+                                - /url: /components/collapsible
+                        - listitem [ref=e81]:
+                            - link "Combobox" [ref=e82] [cursor=pointer]:
+                                - /url: /components/combobox
+                        - listitem [ref=e83]:
+                            - link "Command Palette" [ref=e84] [cursor=pointer]:
+                                - /url: /components/command-palette
+                        - listitem [ref=e85]:
+                            - link "Date Picker" [ref=e86] [cursor=pointer]:
+                                - /url: /components/date-picker
+                        - listitem [ref=e87]:
+                            - link "Dialog" [ref=e88] [cursor=pointer]:
+                                - /url: /components/dialog
+                        - listitem [ref=e89]:
+                            - link "Dropdown" [ref=e90] [cursor=pointer]:
+                                - /url: /components/dropdown
+                        - listitem [ref=e91]:
+                            - link "Empty" [ref=e92] [cursor=pointer]:
+                                - /url: /components/empty
+                        - listitem [ref=e93]:
+                            - link "Flow" [ref=e94] [cursor=pointer]:
+                                - /url: /components/flow
+                        - listitem [ref=e95]:
+                            - link "Grid" [ref=e96] [cursor=pointer]:
+                                - /url: /components/grid
+                        - listitem [ref=e97]:
+                            - link "Input" [ref=e98] [cursor=pointer]:
+                                - /url: /components/input
+                        - listitem [ref=e99]:
+                            - link "InputArea" [ref=e100] [cursor=pointer]:
+                                - /url: /components/input-area
+                        - listitem [ref=e101]:
+                            - link "InputGroup" [ref=e102] [cursor=pointer]:
+                                - /url: /components/input-group
+                        - listitem [ref=e103]:
+                            - link "Label" [ref=e104] [cursor=pointer]:
+                                - /url: /components/label
+                        - listitem [ref=e105]:
+                            - link "Layer Card" [ref=e106] [cursor=pointer]:
+                                - /url: /components/layer-card
+                        - listitem [ref=e107]:
+                            - link "Link" [ref=e108] [cursor=pointer]:
+                                - /url: /components/link
+                        - listitem [ref=e109]:
+                            - link "Loader" [ref=e110] [cursor=pointer]:
+                                - /url: /components/loader
+                        - listitem [ref=e111]:
+                            - link "MenuBar" [ref=e112] [cursor=pointer]:
+                                - /url: /components/menu-bar
+                        - listitem [ref=e113]:
+                            - link "Meter" [ref=e114] [cursor=pointer]:
+                                - /url: /components/meter
+                        - listitem [ref=e115]:
+                            - link "Pagination" [ref=e116] [cursor=pointer]:
+                                - /url: /components/pagination
+                        - listitem [ref=e117]:
+                            - link "Popover" [ref=e118] [cursor=pointer]:
+                                - /url: /components/popover
+                        - listitem [ref=e119]:
+                            - link "Radio" [ref=e120] [cursor=pointer]:
+                                - /url: /components/radio
+                        - listitem [ref=e121]:
+                            - link "Select" [ref=e122] [cursor=pointer]:
+                                - /url: /components/select
+                        - listitem [ref=e123]:
+                            - link "Sensitive Input" [ref=e124] [cursor=pointer]:
+                                - /url: /components/sensitive-input
+                        - listitem [ref=e125]:
+                            - link "Sidebar" [ref=e126] [cursor=pointer]:
+                                - /url: /components/sidebar
+                        - listitem [ref=e127]:
+                            - link "Skeleton Line" [ref=e128] [cursor=pointer]:
+                                - /url: /components/skeleton-line
+                        - listitem [ref=e129]:
+                            - link "Switch" [ref=e130] [cursor=pointer]:
+                                - /url: /components/switch
+                        - listitem [ref=e131]:
+                            - link "Table" [ref=e132] [cursor=pointer]:
+                                - /url: /components/table
+                        - listitem [ref=e133]:
+                            - link "Table of Contents" [ref=e134] [cursor=pointer]:
+                                - /url: /components/table-of-contents
+                        - listitem [ref=e135]:
+                            - link "Tabs" [ref=e136] [cursor=pointer]:
+                                - /url: /components/tabs
+                        - listitem [ref=e137]:
+                            - link "Text" [ref=e138] [cursor=pointer]:
+                                - /url: /components/text
+                        - listitem [ref=e139]:
+                            - link "Toast" [ref=e140] [cursor=pointer]:
+                                - /url: /components/toast
+                        - listitem [ref=e141]:
+                            - link "Tooltip" [ref=e142] [cursor=pointer]:
+                                - /url: /components/tooltip
+                - generic [ref=e143]:
+                    - button "Charts" [ref=e144] [cursor=pointer]:
+                        - generic [ref=e145]: Charts
+                        - img [ref=e146]
+                    - list [ref=e148]:
+                        - listitem [ref=e149]:
+                            - link "Charts" [ref=e150] [cursor=pointer]:
+                                - /url: /charts
+                        - listitem [ref=e151]:
+                            - link "Colors" [ref=e152] [cursor=pointer]:
+                                - /url: /charts/colors
+                        - listitem [ref=e153]:
+                            - link "Timeseries" [ref=e154] [cursor=pointer]:
+                                - /url: /charts/timeseries
+                        - listitem [ref=e155]:
+                            - link "Custom Chart" [ref=e156] [cursor=pointer]:
+                                - /url: /charts/custom
+                - generic [ref=e157]:
+                    - button "Blocks" [ref=e158] [cursor=pointer]:
+                        - generic [ref=e159]: Blocks
+                        - img [ref=e160]
+                    - list [ref=e162]:
+                        - listitem [ref=e163]:
+                            - link "Page Header" [ref=e164] [cursor=pointer]:
+                                - /url: /blocks/page-header
+                        - listitem [ref=e165]:
+                            - link "Resource List" [ref=e166] [cursor=pointer]:
+                                - /url: /blocks/resource-list
+                        - listitem [ref=e167]:
+                            - link "Delete Resource" [ref=e168] [cursor=pointer]:
+                                - /url: /blocks/delete-resource
+    - generic [ref=e170]:
+        - banner [ref=e172]:
+            - generic [ref=e173]:
+                - generic:
+                    - generic: Button
+                    - link "View source on GitHub":
+                        - /url: https://github.com/cloudflare/kumo/blob/main/packages/kumo/src/components/button/button.tsx
+                        - img
+                - link "@cloudflare/kumo" [ref=e174] [cursor=pointer]:
+                    - /url: https://github.com/cloudflare/kumo
+            - button "Toggle theme" [ref=e176] [cursor=pointer]:
+                - img [ref=e177]
+        - generic [ref=e181]:
+            - generic [ref=e182]:
+                - heading "Button" [level=1] [ref=e183]
+                - link "View source on GitHub" [ref=e184] [cursor=pointer]:
+                    - /url: https://github.com/cloudflare/kumo/blob/main/packages/kumo/src/components/button/button.tsx
+                    - img [ref=e185]
+                - generic [ref=e189]:
+                    - button "Copy page" [ref=e190] [cursor=pointer]:
+                        - img [ref=e191]
+                        - generic [ref=e193]: Copy page
+                    - button "Copy page options" [ref=e194] [cursor=pointer]:
+                        - img [ref=e195]
+            - paragraph [ref=e197]: Displays a button or a component that looks like a button.
+        - main [ref=e198]:
+            - generic [ref=e199]:
+                - navigation "Table of contents" [ref=e203]:
+                    - combobox "Jump to section" [ref=e204]:
+                        - option "Installation" [selected]
+                        - option "Barrel"
+                        - option "Granular"
+                        - option "Usage"
+                        - option "Examples"
+                        - option "Variants"
+                        - option "Sizes"
+                        - option "With Icon"
+                        - option "Icon Only"
+                        - option "Loading State"
+                        - option "Disabled State"
+                        - option "Title"
+                        - option "API Reference"
+                    - img
+                - generic [ref=e207]:
+                    - generic [ref=e209]:
+                        - generic [ref=e212]:
+                            - button "Button" [ref=e213] [cursor=pointer]
+                            - button "Add" [ref=e214] [cursor=pointer]:
+                                - img [ref=e215]
+                        - generic [ref=e218]:
+                            - code [ref=e220]:
+                                - generic [ref=e221]: 'import { Button } from "@cloudflare/kumo";'
+                                - generic [ref=e222]: 'import { PlusIcon } from "@phosphor-icons/react";'
+                                - generic [ref=e223]: "export function ButtonBasicDemo() {"
+                                - generic [ref=e224]: return (
+                                - generic [ref=e225]: <div className="flex flex-wrap items-center gap-2">
+                                - generic [ref=e226]: <Button variant="secondary">Button</Button>
+                                - generic [ref=e227]: <Button
+                                - generic [ref=e228]: variant="secondary"
+                                - generic [ref=e229]: shape="square"
+                                - generic [ref=e230]: "icon={PlusIcon}"
+                                - generic [ref=e231]: aria-label="Add"
+                                - generic [ref=e232]: />
+                                - generic [ref=e233]: </div>
+                                - generic [ref=e234]: );
+                                - generic [ref=e235]: "}"
+                            - button "Copy code to clipboard" [ref=e236] [cursor=pointer]:
+                                - generic [ref=e237]:
+                                    - img [ref=e239]
+                                    - img [ref=e242]
+                    - generic [ref=e244]:
+                        - 'heading "Link to section: Installation" [level=2] [ref=e245]':
+                            - 'link "Link to section: Installation" [ref=e246] [cursor=pointer]':
+                                - /url: "#installation"
+                                - img [ref=e248]
+                                - text: Installation
+                        - 'heading "Link to section: Barrel" [level=3] [ref=e250]':
+                            - 'link "Link to section: Barrel" [ref=e251] [cursor=pointer]':
+                                - /url: "#barrel"
+                                - img [ref=e253]
+                                - text: Barrel
+                        - generic [ref=e255]:
+                            - code [ref=e257]:
+                                - generic [ref=e258]: 'import { Button } from "@cloudflare/kumo";'
+                            - button "Copy code to clipboard" [ref=e259] [cursor=pointer]:
+                                - generic [ref=e260]:
+                                    - img [ref=e262]
+                                    - img [ref=e265]
+                        - 'heading "Link to section: Granular" [level=3] [ref=e267]':
+                            - 'link "Link to section: Granular" [ref=e268] [cursor=pointer]':
+                                - /url: "#granular"
+                                - img [ref=e270]
+                                - text: Granular
+                        - generic [ref=e272]:
+                            - code [ref=e274]:
+                                - generic [ref=e275]: 'import { Button } from "@cloudflare/kumo/components/button";'
+                            - button "Copy code to clipboard" [ref=e276] [cursor=pointer]:
+                                - generic [ref=e277]:
+                                    - img [ref=e279]
+                                    - img [ref=e282]
+                    - generic [ref=e284]:
+                        - 'heading "Link to section: Usage" [level=2] [ref=e285]':
+                            - 'link "Link to section: Usage" [ref=e286] [cursor=pointer]':
+                                - /url: "#usage"
+                                - img [ref=e288]
+                                - text: Usage
+                        - generic [ref=e290]:
+                            - code [ref=e292]:
+                                - generic [ref=e293]: 'import { Button } from "@cloudflare/kumo";'
+                                - generic [ref=e294]: "export default function Example() {"
+                                - generic [ref=e295]: return <Button variant="secondary">Click me</Button>;
+                                - generic [ref=e296]: "}"
+                            - button "Copy code to clipboard" [ref=e297] [cursor=pointer]:
+                                - generic [ref=e298]:
+                                    - img [ref=e300]
+                                    - img [ref=e303]
+                    - generic [ref=e305]:
+                        - 'heading "Link to section: Examples" [level=2] [ref=e306]':
+                            - 'link "Link to section: Examples" [ref=e307] [cursor=pointer]':
+                                - /url: "#examples"
+                                - img [ref=e309]
+                                - text: Examples
+                        - 'heading "Link to section: Variants" [level=3] [ref=e311]':
+                            - 'link "Link to section: Variants" [ref=e312] [cursor=pointer]':
+                                - /url: "#variants"
+                                - img [ref=e314]
+                                - text: Variants
+                        - 'heading "Link to section: Primary" [level=4] [ref=e316]':
+                            - 'link "Link to section: Primary" [ref=e317] [cursor=pointer]':
+                                - /url: "#primary"
+                                - img [ref=e319]
+                                - text: Primary
+                        - generic [ref=e321]:
+                            - button "Primary" [ref=e324] [cursor=pointer]
+                            - generic [ref=e326]:
+                                - code [ref=e328]:
+                                    - generic [ref=e329]: 'import { Button } from "@cloudflare/kumo";'
+                                    - generic [ref=e330]: "export function ButtonPrimaryDemo() {"
+                                    - generic [ref=e331]: return <Button variant="primary">Primary</Button>;
+                                    - generic [ref=e332]: "}"
+                                - button "Copy code to clipboard" [ref=e333] [cursor=pointer]:
+                                    - generic [ref=e334]:
+                                        - img [ref=e336]
+                                        - img [ref=e339]
+                        - 'heading "Link to section: Secondary" [level=4] [ref=e341]':
+                            - 'link "Link to section: Secondary" [ref=e342] [cursor=pointer]':
+                                - /url: "#secondary"
+                                - img [ref=e344]
+                                - text: Secondary
+                        - generic [ref=e346]:
+                            - button "Secondary" [ref=e349] [cursor=pointer]
+                            - generic [ref=e351]:
+                                - code [ref=e353]:
+                                    - generic [ref=e354]: 'import { Button } from "@cloudflare/kumo";'
+                                    - generic [ref=e355]: "export function ButtonSecondaryDemo() {"
+                                    - generic [ref=e356]: return <Button variant="secondary">Secondary</Button>;
+                                    - generic [ref=e357]: "}"
+                                - button "Copy code to clipboard" [ref=e358] [cursor=pointer]:
+                                    - generic [ref=e359]:
+                                        - img [ref=e361]
+                                        - img [ref=e364]
+                        - 'heading "Link to section: Ghost" [level=4] [ref=e366]':
+                            - 'link "Link to section: Ghost" [ref=e367] [cursor=pointer]':
+                                - /url: "#ghost"
+                                - img [ref=e369]
+                                - text: Ghost
+                        - generic [ref=e371]:
+                            - button "Ghost" [ref=e374] [cursor=pointer]
+                            - generic [ref=e376]:
+                                - code [ref=e378]:
+                                    - generic [ref=e379]: 'import { Button } from "@cloudflare/kumo";'
+                                    - generic [ref=e380]: "export function ButtonGhostDemo() {"
+                                    - generic [ref=e381]: return <Button variant="ghost">Ghost</Button>;
+                                    - generic [ref=e382]: "}"
+                                - button "Copy code to clipboard" [ref=e383] [cursor=pointer]:
+                                    - generic [ref=e384]:
+                                        - img [ref=e386]
+                                        - img [ref=e389]
+                        - 'heading "Link to section: Destructive" [level=4] [ref=e391]':
+                            - 'link "Link to section: Destructive" [ref=e392] [cursor=pointer]':
+                                - /url: "#destructive"
+                                - img [ref=e394]
+                                - text: Destructive
+                        - generic [ref=e396]:
+                            - button "Destructive" [ref=e399] [cursor=pointer]
+                            - generic [ref=e401]:
+                                - code [ref=e403]:
+                                    - generic [ref=e404]: 'import { Button } from "@cloudflare/kumo";'
+                                    - generic [ref=e405]: "export function ButtonDestructiveDemo() {"
+                                    - generic [ref=e406]: return <Button variant="destructive">Destructive</Button>;
+                                    - generic [ref=e407]: "}"
+                                - button "Copy code to clipboard" [ref=e408] [cursor=pointer]:
+                                    - generic [ref=e409]:
+                                        - img [ref=e411]
+                                        - img [ref=e414]
+                        - 'heading "Link to section: Outline" [level=4] [ref=e416]':
+                            - 'link "Link to section: Outline" [ref=e417] [cursor=pointer]':
+                                - /url: "#outline"
+                                - img [ref=e419]
+                                - text: Outline
+                        - generic [ref=e421]:
+                            - button "Outline" [ref=e424] [cursor=pointer]
+                            - generic [ref=e426]:
+                                - code [ref=e428]:
+                                    - generic [ref=e429]: 'import { Button } from "@cloudflare/kumo";'
+                                    - generic [ref=e430]: "export function ButtonOutlineDemo() {"
+                                    - generic [ref=e431]: return <Button variant="outline">Outline</Button>;
+                                    - generic [ref=e432]: "}"
+                                - button "Copy code to clipboard" [ref=e433] [cursor=pointer]:
+                                    - generic [ref=e434]:
+                                        - img [ref=e436]
+                                        - img [ref=e439]
+                        - 'heading "Link to section: Secondary Destructive" [level=4] [ref=e441]':
+                            - 'link "Link to section: Secondary Destructive" [ref=e442] [cursor=pointer]':
+                                - /url: "#secondary-destructive"
+                                - img [ref=e444]
+                                - text: Secondary Destructive
+                        - generic [ref=e446]:
+                            - button "Secondary Destructive" [ref=e449] [cursor=pointer]
+                            - generic [ref=e451]:
+                                - code [ref=e453]:
+                                    - generic [ref=e454]: 'import { Button } from "@cloudflare/kumo";'
+                                    - generic [ref=e455]: "export function ButtonSecondaryDestructiveDemo() {"
+                                    - generic [ref=e456]: return <Button variant="secondary-destructive">Secondary Destructive</Button>;
+                                    - generic [ref=e457]: "}"
+                                - button "Copy code to clipboard" [ref=e458] [cursor=pointer]:
+                                    - generic [ref=e459]:
+                                        - img [ref=e461]
+                                        - img [ref=e464]
+                        - 'heading "Link to section: Sizes" [level=3] [ref=e466]':
+                            - 'link "Link to section: Sizes" [ref=e467] [cursor=pointer]':
+                                - /url: "#sizes"
+                                - img [ref=e469]
+                                - text: Sizes
+                        - generic [ref=e471]:
+                            - generic [ref=e474]:
+                                - button "Extra Small" [ref=e475] [cursor=pointer]
+                                - button "Small" [ref=e476] [cursor=pointer]
+                                - button "Base" [ref=e477] [cursor=pointer]
+                                - button "Large" [ref=e478] [cursor=pointer]
+                            - generic [ref=e480]:
+                                - code [ref=e482]:
+                                    - generic [ref=e483]: 'import { Button } from "@cloudflare/kumo";'
+                                    - generic [ref=e484]: "export function ButtonSizesDemo() {"
+                                    - generic [ref=e485]: return (
+                                    - generic [ref=e486]: <div className="flex flex-wrap items-center gap-3">
+                                    - generic [ref=e487]: <Button size="xs" variant="secondary">
+                                    - generic [ref=e488]: Extra Small
+                                    - generic [ref=e489]: </Button>
+                                    - generic [ref=e490]: <Button size="sm" variant="secondary">
+                                    - generic [ref=e491]: Small
+                                    - generic [ref=e492]: </Button>
+                                    - generic [ref=e493]: <Button size="base" variant="secondary">
+                                    - generic [ref=e494]: Base
+                                    - generic [ref=e495]: </Button>
+                                    - generic [ref=e496]: <Button size="lg" variant="secondary">
+                                    - generic [ref=e497]: Large
+                                    - generic [ref=e498]: </Button>
+                                    - generic [ref=e499]: </div>
+                                    - generic [ref=e500]: );
+                                    - generic [ref=e501]: "}"
+                                - button "Copy code to clipboard" [ref=e502] [cursor=pointer]:
+                                    - generic [ref=e503]:
+                                        - img [ref=e505]
+                                        - img [ref=e508]
+                        - 'heading "Link to section: With Icon" [level=3] [ref=e510]':
+                            - 'link "Link to section: With Icon" [ref=e511] [cursor=pointer]':
+                                - /url: "#with-icon"
+                                - img [ref=e513]
+                                - text: With Icon
+                        - generic [ref=e515]:
+                            - button "Create Worker" [ref=e518] [cursor=pointer]:
+                                - img [ref=e519]
+                                - text: Create Worker
+                            - generic [ref=e522]:
+                                - code [ref=e524]:
+                                    - generic [ref=e525]: 'import { Button } from "@cloudflare/kumo";'
+                                    - generic [ref=e526]: 'import { PlusIcon } from "@phosphor-icons/react";'
+                                    - generic [ref=e527]: "export function ButtonWithIconDemo() {"
+                                    - generic [ref=e528]: return (
+                                    - generic [ref=e529]: '<Button variant="secondary" icon={PlusIcon}>'
+                                    - generic [ref=e530]: Create Worker
+                                    - generic [ref=e531]: </Button>
+                                    - generic [ref=e532]: );
+                                    - generic [ref=e533]: "}"
+                                - button "Copy code to clipboard" [ref=e534] [cursor=pointer]:
+                                    - generic [ref=e535]:
+                                        - img [ref=e537]
+                                        - img [ref=e540]
+                        - 'heading "Link to section: Icon Only" [level=3] [ref=e542]':
+                            - 'link "Link to section: Icon Only" [ref=e543] [cursor=pointer]':
+                                - /url: "#icon-only"
+                                - img [ref=e545]
+                                - text: Icon Only
+                        - paragraph
+                        - paragraph [ref=e547]:
+                            - text: For icon-only buttons, use
+                            - code [ref=e548]: shape="square"
+                            - text: or
+                            - code [ref=e549]: shape="circle"
+                            - text: with the
+                            - code [ref=e550]: icon
+                            - text: prop.
+                            - strong [ref=e551]:
+                                - text: Always include
+                                - code [ref=e552]: aria-label
+                            - text: for accessibility — without visible text, screen readers need the label to convey the button’s purpose.
+                        - paragraph
+                        - generic [ref=e553]:
+                            - generic [ref=e556]:
+                                - button "Add item" [ref=e557] [cursor=pointer]:
+                                    - img [ref=e558]
+                                - button "Add item" [ref=e560] [cursor=pointer]:
+                                    - img [ref=e561]
+                            - generic [ref=e564]:
+                                - code [ref=e566]:
+                                    - generic [ref=e567]: 'import { Button } from "@cloudflare/kumo";'
+                                    - generic [ref=e568]: 'import { PlusIcon } from "@phosphor-icons/react";'
+                                    - generic [ref=e569]: "export function ButtonIconOnlyDemo() {"
+                                    - generic [ref=e570]: return (
+                                    - generic [ref=e571]: <div className="flex flex-wrap items-center gap-3">
+                                    - generic [ref=e572]: <Button
+                                    - generic [ref=e573]: variant="secondary"
+                                    - generic [ref=e574]: shape="square"
+                                    - generic [ref=e575]: "icon={PlusIcon}"
+                                    - generic [ref=e576]: aria-label="Add item"
+                                    - generic [ref=e577]: />
+                                    - generic [ref=e578]: <Button
+                                    - generic [ref=e579]: variant="secondary"
+                                    - generic [ref=e580]: shape="circle"
+                                    - generic [ref=e581]: "icon={PlusIcon}"
+                                    - generic [ref=e582]: aria-label="Add item"
+                                    - generic [ref=e583]: />
+                                    - generic [ref=e584]: </div>
+                                    - generic [ref=e585]: );
+                                    - generic [ref=e586]: "}"
+                                - button "Copy code to clipboard" [ref=e587] [cursor=pointer]:
+                                    - generic [ref=e588]:
+                                        - img [ref=e590]
+                                        - img [ref=e593]
+                        - 'heading "Link to section: Loading State" [level=3] [ref=e595]':
+                            - 'link "Link to section: Loading State" [ref=e596] [cursor=pointer]':
+                                - /url: "#loading-state"
+                                - img [ref=e598]
+                                - text: Loading State
+                        - generic [ref=e600]:
+                            - button "Loading Loading..." [disabled] [ref=e603]:
+                                - status "Loading" [ref=e604]
+                                - text: Loading...
+                            - generic [ref=e608]:
+                                - code [ref=e610]:
+                                    - generic [ref=e611]: 'import { Button } from "@cloudflare/kumo";'
+                                    - generic [ref=e612]: "export function ButtonLoadingDemo() {"
+                                    - generic [ref=e613]: return (
+                                    - generic [ref=e614]: <Button variant="primary" loading>
+                                    - generic [ref=e615]: Loading...
+                                    - generic [ref=e616]: </Button>
+                                    - generic [ref=e617]: );
+                                    - generic [ref=e618]: "}"
+                                - button "Copy code to clipboard" [ref=e619] [cursor=pointer]:
+                                    - generic [ref=e620]:
+                                        - img [ref=e622]
+                                        - img [ref=e625]
+                        - 'heading "Link to section: Disabled State" [level=3] [ref=e627]':
+                            - 'link "Link to section: Disabled State" [ref=e628] [cursor=pointer]':
+                                - /url: "#disabled-state"
+                                - img [ref=e630]
+                                - text: Disabled State
+                        - generic [ref=e632]:
+                            - button "Disabled" [disabled] [ref=e635]
+                            - generic [ref=e637]:
+                                - code [ref=e639]:
+                                    - generic [ref=e640]: 'import { Button } from "@cloudflare/kumo";'
+                                    - generic [ref=e641]: "export function ButtonDisabledDemo() {"
+                                    - generic [ref=e642]: return (
+                                    - generic [ref=e643]: <Button variant="secondary" disabled>
+                                    - generic [ref=e644]: Disabled
+                                    - generic [ref=e645]: </Button>
+                                    - generic [ref=e646]: );
+                                    - generic [ref=e647]: "}"
+                                - button "Copy code to clipboard" [ref=e648] [cursor=pointer]:
+                                    - generic [ref=e649]:
+                                        - img [ref=e651]
+                                        - img [ref=e654]
+                        - 'heading "Link to section: Title" [level=3] [ref=e656]':
+                            - 'link "Link to section: Title" [ref=e657] [cursor=pointer]':
+                                - /url: "#title"
+                                - img [ref=e659]
+                                - text: Title
+                        - paragraph
+                        - paragraph [ref=e661]:
+                            - text: Use the
+                            - code [ref=e662]: title
+                            - text: prop to wrap the button in a tooltip. This is useful for icon-only buttons or whenever additional context helps the user understand the action.
+                        - paragraph
+                        - generic [ref=e663]:
+                            - generic [ref=e666]:
+                                - button "Create Worker" [ref=e667] [cursor=pointer]
+                                - button "Add item" [ref=e668] [cursor=pointer]:
+                                    - img [ref=e669]
+                            - generic [ref=e672]:
+                                - code [ref=e674]:
+                                    - generic [ref=e675]: 'import { Button } from "@cloudflare/kumo";'
+                                    - generic [ref=e676]: 'import { PlusIcon } from "@phosphor-icons/react";'
+                                    - generic [ref=e677]: /** Demonstrates the title prop which wraps the button in a Tooltip. */
+                                    - generic [ref=e678]: "export function ButtonTitleDemo() {"
+                                    - generic [ref=e679]: return (
+                                    - generic [ref=e680]: <div className="flex flex-wrap items-center gap-3">
+                                    - generic [ref=e681]: <Button variant="secondary" title="Create a new Worker">
+                                    - generic [ref=e682]: Create Worker
+                                    - generic [ref=e683]: </Button>
+                                    - generic [ref=e684]: <Button
+                                    - generic [ref=e685]: variant="secondary"
+                                    - generic [ref=e686]: shape="square"
+                                    - generic [ref=e687]: "icon={PlusIcon}"
+                                    - generic [ref=e688]: aria-label="Add item"
+                                    - generic [ref=e689]: title="Add item"
+                                    - generic [ref=e690]: />
+                                    - generic [ref=e691]: </div>
+                                    - generic [ref=e692]: );
+                                    - generic [ref=e693]: "}"
+                                - button "Copy code to clipboard" [ref=e694] [cursor=pointer]:
+                                    - generic [ref=e695]:
+                                        - img [ref=e697]
+                                        - img [ref=e700]
+                    - generic [ref=e702]:
+                        - 'heading "Link to section: API Reference" [level=2] [ref=e703]':
+                            - 'link "Link to section: API Reference" [ref=e704] [cursor=pointer]':
+                                - /url: "#api-reference"
+                                - img [ref=e706]
+                                - text: API Reference
+                        - table [ref=e709]:
+                            - rowgroup [ref=e710]:
+                                - row "Prop Type Default Description" [ref=e711]:
+                                    - columnheader "Prop" [ref=e712]
+                                    - columnheader "Type" [ref=e713]
+                                    - columnheader "Default" [ref=e714]
+                                    - columnheader "Description" [ref=e715]
+                            - rowgroup [ref=e716]:
+                                - row "shape \"base\" | \"square\" | \"circle\" \"base\" -" [ref=e717]:
+                                    - cell "shape" [ref=e718]
+                                    - cell "\"base\" | \"square\" | \"circle\"" [ref=e719]:
+                                        - code [ref=e720]: '"base" | "square" | "circle"'
+                                    - cell "\"base\"" [ref=e721]:
+                                        - code [ref=e722]: '"base"'
+                                    - cell "-" [ref=e723]
+                                - row "size \"xs\" | \"sm\" | \"base\" | \"lg\" \"base\" -" [ref=e724]:
+                                    - cell "size" [ref=e725]
+                                    - cell "\"xs\" | \"sm\" | \"base\" | \"lg\"" [ref=e726]:
+                                        - code [ref=e727]: '"xs" | "sm" | "base" | "lg"'
+                                    - cell "\"base\"" [ref=e728]:
+                                        - code [ref=e729]: '"base"'
+                                    - cell "-" [ref=e730]
+                                - row "variant \"primary\" | \"secondary\" | \"ghost\" | \"destructive\" | \"secondary-destructive\" | \"outline\" \"secondary\" -" [ref=e731]:
+                                    - cell "variant" [ref=e732]
+                                    - cell "\"primary\" | \"secondary\" | \"ghost\" | \"destructive\" | \"secondary-destructive\" | \"outline\"" [ref=e733]:
+                                        - code [ref=e734]: '"primary" | "secondary" | "ghost" | "destructive" | "secondary-destructive" | "outline"'
+                                    - cell "\"secondary\"" [ref=e735]:
+                                        - code [ref=e736]: '"secondary"'
+                                    - cell "-" [ref=e737]
+                                - row "children ReactNode - -" [ref=e738]:
+                                    - cell "children" [ref=e739]
+                                    - cell "ReactNode" [ref=e740]:
+                                        - code [ref=e741]: ReactNode
+                                    - cell "-" [ref=e742]
+                                    - cell "-" [ref=e743]
+                                - row "className string - -" [ref=e744]:
+                                    - cell "className" [ref=e745]
+                                    - cell "string" [ref=e746]:
+                                        - code [ref=e747]: string
+                                    - cell "-" [ref=e748]
+                                    - cell "-" [ref=e749]
+                                - 'row "icon ReactNode - Icon from `@phosphor-icons/react` or a React element. Rendered before children." [ref=e750]':
+                                    - cell "icon" [ref=e751]
+                                    - cell "ReactNode" [ref=e752]:
+                                        - code [ref=e753]: ReactNode
+                                    - cell "-" [ref=e754]
+                                    - 'cell "Icon from `@phosphor-icons/react` or a React element. Rendered before children." [ref=e755]'
+                                - row "loading boolean - Shows a loading spinner and disables interaction." [ref=e756]:
+                                    - cell "loading" [ref=e757]
+                                    - cell "boolean" [ref=e758]:
+                                        - code [ref=e759]: boolean
+                                    - cell "-" [ref=e760]
+                                    - cell "Shows a loading spinner and disables interaction." [ref=e761]
+                                - row "title string - -" [ref=e762]:
+                                    - cell "title" [ref=e763]
+                                    - cell "string" [ref=e764]:
+                                        - code [ref=e765]: string
+                                    - cell "-" [ref=e766]
+                                    - cell "-" [ref=e767]
+                                - row "id string - -" [ref=e768]:
+                                    - cell "id" [ref=e769]
+                                    - cell "string" [ref=e770]:
+                                        - code [ref=e771]: string
+                                    - cell "-" [ref=e772]
+                                    - cell "-" [ref=e773]
+                                - row "lang string - -" [ref=e774]:
+                                    - cell "lang" [ref=e775]
+                                    - cell "string" [ref=e776]:
+                                        - code [ref=e777]: string
+                                    - cell "-" [ref=e778]
+                                    - cell "-" [ref=e779]
+                                - row "disabled boolean - -" [ref=e780]:
+                                    - cell "disabled" [ref=e781]
+                                    - cell "boolean" [ref=e782]:
+                                        - code [ref=e783]: boolean
+                                    - cell "-" [ref=e784]
+                                    - cell "-" [ref=e785]
+                                - row "name string - -" [ref=e786]:
+                                    - cell "name" [ref=e787]
+                                    - cell "string" [ref=e788]:
+                                        - code [ref=e789]: string
+                                    - cell "-" [ref=e790]
+                                    - cell "-" [ref=e791]
+                                - row "type \"submit\" | \"reset\" | \"button\" - -" [ref=e792]:
+                                    - cell "type" [ref=e793]
+                                    - cell "\"submit\" | \"reset\" | \"button\"" [ref=e794]:
+                                        - code [ref=e795]: '"submit" | "reset" | "button"'
+                                    - cell "-" [ref=e796]
+                                    - cell "-" [ref=e797]
+                                - row "value string | string[] | number - -" [ref=e798]:
+                                    - cell "value" [ref=e799]
+                                    - cell "string | string[] | number" [ref=e800]:
+                                        - code [ref=e801]: string | string[] | number
+                                    - cell "-" [ref=e802]
+                                    - cell "-" [ref=e803]

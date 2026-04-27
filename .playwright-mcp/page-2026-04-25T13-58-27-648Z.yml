@@ -1,0 +1,1088 @@
+- generic [ref=e2]:
+    - generic [ref=e3]:
+        - button "Toggle sidebar" [pressed] [ref=e7] [cursor=pointer]:
+            - img [ref=e9]
+        - generic:
+            - heading "Kumo" [level=1]
+        - complementary [ref=e28]:
+            - generic [ref=e30]:
+                - button "Search..." [ref=e31]:
+                    - img [ref=e32]
+                    - generic [ref=e34]: Search...
+                - list [ref=e35]:
+                    - listitem [ref=e36]:
+                        - link "Home" [ref=e37] [cursor=pointer]:
+                            - /url: /
+                    - listitem [ref=e38]:
+                        - link "Installation" [ref=e39] [cursor=pointer]:
+                            - /url: /installation
+                    - listitem [ref=e40]:
+                        - link "Contributing" [ref=e41] [cursor=pointer]:
+                            - /url: /contributing
+                    - listitem [ref=e42]:
+                        - link "Colors" [ref=e43] [cursor=pointer]:
+                            - /url: /colors
+                    - listitem [ref=e44]:
+                        - link "Accessibility" [ref=e45] [cursor=pointer]:
+                            - /url: /accessibility
+                    - listitem [ref=e46]:
+                        - link "Figma Resources" [ref=e47] [cursor=pointer]:
+                            - /url: /figma
+                    - listitem [ref=e48]:
+                        - link "CLI" [ref=e49] [cursor=pointer]:
+                            - /url: /cli
+                    - listitem [ref=e50]:
+                        - link "Registry" [ref=e51] [cursor=pointer]:
+                            - /url: /registry
+                    - listitem [ref=e52]:
+                        - link "Changelog" [ref=e53] [cursor=pointer]:
+                            - /url: /changelog
+                - generic [ref=e55]:
+                    - button "Components" [ref=e56] [cursor=pointer]:
+                        - generic [ref=e57]: Components
+                        - img [ref=e58]
+                    - list [ref=e60]:
+                        - listitem [ref=e61]:
+                            - link "Autocomplete" [ref=e62] [cursor=pointer]:
+                                - /url: /components/autocomplete
+                        - listitem [ref=e63]:
+                            - link "Badge" [ref=e64] [cursor=pointer]:
+                                - /url: /components/badge
+                        - listitem [ref=e65]:
+                            - link "Banner" [ref=e66] [cursor=pointer]:
+                                - /url: /components/banner
+                        - listitem [ref=e67]:
+                            - link "Breadcrumbs" [ref=e68] [cursor=pointer]:
+                                - /url: /components/breadcrumbs
+                        - listitem [ref=e69]:
+                            - link "Button" [ref=e70] [cursor=pointer]:
+                                - /url: /components/button
+                        - listitem [ref=e71]:
+                            - link "Checkbox" [ref=e72] [cursor=pointer]:
+                                - /url: /components/checkbox
+                        - listitem [ref=e73]:
+                            - link "Clipboard Text" [ref=e74] [cursor=pointer]:
+                                - /url: /components/clipboard-text
+                        - listitem [ref=e75]:
+                            - link "Cloudflare Logo" [ref=e76] [cursor=pointer]:
+                                - /url: /components/cloudflare-logo
+                        - listitem [ref=e77]:
+                            - link "CodeHighlighted" [ref=e78] [cursor=pointer]:
+                                - /url: /components/code-highlighted
+                        - listitem [ref=e79]:
+                            - link "Collapsible" [ref=e80] [cursor=pointer]:
+                                - /url: /components/collapsible
+                        - listitem [ref=e81]:
+                            - link "Combobox" [ref=e82] [cursor=pointer]:
+                                - /url: /components/combobox
+                        - listitem [ref=e83]:
+                            - link "Command Palette" [ref=e84] [cursor=pointer]:
+                                - /url: /components/command-palette
+                        - listitem [ref=e85]:
+                            - link "Date Picker" [ref=e86] [cursor=pointer]:
+                                - /url: /components/date-picker
+                        - listitem [ref=e87]:
+                            - link "Dialog" [ref=e88] [cursor=pointer]:
+                                - /url: /components/dialog
+                        - listitem [ref=e89]:
+                            - link "Dropdown" [ref=e90] [cursor=pointer]:
+                                - /url: /components/dropdown
+                        - listitem [ref=e91]:
+                            - link "Empty" [ref=e92] [cursor=pointer]:
+                                - /url: /components/empty
+                        - listitem [ref=e93]:
+                            - link "Flow" [ref=e94] [cursor=pointer]:
+                                - /url: /components/flow
+                        - listitem [ref=e95]:
+                            - link "Grid" [ref=e96] [cursor=pointer]:
+                                - /url: /components/grid
+                        - listitem [ref=e97]:
+                            - link "Input" [ref=e98] [cursor=pointer]:
+                                - /url: /components/input
+                        - listitem [ref=e99]:
+                            - link "InputArea" [ref=e100] [cursor=pointer]:
+                                - /url: /components/input-area
+                        - listitem [ref=e101]:
+                            - link "InputGroup" [ref=e102] [cursor=pointer]:
+                                - /url: /components/input-group
+                        - listitem [ref=e103]:
+                            - link "Label" [ref=e104] [cursor=pointer]:
+                                - /url: /components/label
+                        - listitem [ref=e105]:
+                            - link "Layer Card" [ref=e106] [cursor=pointer]:
+                                - /url: /components/layer-card
+                        - listitem [ref=e107]:
+                            - link "Link" [ref=e108] [cursor=pointer]:
+                                - /url: /components/link
+                        - listitem [ref=e109]:
+                            - link "Loader" [ref=e110] [cursor=pointer]:
+                                - /url: /components/loader
+                        - listitem [ref=e111]:
+                            - link "MenuBar" [ref=e112] [cursor=pointer]:
+                                - /url: /components/menu-bar
+                        - listitem [ref=e113]:
+                            - link "Meter" [ref=e114] [cursor=pointer]:
+                                - /url: /components/meter
+                        - listitem [ref=e115]:
+                            - link "Pagination" [ref=e116] [cursor=pointer]:
+                                - /url: /components/pagination
+                        - listitem [ref=e117]:
+                            - link "Popover" [ref=e118] [cursor=pointer]:
+                                - /url: /components/popover
+                        - listitem [ref=e119]:
+                            - link "Radio" [ref=e120] [cursor=pointer]:
+                                - /url: /components/radio
+                        - listitem [ref=e121]:
+                            - link "Select" [ref=e122] [cursor=pointer]:
+                                - /url: /components/select
+                        - listitem [ref=e123]:
+                            - link "Sensitive Input" [ref=e124] [cursor=pointer]:
+                                - /url: /components/sensitive-input
+                        - listitem [ref=e125]:
+                            - link "Sidebar" [ref=e126] [cursor=pointer]:
+                                - /url: /components/sidebar
+                        - listitem [ref=e127]:
+                            - link "Skeleton Line" [ref=e128] [cursor=pointer]:
+                                - /url: /components/skeleton-line
+                        - listitem [ref=e129]:
+                            - link "Switch" [ref=e130] [cursor=pointer]:
+                                - /url: /components/switch
+                        - listitem [ref=e131]:
+                            - link "Table" [ref=e132] [cursor=pointer]:
+                                - /url: /components/table
+                        - listitem [ref=e133]:
+                            - link "Table of Contents" [ref=e134] [cursor=pointer]:
+                                - /url: /components/table-of-contents
+                        - listitem [ref=e135]:
+                            - link "Tabs" [ref=e136] [cursor=pointer]:
+                                - /url: /components/tabs
+                        - listitem [ref=e137]:
+                            - link "Text" [ref=e138] [cursor=pointer]:
+                                - /url: /components/text
+                        - listitem [ref=e139]:
+                            - link "Toast" [ref=e140] [cursor=pointer]:
+                                - /url: /components/toast
+                        - listitem [ref=e141]:
+                            - link "Tooltip" [ref=e142] [cursor=pointer]:
+                                - /url: /components/tooltip
+                - generic [ref=e143]:
+                    - button "Charts" [ref=e144] [cursor=pointer]:
+                        - generic [ref=e145]: Charts
+                        - img [ref=e146]
+                    - list [ref=e148]:
+                        - listitem [ref=e149]:
+                            - link "Charts" [ref=e150] [cursor=pointer]:
+                                - /url: /charts
+                        - listitem [ref=e151]:
+                            - link "Colors" [ref=e152] [cursor=pointer]:
+                                - /url: /charts/colors
+                        - listitem [ref=e153]:
+                            - link "Timeseries" [ref=e154] [cursor=pointer]:
+                                - /url: /charts/timeseries
+                        - listitem [ref=e155]:
+                            - link "Custom Chart" [ref=e156] [cursor=pointer]:
+                                - /url: /charts/custom
+                - generic [ref=e157]:
+                    - button "Blocks" [ref=e158] [cursor=pointer]:
+                        - generic [ref=e159]: Blocks
+                        - img [ref=e160]
+                    - list [ref=e162]:
+                        - listitem [ref=e163]:
+                            - link "Page Header" [ref=e164] [cursor=pointer]:
+                                - /url: /blocks/page-header
+                        - listitem [ref=e165]:
+                            - link "Resource List" [ref=e166] [cursor=pointer]:
+                                - /url: /blocks/resource-list
+                        - listitem [ref=e167]:
+                            - link "Delete Resource" [ref=e168] [cursor=pointer]:
+                                - /url: /blocks/delete-resource
+    - generic [ref=e170]:
+        - banner [ref=e172]:
+            - generic [ref=e173]:
+                - generic:
+                    - generic: Dialog
+                    - link "View source on GitHub":
+                        - /url: https://github.com/cloudflare/kumo/blob/main/packages/kumo/src/components/dialog/dialog.tsx
+                        - img
+                    - link "View Base UI documentation":
+                        - /url: https://base-ui.com/react/components/dialog
+                        - img "Base UI"
+                - link "@cloudflare/kumo" [ref=e174] [cursor=pointer]:
+                    - /url: https://github.com/cloudflare/kumo
+            - button "Toggle theme" [ref=e176] [cursor=pointer]:
+                - img [ref=e177]
+        - generic [ref=e181]:
+            - generic [ref=e182]:
+                - heading "Dialog" [level=1] [ref=e183]
+                - link "View source on GitHub" [ref=e184] [cursor=pointer]:
+                    - /url: https://github.com/cloudflare/kumo/blob/main/packages/kumo/src/components/dialog/dialog.tsx
+                    - img [ref=e185]
+                - link "View Base UI documentation" [ref=e187] [cursor=pointer]:
+                    - /url: https://base-ui.com/react/components/dialog
+                    - img "Base UI" [ref=e188]
+                - generic [ref=e193]:
+                    - button "Copy page" [ref=e194] [cursor=pointer]:
+                        - img [ref=e195]
+                        - generic [ref=e197]: Copy page
+                    - button "Copy page options" [ref=e198] [cursor=pointer]:
+                        - img [ref=e199]
+            - paragraph [ref=e201]: A window overlaid on either the primary window or another dialog window, rendering the content underneath inert.
+        - main [ref=e202]:
+            - generic [ref=e205]:
+                - generic [ref=e206]:
+                    - generic [ref=e208]:
+                        - button "Delete" [ref=e211] [cursor=pointer]
+                        - generic [ref=e213]:
+                            - code [ref=e215]:
+                                - generic [ref=e216]: 'import { Dialog, Button } from "@cloudflare/kumo";'
+                                - generic [ref=e217]: 'import { X } from "@phosphor-icons/react";'
+                                - generic [ref=e218]: "export function DialogWithActionsDemo() {"
+                                - generic [ref=e219]: return (
+                                - generic [ref=e220]: <Dialog.Root>
+                                - generic [ref=e221]: "<Dialog.Trigger render={(p) => <Button {...p}>Delete</Button>} />"
+                                - generic [ref=e222]: <Dialog className="p-8">
+                                - generic [ref=e223]: <div className="mb-4 flex items-start justify-between gap-4">
+                                - generic [ref=e224]: <Dialog.Title className="text-2xl font-semibold">
+                                - generic [ref=e225]: Modal Title
+                                - generic [ref=e226]: </Dialog.Title>
+                                - generic [ref=e227]: <Dialog.Close
+                                - generic [ref=e228]: aria-label="Close"
+                                - generic [ref=e229]: "render={(props) => ("
+                                - generic [ref=e230]: <Button
+                                - generic [ref=e231]: "{...props}"
+                                - generic [ref=e232]: variant="secondary"
+                                - generic [ref=e233]: shape="square"
+                                - generic [ref=e234]: "icon={<X />}"
+                                - generic [ref=e235]: aria-label="Close"
+                                - generic [ref=e236]: />
+                                - generic [ref=e237]: ")}"
+                                - generic [ref=e238]: />
+                                - generic [ref=e239]: </div>
+                                - generic [ref=e240]: <Dialog.Description className="text-kumo-subtle">
+                                - generic [ref=e241]: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                - generic [ref=e242]: eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                - generic [ref=e243]: </Dialog.Description>
+                                - generic [ref=e244]: <div className="mt-8 flex justify-end gap-2">
+                                - generic [ref=e245]: <Dialog.Close
+                                - generic [ref=e246]: "render={(props) => ("
+                                - generic [ref=e247]: '<Button variant="secondary" {...props}>'
+                                - generic [ref=e248]: Cancel
+                                - generic [ref=e249]: </Button>
+                                - generic [ref=e250]: ")}"
+                                - generic [ref=e251]: />
+                                - generic [ref=e252]: <Dialog.Close
+                                - generic [ref=e253]: "render={(props) => ("
+                                - generic [ref=e254]: '<Button variant="destructive" {...props}>'
+                                - generic [ref=e255]: Delete
+                                - generic [ref=e256]: </Button>
+                                - generic [ref=e257]: ")}"
+                                - generic [ref=e258]: />
+                                - generic [ref=e259]: </div>
+                                - generic [ref=e260]: </Dialog>
+                                - generic [ref=e261]: </Dialog.Root>
+                                - generic [ref=e262]: );
+                                - generic [ref=e263]: "}"
+                            - button "Copy code to clipboard" [ref=e264] [cursor=pointer]:
+                                - generic [ref=e265]:
+                                    - img [ref=e267]
+                                    - img [ref=e270]
+                    - generic [ref=e272]:
+                        - 'heading "Link to section: Installation" [level=2] [ref=e273]':
+                            - 'link "Link to section: Installation" [ref=e274] [cursor=pointer]':
+                                - /url: "#installation"
+                                - img [ref=e276]
+                                - text: Installation
+                        - 'heading "Link to section: Barrel" [level=3] [ref=e278]':
+                            - 'link "Link to section: Barrel" [ref=e279] [cursor=pointer]':
+                                - /url: "#barrel"
+                                - img [ref=e281]
+                                - text: Barrel
+                        - generic [ref=e283]:
+                            - code [ref=e285]:
+                                - generic [ref=e286]: 'import { Dialog } from "@cloudflare/kumo";'
+                            - button "Copy code to clipboard" [ref=e287] [cursor=pointer]:
+                                - generic [ref=e288]:
+                                    - img [ref=e290]
+                                    - img [ref=e293]
+                        - 'heading "Link to section: Granular" [level=3] [ref=e295]':
+                            - 'link "Link to section: Granular" [ref=e296] [cursor=pointer]':
+                                - /url: "#granular"
+                                - img [ref=e298]
+                                - text: Granular
+                        - generic [ref=e300]:
+                            - code [ref=e302]:
+                                - generic [ref=e303]: 'import { Dialog } from "@cloudflare/kumo/components/dialog";'
+                            - button "Copy code to clipboard" [ref=e304] [cursor=pointer]:
+                                - generic [ref=e305]:
+                                    - img [ref=e307]
+                                    - img [ref=e310]
+                    - generic [ref=e312]:
+                        - 'heading "Link to section: Usage" [level=2] [ref=e313]':
+                            - 'link "Link to section: Usage" [ref=e314] [cursor=pointer]':
+                                - /url: "#usage"
+                                - img [ref=e316]
+                                - text: Usage
+                        - generic [ref=e318]:
+                            - code [ref=e320]:
+                                - generic [ref=e321]: 'import { Dialog, Button } from "@cloudflare/kumo";'
+                                - generic [ref=e322]: "export default function Example() {"
+                                - generic [ref=e323]: return (
+                                - generic [ref=e324]: <Dialog.Root>
+                                - generic [ref=e325]: "<Dialog.Trigger render={(p) => <Button {...p}>Open</Button>} />"
+                                - generic [ref=e326]: <Dialog>
+                                - generic [ref=e327]: <Dialog.Title>Dialog Title</Dialog.Title>
+                                - generic [ref=e328]: <Dialog.Description>Dialog content goes here.</Dialog.Description>
+                                - generic [ref=e329]: <div className="flex justify-end gap-2 mt-4">
+                                - generic [ref=e330]: <Dialog.Close
+                                - generic [ref=e331]: "render={(p) => ("
+                                - generic [ref=e332]: '<Button variant="secondary" {...p}>'
+                                - generic [ref=e333]: Cancel
+                                - generic [ref=e334]: </Button>
+                                - generic [ref=e335]: ")}"
+                                - generic [ref=e336]: />
+                                - generic [ref=e337]: </div>
+                                - generic [ref=e338]: </Dialog>
+                                - generic [ref=e339]: </Dialog.Root>
+                                - generic [ref=e340]: );
+                                - generic [ref=e341]: "}"
+                            - button "Copy code to clipboard" [ref=e342] [cursor=pointer]:
+                                - generic [ref=e343]:
+                                    - img [ref=e345]
+                                    - img [ref=e348]
+                    - generic [ref=e350]:
+                        - 'heading "Link to section: Dialog vs Alert Dialog" [level=2] [ref=e351]':
+                            - 'link "Link to section: Dialog vs Alert Dialog" [ref=e352] [cursor=pointer]':
+                                - /url: "#dialog-vs-alert-dialog"
+                                - img [ref=e354]
+                                - text: Dialog vs Alert Dialog
+                        - paragraph
+                        - paragraph [ref=e356]: "The Dialog component supports two ARIA roles to properly convey semantic meaning to assistive technologies:"
+                        - paragraph
+                        - table [ref=e358]:
+                            - rowgroup [ref=e359]:
+                                - row "Role Use Case Behavior" [ref=e360]:
+                                    - columnheader "Role" [ref=e361]
+                                    - columnheader "Use Case" [ref=e362]
+                                    - columnheader "Behavior" [ref=e363]
+                            - rowgroup [ref=e364]:
+                                - row "role=\"dialog\" (default) General-purpose modals, forms, content display Dismissible by default" [ref=e365]:
+                                    - cell "role=\"dialog\" (default)" [ref=e366]:
+                                        - paragraph [ref=e367]:
+                                            - code [ref=e368]: role="dialog"
+                                            - text: (default)
+                                    - cell "General-purpose modals, forms, content display" [ref=e369]:
+                                        - paragraph [ref=e370]: General-purpose modals, forms, content display
+                                    - cell "Dismissible by default" [ref=e371]
+                                - row "role=\"alertdialog\" Destructive actions, confirmations, critical warnings Requires explicit user acknowledgment" [ref=e372]:
+                                    - cell "role=\"alertdialog\"" [ref=e373]:
+                                        - code [ref=e374]: role="alertdialog"
+                                    - cell "Destructive actions, confirmations, critical warnings" [ref=e375]:
+                                        - paragraph [ref=e376]: Destructive actions, confirmations, critical warnings
+                                    - cell "Requires explicit user acknowledgment" [ref=e377]
+                    - generic [ref=e378]:
+                        - 'heading "Link to section: Examples" [level=2] [ref=e379]':
+                            - 'link "Link to section: Examples" [ref=e380] [cursor=pointer]':
+                                - /url: "#examples"
+                                - img [ref=e382]
+                                - text: Examples
+                        - 'heading "Link to section: Basic Dialog" [level=3] [ref=e384]':
+                            - 'link "Link to section: Basic Dialog" [ref=e385] [cursor=pointer]':
+                                - /url: "#basic-dialog"
+                                - img [ref=e387]
+                                - text: Basic Dialog
+                        - generic [ref=e389]:
+                            - button "Click me" [ref=e392] [cursor=pointer]
+                            - generic [ref=e394]:
+                                - code [ref=e396]:
+                                    - generic [ref=e397]: 'import { Dialog, Button } from "@cloudflare/kumo";'
+                                    - generic [ref=e398]: 'import { X } from "@phosphor-icons/react";'
+                                    - generic [ref=e399]: "export function DialogBasicDemo() {"
+                                    - generic [ref=e400]: return (
+                                    - generic [ref=e401]: <Dialog.Root>
+                                    - generic [ref=e402]: "<Dialog.Trigger render={(p) => <Button {...p}>Click me</Button>} />"
+                                    - generic [ref=e403]: <Dialog className="p-8">
+                                    - generic [ref=e404]: <div className="mb-4 flex items-start justify-between gap-4">
+                                    - generic [ref=e405]: <Dialog.Title className="text-2xl font-semibold">
+                                    - generic [ref=e406]: Modal Title
+                                    - generic [ref=e407]: </Dialog.Title>
+                                    - generic [ref=e408]: <Dialog.Close
+                                    - generic [ref=e409]: aria-label="Close"
+                                    - generic [ref=e410]: "render={(props) => ("
+                                    - generic [ref=e411]: <Button
+                                    - generic [ref=e412]: "{...props}"
+                                    - generic [ref=e413]: variant="secondary"
+                                    - generic [ref=e414]: shape="square"
+                                    - generic [ref=e415]: "icon={<X />}"
+                                    - generic [ref=e416]: aria-label="Close"
+                                    - generic [ref=e417]: />
+                                    - generic [ref=e418]: ")}"
+                                    - generic [ref=e419]: />
+                                    - generic [ref=e420]: </div>
+                                    - generic [ref=e421]: <Dialog.Description className="text-kumo-subtle">
+                                    - generic [ref=e422]: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    - generic [ref=e423]: eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    - generic [ref=e424]: </Dialog.Description>
+                                    - generic [ref=e425]: </Dialog>
+                                    - generic [ref=e426]: </Dialog.Root>
+                                    - generic [ref=e427]: );
+                                    - generic [ref=e428]: "}"
+                                - button "Copy code to clipboard" [ref=e429] [cursor=pointer]:
+                                    - generic [ref=e430]:
+                                        - img [ref=e432]
+                                        - img [ref=e435]
+                        - 'heading "Link to section: Alert Dialog (role=&quot;alertdialog&quot;)" [level=3] [ref=e437]':
+                            - 'link "Link to section: Alert Dialog (role=&quot;alertdialog&quot;)" [ref=e438] [cursor=pointer]':
+                                - /url: "#alert-dialog-rolealertdialog"
+                                - img [ref=e440]
+                                - text: Alert Dialog (
+                                - code [ref=e442]: role="alertdialog"
+                                - text: )
+                        - paragraph
+                        - paragraph [ref=e443]:
+                            - text: For destructive or confirmation dialogs, use
+                            - code [ref=e444]: role="alertdialog"
+                            - text: "on"
+                            - code [ref=e445]: Dialog.Root
+                            - text: . This provides proper accessibility semantics by rendering the dialog with
+                            - code [ref=e446]: role="alertdialog"
+                            - text: instead of
+                            - code [ref=e447]: role="dialog"
+                            - text: .
+                        - paragraph
+                        - generic [ref=e448]:
+                            - paragraph
+                            - paragraph [ref=e449]:
+                                - text: When to use
+                                - code [ref=e450]: role=“alertdialog”
+                                - text: ":"
+                            - paragraph
+                            - list [ref=e451]:
+                                - listitem [ref=e452]: Destructive actions (delete, discard, remove)
+                                - listitem [ref=e453]: Confirmation flows requiring explicit user acknowledgment
+                                - listitem [ref=e454]: Actions that cannot be undone
+                                - listitem [ref=e455]: Critical warnings or errors
+                        - generic [ref=e456]:
+                            - button "Delete Account" [ref=e459] [cursor=pointer]
+                            - generic [ref=e461]:
+                                - code [ref=e463]:
+                                    - generic [ref=e464]: 'import { Dialog, Button } from "@cloudflare/kumo";'
+                                    - generic [ref=e465]: 'import { Warning } from "@phosphor-icons/react";'
+                                    - generic [ref=e466]: /**
+                                    - generic [ref=e467]: '* Alert dialog for destructive actions that uses role="alertdialog".'
+                                    - generic [ref=e468]: "* This provides proper accessibility semantics for confirmation flows."
+                                    - generic [ref=e469]: "*/"
+                                    - generic [ref=e470]: "export function DialogAlertDemo() {"
+                                    - generic [ref=e471]: return (
+                                    - generic [ref=e472]: <Dialog.Root role="alertdialog">
+                                    - generic [ref=e473]: <Dialog.Trigger
+                                    - generic [ref=e474]: "render={(p) => ("
+                                    - generic [ref=e475]: '<Button {...p} variant="destructive">'
+                                    - generic [ref=e476]: Delete Account
+                                    - generic [ref=e477]: </Button>
+                                    - generic [ref=e478]: ")}"
+                                    - generic [ref=e479]: />
+                                    - generic [ref=e480]: <Dialog className="p-8">
+                                    - generic [ref=e481]: <div className="mb-4 flex items-center gap-3">
+                                    - generic [ref=e482]: <div className="flex h-10 w-10 items-center justify-center rounded-full bg-kumo-danger/20">
+                                    - generic [ref=e483]: '<Warning size={20} className="text-kumo-danger" weight="fill" />'
+                                    - generic [ref=e484]: </div>
+                                    - generic [ref=e485]: <Dialog.Title className="text-xl font-semibold">
+                                    - generic [ref=e486]: Delete Account?
+                                    - generic [ref=e487]: </Dialog.Title>
+                                    - generic [ref=e488]: </div>
+                                    - generic [ref=e489]: <Dialog.Description className="text-kumo-subtle">
+                                    - generic [ref=e490]: This action cannot be undone. All your data will be permanently
+                                    - generic [ref=e491]: removed from our servers. Are you sure you want to proceed?
+                                    - generic [ref=e492]: </Dialog.Description>
+                                    - generic [ref=e493]: <div className="mt-8 flex justify-end gap-2">
+                                    - generic [ref=e494]: <Dialog.Close
+                                    - generic [ref=e495]: "render={(props) => ("
+                                    - generic [ref=e496]: '<Button variant="secondary" {...props}>'
+                                    - generic [ref=e497]: Cancel
+                                    - generic [ref=e498]: </Button>
+                                    - generic [ref=e499]: ")}"
+                                    - generic [ref=e500]: />
+                                    - generic [ref=e501]: <Dialog.Close
+                                    - generic [ref=e502]: "render={(props) => ("
+                                    - generic [ref=e503]: '<Button variant="destructive" {...props}>'
+                                    - generic [ref=e504]: Delete Account
+                                    - generic [ref=e505]: </Button>
+                                    - generic [ref=e506]: ")}"
+                                    - generic [ref=e507]: />
+                                    - generic [ref=e508]: </div>
+                                    - generic [ref=e509]: </Dialog>
+                                    - generic [ref=e510]: </Dialog.Root>
+                                    - generic [ref=e511]: );
+                                    - generic [ref=e512]: "}"
+                                - button "Copy code to clipboard" [ref=e513] [cursor=pointer]:
+                                    - generic [ref=e514]:
+                                        - img [ref=e516]
+                                        - img [ref=e519]
+                        - 'heading "Link to section: Confirmation Dialog (with disablePointerDismissal)" [level=3] [ref=e521]':
+                            - 'link "Link to section: Confirmation Dialog (with disablePointerDismissal)" [ref=e522] [cursor=pointer]':
+                                - /url: "#confirmation-dialog-with-disablepointerdismissal"
+                                - img [ref=e524]
+                                - text: Confirmation Dialog (with
+                                - code [ref=e526]: disablePointerDismissal
+                                - text: )
+                        - paragraph
+                        - paragraph [ref=e527]:
+                            - text: For confirmation dialogs that should not be dismissed by clicking outside, use
+                            - code [ref=e528]: disablePointerDismissal
+                            - text: "on"
+                            - code [ref=e529]: Dialog.Root
+                            - text: . This can be combined with
+                            - code [ref=e530]: role="alertdialog"
+                            - text: for proper accessibility.
+                        - paragraph
+                        - generic [ref=e531]:
+                            - button "Delete Project" [ref=e534] [cursor=pointer]
+                            - generic [ref=e536]:
+                                - code [ref=e538]:
+                                    - generic [ref=e539]: 'import { Dialog, Button } from "@cloudflare/kumo";'
+                                    - generic [ref=e540]: 'import { Warning } from "@phosphor-icons/react";'
+                                    - generic [ref=e541]: "export function DialogConfirmationDemo() {"
+                                    - generic [ref=e542]: return (
+                                    - generic [ref=e543]: <Dialog.Root disablePointerDismissal>
+                                    - generic [ref=e544]: <Dialog.Trigger
+                                    - generic [ref=e545]: "render={(p) => ("
+                                    - generic [ref=e546]: '<Button {...p} variant="destructive">'
+                                    - generic [ref=e547]: Delete Project
+                                    - generic [ref=e548]: </Button>
+                                    - generic [ref=e549]: ")}"
+                                    - generic [ref=e550]: />
+                                    - generic [ref=e551]: <Dialog className="p-8">
+                                    - generic [ref=e552]: <div className="mb-4 flex items-center gap-3">
+                                    - generic [ref=e553]: <div className="flex h-10 w-10 items-center justify-center rounded-full bg-kumo-danger/20">
+                                    - generic [ref=e554]: '<Warning size={20} className="text-kumo-danger" />'
+                                    - generic [ref=e555]: </div>
+                                    - generic [ref=e556]: <Dialog.Title className="text-xl font-semibold">
+                                    - generic [ref=e557]: Delete Project?
+                                    - generic [ref=e558]: </Dialog.Title>
+                                    - generic [ref=e559]: </div>
+                                    - generic [ref=e560]: <Dialog.Description className="text-kumo-subtle">
+                                    - generic [ref=e561]: This action cannot be undone. This will permanently delete the project
+                                    - generic [ref=e562]: and all associated data.
+                                    - generic [ref=e563]: </Dialog.Description>
+                                    - generic [ref=e564]: <div className="mt-8 flex justify-end gap-2">
+                                    - generic [ref=e565]: <Dialog.Close
+                                    - generic [ref=e566]: "render={(props) => ("
+                                    - generic [ref=e567]: '<Button variant="secondary" {...props}>'
+                                    - generic [ref=e568]: Cancel
+                                    - generic [ref=e569]: </Button>
+                                    - generic [ref=e570]: ")}"
+                                    - generic [ref=e571]: />
+                                    - generic [ref=e572]: <Dialog.Close
+                                    - generic [ref=e573]: "render={(props) => ("
+                                    - generic [ref=e574]: '<Button variant="destructive" {...props}>'
+                                    - generic [ref=e575]: Delete
+                                    - generic [ref=e576]: </Button>
+                                    - generic [ref=e577]: ")}"
+                                    - generic [ref=e578]: />
+                                    - generic [ref=e579]: </div>
+                                    - generic [ref=e580]: </Dialog>
+                                    - generic [ref=e581]: </Dialog.Root>
+                                    - generic [ref=e582]: );
+                                    - generic [ref=e583]: "}"
+                                - button "Copy code to clipboard" [ref=e584] [cursor=pointer]:
+                                    - generic [ref=e585]:
+                                        - img [ref=e587]
+                                        - img [ref=e590]
+                        - 'heading "Link to section: With Actions" [level=3] [ref=e592]':
+                            - 'link "Link to section: With Actions" [ref=e593] [cursor=pointer]':
+                                - /url: "#with-actions"
+                                - img [ref=e595]
+                                - text: With Actions
+                        - generic [ref=e597]:
+                            - button "Delete" [ref=e600] [cursor=pointer]
+                            - generic [ref=e602]:
+                                - code [ref=e604]:
+                                    - generic [ref=e605]: 'import { Dialog, Button } from "@cloudflare/kumo";'
+                                    - generic [ref=e606]: 'import { X } from "@phosphor-icons/react";'
+                                    - generic [ref=e607]: "export function DialogWithActionsDemo() {"
+                                    - generic [ref=e608]: return (
+                                    - generic [ref=e609]: <Dialog.Root>
+                                    - generic [ref=e610]: "<Dialog.Trigger render={(p) => <Button {...p}>Delete</Button>} />"
+                                    - generic [ref=e611]: <Dialog className="p-8">
+                                    - generic [ref=e612]: <div className="mb-4 flex items-start justify-between gap-4">
+                                    - generic [ref=e613]: <Dialog.Title className="text-2xl font-semibold">
+                                    - generic [ref=e614]: Modal Title
+                                    - generic [ref=e615]: </Dialog.Title>
+                                    - generic [ref=e616]: <Dialog.Close
+                                    - generic [ref=e617]: aria-label="Close"
+                                    - generic [ref=e618]: "render={(props) => ("
+                                    - generic [ref=e619]: <Button
+                                    - generic [ref=e620]: "{...props}"
+                                    - generic [ref=e621]: variant="secondary"
+                                    - generic [ref=e622]: shape="square"
+                                    - generic [ref=e623]: "icon={<X />}"
+                                    - generic [ref=e624]: aria-label="Close"
+                                    - generic [ref=e625]: />
+                                    - generic [ref=e626]: ")}"
+                                    - generic [ref=e627]: />
+                                    - generic [ref=e628]: </div>
+                                    - generic [ref=e629]: <Dialog.Description className="text-kumo-subtle">
+                                    - generic [ref=e630]: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    - generic [ref=e631]: eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    - generic [ref=e632]: </Dialog.Description>
+                                    - generic [ref=e633]: <div className="mt-8 flex justify-end gap-2">
+                                    - generic [ref=e634]: <Dialog.Close
+                                    - generic [ref=e635]: "render={(props) => ("
+                                    - generic [ref=e636]: '<Button variant="secondary" {...props}>'
+                                    - generic [ref=e637]: Cancel
+                                    - generic [ref=e638]: </Button>
+                                    - generic [ref=e639]: ")}"
+                                    - generic [ref=e640]: />
+                                    - generic [ref=e641]: <Dialog.Close
+                                    - generic [ref=e642]: "render={(props) => ("
+                                    - generic [ref=e643]: '<Button variant="destructive" {...props}>'
+                                    - generic [ref=e644]: Delete
+                                    - generic [ref=e645]: </Button>
+                                    - generic [ref=e646]: ")}"
+                                    - generic [ref=e647]: />
+                                    - generic [ref=e648]: </div>
+                                    - generic [ref=e649]: </Dialog>
+                                    - generic [ref=e650]: </Dialog.Root>
+                                    - generic [ref=e651]: );
+                                    - generic [ref=e652]: "}"
+                                - button "Copy code to clipboard" [ref=e653] [cursor=pointer]:
+                                    - generic [ref=e654]:
+                                        - img [ref=e656]
+                                        - img [ref=e659]
+                        - 'heading "Link to section: With Select" [level=3] [ref=e661]':
+                            - 'link "Link to section: With Select" [ref=e662] [cursor=pointer]':
+                                - /url: "#with-select"
+                                - img [ref=e664]
+                                - text: With Select
+                        - paragraph [ref=e666]: Dialog containing a Select dropdown.
+                        - generic [ref=e667]:
+                            - button "Open Form" [ref=e670] [cursor=pointer]
+                            - generic [ref=e672]:
+                                - code [ref=e674]:
+                                    - generic [ref=e675]: 'import { Dialog, Button, Select } from "@cloudflare/kumo";'
+                                    - generic [ref=e676]: 'import { X } from "@phosphor-icons/react";'
+                                    - generic [ref=e677]: "export function DialogWithSelectDemo() {"
+                                    - generic [ref=e678]: return (
+                                    - generic [ref=e679]: <Dialog.Root>
+                                    - generic [ref=e680]: "<Dialog.Trigger render={(p) => <Button {...p}>Open Form</Button>} />"
+                                    - generic [ref=e681]: <Dialog className="p-8">
+                                    - generic [ref=e682]: <div className="mb-4 flex items-start justify-between gap-4">
+                                    - generic [ref=e683]: <Dialog.Title className="text-2xl font-semibold">
+                                    - generic [ref=e684]: Create Resource
+                                    - generic [ref=e685]: </Dialog.Title>
+                                    - generic [ref=e686]: <Dialog.Close
+                                    - generic [ref=e687]: aria-label="Close"
+                                    - generic [ref=e688]: "render={(props) => ("
+                                    - generic [ref=e689]: <Button
+                                    - generic [ref=e690]: "{...props}"
+                                    - generic [ref=e691]: variant="secondary"
+                                    - generic [ref=e692]: shape="square"
+                                    - generic [ref=e693]: "icon={<X />}"
+                                    - generic [ref=e694]: aria-label="Close"
+                                    - generic [ref=e695]: />
+                                    - generic [ref=e696]: ")}"
+                                    - generic [ref=e697]: />
+                                    - generic [ref=e698]: </div>
+                                    - generic [ref=e699]: <Dialog.Description className="mb-4 text-kumo-subtle">
+                                    - generic [ref=e700]: Select a region for your new resource.
+                                    - generic [ref=e701]: </Dialog.Description>
+                                    - generic [ref=e702]: <Select
+                                    - generic [ref=e703]: className="w-full"
+                                    - generic [ref=e704]: "renderValue={(v) =>"
+                                    - generic [ref=e705]: regions.find((r) => r.value === v)?.label ?? "Select region..."
+                                    - generic [ref=e706]: "}"
+                                    - generic [ref=e707]: ">"
+                                    - generic [ref=e708]: "{regions.map((region) => ("
+                                    - generic [ref=e709]: "<Select.Option key={region.value} value={region.value}>"
+                                    - generic [ref=e710]: "{region.label}"
+                                    - generic [ref=e711]: </Select.Option>
+                                    - generic [ref=e712]: "))}"
+                                    - generic [ref=e713]: </Select>
+                                    - generic [ref=e714]: <div className="mt-8 flex justify-end gap-2">
+                                    - generic [ref=e715]: <Dialog.Close
+                                    - generic [ref=e716]: "render={(props) => ("
+                                    - generic [ref=e717]: '<Button variant="secondary" {...props}>'
+                                    - generic [ref=e718]: Cancel
+                                    - generic [ref=e719]: </Button>
+                                    - generic [ref=e720]: ")}"
+                                    - generic [ref=e721]: />
+                                    - generic [ref=e722]: <Button variant="primary">Create</Button>
+                                    - generic [ref=e723]: </div>
+                                    - generic [ref=e724]: </Dialog>
+                                    - generic [ref=e725]: </Dialog.Root>
+                                    - generic [ref=e726]: );
+                                    - generic [ref=e727]: "}"
+                                - button "Copy code to clipboard" [ref=e728] [cursor=pointer]:
+                                    - generic [ref=e729]:
+                                        - img [ref=e731]
+                                        - img [ref=e734]
+                        - 'heading "Link to section: With Combobox" [level=3] [ref=e736]':
+                            - 'link "Link to section: With Combobox" [ref=e737] [cursor=pointer]':
+                                - /url: "#with-combobox"
+                                - img [ref=e739]
+                                - text: With Combobox
+                        - paragraph [ref=e741]: Dialog containing a Combobox for searchable selection.
+                        - generic [ref=e742]:
+                            - button "Open Form" [ref=e745] [cursor=pointer]
+                            - generic [ref=e747]:
+                                - code [ref=e749]:
+                                    - generic [ref=e750]: 'import { useState } from "react";'
+                                    - generic [ref=e751]: 'import { Dialog, Button, Combobox } from "@cloudflare/kumo";'
+                                    - generic [ref=e752]: 'import { X } from "@phosphor-icons/react";'
+                                    - generic [ref=e753]: "export function DialogWithComboboxDemo() {"
+                                    - generic [ref=e754]: "const [value, setValue] = useState<{ value: string; label: string } | null>("
+                                    - generic [ref=e755]: null,
+                                    - generic [ref=e756]: );
+                                    - generic [ref=e757]: return (
+                                    - generic [ref=e758]: <Dialog.Root>
+                                    - generic [ref=e759]: "<Dialog.Trigger render={(p) => <Button {...p}>Open Form</Button>} />"
+                                    - generic [ref=e760]: <Dialog className="p-8">
+                                    - generic [ref=e761]: <div className="mb-4 flex items-start justify-between gap-4">
+                                    - generic [ref=e762]: <Dialog.Title className="text-2xl font-semibold">
+                                    - generic [ref=e763]: Create Resource
+                                    - generic [ref=e764]: </Dialog.Title>
+                                    - generic [ref=e765]: <Dialog.Close
+                                    - generic [ref=e766]: aria-label="Close"
+                                    - generic [ref=e767]: "render={(props) => ("
+                                    - generic [ref=e768]: <Button
+                                    - generic [ref=e769]: "{...props}"
+                                    - generic [ref=e770]: variant="secondary"
+                                    - generic [ref=e771]: shape="square"
+                                    - generic [ref=e772]: "icon={<X />}"
+                                    - generic [ref=e773]: aria-label="Close"
+                                    - generic [ref=e774]: />
+                                    - generic [ref=e775]: ")}"
+                                    - generic [ref=e776]: />
+                                    - generic [ref=e777]: </div>
+                                    - generic [ref=e778]: <Dialog.Description className="mb-4 text-kumo-subtle">
+                                    - generic [ref=e779]: Search and select a region for your new resource.
+                                    - generic [ref=e780]: </Dialog.Description>
+                                    - generic [ref=e781]: "<Combobox value={value} onValueChange={setValue} items={regions}>"
+                                    - generic [ref=e782]: <Combobox.TriggerInput
+                                    - generic [ref=e783]: className="w-full"
+                                    - generic [ref=e784]: placeholder="Search regions..."
+                                    - generic [ref=e785]: />
+                                    - generic [ref=e786]: <Combobox.Content>
+                                    - generic [ref=e787]: <Combobox.Empty>No regions found</Combobox.Empty>
+                                    - generic [ref=e788]: <Combobox.List>
+                                    - generic [ref=e789]: "{(item: { value: string; label: string }) => ("
+                                    - generic [ref=e790]: "<Combobox.Item key={item.value} value={item}>"
+                                    - generic [ref=e791]: "{item.label}"
+                                    - generic [ref=e792]: </Combobox.Item>
+                                    - generic [ref=e793]: ")}"
+                                    - generic [ref=e794]: </Combobox.List>
+                                    - generic [ref=e795]: </Combobox.Content>
+                                    - generic [ref=e796]: </Combobox>
+                                    - generic [ref=e797]: <div className="mt-8 flex justify-end gap-2">
+                                    - generic [ref=e798]: <Dialog.Close
+                                    - generic [ref=e799]: "render={(props) => ("
+                                    - generic [ref=e800]: '<Button variant="secondary" {...props}>'
+                                    - generic [ref=e801]: Cancel
+                                    - generic [ref=e802]: </Button>
+                                    - generic [ref=e803]: ")}"
+                                    - generic [ref=e804]: />
+                                    - generic [ref=e805]: <Button variant="primary">Create</Button>
+                                    - generic [ref=e806]: </div>
+                                    - generic [ref=e807]: </Dialog>
+                                    - generic [ref=e808]: </Dialog.Root>
+                                    - generic [ref=e809]: );
+                                    - generic [ref=e810]: "}"
+                                - button "Copy code to clipboard" [ref=e811] [cursor=pointer]:
+                                    - generic [ref=e812]:
+                                        - img [ref=e814]
+                                        - img [ref=e817]
+                        - 'heading "Link to section: With Dropdown" [level=3] [ref=e819]':
+                            - 'link "Link to section: With Dropdown" [ref=e820] [cursor=pointer]':
+                                - /url: "#with-dropdown"
+                                - img [ref=e822]
+                                - text: With Dropdown
+                        - paragraph [ref=e824]: Dialog containing a Dropdown menu.
+                        - generic [ref=e825]:
+                            - button "Open Form" [ref=e828] [cursor=pointer]
+                            - generic [ref=e830]:
+                                - code [ref=e832]:
+                                    - generic [ref=e833]: 'import { Dialog, Button, DropdownMenu } from "@cloudflare/kumo";'
+                                    - generic [ref=e834]: 'import { X } from "@phosphor-icons/react";'
+                                    - generic [ref=e835]: "export function DialogWithDropdownDemo() {"
+                                    - generic [ref=e836]: return (
+                                    - generic [ref=e837]: <Dialog.Root>
+                                    - generic [ref=e838]: "<Dialog.Trigger render={(p) => <Button {...p}>Open Form</Button>} />"
+                                    - generic [ref=e839]: <Dialog className="p-8">
+                                    - generic [ref=e840]: <div className="mb-4 flex items-start justify-between gap-4">
+                                    - generic [ref=e841]: <Dialog.Title className="text-2xl font-semibold">
+                                    - generic [ref=e842]: Resource Actions
+                                    - generic [ref=e843]: </Dialog.Title>
+                                    - generic [ref=e844]: <Dialog.Close
+                                    - generic [ref=e845]: aria-label="Close"
+                                    - generic [ref=e846]: "render={(props) => ("
+                                    - generic [ref=e847]: <Button
+                                    - generic [ref=e848]: "{...props}"
+                                    - generic [ref=e849]: variant="secondary"
+                                    - generic [ref=e850]: shape="square"
+                                    - generic [ref=e851]: "icon={<X />}"
+                                    - generic [ref=e852]: aria-label="Close"
+                                    - generic [ref=e853]: />
+                                    - generic [ref=e854]: ")}"
+                                    - generic [ref=e855]: />
+                                    - generic [ref=e856]: </div>
+                                    - generic [ref=e857]: <Dialog.Description className="mb-4 text-kumo-subtle">
+                                    - generic [ref=e858]: Choose an action for the selected resource.
+                                    - generic [ref=e859]: </Dialog.Description>
+                                    - generic [ref=e860]: <DropdownMenu>
+                                    - generic [ref=e861]: "<DropdownMenu.Trigger render={<Button>Actions</Button>} />"
+                                    - generic [ref=e862]: <DropdownMenu.Content>
+                                    - generic [ref=e863]: <DropdownMenu.Item>Edit</DropdownMenu.Item>
+                                    - generic [ref=e864]: <DropdownMenu.Item>Duplicate</DropdownMenu.Item>
+                                    - generic [ref=e865]: <DropdownMenu.Separator />
+                                    - generic [ref=e866]: <DropdownMenu.Item variant="danger">Delete</DropdownMenu.Item>
+                                    - generic [ref=e867]: </DropdownMenu.Content>
+                                    - generic [ref=e868]: </DropdownMenu>
+                                    - generic [ref=e869]: <div className="mt-8 flex justify-end">
+                                    - generic [ref=e870]: <Dialog.Close
+                                    - generic [ref=e871]: "render={(props) => ("
+                                    - generic [ref=e872]: '<Button variant="secondary" {...props}>'
+                                    - generic [ref=e873]: Close
+                                    - generic [ref=e874]: </Button>
+                                    - generic [ref=e875]: ")}"
+                                    - generic [ref=e876]: />
+                                    - generic [ref=e877]: </div>
+                                    - generic [ref=e878]: </Dialog>
+                                    - generic [ref=e879]: </Dialog.Root>
+                                    - generic [ref=e880]: );
+                                    - generic [ref=e881]: "}"
+                                - button "Copy code to clipboard" [ref=e882] [cursor=pointer]:
+                                    - generic [ref=e883]:
+                                        - img [ref=e885]
+                                        - img [ref=e888]
+                    - generic [ref=e890]:
+                        - 'heading "Link to section: API Reference" [level=2] [ref=e891]':
+                            - 'link "Link to section: API Reference" [ref=e892] [cursor=pointer]':
+                                - /url: "#api-reference"
+                                - img [ref=e894]
+                                - text: API Reference
+                        - 'heading "Link to section: Dialog" [level=3] [ref=e896]':
+                            - 'link "Link to section: Dialog" [ref=e897] [cursor=pointer]':
+                                - /url: "#dialog"
+                                - img [ref=e899]
+                                - text: Dialog
+                        - paragraph [ref=e901]: The main dialog container that renders the modal overlay and popup.
+                        - table [ref=e903]:
+                            - rowgroup [ref=e904]:
+                                - row "Prop Type Default Description" [ref=e905]:
+                                    - columnheader "Prop" [ref=e906]
+                                    - columnheader "Type" [ref=e907]
+                                    - columnheader "Default" [ref=e908]
+                                    - columnheader "Description" [ref=e909]
+                            - rowgroup [ref=e910]:
+                                - 'row "className string - Additional CSS classes merged via `cn()`." [ref=e911]':
+                                    - cell "className" [ref=e912]
+                                    - cell "string" [ref=e913]:
+                                        - code [ref=e914]: string
+                                    - cell "-" [ref=e915]
+                                    - 'cell "Additional CSS classes merged via `cn()`." [ref=e916]'
+                                - row "children ReactNode - Dialog content (typically Title, Description, Close, and action buttons)." [ref=e917]:
+                                    - cell "children" [ref=e918]
+                                    - cell "ReactNode" [ref=e919]:
+                                        - code [ref=e920]: ReactNode
+                                    - cell "-" [ref=e921]
+                                    - cell "Dialog content (typically Title, Description, Close, and action buttons)." [ref=e922]
+                                - 'row "container PortalContainer - Container element for the portal. Use this to render the dialog inside a Shadow DOM or custom container. Overrides `KumoPortalProvider` context." [ref=e923]':
+                                    - cell "container" [ref=e924]
+                                    - cell "PortalContainer" [ref=e925]:
+                                        - code [ref=e926]: PortalContainer
+                                    - cell "-" [ref=e927]
+                                    - 'cell "Container element for the portal. Use this to render the dialog inside a Shadow DOM or custom container. Overrides `KumoPortalProvider` context." [ref=e928]'
+                                - 'row "size \"base\" | \"sm\" | \"lg\" | \"xl\" \"base\" Dialog width. - `\"sm\"` — Small (min 288px) for simple confirmations - `\"base\"` — Default (min 384px) - `\"lg\"` — Large (min 512px) for complex content - `\"xl\"` — Extra large (min 768px) for detailed views" [ref=e929]':
+                                    - cell "size" [ref=e930]
+                                    - cell "\"base\" | \"sm\" | \"lg\" | \"xl\"" [ref=e931]:
+                                        - code [ref=e932]: '"base" | "sm" | "lg" | "xl"'
+                                    - cell "\"base\"" [ref=e933]:
+                                        - code [ref=e934]: '"base"'
+                                    - 'cell "Dialog width. - `\"sm\"` — Small (min 288px) for simple confirmations - `\"base\"` — Default (min 384px) - `\"lg\"` — Large (min 512px) for complex content - `\"xl\"` — Extra large (min 768px) for detailed views" [ref=e935]'
+                        - 'heading "Link to section: Dialog.Root" [level=3] [ref=e936]':
+                            - 'link "Link to section: Dialog.Root" [ref=e937] [cursor=pointer]':
+                                - /url: "#dialogroot"
+                                - img [ref=e939]
+                                - text: Dialog.Root
+                        - paragraph
+                        - paragraph [ref=e941]: Controls the open state of the dialog. Doesn’t render its own HTML element.
+                        - paragraph
+                        - table [ref=e943]:
+                            - rowgroup [ref=e944]:
+                                - row "Prop Type Default Description" [ref=e945]:
+                                    - columnheader "Prop" [ref=e946]
+                                    - columnheader "Type" [ref=e947]
+                                    - columnheader "Default" [ref=e948]
+                                    - columnheader "Description" [ref=e949]
+                            - rowgroup [ref=e950]:
+                                - row "role ”dialog” | “alertdialog\" \"dialog” The ARIA role for the dialog. Use \"alertdialog\" for destructive or confirmation flows." [ref=e951]:
+                                    - cell "role" [ref=e952]
+                                    - cell "”dialog” | “alertdialog\"" [ref=e953]
+                                    - cell "\"dialog”" [ref=e954]
+                                    - cell "The ARIA role for the dialog. Use \"alertdialog\" for destructive or confirmation flows." [ref=e955]:
+                                        - paragraph [ref=e956]:
+                                            - text: The ARIA role for the dialog. Use
+                                            - code [ref=e957]: '"alertdialog"'
+                                            - text: for destructive or confirmation flows.
+                                - row "disablePointerDismissal boolean false When true, prevents the dialog from being dismissed by clicking outside." [ref=e958]:
+                                    - cell "disablePointerDismissal" [ref=e959]
+                                    - cell "boolean" [ref=e960]
+                                    - cell "false" [ref=e961]
+                                    - cell "When true, prevents the dialog from being dismissed by clicking outside." [ref=e962]:
+                                        - paragraph [ref=e963]: When true, prevents the dialog from being dismissed by clicking outside.
+                        - generic [ref=e964]:
+                            - table [ref=e965]:
+                                - rowgroup [ref=e966]:
+                                    - row "Prop Type Default" [ref=e967]:
+                                        - columnheader "Prop" [ref=e968]
+                                        - columnheader "Type" [ref=e969]
+                                        - columnheader "Default" [ref=e970]
+                                - rowgroup
+                            - paragraph [ref=e971]: No component-specific props. Accepts standard HTML attributes.
+                        - 'heading "Link to section: Dialog.Trigger" [level=3] [ref=e972]':
+                            - 'link "Link to section: Dialog.Trigger" [ref=e973] [cursor=pointer]':
+                                - /url: "#dialogtrigger"
+                                - img [ref=e975]
+                                - text: Dialog.Trigger
+                        - paragraph [ref=e977]: A button that opens the dialog when clicked.
+                        - generic [ref=e978]:
+                            - table [ref=e979]:
+                                - rowgroup [ref=e980]:
+                                    - row "Prop Type Default" [ref=e981]:
+                                        - columnheader "Prop" [ref=e982]
+                                        - columnheader "Type" [ref=e983]
+                                        - columnheader "Default" [ref=e984]
+                                - rowgroup
+                            - paragraph [ref=e985]: No component-specific props. Accepts standard HTML attributes.
+                        - 'heading "Link to section: Dialog.Title" [level=3] [ref=e986]':
+                            - 'link "Link to section: Dialog.Title" [ref=e987] [cursor=pointer]':
+                                - /url: "#dialogtitle"
+                                - img [ref=e989]
+                                - text: Dialog.Title
+                        - paragraph [ref=e991]: A heading that labels the dialog for accessibility.
+                        - generic [ref=e992]:
+                            - table [ref=e993]:
+                                - rowgroup [ref=e994]:
+                                    - row "Prop Type Default" [ref=e995]:
+                                        - columnheader "Prop" [ref=e996]
+                                        - columnheader "Type" [ref=e997]
+                                        - columnheader "Default" [ref=e998]
+                                - rowgroup
+                            - paragraph [ref=e999]: No component-specific props. Accepts standard HTML attributes.
+                        - 'heading "Link to section: Dialog.Description" [level=3] [ref=e1000]':
+                            - 'link "Link to section: Dialog.Description" [ref=e1001] [cursor=pointer]':
+                                - /url: "#dialogdescription"
+                                - img [ref=e1003]
+                                - text: Dialog.Description
+                        - paragraph [ref=e1005]: A paragraph providing additional context about the dialog.
+                        - generic [ref=e1006]:
+                            - table [ref=e1007]:
+                                - rowgroup [ref=e1008]:
+                                    - row "Prop Type Default" [ref=e1009]:
+                                        - columnheader "Prop" [ref=e1010]
+                                        - columnheader "Type" [ref=e1011]
+                                        - columnheader "Default" [ref=e1012]
+                                - rowgroup
+                            - paragraph [ref=e1013]: No component-specific props. Accepts standard HTML attributes.
+                        - 'heading "Link to section: Dialog.Close" [level=3] [ref=e1014]':
+                            - 'link "Link to section: Dialog.Close" [ref=e1015] [cursor=pointer]':
+                                - /url: "#dialogclose"
+                                - img [ref=e1017]
+                                - text: Dialog.Close
+                        - paragraph [ref=e1019]: A button that closes the dialog when clicked.
+                        - generic [ref=e1020]:
+                            - table [ref=e1021]:
+                                - rowgroup [ref=e1022]:
+                                    - row "Prop Type Default" [ref=e1023]:
+                                        - columnheader "Prop" [ref=e1024]
+                                        - columnheader "Type" [ref=e1025]
+                                        - columnheader "Default" [ref=e1026]
+                                - rowgroup
+                            - paragraph [ref=e1027]: No component-specific props. Accepts standard HTML attributes.
+                - complementary [ref=e1028]:
+                    - navigation "Table of contents" [ref=e1031]:
+                        - paragraph [ref=e1032]: On this page
+                        - list [ref=e1033]:
+                            - listitem [ref=e1034]:
+                                - link "Installation" [ref=e1035] [cursor=pointer]:
+                                    - /url: "#installation"
+                                    - generic [ref=e1036]: Installation
+                                - list [ref=e1037]:
+                                    - listitem [ref=e1038]:
+                                        - link "Barrel" [ref=e1039] [cursor=pointer]:
+                                            - /url: "#barrel"
+                                            - generic [ref=e1040]: Barrel
+                                    - listitem [ref=e1041]:
+                                        - link "Granular" [ref=e1042] [cursor=pointer]:
+                                            - /url: "#granular"
+                                            - generic [ref=e1043]: Granular
+                            - listitem [ref=e1044]:
+                                - link "Usage" [ref=e1045] [cursor=pointer]:
+                                    - /url: "#usage"
+                                    - generic [ref=e1046]: Usage
+                            - listitem [ref=e1047]:
+                                - link "Dialog vs Alert Dialog" [ref=e1048] [cursor=pointer]:
+                                    - /url: "#dialog-vs-alert-dialog"
+                                    - generic [ref=e1049]: Dialog vs Alert Dialog
+                            - listitem [ref=e1050]:
+                                - link "Examples" [ref=e1051] [cursor=pointer]:
+                                    - /url: "#examples"
+                                    - generic [ref=e1052]: Examples
+                                - list [ref=e1053]:
+                                    - listitem [ref=e1054]:
+                                        - link "Basic Dialog" [ref=e1055] [cursor=pointer]:
+                                            - /url: "#basic-dialog"
+                                            - generic [ref=e1056]: Basic Dialog
+                                    - listitem [ref=e1057]:
+                                        - link "Alert Dialog (role=\"alertdialog\")" [ref=e1058] [cursor=pointer]:
+                                            - /url: "#alert-dialog-rolealertdialog"
+                                            - generic [ref=e1059]: Alert Dialog (role="alertdialog")
+                                    - listitem [ref=e1060]:
+                                        - link "Confirmation Dialog (with disablePointerDismissal)" [ref=e1061] [cursor=pointer]:
+                                            - /url: "#confirmation-dialog-with-disablepointerdismissal"
+                                            - generic [ref=e1062]: Confirmation Dialog (with disablePointerDismissal)
+                                    - listitem [ref=e1063]:
+                                        - link "With Actions" [ref=e1064] [cursor=pointer]:
+                                            - /url: "#with-actions"
+                                            - generic [ref=e1065]: With Actions
+                                    - listitem [ref=e1066]:
+                                        - link "With Select" [ref=e1067] [cursor=pointer]:
+                                            - /url: "#with-select"
+                                            - generic [ref=e1068]: With Select
+                                    - listitem [ref=e1069]:
+                                        - link "With Combobox" [ref=e1070] [cursor=pointer]:
+                                            - /url: "#with-combobox"
+                                            - generic [ref=e1071]: With Combobox
+                                    - listitem [ref=e1072]:
+                                        - link "With Dropdown" [ref=e1073] [cursor=pointer]:
+                                            - /url: "#with-dropdown"
+                                            - generic [ref=e1074]: With Dropdown
+                            - listitem [ref=e1075]:
+                                - link "API Reference" [ref=e1076] [cursor=pointer]:
+                                    - /url: "#api-reference"
+                                    - generic [ref=e1077]: API Reference
+                                - list [ref=e1078]:
+                                    - listitem [ref=e1079]:
+                                        - link "Dialog" [ref=e1080] [cursor=pointer]:
+                                            - /url: "#dialog"
+                                            - generic [ref=e1081]: Dialog
+                                    - listitem [ref=e1082]:
+                                        - link "Dialog.Root" [ref=e1083] [cursor=pointer]:
+                                            - /url: "#dialogroot"
+                                            - generic [ref=e1084]: Dialog.Root
+                                    - listitem [ref=e1085]:
+                                        - link "Dialog.Trigger" [ref=e1086] [cursor=pointer]:
+                                            - /url: "#dialogtrigger"
+                                            - generic [ref=e1087]: Dialog.Trigger
+                                    - listitem [ref=e1088]:
+                                        - link "Dialog.Title" [ref=e1089] [cursor=pointer]:
+                                            - /url: "#dialogtitle"
+                                            - generic [ref=e1090]: Dialog.Title
+                                    - listitem [ref=e1091]:
+                                        - link "Dialog.Description" [ref=e1092] [cursor=pointer]:
+                                            - /url: "#dialogdescription"
+                                            - generic [ref=e1093]: Dialog.Description
+                                    - listitem [ref=e1094]:
+                                        - link "Dialog.Close" [ref=e1095] [cursor=pointer]:
+                                            - /url: "#dialogclose"
+                                            - generic [ref=e1096]: Dialog.Close

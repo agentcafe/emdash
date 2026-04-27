@@ -1,0 +1,389 @@
+- generic [ref=e2]:
+    - generic [ref=e3]:
+        - button "Toggle sidebar" [pressed] [ref=e7] [cursor=pointer]:
+            - img [ref=e9]
+        - generic:
+            - heading "Kumo" [level=1]
+        - complementary [ref=e28]:
+            - generic [ref=e30]:
+                - button "Search..." [ref=e31]:
+                    - img [ref=e32]
+                    - generic [ref=e34]: Search...
+                - list [ref=e35]:
+                    - listitem [ref=e36]:
+                        - link "Home" [ref=e37] [cursor=pointer]:
+                            - /url: /
+                    - listitem [ref=e38]:
+                        - link "Installation" [ref=e39] [cursor=pointer]:
+                            - /url: /installation
+                    - listitem [ref=e40]:
+                        - link "Contributing" [ref=e41] [cursor=pointer]:
+                            - /url: /contributing
+                    - listitem [ref=e42]:
+                        - link "Colors" [ref=e43] [cursor=pointer]:
+                            - /url: /colors
+                    - listitem [ref=e44]:
+                        - link "Accessibility" [ref=e45] [cursor=pointer]:
+                            - /url: /accessibility
+                    - listitem [ref=e46]:
+                        - link "Figma Resources" [ref=e47] [cursor=pointer]:
+                            - /url: /figma
+                    - listitem [ref=e48]:
+                        - link "CLI" [ref=e49] [cursor=pointer]:
+                            - /url: /cli
+                    - listitem [ref=e50]:
+                        - link "Registry" [ref=e51] [cursor=pointer]:
+                            - /url: /registry
+                    - listitem [ref=e52]:
+                        - link "Changelog" [ref=e53] [cursor=pointer]:
+                            - /url: /changelog
+                - generic [ref=e55]:
+                    - button "Components" [ref=e56] [cursor=pointer]:
+                        - generic [ref=e57]: Components
+                        - img [ref=e58]
+                    - list [ref=e60]:
+                        - listitem [ref=e61]:
+                            - link "Autocomplete" [ref=e62] [cursor=pointer]:
+                                - /url: /components/autocomplete
+                        - listitem [ref=e63]:
+                            - link "Badge" [ref=e64] [cursor=pointer]:
+                                - /url: /components/badge
+                        - listitem [ref=e65]:
+                            - link "Banner" [ref=e66] [cursor=pointer]:
+                                - /url: /components/banner
+                        - listitem [ref=e67]:
+                            - link "Breadcrumbs" [ref=e68] [cursor=pointer]:
+                                - /url: /components/breadcrumbs
+                        - listitem [ref=e69]:
+                            - link "Button" [ref=e70] [cursor=pointer]:
+                                - /url: /components/button
+                        - listitem [ref=e71]:
+                            - link "Checkbox" [ref=e72] [cursor=pointer]:
+                                - /url: /components/checkbox
+                        - listitem [ref=e73]:
+                            - link "Clipboard Text" [ref=e74] [cursor=pointer]:
+                                - /url: /components/clipboard-text
+                        - listitem [ref=e75]:
+                            - link "Cloudflare Logo" [ref=e76] [cursor=pointer]:
+                                - /url: /components/cloudflare-logo
+                        - listitem [ref=e77]:
+                            - link "CodeHighlighted" [ref=e78] [cursor=pointer]:
+                                - /url: /components/code-highlighted
+                        - listitem [ref=e79]:
+                            - link "Collapsible" [ref=e80] [cursor=pointer]:
+                                - /url: /components/collapsible
+                        - listitem [ref=e81]:
+                            - link "Combobox" [ref=e82] [cursor=pointer]:
+                                - /url: /components/combobox
+                        - listitem [ref=e83]:
+                            - link "Command Palette" [ref=e84] [cursor=pointer]:
+                                - /url: /components/command-palette
+                        - listitem [ref=e85]:
+                            - link "Date Picker" [ref=e86] [cursor=pointer]:
+                                - /url: /components/date-picker
+                        - listitem [ref=e87]:
+                            - link "Dialog" [ref=e88] [cursor=pointer]:
+                                - /url: /components/dialog
+                        - listitem [ref=e89]:
+                            - link "Dropdown" [ref=e90] [cursor=pointer]:
+                                - /url: /components/dropdown
+                        - listitem [ref=e91]:
+                            - link "Empty" [ref=e92] [cursor=pointer]:
+                                - /url: /components/empty
+                        - listitem [ref=e93]:
+                            - link "Flow" [ref=e94] [cursor=pointer]:
+                                - /url: /components/flow
+                        - listitem [ref=e95]:
+                            - link "Grid" [ref=e96] [cursor=pointer]:
+                                - /url: /components/grid
+                        - listitem [ref=e97]:
+                            - link "Input" [ref=e98] [cursor=pointer]:
+                                - /url: /components/input
+                        - listitem [ref=e99]:
+                            - link "InputArea" [ref=e100] [cursor=pointer]:
+                                - /url: /components/input-area
+                        - listitem [ref=e101]:
+                            - link "InputGroup" [ref=e102] [cursor=pointer]:
+                                - /url: /components/input-group
+                        - listitem [ref=e103]:
+                            - link "Label" [ref=e104] [cursor=pointer]:
+                                - /url: /components/label
+                        - listitem [ref=e105]:
+                            - link "Layer Card" [ref=e106] [cursor=pointer]:
+                                - /url: /components/layer-card
+                        - listitem [ref=e107]:
+                            - link "Link" [ref=e108] [cursor=pointer]:
+                                - /url: /components/link
+                        - listitem [ref=e109]:
+                            - link "Loader" [ref=e110] [cursor=pointer]:
+                                - /url: /components/loader
+                        - listitem [ref=e111]:
+                            - link "MenuBar" [ref=e112] [cursor=pointer]:
+                                - /url: /components/menu-bar
+                        - listitem [ref=e113]:
+                            - link "Meter" [ref=e114] [cursor=pointer]:
+                                - /url: /components/meter
+                        - listitem [ref=e115]:
+                            - link "Pagination" [ref=e116] [cursor=pointer]:
+                                - /url: /components/pagination
+                        - listitem [ref=e117]:
+                            - link "Popover" [ref=e118] [cursor=pointer]:
+                                - /url: /components/popover
+                        - listitem [ref=e119]:
+                            - link "Radio" [ref=e120] [cursor=pointer]:
+                                - /url: /components/radio
+                        - listitem [ref=e121]:
+                            - link "Select" [ref=e122] [cursor=pointer]:
+                                - /url: /components/select
+                        - listitem [ref=e123]:
+                            - link "Sensitive Input" [ref=e124] [cursor=pointer]:
+                                - /url: /components/sensitive-input
+                        - listitem [ref=e125]:
+                            - link "Sidebar" [ref=e126] [cursor=pointer]:
+                                - /url: /components/sidebar
+                        - listitem [ref=e127]:
+                            - link "Skeleton Line" [ref=e128] [cursor=pointer]:
+                                - /url: /components/skeleton-line
+                        - listitem [ref=e129]:
+                            - link "Switch" [ref=e130] [cursor=pointer]:
+                                - /url: /components/switch
+                        - listitem [ref=e131]:
+                            - link "Table" [ref=e132] [cursor=pointer]:
+                                - /url: /components/table
+                        - listitem [ref=e133]:
+                            - link "Table of Contents" [ref=e134] [cursor=pointer]:
+                                - /url: /components/table-of-contents
+                        - listitem [ref=e135]:
+                            - link "Tabs" [ref=e136] [cursor=pointer]:
+                                - /url: /components/tabs
+                        - listitem [ref=e137]:
+                            - link "Text" [ref=e138] [cursor=pointer]:
+                                - /url: /components/text
+                        - listitem [ref=e139]:
+                            - link "Toast" [ref=e140] [cursor=pointer]:
+                                - /url: /components/toast
+                        - listitem [ref=e141]:
+                            - link "Tooltip" [ref=e142] [cursor=pointer]:
+                                - /url: /components/tooltip
+                - generic [ref=e143]:
+                    - button "Charts" [ref=e144] [cursor=pointer]:
+                        - generic [ref=e145]: Charts
+                        - img [ref=e146]
+                    - list [ref=e148]:
+                        - listitem [ref=e149]:
+                            - link "Charts" [ref=e150] [cursor=pointer]:
+                                - /url: /charts
+                        - listitem [ref=e151]:
+                            - link "Colors" [ref=e152] [cursor=pointer]:
+                                - /url: /charts/colors
+                        - listitem [ref=e153]:
+                            - link "Timeseries" [ref=e154] [cursor=pointer]:
+                                - /url: /charts/timeseries
+                        - listitem [ref=e155]:
+                            - link "Custom Chart" [ref=e156] [cursor=pointer]:
+                                - /url: /charts/custom
+                - generic [ref=e157]:
+                    - button "Blocks" [ref=e158] [cursor=pointer]:
+                        - generic [ref=e159]: Blocks
+                        - img [ref=e160]
+                    - list [ref=e162]:
+                        - listitem [ref=e163]:
+                            - link "Page Header" [ref=e164] [cursor=pointer]:
+                                - /url: /blocks/page-header
+                        - listitem [ref=e165]:
+                            - link "Resource List" [ref=e166] [cursor=pointer]:
+                                - /url: /blocks/resource-list
+                        - listitem [ref=e167]:
+                            - link "Delete Resource" [ref=e168] [cursor=pointer]:
+                                - /url: /blocks/delete-resource
+    - generic [ref=e170]:
+        - banner [ref=e172]:
+            - generic [ref=e173]:
+                - generic:
+                    - generic: Loader
+                    - link "View source on GitHub":
+                        - /url: https://github.com/cloudflare/kumo/blob/main/packages/kumo/src/components/loader/loader.tsx
+                        - img
+                - link "@cloudflare/kumo" [ref=e174] [cursor=pointer]:
+                    - /url: https://github.com/cloudflare/kumo
+            - button "Toggle theme" [ref=e176] [cursor=pointer]:
+                - img [ref=e177]
+        - generic [ref=e181]:
+            - generic [ref=e182]:
+                - heading "Loader" [level=1] [ref=e183]
+                - link "View source on GitHub" [ref=e184] [cursor=pointer]:
+                    - /url: https://github.com/cloudflare/kumo/blob/main/packages/kumo/src/components/loader/loader.tsx
+                    - img [ref=e185]
+                - generic [ref=e189]:
+                    - button "Copy page" [ref=e190] [cursor=pointer]:
+                        - img [ref=e191]
+                        - generic [ref=e193]: Copy page
+                    - button "Copy page options" [ref=e194] [cursor=pointer]:
+                        - img [ref=e195]
+            - paragraph [ref=e197]: A loading spinner to indicate loading state.
+        - main [ref=e198]:
+            - generic [ref=e201]:
+                - generic [ref=e202]:
+                    - generic [ref=e204]:
+                        - status "Loading" [ref=e207]
+                        - generic [ref=e211]:
+                            - code [ref=e213]:
+                                - generic [ref=e214]: 'import { Loader } from "@cloudflare/kumo";'
+                                - generic [ref=e215]: "export function LoaderBasicDemo() {"
+                                - generic [ref=e216]: return <Loader />;
+                                - generic [ref=e217]: "}"
+                            - button "Copy code to clipboard" [ref=e218] [cursor=pointer]:
+                                - generic [ref=e219]:
+                                    - img [ref=e221]
+                                    - img [ref=e224]
+                    - generic [ref=e226]:
+                        - 'heading "Link to section: Installation" [level=2] [ref=e227]':
+                            - 'link "Link to section: Installation" [ref=e228] [cursor=pointer]':
+                                - /url: "#installation"
+                                - img [ref=e230]
+                                - text: Installation
+                        - 'heading "Link to section: Barrel" [level=3] [ref=e232]':
+                            - 'link "Link to section: Barrel" [ref=e233] [cursor=pointer]':
+                                - /url: "#barrel"
+                                - img [ref=e235]
+                                - text: Barrel
+                        - generic [ref=e237]:
+                            - code [ref=e239]:
+                                - generic [ref=e240]: 'import { Loader } from "@cloudflare/kumo";'
+                            - button "Copy code to clipboard" [ref=e241] [cursor=pointer]:
+                                - generic [ref=e242]:
+                                    - img [ref=e244]
+                                    - img [ref=e247]
+                        - 'heading "Link to section: Granular" [level=3] [ref=e249]':
+                            - 'link "Link to section: Granular" [ref=e250] [cursor=pointer]':
+                                - /url: "#granular"
+                                - img [ref=e252]
+                                - text: Granular
+                        - generic [ref=e254]:
+                            - code [ref=e256]:
+                                - generic [ref=e257]: 'import { Loader } from "@cloudflare/kumo/components/loader";'
+                            - button "Copy code to clipboard" [ref=e258] [cursor=pointer]:
+                                - generic [ref=e259]:
+                                    - img [ref=e261]
+                                    - img [ref=e264]
+                    - generic [ref=e266]:
+                        - 'heading "Link to section: Usage" [level=2] [ref=e267]':
+                            - 'link "Link to section: Usage" [ref=e268] [cursor=pointer]':
+                                - /url: "#usage"
+                                - img [ref=e270]
+                                - text: Usage
+                        - generic [ref=e272]:
+                            - code [ref=e274]:
+                                - generic [ref=e275]: 'import { Loader } from "@cloudflare/kumo";'
+                                - generic [ref=e276]: "export default function Example() {"
+                                - generic [ref=e277]: return <Loader />;
+                                - generic [ref=e278]: "}"
+                            - button "Copy code to clipboard" [ref=e279] [cursor=pointer]:
+                                - generic [ref=e280]:
+                                    - img [ref=e282]
+                                    - img [ref=e285]
+                    - generic [ref=e287]:
+                        - 'heading "Link to section: Examples" [level=2] [ref=e288]':
+                            - 'link "Link to section: Examples" [ref=e289] [cursor=pointer]':
+                                - /url: "#examples"
+                                - img [ref=e291]
+                                - text: Examples
+                        - 'heading "Link to section: Default Size" [level=3] [ref=e293]':
+                            - 'link "Link to section: Default Size" [ref=e294] [cursor=pointer]':
+                                - /url: "#default-size"
+                                - img [ref=e296]
+                                - text: Default Size
+                        - generic [ref=e298]:
+                            - status "Loading" [ref=e301]
+                            - generic [ref=e305]:
+                                - code [ref=e307]:
+                                    - generic [ref=e308]: 'import { Loader } from "@cloudflare/kumo";'
+                                    - generic [ref=e309]: "export function LoaderBasicDemo() {"
+                                    - generic [ref=e310]: return <Loader />;
+                                    - generic [ref=e311]: "}"
+                                - button "Copy code to clipboard" [ref=e312] [cursor=pointer]:
+                                    - generic [ref=e313]:
+                                        - img [ref=e315]
+                                        - img [ref=e318]
+                        - 'heading "Link to section: Custom Size" [level=3] [ref=e320]':
+                            - 'link "Link to section: Custom Size" [ref=e321] [cursor=pointer]':
+                                - /url: "#custom-size"
+                                - img [ref=e323]
+                                - text: Custom Size
+                        - generic [ref=e325]:
+                            - status "Loading" [ref=e328]
+                            - generic [ref=e332]:
+                                - code [ref=e334]:
+                                    - generic [ref=e335]: 'import { Loader } from "@cloudflare/kumo";'
+                                    - generic [ref=e336]: "export function LoaderCustomSizeDemo() {"
+                                    - generic [ref=e337]: "return <Loader size={24} />;"
+                                    - generic [ref=e338]: "}"
+                                - button "Copy code to clipboard" [ref=e339] [cursor=pointer]:
+                                    - generic [ref=e340]:
+                                        - img [ref=e342]
+                                        - img [ref=e345]
+                    - generic [ref=e347]:
+                        - 'heading "Link to section: API Reference" [level=2] [ref=e348]':
+                            - 'link "Link to section: API Reference" [ref=e349] [cursor=pointer]':
+                                - /url: "#api-reference"
+                                - img [ref=e351]
+                                - text: API Reference
+                        - table [ref=e354]:
+                            - rowgroup [ref=e355]:
+                                - row "Prop Type Default Description" [ref=e356]:
+                                    - columnheader "Prop" [ref=e357]
+                                    - columnheader "Type" [ref=e358]
+                                    - columnheader "Default" [ref=e359]
+                                    - columnheader "Description" [ref=e360]
+                            - rowgroup [ref=e361]:
+                                - 'row "className string - Additional CSS classes merged via `cn()`." [ref=e362]':
+                                    - cell "className" [ref=e363]
+                                    - cell "string" [ref=e364]:
+                                        - code [ref=e365]: string
+                                    - cell "-" [ref=e366]
+                                    - 'cell "Additional CSS classes merged via `cn()`." [ref=e367]'
+                                - 'row "size \"sm\" | \"base\" | \"lg\" \"base\" Size of the spinner. Use a preset name or a custom pixel number. - `\"sm\"` — 16px, for inline use - `\"base\"` — 24px, default size - `\"lg\"` — 32px, for prominent loading states" [ref=e368]':
+                                    - cell "size" [ref=e369]
+                                    - cell "\"sm\" | \"base\" | \"lg\"" [ref=e370]:
+                                        - code [ref=e371]: '"sm" | "base" | "lg"'
+                                    - cell "\"base\"" [ref=e372]:
+                                        - code [ref=e373]: '"base"'
+                                    - 'cell "Size of the spinner. Use a preset name or a custom pixel number. - `\"sm\"` — 16px, for inline use - `\"base\"` — 24px, default size - `\"lg\"` — 32px, for prominent loading states" [ref=e374]'
+                - complementary [ref=e375]:
+                    - navigation "Table of contents" [ref=e378]:
+                        - paragraph [ref=e379]: On this page
+                        - list [ref=e380]:
+                            - listitem [ref=e381]:
+                                - link "Installation" [ref=e382] [cursor=pointer]:
+                                    - /url: "#installation"
+                                    - generic [ref=e383]: Installation
+                                - list [ref=e384]:
+                                    - listitem [ref=e385]:
+                                        - link "Barrel" [ref=e386] [cursor=pointer]:
+                                            - /url: "#barrel"
+                                            - generic [ref=e387]: Barrel
+                                    - listitem [ref=e388]:
+                                        - link "Granular" [ref=e389] [cursor=pointer]:
+                                            - /url: "#granular"
+                                            - generic [ref=e390]: Granular
+                            - listitem [ref=e391]:
+                                - link "Usage" [ref=e392] [cursor=pointer]:
+                                    - /url: "#usage"
+                                    - generic [ref=e393]: Usage
+                            - listitem [ref=e394]:
+                                - link "Examples" [ref=e395] [cursor=pointer]:
+                                    - /url: "#examples"
+                                    - generic [ref=e396]: Examples
+                                - list [ref=e397]:
+                                    - listitem [ref=e398]:
+                                        - link "Default Size" [ref=e399] [cursor=pointer]:
+                                            - /url: "#default-size"
+                                            - generic [ref=e400]: Default Size
+                                    - listitem [ref=e401]:
+                                        - link "Custom Size" [ref=e402] [cursor=pointer]:
+                                            - /url: "#custom-size"
+                                            - generic [ref=e403]: Custom Size
+                            - listitem [ref=e404]:
+                                - link "API Reference" [ref=e405] [cursor=pointer]:
+                                    - /url: "#api-reference"
+                                    - generic [ref=e406]: API Reference

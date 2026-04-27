@@ -1,0 +1,1037 @@
+- generic [ref=e2]:
+    - generic [ref=e3]:
+        - button "Toggle sidebar" [pressed] [ref=e7] [cursor=pointer]:
+            - img [ref=e9]
+        - generic:
+            - heading "Kumo" [level=1]
+        - complementary [ref=e28]:
+            - generic [ref=e30]:
+                - button "Search..." [ref=e31]:
+                    - img [ref=e32]
+                    - generic [ref=e34]: Search...
+                - list [ref=e35]:
+                    - listitem [ref=e36]:
+                        - link "Home" [ref=e37] [cursor=pointer]:
+                            - /url: /
+                    - listitem [ref=e38]:
+                        - link "Installation" [ref=e39] [cursor=pointer]:
+                            - /url: /installation
+                    - listitem [ref=e40]:
+                        - link "Contributing" [ref=e41] [cursor=pointer]:
+                            - /url: /contributing
+                    - listitem [ref=e42]:
+                        - link "Colors" [ref=e43] [cursor=pointer]:
+                            - /url: /colors
+                    - listitem [ref=e44]:
+                        - link "Accessibility" [ref=e45] [cursor=pointer]:
+                            - /url: /accessibility
+                    - listitem [ref=e46]:
+                        - link "Figma Resources" [ref=e47] [cursor=pointer]:
+                            - /url: /figma
+                    - listitem [ref=e48]:
+                        - link "CLI" [ref=e49] [cursor=pointer]:
+                            - /url: /cli
+                    - listitem [ref=e50]:
+                        - link "Registry" [ref=e51] [cursor=pointer]:
+                            - /url: /registry
+                    - listitem [ref=e52]:
+                        - link "Changelog" [ref=e53] [cursor=pointer]:
+                            - /url: /changelog
+                - generic [ref=e55]:
+                    - button "Components" [ref=e56] [cursor=pointer]:
+                        - generic [ref=e57]: Components
+                        - img [ref=e58]
+                    - list [ref=e60]:
+                        - listitem [ref=e61]:
+                            - link "Autocomplete" [ref=e62] [cursor=pointer]:
+                                - /url: /components/autocomplete
+                        - listitem [ref=e63]:
+                            - link "Badge" [ref=e64] [cursor=pointer]:
+                                - /url: /components/badge
+                        - listitem [ref=e65]:
+                            - link "Banner" [ref=e66] [cursor=pointer]:
+                                - /url: /components/banner
+                        - listitem [ref=e67]:
+                            - link "Breadcrumbs" [ref=e68] [cursor=pointer]:
+                                - /url: /components/breadcrumbs
+                        - listitem [ref=e69]:
+                            - link "Button" [ref=e70] [cursor=pointer]:
+                                - /url: /components/button
+                        - listitem [ref=e71]:
+                            - link "Checkbox" [ref=e72] [cursor=pointer]:
+                                - /url: /components/checkbox
+                        - listitem [ref=e73]:
+                            - link "Clipboard Text" [ref=e74] [cursor=pointer]:
+                                - /url: /components/clipboard-text
+                        - listitem [ref=e75]:
+                            - link "Cloudflare Logo" [ref=e76] [cursor=pointer]:
+                                - /url: /components/cloudflare-logo
+                        - listitem [ref=e77]:
+                            - link "CodeHighlighted" [ref=e78] [cursor=pointer]:
+                                - /url: /components/code-highlighted
+                        - listitem [ref=e79]:
+                            - link "Collapsible" [ref=e80] [cursor=pointer]:
+                                - /url: /components/collapsible
+                        - listitem [ref=e81]:
+                            - link "Combobox" [ref=e82] [cursor=pointer]:
+                                - /url: /components/combobox
+                        - listitem [ref=e83]:
+                            - link "Command Palette" [ref=e84] [cursor=pointer]:
+                                - /url: /components/command-palette
+                        - listitem [ref=e85]:
+                            - link "Date Picker" [ref=e86] [cursor=pointer]:
+                                - /url: /components/date-picker
+                        - listitem [ref=e87]:
+                            - link "Dialog" [ref=e88] [cursor=pointer]:
+                                - /url: /components/dialog
+                        - listitem [ref=e89]:
+                            - link "Dropdown" [ref=e90] [cursor=pointer]:
+                                - /url: /components/dropdown
+                        - listitem [ref=e91]:
+                            - link "Empty" [ref=e92] [cursor=pointer]:
+                                - /url: /components/empty
+                        - listitem [ref=e93]:
+                            - link "Flow" [ref=e94] [cursor=pointer]:
+                                - /url: /components/flow
+                        - listitem [ref=e95]:
+                            - link "Grid" [ref=e96] [cursor=pointer]:
+                                - /url: /components/grid
+                        - listitem [ref=e97]:
+                            - link "Input" [ref=e98] [cursor=pointer]:
+                                - /url: /components/input
+                        - listitem [ref=e99]:
+                            - link "InputArea" [ref=e100] [cursor=pointer]:
+                                - /url: /components/input-area
+                        - listitem [ref=e101]:
+                            - link "InputGroup" [ref=e102] [cursor=pointer]:
+                                - /url: /components/input-group
+                        - listitem [ref=e103]:
+                            - link "Label" [ref=e104] [cursor=pointer]:
+                                - /url: /components/label
+                        - listitem [ref=e105]:
+                            - link "Layer Card" [ref=e106] [cursor=pointer]:
+                                - /url: /components/layer-card
+                        - listitem [ref=e107]:
+                            - link "Link" [ref=e108] [cursor=pointer]:
+                                - /url: /components/link
+                        - listitem [ref=e109]:
+                            - link "Loader" [ref=e110] [cursor=pointer]:
+                                - /url: /components/loader
+                        - listitem [ref=e111]:
+                            - link "MenuBar" [ref=e112] [cursor=pointer]:
+                                - /url: /components/menu-bar
+                        - listitem [ref=e113]:
+                            - link "Meter" [ref=e114] [cursor=pointer]:
+                                - /url: /components/meter
+                        - listitem [ref=e115]:
+                            - link "Pagination" [ref=e116] [cursor=pointer]:
+                                - /url: /components/pagination
+                        - listitem [ref=e117]:
+                            - link "Popover" [ref=e118] [cursor=pointer]:
+                                - /url: /components/popover
+                        - listitem [ref=e119]:
+                            - link "Radio" [ref=e120] [cursor=pointer]:
+                                - /url: /components/radio
+                        - listitem [ref=e121]:
+                            - link "Select" [ref=e122] [cursor=pointer]:
+                                - /url: /components/select
+                        - listitem [ref=e123]:
+                            - link "Sensitive Input" [ref=e124] [cursor=pointer]:
+                                - /url: /components/sensitive-input
+                        - listitem [ref=e125]:
+                            - link "Sidebar" [ref=e126] [cursor=pointer]:
+                                - /url: /components/sidebar
+                        - listitem [ref=e127]:
+                            - link "Skeleton Line" [ref=e128] [cursor=pointer]:
+                                - /url: /components/skeleton-line
+                        - listitem [ref=e129]:
+                            - link "Switch" [ref=e130] [cursor=pointer]:
+                                - /url: /components/switch
+                        - listitem [ref=e131]:
+                            - link "Table" [ref=e132] [cursor=pointer]:
+                                - /url: /components/table
+                        - listitem [ref=e133]:
+                            - link "Table of Contents" [ref=e134] [cursor=pointer]:
+                                - /url: /components/table-of-contents
+                        - listitem [ref=e135]:
+                            - link "Tabs" [ref=e136] [cursor=pointer]:
+                                - /url: /components/tabs
+                        - listitem [ref=e137]:
+                            - link "Text" [ref=e138] [cursor=pointer]:
+                                - /url: /components/text
+                        - listitem [ref=e139]:
+                            - link "Toast" [ref=e140] [cursor=pointer]:
+                                - /url: /components/toast
+                        - listitem [ref=e141]:
+                            - link "Tooltip" [ref=e142] [cursor=pointer]:
+                                - /url: /components/tooltip
+                - generic [ref=e143]:
+                    - button "Charts" [ref=e144] [cursor=pointer]:
+                        - generic [ref=e145]: Charts
+                        - img [ref=e146]
+                    - list [ref=e148]:
+                        - listitem [ref=e149]:
+                            - link "Charts" [ref=e150] [cursor=pointer]:
+                                - /url: /charts
+                        - listitem [ref=e151]:
+                            - link "Colors" [ref=e152] [cursor=pointer]:
+                                - /url: /charts/colors
+                        - listitem [ref=e153]:
+                            - link "Timeseries" [ref=e154] [cursor=pointer]:
+                                - /url: /charts/timeseries
+                        - listitem [ref=e155]:
+                            - link "Custom Chart" [ref=e156] [cursor=pointer]:
+                                - /url: /charts/custom
+                - generic [ref=e157]:
+                    - button "Blocks" [ref=e158] [cursor=pointer]:
+                        - generic [ref=e159]: Blocks
+                        - img [ref=e160]
+                    - list [ref=e162]:
+                        - listitem [ref=e163]:
+                            - link "Page Header" [ref=e164] [cursor=pointer]:
+                                - /url: /blocks/page-header
+                        - listitem [ref=e165]:
+                            - link "Resource List" [ref=e166] [cursor=pointer]:
+                                - /url: /blocks/resource-list
+                        - listitem [ref=e167]:
+                            - link "Delete Resource" [ref=e168] [cursor=pointer]:
+                                - /url: /blocks/delete-resource
+    - generic [ref=e170]:
+        - banner [ref=e172]:
+            - generic [ref=e173]:
+                - generic:
+                    - generic: Input
+                    - link "View source on GitHub":
+                        - /url: https://github.com/cloudflare/kumo/blob/main/packages/kumo/src/components/input/input.tsx
+                        - img
+                    - link "View Base UI documentation":
+                        - /url: https://base-ui.com/react/components/input
+                        - img "Base UI"
+                - link "@cloudflare/kumo" [ref=e174] [cursor=pointer]:
+                    - /url: https://github.com/cloudflare/kumo
+            - button "Toggle theme" [ref=e176] [cursor=pointer]:
+                - img [ref=e177]
+        - generic [ref=e181]:
+            - generic [ref=e182]:
+                - heading "Input" [level=1] [ref=e183]
+                - link "View source on GitHub" [ref=e184] [cursor=pointer]:
+                    - /url: https://github.com/cloudflare/kumo/blob/main/packages/kumo/src/components/input/input.tsx
+                    - img [ref=e185]
+                - link "View Base UI documentation" [ref=e187] [cursor=pointer]:
+                    - /url: https://base-ui.com/react/components/input
+                    - img "Base UI" [ref=e188]
+                - generic [ref=e193]:
+                    - button "Copy page" [ref=e194] [cursor=pointer]:
+                        - img [ref=e195]
+                        - generic [ref=e197]: Copy page
+                    - button "Copy page options" [ref=e198] [cursor=pointer]:
+                        - img [ref=e199]
+            - paragraph [ref=e201]: A text input field for user input with built-in label, description, and error support.
+        - main [ref=e202]:
+            - generic [ref=e205]:
+                - generic [ref=e206]:
+                    - generic [ref=e208]:
+                        - generic [ref=e211]:
+                            - generic [ref=e213]: Email
+                            - textbox "Email" [ref=e214]:
+                                - /placeholder: you@example.com
+                            - paragraph [ref=e215]: We'll never share your email
+                        - generic [ref=e217]:
+                            - code [ref=e219]:
+                                - generic [ref=e220]: 'import { Input } from "@cloudflare/kumo";'
+                                - generic [ref=e221]: "export function InputBasicDemo() {"
+                                - generic [ref=e222]: return (
+                                - generic [ref=e223]: <Input
+                                - generic [ref=e224]: label="Email"
+                                - generic [ref=e225]: placeholder="you@example.com"
+                                - generic [ref=e226]: description="We'll never share your email"
+                                - generic [ref=e227]: />
+                                - generic [ref=e228]: );
+                                - generic [ref=e229]: "}"
+                            - button "Copy code to clipboard" [ref=e230] [cursor=pointer]:
+                                - generic [ref=e231]:
+                                    - img [ref=e233]
+                                    - img [ref=e236]
+                    - generic [ref=e238]:
+                        - 'heading "Link to section: Installation" [level=2] [ref=e239]':
+                            - 'link "Link to section: Installation" [ref=e240] [cursor=pointer]':
+                                - /url: "#installation"
+                                - img [ref=e242]
+                                - text: Installation
+                        - 'heading "Link to section: Barrel" [level=3] [ref=e244]':
+                            - 'link "Link to section: Barrel" [ref=e245] [cursor=pointer]':
+                                - /url: "#barrel"
+                                - img [ref=e247]
+                                - text: Barrel
+                        - generic [ref=e249]:
+                            - code [ref=e251]:
+                                - generic [ref=e252]: 'import { Input } from "@cloudflare/kumo";'
+                            - button "Copy code to clipboard" [ref=e253] [cursor=pointer]:
+                                - generic [ref=e254]:
+                                    - img [ref=e256]
+                                    - img [ref=e259]
+                        - 'heading "Link to section: Granular" [level=3] [ref=e261]':
+                            - 'link "Link to section: Granular" [ref=e262] [cursor=pointer]':
+                                - /url: "#granular"
+                                - img [ref=e264]
+                                - text: Granular
+                        - generic [ref=e266]:
+                            - code [ref=e268]:
+                                - generic [ref=e269]: 'import { Input } from "@cloudflare/kumo/components/input";'
+                            - button "Copy code to clipboard" [ref=e270] [cursor=pointer]:
+                                - generic [ref=e271]:
+                                    - img [ref=e273]
+                                    - img [ref=e276]
+                    - generic [ref=e278]:
+                        - 'heading "Link to section: Usage" [level=2] [ref=e279]':
+                            - 'link "Link to section: Usage" [ref=e280] [cursor=pointer]':
+                                - /url: "#usage"
+                                - img [ref=e282]
+                                - text: Usage
+                        - 'heading "Link to section: With Built-in Field (Recommended)" [level=3] [ref=e284]':
+                            - 'link "Link to section: With Built-in Field (Recommended)" [ref=e285] [cursor=pointer]':
+                                - /url: "#with-built-in-field-recommended"
+                                - img [ref=e287]
+                                - text: With Built-in Field (Recommended)
+                        - paragraph
+                        - paragraph [ref=e289]:
+                            - text: Use the
+                            - code [ref=e290]: label
+                            - text: prop to enable the built-in Field wrapper with label, description, and error support.
+                        - paragraph
+                        - generic [ref=e291]:
+                            - code [ref=e293]:
+                                - generic [ref=e294]: 'import { Input } from "@cloudflare/kumo";'
+                                - generic [ref=e295]: "export default function Example() {"
+                                - generic [ref=e296]: return (
+                                - generic [ref=e297]: <Input
+                                - generic [ref=e298]: label="Email"
+                                - generic [ref=e299]: placeholder="you@example.com"
+                                - generic [ref=e300]: description="We'll never share your email"
+                                - generic [ref=e301]: />
+                                - generic [ref=e302]: );
+                                - generic [ref=e303]: "}"
+                            - button "Copy code to clipboard" [ref=e304] [cursor=pointer]:
+                                - generic [ref=e305]:
+                                    - img [ref=e307]
+                                    - img [ref=e310]
+                        - 'heading "Link to section: Bare Input (Custom Layouts)" [level=3] [ref=e312]':
+                            - 'link "Link to section: Bare Input (Custom Layouts)" [ref=e313] [cursor=pointer]':
+                                - /url: "#bare-input-custom-layouts"
+                                - img [ref=e315]
+                                - text: Bare Input (Custom Layouts)
+                        - paragraph
+                        - paragraph [ref=e317]:
+                            - text: For custom form layouts, use Input without
+                            - code [ref=e318]: label
+                            - text: . Must provide
+                            - code [ref=e319]: aria-label
+                            - text: or
+                            - code [ref=e320]: aria-labelledby
+                            - text: for accessibility.
+                        - paragraph
+                        - generic [ref=e321]:
+                            - code [ref=e323]:
+                                - generic [ref=e324]: 'import { Input } from "@cloudflare/kumo";'
+                                - generic [ref=e325]: "export default function Example() {"
+                                - generic [ref=e326]: return <Input placeholder="Search..." aria-label="Search products" />;
+                                - generic [ref=e327]: "}"
+                            - button "Copy code to clipboard" [ref=e328] [cursor=pointer]:
+                                - generic [ref=e329]:
+                                    - img [ref=e331]
+                                    - img [ref=e334]
+                    - generic [ref=e336]:
+                        - 'heading "Link to section: Examples" [level=2] [ref=e337]':
+                            - 'link "Link to section: Examples" [ref=e338] [cursor=pointer]':
+                                - /url: "#examples"
+                                - img [ref=e340]
+                                - text: Examples
+                        - 'heading "Link to section: With Label and Description" [level=3] [ref=e342]':
+                            - 'link "Link to section: With Label and Description" [ref=e343] [cursor=pointer]':
+                                - /url: "#with-label-and-description"
+                                - img [ref=e345]
+                                - text: With Label and Description
+                        - paragraph
+                        - paragraph [ref=e347]:
+                            - text: The
+                            - code [ref=e348]: label
+                            - text: prop enables the built-in Field wrapper with automatic vertical layout (label above input).
+                        - paragraph
+                        - generic [ref=e349]:
+                            - generic [ref=e352]:
+                                - generic [ref=e354]: Username
+                                - textbox "Username" [ref=e355]:
+                                    - /placeholder: Choose a username
+                                - paragraph [ref=e356]: 3-20 characters, alphanumeric only
+                            - generic [ref=e358]:
+                                - code [ref=e360]:
+                                    - generic [ref=e361]: 'import { Input } from "@cloudflare/kumo";'
+                                    - generic [ref=e362]: "export function InputWithLabelDemo() {"
+                                    - generic [ref=e363]: return (
+                                    - generic [ref=e364]: <Input
+                                    - generic [ref=e365]: label="Username"
+                                    - generic [ref=e366]: placeholder="Choose a username"
+                                    - generic [ref=e367]: description="3-20 characters, alphanumeric only"
+                                    - generic [ref=e368]: />
+                                    - generic [ref=e369]: );
+                                    - generic [ref=e370]: "}"
+                                - button "Copy code to clipboard" [ref=e371] [cursor=pointer]:
+                                    - generic [ref=e372]:
+                                        - img [ref=e374]
+                                        - img [ref=e377]
+                        - 'heading "Link to section: With Error (String)" [level=3] [ref=e379]':
+                            - 'link "Link to section: With Error (String)" [ref=e380] [cursor=pointer]':
+                                - /url: "#with-error-string"
+                                - img [ref=e382]
+                                - text: With Error (String)
+                        - paragraph
+                        - paragraph [ref=e384]:
+                            - text: Pass
+                            - code [ref=e385]: error
+                            - text: as a string for simple error messages. Error styling is automatically applied when the
+                            - code [ref=e386]: error
+                            - text: prop is truthy.
+                        - paragraph
+                        - generic [ref=e387]:
+                            - generic [ref=e390]:
+                                - generic [ref=e392]: Email
+                                - textbox "Email" [ref=e393]:
+                                    - /placeholder: you@example.com
+                                    - text: invalid-email
+                                - generic [ref=e394]: Please enter a valid email address
+                            - generic [ref=e396]:
+                                - code [ref=e398]:
+                                    - generic [ref=e399]: 'import { Input } from "@cloudflare/kumo";'
+                                    - generic [ref=e400]: "export function InputErrorStringDemo() {"
+                                    - generic [ref=e401]: return (
+                                    - generic [ref=e402]: <Input
+                                    - generic [ref=e403]: label="Email"
+                                    - generic [ref=e404]: placeholder="you@example.com"
+                                    - generic [ref=e405]: value="invalid-email"
+                                    - generic [ref=e406]: error="Please enter a valid email address"
+                                    - generic [ref=e407]: />
+                                    - generic [ref=e408]: );
+                                    - generic [ref=e409]: "}"
+                                - button "Copy code to clipboard" [ref=e410] [cursor=pointer]:
+                                    - generic [ref=e411]:
+                                        - img [ref=e413]
+                                        - img [ref=e416]
+                        - 'heading "Link to section: With Error (Validation Object)" [level=3] [ref=e418]':
+                            - 'link "Link to section: With Error (Validation Object)" [ref=e419] [cursor=pointer]':
+                                - /url: "#with-error-validation-object"
+                                - img [ref=e421]
+                                - text: With Error (Validation Object)
+                        - paragraph
+                        - paragraph [ref=e423]:
+                            - text: Pass
+                            - code [ref=e424]: error
+                            - text: as an object with
+                            - code [ref=e425]: message
+                            - text: and
+                            - code [ref=e426]: match
+                            - text: for HTML5 validation. Error shows when field validity matches.
+                        - paragraph
+                        - generic [ref=e427]:
+                            - generic [ref=e430]:
+                                - generic [ref=e432]: Password
+                                - textbox "Password" [ref=e433]: short
+                            - generic [ref=e435]:
+                                - code [ref=e437]:
+                                    - generic [ref=e438]: 'import { Input } from "@cloudflare/kumo";'
+                                    - generic [ref=e439]: "export function InputErrorObjectDemo() {"
+                                    - generic [ref=e440]: return (
+                                    - generic [ref=e441]: <Input
+                                    - generic [ref=e442]: label="Password"
+                                    - generic [ref=e443]: type="password"
+                                    - generic [ref=e444]: value="short"
+                                    - generic [ref=e445]: "error={{"
+                                    - generic [ref=e446]: 'message: "Password must be at least 8 characters",'
+                                    - generic [ref=e447]: 'match: "tooShort",'
+                                    - generic [ref=e448]: "}}"
+                                    - generic [ref=e449]: "minLength={8}"
+                                    - generic [ref=e450]: />
+                                    - generic [ref=e451]: );
+                                    - generic [ref=e452]: "}"
+                                - button "Copy code to clipboard" [ref=e453] [cursor=pointer]:
+                                    - generic [ref=e454]:
+                                        - img [ref=e456]
+                                        - img [ref=e459]
+                        - 'heading "Link to section: Input Sizes" [level=3] [ref=e461]':
+                            - 'link "Link to section: Input Sizes" [ref=e462] [cursor=pointer]':
+                                - /url: "#input-sizes"
+                                - img [ref=e464]
+                                - text: Input Sizes
+                        - paragraph [ref=e466]:
+                            - text: "Four sizes available:"
+                            - code [ref=e467]: xs
+                            - text: ","
+                            - code [ref=e468]: sm
+                            - text: ","
+                            - code [ref=e469]: base
+                            - text: (default),
+                            - code [ref=e470]: lg
+                            - text: .
+                        - generic [ref=e471]:
+                            - generic [ref=e474]:
+                                - generic [ref=e475]:
+                                    - generic [ref=e477]: Extra Small
+                                    - textbox "Extra Small" [ref=e478]:
+                                        - /placeholder: Extra small input
+                                - generic [ref=e479]:
+                                    - generic [ref=e481]: Small
+                                    - textbox "Small" [ref=e482]:
+                                        - /placeholder: Small input
+                                - generic [ref=e483]:
+                                    - generic [ref=e485]: Base
+                                    - textbox "Base" [ref=e486]:
+                                        - /placeholder: Base input (default)
+                                - generic [ref=e487]:
+                                    - generic [ref=e489]: Large
+                                    - textbox "Large" [ref=e490]:
+                                        - /placeholder: Large input
+                            - generic [ref=e492]:
+                                - code [ref=e494]:
+                                    - generic [ref=e495]: 'import { Input } from "@cloudflare/kumo";'
+                                    - generic [ref=e496]: "export function InputSizesDemo() {"
+                                    - generic [ref=e497]: return (
+                                    - generic [ref=e498]: <div className="flex flex-col gap-4">
+                                    - generic [ref=e499]: <Input size="xs" label="Extra Small" placeholder="Extra small input" />
+                                    - generic [ref=e500]: <Input size="sm" label="Small" placeholder="Small input" />
+                                    - generic [ref=e501]: <Input label="Base" placeholder="Base input (default)" />
+                                    - generic [ref=e502]: <Input size="lg" label="Large" placeholder="Large input" />
+                                    - generic [ref=e503]: </div>
+                                    - generic [ref=e504]: );
+                                    - generic [ref=e505]: "}"
+                                - button "Copy code to clipboard" [ref=e506] [cursor=pointer]:
+                                    - generic [ref=e507]:
+                                        - img [ref=e509]
+                                        - img [ref=e512]
+                        - 'heading "Link to section: Disabled" [level=3] [ref=e514]':
+                            - 'link "Link to section: Disabled" [ref=e515] [cursor=pointer]':
+                                - /url: "#disabled"
+                                - img [ref=e517]
+                                - text: Disabled
+                        - generic [ref=e519]:
+                            - generic [ref=e522]:
+                                - generic [ref=e524]: Disabled field
+                                - textbox "Disabled field" [disabled] [ref=e525]:
+                                    - /placeholder: Cannot edit
+                            - generic [ref=e527]:
+                                - code [ref=e529]:
+                                    - generic [ref=e530]: 'import { Input } from "@cloudflare/kumo";'
+                                    - generic [ref=e531]: "export function InputDisabledDemo() {"
+                                    - generic [ref=e532]: return <Input label="Disabled field" placeholder="Cannot edit" disabled />;
+                                    - generic [ref=e533]: "}"
+                                - button "Copy code to clipboard" [ref=e534] [cursor=pointer]:
+                                    - generic [ref=e535]:
+                                        - img [ref=e537]
+                                        - img [ref=e540]
+                        - 'heading "Link to section: Optional Field" [level=3] [ref=e542]':
+                            - 'link "Link to section: Optional Field" [ref=e543] [cursor=pointer]':
+                                - /url: "#optional-field"
+                                - img [ref=e545]
+                                - text: Optional Field
+                        - paragraph [ref=e547]:
+                            - text: Set
+                            - code [ref=e548]: "required={false}"
+                            - text: to show “(optional)” text after the label.
+                        - generic [ref=e549]:
+                            - generic [ref=e552]:
+                                - generic [ref=e554]:
+                                    - text: Phone Number
+                                    - generic [ref=e555]: (optional)
+                                - textbox "Phone Number (optional)" [ref=e556]:
+                                    - /placeholder: +1 (555) 000-0000
+                            - generic [ref=e558]:
+                                - code [ref=e560]:
+                                    - generic [ref=e561]: 'import { Input } from "@cloudflare/kumo";'
+                                    - generic [ref=e562]: "export function InputOptionalFieldDemo() {"
+                                    - generic [ref=e563]: return (
+                                    - generic [ref=e564]: <Input
+                                    - generic [ref=e565]: label="Phone Number"
+                                    - generic [ref=e566]: "required={false}"
+                                    - generic [ref=e567]: placeholder="+1 (555) 000-0000"
+                                    - generic [ref=e568]: />
+                                    - generic [ref=e569]: );
+                                    - generic [ref=e570]: "}"
+                                - button "Copy code to clipboard" [ref=e571] [cursor=pointer]:
+                                    - generic [ref=e572]:
+                                        - img [ref=e574]
+                                        - img [ref=e577]
+                        - 'heading "Link to section: With Label Tooltip" [level=3] [ref=e579]':
+                            - 'link "Link to section: With Label Tooltip" [ref=e580] [cursor=pointer]':
+                                - /url: "#with-label-tooltip"
+                                - img [ref=e582]
+                                - text: With Label Tooltip
+                        - paragraph [ref=e584]:
+                            - text: Use
+                            - code [ref=e585]: labelTooltip
+                            - text: to add an info icon with additional context on hover.
+                        - generic [ref=e586]:
+                            - generic [ref=e589]:
+                                - generic [ref=e591]:
+                                    - text: API Key
+                                    - button "More information" [ref=e592] [cursor=pointer]:
+                                        - img [ref=e593]
+                                - textbox "API Key More information" [ref=e595]:
+                                    - /placeholder: sk_live_...
+                            - generic [ref=e597]:
+                                - code [ref=e599]:
+                                    - generic [ref=e600]: 'import { Input } from "@cloudflare/kumo";'
+                                    - generic [ref=e601]: "export function InputLabelTooltipDemo() {"
+                                    - generic [ref=e602]: return (
+                                    - generic [ref=e603]: <Input
+                                    - generic [ref=e604]: label="API Key"
+                                    - generic [ref=e605]: labelTooltip="Find this in your dashboard under Settings > API Keys"
+                                    - generic [ref=e606]: placeholder="sk_live_..."
+                                    - generic [ref=e607]: />
+                                    - generic [ref=e608]: );
+                                    - generic [ref=e609]: "}"
+                                - button "Copy code to clipboard" [ref=e610] [cursor=pointer]:
+                                    - generic [ref=e611]:
+                                        - img [ref=e613]
+                                        - img [ref=e616]
+                        - 'heading "Link to section: ReactNode Label" [level=3] [ref=e618]':
+                            - 'link "Link to section: ReactNode Label" [ref=e619] [cursor=pointer]':
+                                - /url: "#reactnode-label"
+                                - img [ref=e621]
+                                - text: ReactNode Label
+                        - paragraph [ref=e623]:
+                            - text: The
+                            - code [ref=e624]: label
+                            - text: prop accepts ReactNode for rich formatting.
+                        - generic [ref=e625]:
+                            - generic [ref=e628]:
+                                - generic [ref=e631]:
+                                    - text: Email for
+                                    - strong [ref=e632]: billing
+                                - textbox "Email for billing" [ref=e633]:
+                                    - /placeholder: billing@company.com
+                            - generic [ref=e635]:
+                                - code [ref=e637]:
+                                    - generic [ref=e638]: 'import { Input } from "@cloudflare/kumo";'
+                                    - generic [ref=e639]: "export function InputReactNodeLabelDemo() {"
+                                    - generic [ref=e640]: return (
+                                    - generic [ref=e641]: <Input
+                                    - generic [ref=e642]: "label={"
+                                    - generic [ref=e643]: <span>
+                                    - generic [ref=e644]: Email for <strong>billing</strong>
+                                    - generic [ref=e645]: </span>
+                                    - generic [ref=e646]: "}"
+                                    - generic [ref=e647]: required
+                                    - generic [ref=e648]: placeholder="billing@company.com"
+                                    - generic [ref=e649]: type="email"
+                                    - generic [ref=e650]: />
+                                    - generic [ref=e651]: );
+                                    - generic [ref=e652]: "}"
+                                - button "Copy code to clipboard" [ref=e653] [cursor=pointer]:
+                                    - generic [ref=e654]:
+                                        - img [ref=e656]
+                                        - img [ref=e659]
+                        - 'heading "Link to section: Controlled with onChange" [level=3] [ref=e661]':
+                            - 'link "Link to section: Controlled with onChange" [ref=e662] [cursor=pointer]':
+                                - /url: "#controlled-with-onchange"
+                                - img [ref=e664]
+                                - text: Controlled with onChange
+                        - paragraph
+                        - paragraph [ref=e666]:
+                            - text: The standard React
+                            - code [ref=e667]: onChange
+                            - text: handler receives the full event object. Use
+                            - code [ref=e668]: e.target.value
+                            - text: to get the value.
+                        - paragraph
+                        - generic [ref=e669]:
+                            - generic [ref=e672]:
+                                - generic [ref=e674]: With onChange
+                                - textbox "With onChange" [ref=e675]:
+                                    - /placeholder: Type something...
+                                - paragraph [ref=e676]: Uses e.target.value
+                            - generic [ref=e678]:
+                                - code [ref=e680]:
+                                    - generic [ref=e681]: 'import { useState } from "react";'
+                                    - generic [ref=e682]: 'import { Input } from "@cloudflare/kumo";'
+                                    - generic [ref=e683]: "/** Controlled input using `onChange` (native React event). */"
+                                    - generic [ref=e684]: "export function InputControlledOnChangeDemo() {"
+                                    - generic [ref=e685]: const [value, setValue] = useState("");
+                                    - generic [ref=e686]: return (
+                                    - generic [ref=e687]: <Input
+                                    - generic [ref=e688]: label="With onChange"
+                                    - generic [ref=e689]: placeholder="Type something..."
+                                    - generic [ref=e690]: 'description={value ? `Value: ${value}` : "Uses e.target.value"}'
+                                    - generic [ref=e691]: "value={value}"
+                                    - generic [ref=e692]: "onChange={(e) => setValue(e.target.value)}"
+                                    - generic [ref=e693]: />
+                                    - generic [ref=e694]: );
+                                    - generic [ref=e695]: "}"
+                                - button "Copy code to clipboard" [ref=e696] [cursor=pointer]:
+                                    - generic [ref=e697]:
+                                        - img [ref=e699]
+                                        - img [ref=e702]
+                        - 'heading "Link to section: Controlled with onValueChange" [level=3] [ref=e704]':
+                            - 'link "Link to section: Controlled with onValueChange" [ref=e705] [cursor=pointer]':
+                                - /url: "#controlled-with-onvaluechange"
+                                - img [ref=e707]
+                                - text: Controlled with onValueChange
+                        - paragraph
+                        - paragraph [ref=e709]:
+                            - code [ref=e710]: onValueChange
+                            - text: is a convenience handler from Base UI that gives you the string value directly — no event unwrapping needed. This is the same pattern used by
+                            - code [ref=e711]: Select
+                            - text: ","
+                            - code [ref=e712]: Combobox
+                            - text: ", and"
+                            - code [ref=e713]: Radio.Group
+                            - text: .
+                        - paragraph
+                        - generic [ref=e714]:
+                            - generic [ref=e717]:
+                                - generic [ref=e719]: With onValueChange
+                                - textbox "With onValueChange" [ref=e720]:
+                                    - /placeholder: Type something...
+                                - paragraph [ref=e721]: Receives the value directly
+                            - generic [ref=e723]:
+                                - code [ref=e725]:
+                                    - generic [ref=e726]: 'import { useState } from "react";'
+                                    - generic [ref=e727]: 'import { Input } from "@cloudflare/kumo";'
+                                    - generic [ref=e728]: "/** Controlled input using `onValueChange` (Base UI convenience — gives you the string directly). */"
+                                    - generic [ref=e729]: "export function InputControlledOnValueChangeDemo() {"
+                                    - generic [ref=e730]: const [value, setValue] = useState("");
+                                    - generic [ref=e731]: return (
+                                    - generic [ref=e732]: <Input
+                                    - generic [ref=e733]: label="With onValueChange"
+                                    - generic [ref=e734]: placeholder="Type something..."
+                                    - generic [ref=e735]: 'description={value ? `Value: ${value}` : "Receives the value directly"}'
+                                    - generic [ref=e736]: "value={value}"
+                                    - generic [ref=e737]: "onValueChange={(v) => setValue(v)}"
+                                    - generic [ref=e738]: />
+                                    - generic [ref=e739]: );
+                                    - generic [ref=e740]: "}"
+                                - button "Copy code to clipboard" [ref=e741] [cursor=pointer]:
+                                    - generic [ref=e742]:
+                                        - img [ref=e744]
+                                        - img [ref=e747]
+                        - 'heading "Link to section: Bare Input (No Label)" [level=3] [ref=e749]':
+                            - 'link "Link to section: Bare Input (No Label)" [ref=e750] [cursor=pointer]':
+                                - /url: "#bare-input-no-label"
+                                - img [ref=e752]
+                                - text: Bare Input (No Label)
+                        - paragraph
+                        - paragraph [ref=e754]:
+                            - text: Input without
+                            - code [ref=e755]: label
+                            - text: renders as a bare input. Must provide
+                            - code [ref=e756]: aria-label
+                            - text: for accessibility.
+                        - paragraph
+                        - generic [ref=e757]:
+                            - textbox "Search products" [ref=e760]:
+                                - /placeholder: Search...
+                            - generic [ref=e762]:
+                                - code [ref=e764]:
+                                    - generic [ref=e765]: 'import { Input } from "@cloudflare/kumo";'
+                                    - generic [ref=e766]: "export function InputBareDemo() {"
+                                    - generic [ref=e767]: return <Input placeholder="Search..." aria-label="Search products" />;
+                                    - generic [ref=e768]: "}"
+                                - button "Copy code to clipboard" [ref=e769] [cursor=pointer]:
+                                    - generic [ref=e770]:
+                                        - img [ref=e772]
+                                        - img [ref=e775]
+                        - 'heading "Link to section: Input Types" [level=3] [ref=e777]':
+                            - 'link "Link to section: Input Types" [ref=e778] [cursor=pointer]':
+                                - /url: "#input-types"
+                                - img [ref=e780]
+                                - text: Input Types
+                        - paragraph
+                        - paragraph [ref=e782]:
+                            - text: "Supports all HTML input types:"
+                            - code [ref=e783]: text
+                            - text: ","
+                            - code [ref=e784]: email
+                            - text: ","
+                            - code [ref=e785]: password
+                            - text: ","
+                            - code [ref=e786]: number
+                            - text: ","
+                            - code [ref=e787]: tel
+                            - text: ","
+                            - code [ref=e788]: url
+                            - text: ", etc."
+                        - paragraph
+                        - generic [ref=e789]:
+                            - generic [ref=e792]:
+                                - generic [ref=e793]:
+                                    - generic [ref=e795]: Email
+                                    - textbox "Email" [ref=e796]:
+                                        - /placeholder: you@example.com
+                                - generic [ref=e797]:
+                                    - generic [ref=e799]: Password
+                                    - textbox "Password" [ref=e800]:
+                                        - /placeholder: ••••••••
+                                - generic [ref=e801]:
+                                    - generic [ref=e803]: Age
+                                    - spinbutton "Age" [ref=e804]
+                                - generic [ref=e805]:
+                                    - generic [ref=e807]: Phone
+                                    - textbox "Phone" [ref=e808]:
+                                        - /placeholder: +1 (555) 000-0000
+                            - generic [ref=e810]:
+                                - code [ref=e812]:
+                                    - generic [ref=e813]: 'import { Input } from "@cloudflare/kumo";'
+                                    - generic [ref=e814]: "export function InputTypesDemo() {"
+                                    - generic [ref=e815]: return (
+                                    - generic [ref=e816]: <div className="flex flex-col gap-4">
+                                    - generic [ref=e817]: <Input type="email" label="Email" placeholder="you@example.com" />
+                                    - generic [ref=e818]: <Input type="password" label="Password" placeholder="••••••••" />
+                                    - generic [ref=e819]: <Input type="number" label="Age" placeholder="18" />
+                                    - generic [ref=e820]: <Input type="tel" label="Phone" placeholder="+1 (555) 000-0000" />
+                                    - generic [ref=e821]: </div>
+                                    - generic [ref=e822]: );
+                                    - generic [ref=e823]: "}"
+                                - button "Copy code to clipboard" [ref=e824] [cursor=pointer]:
+                                    - generic [ref=e825]:
+                                        - img [ref=e827]
+                                        - img [ref=e830]
+                    - generic [ref=e832]:
+                        - 'heading "Link to section: API Reference" [level=2] [ref=e833]':
+                            - 'link "Link to section: API Reference" [ref=e834] [cursor=pointer]':
+                                - /url: "#api-reference"
+                                - img [ref=e836]
+                                - text: API Reference
+                        - paragraph
+                        - paragraph [ref=e838]: "Input accepts all standard HTML input attributes plus the following:"
+                        - paragraph
+                        - table [ref=e840]:
+                            - rowgroup [ref=e841]:
+                                - row "Prop Type Default Description" [ref=e842]:
+                                    - columnheader "Prop" [ref=e843]
+                                    - columnheader "Type" [ref=e844]
+                                    - columnheader "Default" [ref=e845]
+                                    - columnheader "Description" [ref=e846]
+                            - rowgroup [ref=e847]:
+                                - row "label ReactNode - Label content for the input (enables Field wrapper) - can be a string or any React node" [ref=e848]:
+                                    - cell "label" [ref=e849]
+                                    - cell "ReactNode" [ref=e850]:
+                                        - code [ref=e851]: ReactNode
+                                    - cell "-" [ref=e852]
+                                    - cell "Label content for the input (enables Field wrapper) - can be a string or any React node" [ref=e853]
+                                - row "labelTooltip ReactNode - Tooltip content to display next to the label via an info icon" [ref=e854]:
+                                    - cell "labelTooltip" [ref=e855]
+                                    - cell "ReactNode" [ref=e856]:
+                                        - code [ref=e857]: ReactNode
+                                    - cell "-" [ref=e858]
+                                    - cell "Tooltip content to display next to the label via an info icon" [ref=e859]
+                                - row "description ReactNode - Helper text displayed below the input" [ref=e860]:
+                                    - cell "description" [ref=e861]
+                                    - cell "ReactNode" [ref=e862]:
+                                        - code [ref=e863]: ReactNode
+                                    - cell "-" [ref=e864]
+                                    - cell "Helper text displayed below the input" [ref=e865]
+                                - row "error string | object - Error message or validation error object" [ref=e866]:
+                                    - cell "error" [ref=e867]
+                                    - cell "string | object" [ref=e868]:
+                                        - code [ref=e869]: string | object
+                                    - cell "-" [ref=e870]
+                                    - cell "Error message or validation error object" [ref=e871]
+                                - 'row "size \"xs\" | \"sm\" | \"base\" | \"lg\" \"base\" Input size. - `\"xs\"` — Extra small for compact UIs - `\"sm\"` — Small for secondary fields - `\"base\"` — Default size - `\"lg\"` — Large for prominent fields" [ref=e872]':
+                                    - cell "size" [ref=e873]
+                                    - cell "\"xs\" | \"sm\" | \"base\" | \"lg\"" [ref=e874]:
+                                        - code [ref=e875]: '"xs" | "sm" | "base" | "lg"'
+                                    - cell "\"base\"" [ref=e876]:
+                                        - code [ref=e877]: '"base"'
+                                    - 'cell "Input size. - `\"xs\"` — Extra small for compact UIs - `\"sm\"` — Small for secondary fields - `\"base\"` — Default size - `\"lg\"` — Large for prominent fields" [ref=e878]'
+                                - 'row "variant \"default\" | \"error\" \"default\" Visual variant. - `\"default\"` — Standard input - `\"error\"` — Error state for validation failures" [ref=e879]':
+                                    - cell "variant" [ref=e880]
+                                    - cell "\"default\" | \"error\"" [ref=e881]:
+                                        - code [ref=e882]: '"default" | "error"'
+                                    - cell "\"default\"" [ref=e883]:
+                                        - code [ref=e884]: '"default"'
+                                    - 'cell "Visual variant. - `\"default\"` — Standard input - `\"error\"` — Error state for validation failures" [ref=e885]'
+                        - 'heading "Link to section: Validation Error Types" [level=3] [ref=e886]':
+                            - 'link "Link to section: Validation Error Types" [ref=e887] [cursor=pointer]':
+                                - /url: "#validation-error-types"
+                                - img [ref=e889]
+                                - text: Validation Error Types
+                        - paragraph
+                        - paragraph [ref=e891]:
+                            - text: When using
+                            - code [ref=e892]: error
+                            - text: as an object, the
+                            - code [ref=e893]: match
+                            - text: "property corresponds to HTML5 ValidityState values:"
+                        - paragraph
+                        - table [ref=e895]:
+                            - rowgroup [ref=e896]:
+                                - row "Match Description" [ref=e897]:
+                                    - columnheader "Match" [ref=e898]
+                                    - columnheader "Description" [ref=e899]
+                            - rowgroup [ref=e900]:
+                                - row "valueMissing Required field is empty" [ref=e901]:
+                                    - cell "valueMissing" [ref=e902]
+                                    - cell "Required field is empty" [ref=e903]
+                                - row "typeMismatch Value doesn’t match type (e.g., invalid email)" [ref=e904]:
+                                    - cell "typeMismatch" [ref=e905]
+                                    - cell "Value doesn’t match type (e.g., invalid email)" [ref=e906]
+                                - row "patternMismatch Value doesn’t match pattern attribute" [ref=e907]:
+                                    - cell "patternMismatch" [ref=e908]
+                                    - cell "Value doesn’t match pattern attribute" [ref=e909]
+                                - row "tooShort Value shorter than minLength" [ref=e910]:
+                                    - cell "tooShort" [ref=e911]
+                                    - cell "Value shorter than minLength" [ref=e912]
+                                - row "tooLong Value longer than maxLength" [ref=e913]:
+                                    - cell "tooLong" [ref=e914]
+                                    - cell "Value longer than maxLength" [ref=e915]
+                                - row "rangeUnderflow Value less than min" [ref=e916]:
+                                    - cell "rangeUnderflow" [ref=e917]
+                                    - cell "Value less than min" [ref=e918]
+                                - row "rangeOverflow Value greater than max" [ref=e919]:
+                                    - cell "rangeOverflow" [ref=e920]
+                                    - cell "Value greater than max" [ref=e921]
+                                - row "true Always show error (for server-side validation)" [ref=e922]:
+                                    - cell "true" [ref=e923]
+                                    - cell "Always show error (for server-side validation)" [ref=e924]
+                    - generic [ref=e925]:
+                        - 'heading "Link to section: Accessibility" [level=2] [ref=e926]':
+                            - 'link "Link to section: Accessibility" [ref=e927] [cursor=pointer]':
+                                - /url: "#accessibility"
+                                - img [ref=e929]
+                                - text: Accessibility
+                        - generic [ref=e931]:
+                            - generic [ref=e932]:
+                                - 'heading "Link to section: Label Requirement" [level=3] [ref=e933]':
+                                    - 'link "Link to section: Label Requirement" [ref=e934] [cursor=pointer]':
+                                        - /url: "#label-requirement"
+                                        - img [ref=e936]
+                                        - text: Label Requirement
+                                - paragraph
+                                - paragraph [ref=e938]: "Inputs require an accessible name via one of:"
+                                - paragraph
+                                - list [ref=e939]:
+                                    - listitem [ref=e940]:
+                                        - code [ref=e941]: label
+                                        - text: prop (recommended)
+                                    - listitem [ref=e942]:
+                                        - code [ref=e943]: placeholder
+                                        - text: +
+                                        - code [ref=e944]: aria-label
+                                        - text: for bare inputs
+                                    - listitem [ref=e945]:
+                                        - code [ref=e946]: aria-labelledby
+                                        - text: for custom label association
+                                - paragraph
+                                - paragraph [ref=e947]: Missing accessible names trigger console warnings in development.
+                                - paragraph
+                            - generic [ref=e948]:
+                                - 'heading "Link to section: Error Association" [level=3] [ref=e949]':
+                                    - 'link "Link to section: Error Association" [ref=e950] [cursor=pointer]':
+                                        - /url: "#error-association"
+                                        - img [ref=e952]
+                                        - text: Error Association
+                                - paragraph
+                                - paragraph [ref=e954]: Error messages are automatically associated with the input via ARIA attributes for screen reader announcement.
+                                - paragraph
+                - complementary [ref=e955]:
+                    - navigation "Table of contents" [ref=e958]:
+                        - paragraph [ref=e959]: On this page
+                        - list [ref=e960]:
+                            - listitem [ref=e961]:
+                                - link "Installation" [ref=e962] [cursor=pointer]:
+                                    - /url: "#installation"
+                                    - generic [ref=e963]: Installation
+                                - list [ref=e964]:
+                                    - listitem [ref=e965]:
+                                        - link "Barrel" [ref=e966] [cursor=pointer]:
+                                            - /url: "#barrel"
+                                            - generic [ref=e967]: Barrel
+                                    - listitem [ref=e968]:
+                                        - link "Granular" [ref=e969] [cursor=pointer]:
+                                            - /url: "#granular"
+                                            - generic [ref=e970]: Granular
+                            - listitem [ref=e971]:
+                                - link "Usage" [ref=e972] [cursor=pointer]:
+                                    - /url: "#usage"
+                                    - generic [ref=e973]: Usage
+                                - list [ref=e974]:
+                                    - listitem [ref=e975]:
+                                        - link "With Built-in Field (Recommended)" [ref=e976] [cursor=pointer]:
+                                            - /url: "#with-built-in-field-recommended"
+                                            - generic [ref=e977]: With Built-in Field (Recommended)
+                                    - listitem [ref=e978]:
+                                        - link "Bare Input (Custom Layouts)" [ref=e979] [cursor=pointer]:
+                                            - /url: "#bare-input-custom-layouts"
+                                            - generic [ref=e980]: Bare Input (Custom Layouts)
+                            - listitem [ref=e981]:
+                                - link "Examples" [ref=e982] [cursor=pointer]:
+                                    - /url: "#examples"
+                                    - generic [ref=e983]: Examples
+                                - list [ref=e984]:
+                                    - listitem [ref=e985]:
+                                        - link "With Label and Description" [ref=e986] [cursor=pointer]:
+                                            - /url: "#with-label-and-description"
+                                            - generic [ref=e987]: With Label and Description
+                                    - listitem [ref=e988]:
+                                        - link "With Error (String)" [ref=e989] [cursor=pointer]:
+                                            - /url: "#with-error-string"
+                                            - generic [ref=e990]: With Error (String)
+                                    - listitem [ref=e991]:
+                                        - link "With Error (Validation Object)" [ref=e992] [cursor=pointer]:
+                                            - /url: "#with-error-validation-object"
+                                            - generic [ref=e993]: With Error (Validation Object)
+                                    - listitem [ref=e994]:
+                                        - link "Input Sizes" [ref=e995] [cursor=pointer]:
+                                            - /url: "#input-sizes"
+                                            - generic [ref=e996]: Input Sizes
+                                    - listitem [ref=e997]:
+                                        - link "Disabled" [ref=e998] [cursor=pointer]:
+                                            - /url: "#disabled"
+                                            - generic [ref=e999]: Disabled
+                                    - listitem [ref=e1000]:
+                                        - link "Optional Field" [ref=e1001] [cursor=pointer]:
+                                            - /url: "#optional-field"
+                                            - generic [ref=e1002]: Optional Field
+                                    - listitem [ref=e1003]:
+                                        - link "With Label Tooltip" [ref=e1004] [cursor=pointer]:
+                                            - /url: "#with-label-tooltip"
+                                            - generic [ref=e1005]: With Label Tooltip
+                                    - listitem [ref=e1006]:
+                                        - link "ReactNode Label" [ref=e1007] [cursor=pointer]:
+                                            - /url: "#reactnode-label"
+                                            - generic [ref=e1008]: ReactNode Label
+                                    - listitem [ref=e1009]:
+                                        - link "Controlled with onChange" [ref=e1010] [cursor=pointer]:
+                                            - /url: "#controlled-with-onchange"
+                                            - generic [ref=e1011]: Controlled with onChange
+                                    - listitem [ref=e1012]:
+                                        - link "Controlled with onValueChange" [ref=e1013] [cursor=pointer]:
+                                            - /url: "#controlled-with-onvaluechange"
+                                            - generic [ref=e1014]: Controlled with onValueChange
+                                    - listitem [ref=e1015]:
+                                        - link "Bare Input (No Label)" [ref=e1016] [cursor=pointer]:
+                                            - /url: "#bare-input-no-label"
+                                            - generic [ref=e1017]: Bare Input (No Label)
+                                    - listitem [ref=e1018]:
+                                        - link "Input Types" [ref=e1019] [cursor=pointer]:
+                                            - /url: "#input-types"
+                                            - generic [ref=e1020]: Input Types
+                            - listitem [ref=e1021]:
+                                - link "API Reference" [ref=e1022] [cursor=pointer]:
+                                    - /url: "#api-reference"
+                                    - generic [ref=e1023]: API Reference
+                                - list [ref=e1024]:
+                                    - listitem [ref=e1025]:
+                                        - link "Validation Error Types" [ref=e1026] [cursor=pointer]:
+                                            - /url: "#validation-error-types"
+                                            - generic [ref=e1027]: Validation Error Types
+                            - listitem [ref=e1028]:
+                                - link "Accessibility" [ref=e1029] [cursor=pointer]:
+                                    - /url: "#accessibility"
+                                    - generic [ref=e1030]: Accessibility
+                                - list [ref=e1031]:
+                                    - listitem [ref=e1032]:
+                                        - link "Label Requirement" [ref=e1033] [cursor=pointer]:
+                                            - /url: "#label-requirement"
+                                            - generic [ref=e1034]: Label Requirement
+                                    - listitem [ref=e1035]:
+                                        - link "Error Association" [ref=e1036] [cursor=pointer]:
+                                            - /url: "#error-association"
+                                            - generic [ref=e1037]: Error Association

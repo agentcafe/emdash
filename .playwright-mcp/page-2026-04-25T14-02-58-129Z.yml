@@ -1,0 +1,475 @@
+- generic [ref=e2]:
+    - generic [ref=e3]:
+        - button "Toggle sidebar" [pressed] [ref=e7] [cursor=pointer]:
+            - img [ref=e9]
+        - generic:
+            - heading "Kumo" [level=1]
+        - complementary [ref=e28]:
+            - generic [ref=e30]:
+                - button "Search..." [ref=e31]:
+                    - img [ref=e32]
+                    - generic [ref=e34]: Search...
+                - list [ref=e35]:
+                    - listitem [ref=e36]:
+                        - link "Home" [ref=e37] [cursor=pointer]:
+                            - /url: /
+                    - listitem [ref=e38]:
+                        - link "Installation" [ref=e39] [cursor=pointer]:
+                            - /url: /installation
+                    - listitem [ref=e40]:
+                        - link "Contributing" [ref=e41] [cursor=pointer]:
+                            - /url: /contributing
+                    - listitem [ref=e42]:
+                        - link "Colors" [ref=e43] [cursor=pointer]:
+                            - /url: /colors
+                    - listitem [ref=e44]:
+                        - link "Accessibility" [ref=e45] [cursor=pointer]:
+                            - /url: /accessibility
+                    - listitem [ref=e46]:
+                        - link "Figma Resources" [ref=e47] [cursor=pointer]:
+                            - /url: /figma
+                    - listitem [ref=e48]:
+                        - link "CLI" [ref=e49] [cursor=pointer]:
+                            - /url: /cli
+                    - listitem [ref=e50]:
+                        - link "Registry" [ref=e51] [cursor=pointer]:
+                            - /url: /registry
+                    - listitem [ref=e52]:
+                        - link "Changelog" [ref=e53] [cursor=pointer]:
+                            - /url: /changelog
+                - generic [ref=e55]:
+                    - button "Components" [ref=e56] [cursor=pointer]:
+                        - generic [ref=e57]: Components
+                        - img [ref=e58]
+                    - list [ref=e60]:
+                        - listitem [ref=e61]:
+                            - link "Autocomplete" [ref=e62] [cursor=pointer]:
+                                - /url: /components/autocomplete
+                        - listitem [ref=e63]:
+                            - link "Badge" [ref=e64] [cursor=pointer]:
+                                - /url: /components/badge
+                        - listitem [ref=e65]:
+                            - link "Banner" [ref=e66] [cursor=pointer]:
+                                - /url: /components/banner
+                        - listitem [ref=e67]:
+                            - link "Breadcrumbs" [ref=e68] [cursor=pointer]:
+                                - /url: /components/breadcrumbs
+                        - listitem [ref=e69]:
+                            - link "Button" [ref=e70] [cursor=pointer]:
+                                - /url: /components/button
+                        - listitem [ref=e71]:
+                            - link "Checkbox" [ref=e72] [cursor=pointer]:
+                                - /url: /components/checkbox
+                        - listitem [ref=e73]:
+                            - link "Clipboard Text" [ref=e74] [cursor=pointer]:
+                                - /url: /components/clipboard-text
+                        - listitem [ref=e75]:
+                            - link "Cloudflare Logo" [ref=e76] [cursor=pointer]:
+                                - /url: /components/cloudflare-logo
+                        - listitem [ref=e77]:
+                            - link "CodeHighlighted" [ref=e78] [cursor=pointer]:
+                                - /url: /components/code-highlighted
+                        - listitem [ref=e79]:
+                            - link "Collapsible" [ref=e80] [cursor=pointer]:
+                                - /url: /components/collapsible
+                        - listitem [ref=e81]:
+                            - link "Combobox" [ref=e82] [cursor=pointer]:
+                                - /url: /components/combobox
+                        - listitem [ref=e83]:
+                            - link "Command Palette" [ref=e84] [cursor=pointer]:
+                                - /url: /components/command-palette
+                        - listitem [ref=e85]:
+                            - link "Date Picker" [ref=e86] [cursor=pointer]:
+                                - /url: /components/date-picker
+                        - listitem [ref=e87]:
+                            - link "Dialog" [ref=e88] [cursor=pointer]:
+                                - /url: /components/dialog
+                        - listitem [ref=e89]:
+                            - link "Dropdown" [ref=e90] [cursor=pointer]:
+                                - /url: /components/dropdown
+                        - listitem [ref=e91]:
+                            - link "Empty" [ref=e92] [cursor=pointer]:
+                                - /url: /components/empty
+                        - listitem [ref=e93]:
+                            - link "Flow" [ref=e94] [cursor=pointer]:
+                                - /url: /components/flow
+                        - listitem [ref=e95]:
+                            - link "Grid" [ref=e96] [cursor=pointer]:
+                                - /url: /components/grid
+                        - listitem [ref=e97]:
+                            - link "Input" [ref=e98] [cursor=pointer]:
+                                - /url: /components/input
+                        - listitem [ref=e99]:
+                            - link "InputArea" [ref=e100] [cursor=pointer]:
+                                - /url: /components/input-area
+                        - listitem [ref=e101]:
+                            - link "InputGroup" [ref=e102] [cursor=pointer]:
+                                - /url: /components/input-group
+                        - listitem [ref=e103]:
+                            - link "Label" [ref=e104] [cursor=pointer]:
+                                - /url: /components/label
+                        - listitem [ref=e105]:
+                            - link "Layer Card" [ref=e106] [cursor=pointer]:
+                                - /url: /components/layer-card
+                        - listitem [ref=e107]:
+                            - link "Link" [ref=e108] [cursor=pointer]:
+                                - /url: /components/link
+                        - listitem [ref=e109]:
+                            - link "Loader" [ref=e110] [cursor=pointer]:
+                                - /url: /components/loader
+                        - listitem [ref=e111]:
+                            - link "MenuBar" [ref=e112] [cursor=pointer]:
+                                - /url: /components/menu-bar
+                        - listitem [ref=e113]:
+                            - link "Meter" [ref=e114] [cursor=pointer]:
+                                - /url: /components/meter
+                        - listitem [ref=e115]:
+                            - link "Pagination" [ref=e116] [cursor=pointer]:
+                                - /url: /components/pagination
+                        - listitem [ref=e117]:
+                            - link "Popover" [ref=e118] [cursor=pointer]:
+                                - /url: /components/popover
+                        - listitem [ref=e119]:
+                            - link "Radio" [ref=e120] [cursor=pointer]:
+                                - /url: /components/radio
+                        - listitem [ref=e121]:
+                            - link "Select" [ref=e122] [cursor=pointer]:
+                                - /url: /components/select
+                        - listitem [ref=e123]:
+                            - link "Sensitive Input" [ref=e124] [cursor=pointer]:
+                                - /url: /components/sensitive-input
+                        - listitem [ref=e125]:
+                            - link "Sidebar" [ref=e126] [cursor=pointer]:
+                                - /url: /components/sidebar
+                        - listitem [ref=e127]:
+                            - link "Skeleton Line" [ref=e128] [cursor=pointer]:
+                                - /url: /components/skeleton-line
+                        - listitem [ref=e129]:
+                            - link "Switch" [ref=e130] [cursor=pointer]:
+                                - /url: /components/switch
+                        - listitem [ref=e131]:
+                            - link "Table" [ref=e132] [cursor=pointer]:
+                                - /url: /components/table
+                        - listitem [ref=e133]:
+                            - link "Table of Contents" [ref=e134] [cursor=pointer]:
+                                - /url: /components/table-of-contents
+                        - listitem [ref=e135]:
+                            - link "Tabs" [ref=e136] [cursor=pointer]:
+                                - /url: /components/tabs
+                        - listitem [ref=e137]:
+                            - link "Text" [ref=e138] [cursor=pointer]:
+                                - /url: /components/text
+                        - listitem [ref=e139]:
+                            - link "Toast" [ref=e140] [cursor=pointer]:
+                                - /url: /components/toast
+                        - listitem [ref=e141]:
+                            - link "Tooltip" [ref=e142] [cursor=pointer]:
+                                - /url: /components/tooltip
+                - generic [ref=e143]:
+                    - button "Charts" [ref=e144] [cursor=pointer]:
+                        - generic [ref=e145]: Charts
+                        - img [ref=e146]
+                    - list [ref=e148]:
+                        - listitem [ref=e149]:
+                            - link "Charts" [ref=e150] [cursor=pointer]:
+                                - /url: /charts
+                        - listitem [ref=e151]:
+                            - link "Colors" [ref=e152] [cursor=pointer]:
+                                - /url: /charts/colors
+                        - listitem [ref=e153]:
+                            - link "Timeseries" [ref=e154] [cursor=pointer]:
+                                - /url: /charts/timeseries
+                        - listitem [ref=e155]:
+                            - link "Custom Chart" [ref=e156] [cursor=pointer]:
+                                - /url: /charts/custom
+                - generic [ref=e157]:
+                    - button "Blocks" [ref=e158] [cursor=pointer]:
+                        - generic [ref=e159]: Blocks
+                        - img [ref=e160]
+                    - list [ref=e162]:
+                        - listitem [ref=e163]:
+                            - link "Page Header" [ref=e164] [cursor=pointer]:
+                                - /url: /blocks/page-header
+                        - listitem [ref=e165]:
+                            - link "Resource List" [ref=e166] [cursor=pointer]:
+                                - /url: /blocks/resource-list
+                        - listitem [ref=e167]:
+                            - link "Delete Resource" [ref=e168] [cursor=pointer]:
+                                - /url: /blocks/delete-resource
+    - generic [ref=e170]:
+        - banner [ref=e172]:
+            - generic [ref=e173]:
+                - generic:
+                    - generic: Badge
+                    - link "View source on GitHub":
+                        - /url: https://github.com/cloudflare/kumo/blob/main/packages/kumo/src/components/badge/badge.tsx
+                        - img
+                - link "@cloudflare/kumo" [ref=e174] [cursor=pointer]:
+                    - /url: https://github.com/cloudflare/kumo
+            - button "Toggle theme" [ref=e176] [cursor=pointer]:
+                - img [ref=e177]
+        - generic [ref=e181]:
+            - generic [ref=e182]:
+                - heading "Badge" [level=1] [ref=e183]
+                - link "View source on GitHub" [ref=e184] [cursor=pointer]:
+                    - /url: https://github.com/cloudflare/kumo/blob/main/packages/kumo/src/components/badge/badge.tsx
+                    - img [ref=e185]
+                - generic [ref=e189]:
+                    - button "Copy page" [ref=e190] [cursor=pointer]:
+                        - img [ref=e191]
+                        - generic [ref=e193]: Copy page
+                    - button "Copy page options" [ref=e194] [cursor=pointer]:
+                        - img [ref=e195]
+            - paragraph [ref=e197]: Displays a small label for status, categorization, or metadata.
+        - main [ref=e198]:
+            - generic [ref=e201]:
+                - generic [ref=e202]:
+                    - generic [ref=e203]:
+                        - generic [ref=e206]:
+                            - generic [ref=e207]: Primary
+                            - generic [ref=e208]: Secondary
+                            - generic [ref=e209]: Error
+                            - generic [ref=e210]: Success
+                            - generic [ref=e211]: Warning
+                            - generic [ref=e212]: Info
+                            - generic [ref=e213]: Outline
+                            - generic [ref=e214]: Beta
+                        - generic [ref=e216]:
+                            - code [ref=e218]:
+                                - generic [ref=e219]: 'import { Badge } from "@cloudflare/kumo";'
+                                - generic [ref=e220]: "export function BadgeSemanticVariantsDemo() {"
+                                - generic [ref=e221]: return (
+                                - generic [ref=e222]: <div className="flex flex-wrap items-center gap-2">
+                                - generic [ref=e223]: <Badge variant="primary">Primary</Badge>
+                                - generic [ref=e224]: <Badge variant="secondary">Secondary</Badge>
+                                - generic [ref=e225]: <Badge variant="error">Error</Badge>
+                                - generic [ref=e226]: <Badge variant="success">Success</Badge>
+                                - generic [ref=e227]: <Badge variant="warning">Warning</Badge>
+                                - generic [ref=e228]: <Badge variant="info">Info</Badge>
+                                - generic [ref=e229]: <Badge variant="outline">Outline</Badge>
+                                - generic [ref=e230]: <Badge variant="beta">Beta</Badge>
+                                - generic [ref=e231]: </div>
+                                - generic [ref=e232]: );
+                                - generic [ref=e233]: "}"
+                            - button "Copy code to clipboard" [ref=e234] [cursor=pointer]:
+                                - generic [ref=e235]:
+                                    - img [ref=e237]
+                                    - img [ref=e240]
+                    - 'heading "Link to section: Installation" [level=2] [ref=e242]':
+                        - 'link "Link to section: Installation" [ref=e243] [cursor=pointer]':
+                            - /url: "#installation"
+                            - img [ref=e245]
+                            - text: Installation
+                    - 'heading "Link to section: Barrel" [level=3] [ref=e247]':
+                        - 'link "Link to section: Barrel" [ref=e248] [cursor=pointer]':
+                            - /url: "#barrel"
+                            - img [ref=e250]
+                            - text: Barrel
+                    - generic [ref=e252]:
+                        - code [ref=e254]:
+                            - generic [ref=e255]: 'import { Badge } from "@cloudflare/kumo";'
+                        - button "Copy code to clipboard" [ref=e256] [cursor=pointer]:
+                            - generic [ref=e257]:
+                                - img [ref=e259]
+                                - img [ref=e262]
+                    - 'heading "Link to section: Granular" [level=3] [ref=e264]':
+                        - 'link "Link to section: Granular" [ref=e265] [cursor=pointer]':
+                            - /url: "#granular"
+                            - img [ref=e267]
+                            - text: Granular
+                    - generic [ref=e269]:
+                        - code [ref=e271]:
+                            - generic [ref=e272]: 'import { Badge } from "@cloudflare/kumo/components/badge";'
+                        - button "Copy code to clipboard" [ref=e273] [cursor=pointer]:
+                            - generic [ref=e274]:
+                                - img [ref=e276]
+                                - img [ref=e279]
+                    - 'heading "Link to section: Usage" [level=2] [ref=e281]':
+                        - 'link "Link to section: Usage" [ref=e282] [cursor=pointer]':
+                            - /url: "#usage"
+                            - img [ref=e284]
+                            - text: Usage
+                    - generic [ref=e286]:
+                        - code [ref=e288]:
+                            - generic [ref=e289]: 'import { Badge } from "@cloudflare/kumo";'
+                            - generic [ref=e290]: "export default function Example() {"
+                            - generic [ref=e291]: return <Badge variant="secondary">New</Badge>;
+                            - generic [ref=e292]: "}"
+                        - button "Copy code to clipboard" [ref=e293] [cursor=pointer]:
+                            - generic [ref=e294]:
+                                - img [ref=e296]
+                                - img [ref=e299]
+                    - 'heading "Link to section: Examples" [level=2] [ref=e301]':
+                        - 'link "Link to section: Examples" [ref=e302] [cursor=pointer]':
+                            - /url: "#examples"
+                            - img [ref=e304]
+                            - text: Examples
+                    - 'heading "Link to section: Primary Badges" [level=3] [ref=e306]':
+                        - 'link "Link to section: Primary Badges" [ref=e307] [cursor=pointer]':
+                            - /url: "#primary-badges"
+                            - img [ref=e309]
+                            - text: Primary Badges
+                    - generic [ref=e311]:
+                        - generic [ref=e314]:
+                            - generic [ref=e315]: Primary
+                            - generic [ref=e316]: Secondary
+                            - generic [ref=e317]: Error
+                            - generic [ref=e318]: Success
+                            - generic [ref=e319]: Warning
+                            - generic [ref=e320]: Info
+                            - generic [ref=e321]: Outline
+                            - generic [ref=e322]: Beta
+                        - generic [ref=e324]:
+                            - code [ref=e326]:
+                                - generic [ref=e327]: 'import { Badge } from "@cloudflare/kumo";'
+                                - generic [ref=e328]: "export function BadgeSemanticVariantsDemo() {"
+                                - generic [ref=e329]: return (
+                                - generic [ref=e330]: <div className="flex flex-wrap items-center gap-2">
+                                - generic [ref=e331]: <Badge variant="primary">Primary</Badge>
+                                - generic [ref=e332]: <Badge variant="secondary">Secondary</Badge>
+                                - generic [ref=e333]: <Badge variant="error">Error</Badge>
+                                - generic [ref=e334]: <Badge variant="success">Success</Badge>
+                                - generic [ref=e335]: <Badge variant="warning">Warning</Badge>
+                                - generic [ref=e336]: <Badge variant="info">Info</Badge>
+                                - generic [ref=e337]: <Badge variant="outline">Outline</Badge>
+                                - generic [ref=e338]: <Badge variant="beta">Beta</Badge>
+                                - generic [ref=e339]: </div>
+                                - generic [ref=e340]: );
+                                - generic [ref=e341]: "}"
+                            - button "Copy code to clipboard" [ref=e342] [cursor=pointer]:
+                                - generic [ref=e343]:
+                                    - img [ref=e345]
+                                    - img [ref=e348]
+                    - 'heading "Link to section: Other variants" [level=3] [ref=e350]':
+                        - 'link "Link to section: Other variants" [ref=e351] [cursor=pointer]':
+                            - /url: "#other-variants"
+                            - img [ref=e353]
+                            - text: Other variants
+                    - paragraph [ref=e355]: Other variants for specific products/use cases where the semantic badges aren’t enough to convey intended meaning or status.
+                    - generic [ref=e356]:
+                        - generic [ref=e359]:
+                            - generic [ref=e360]: Neutral
+                            - generic [ref=e361]: Red
+                            - generic [ref=e362]: Orange
+                            - generic [ref=e363]: Green
+                            - generic [ref=e364]: Teal
+                            - generic [ref=e365]: Blue
+                            - generic [ref=e366]: Purple
+                        - generic [ref=e368]:
+                            - code [ref=e370]:
+                                - generic [ref=e371]: 'import { Badge } from "@cloudflare/kumo";'
+                                - generic [ref=e372]: "export function BadgeColorVariantsDemo() {"
+                                - generic [ref=e373]: return (
+                                - generic [ref=e374]: <div className="flex flex-wrap items-center gap-2">
+                                - generic [ref=e375]: <Badge variant="neutral">Neutral</Badge>
+                                - generic [ref=e376]: <Badge variant="red">Red</Badge>
+                                - generic [ref=e377]: <Badge variant="orange">Orange</Badge>
+                                - generic [ref=e378]: <Badge variant="green">Green</Badge>
+                                - generic [ref=e379]: <Badge variant="teal">Teal</Badge>
+                                - generic [ref=e380]: <Badge variant="blue">Blue</Badge>
+                                - generic [ref=e381]: <Badge variant="purple">Purple</Badge>
+                                - generic [ref=e382]: </div>
+                                - generic [ref=e383]: );
+                                - generic [ref=e384]: "}"
+                            - button "Copy code to clipboard" [ref=e385] [cursor=pointer]:
+                                - generic [ref=e386]:
+                                    - img [ref=e388]
+                                    - img [ref=e391]
+                    - 'heading "Link to section: In a sentence" [level=3] [ref=e393]':
+                        - 'link "Link to section: In a sentence" [ref=e394] [cursor=pointer]':
+                            - /url: "#in-a-sentence"
+                            - img [ref=e396]
+                            - text: In a sentence
+                    - generic [ref=e398]:
+                        - paragraph [ref=e401]:
+                            - text: Workers
+                            - generic [ref=e402]: New
+                        - generic [ref=e404]:
+                            - code [ref=e406]:
+                                - generic [ref=e407]: 'import { Badge } from "@cloudflare/kumo";'
+                                - generic [ref=e408]: "export function BadgeInSentenceDemo() {"
+                                - generic [ref=e409]: return (
+                                - generic [ref=e410]: <p className="flex items-center gap-2">
+                                - generic [ref=e411]: Workers
+                                - generic [ref=e412]: <Badge variant="secondary">New</Badge>
+                                - generic [ref=e413]: </p>
+                                - generic [ref=e414]: );
+                                - generic [ref=e415]: "}"
+                            - button "Copy code to clipboard" [ref=e416] [cursor=pointer]:
+                                - generic [ref=e417]:
+                                    - img [ref=e419]
+                                    - img [ref=e422]
+                    - 'heading "Link to section: API Reference" [level=2] [ref=e424]':
+                        - 'link "Link to section: API Reference" [ref=e425] [cursor=pointer]':
+                            - /url: "#api-reference"
+                            - img [ref=e427]
+                            - text: API Reference
+                    - table [ref=e430]:
+                        - rowgroup [ref=e431]:
+                            - row "Prop Type Default Description" [ref=e432]:
+                                - columnheader "Prop" [ref=e433]
+                                - columnheader "Type" [ref=e434]
+                                - columnheader "Default" [ref=e435]
+                                - columnheader "Description" [ref=e436]
+                        - rowgroup [ref=e437]:
+                            - 'row "variant \"primary\" | \"secondary\" | \"error\" | \"warning\" | \"success\" | \"destructive\" | \"info\" | \"beta\" | \"outline\" | \"red\" | \"green\" | \"neutral\" | \"orange\" | \"purple\" | \"teal\" | \"teal-subtle\" | \"blue\" \"primary\" Color variant of the badge. Recommended semantic variants: - `\"primary\"` — Primary badge - `\"secondary\"` — Secondary badge - `\"error\"` — Error badge - `\"warning\"` — Warning badge - `\"success\"` — Success badge - `\"info\"` — Info badge Additional token variants: - `\"red\"`, `\"orange\"`, `\"green\"`, `\"teal\"`, `\"blue\"`, `\"purple\"`, `\"neutral\"` - `\"teal-subtle\"`, `\"neutral-subtle\"` - `\"inverted\"` - `\"outline\"` — Bordered badge with transparent background - `\"beta\"` — Dashed-border badge for beta/experimental features" [ref=e438]':
+                                - cell "variant" [ref=e439]
+                                - cell "\"primary\" | \"secondary\" | \"error\" | \"warning\" | \"success\" | \"destructive\" | \"info\" | \"beta\" | \"outline\" | \"red\" | \"green\" | \"neutral\" | \"orange\" | \"purple\" | \"teal\" | \"teal-subtle\" | \"blue\"" [ref=e440]:
+                                    - code [ref=e441]: '"primary" | "secondary" | "error" | "warning" | "success" | "destructive" | "info" | "beta" | "outline" | "red" | "green" | "neutral" | "orange" | "purple" | "teal" | "teal-subtle" | "blue"'
+                                - cell "\"primary\"" [ref=e442]:
+                                    - code [ref=e443]: '"primary"'
+                                - 'cell "Color variant of the badge. Recommended semantic variants: - `\"primary\"` — Primary badge - `\"secondary\"` — Secondary badge - `\"error\"` — Error badge - `\"warning\"` — Warning badge - `\"success\"` — Success badge - `\"info\"` — Info badge Additional token variants: - `\"red\"`, `\"orange\"`, `\"green\"`, `\"teal\"`, `\"blue\"`, `\"purple\"`, `\"neutral\"` - `\"teal-subtle\"`, `\"neutral-subtle\"` - `\"inverted\"` - `\"outline\"` — Bordered badge with transparent background - `\"beta\"` — Dashed-border badge for beta/experimental features" [ref=e444]'
+                            - 'row "className string - Additional CSS classes merged via `cn()`." [ref=e445]':
+                                - cell "className" [ref=e446]
+                                - cell "string" [ref=e447]:
+                                    - code [ref=e448]: string
+                                - cell "-" [ref=e449]
+                                - 'cell "Additional CSS classes merged via `cn()`." [ref=e450]'
+                            - row "children ReactNode - Content rendered inside the badge." [ref=e451]:
+                                - cell "children" [ref=e452]
+                                - cell "ReactNode" [ref=e453]:
+                                    - code [ref=e454]: ReactNode
+                                - cell "-" [ref=e455]
+                                - cell "Content rendered inside the badge." [ref=e456]
+                - complementary [ref=e457]:
+                    - navigation "Table of contents" [ref=e460]:
+                        - paragraph [ref=e461]: On this page
+                        - list [ref=e462]:
+                            - listitem [ref=e463]:
+                                - link "Installation" [ref=e464] [cursor=pointer]:
+                                    - /url: "#installation"
+                                    - generic [ref=e465]: Installation
+                                - list [ref=e466]:
+                                    - listitem [ref=e467]:
+                                        - link "Barrel" [ref=e468] [cursor=pointer]:
+                                            - /url: "#barrel"
+                                            - generic [ref=e469]: Barrel
+                                    - listitem [ref=e470]:
+                                        - link "Granular" [ref=e471] [cursor=pointer]:
+                                            - /url: "#granular"
+                                            - generic [ref=e472]: Granular
+                            - listitem [ref=e473]:
+                                - link "Usage" [ref=e474] [cursor=pointer]:
+                                    - /url: "#usage"
+                                    - generic [ref=e475]: Usage
+                            - listitem [ref=e476]:
+                                - link "Examples" [ref=e477] [cursor=pointer]:
+                                    - /url: "#examples"
+                                    - generic [ref=e478]: Examples
+                                - list [ref=e479]:
+                                    - listitem [ref=e480]:
+                                        - link "Primary Badges" [ref=e481] [cursor=pointer]:
+                                            - /url: "#primary-badges"
+                                            - generic [ref=e482]: Primary Badges
+                                    - listitem [ref=e483]:
+                                        - link "Other variants" [ref=e484] [cursor=pointer]:
+                                            - /url: "#other-variants"
+                                            - generic [ref=e485]: Other variants
+                                    - listitem [ref=e486]:
+                                        - link "In a sentence" [ref=e487] [cursor=pointer]:
+                                            - /url: "#in-a-sentence"
+                                            - generic [ref=e488]: In a sentence
+                            - listitem [ref=e489]:
+                                - link "API Reference" [ref=e490] [cursor=pointer]:
+                                    - /url: "#api-reference"
+                                    - generic [ref=e491]: API Reference

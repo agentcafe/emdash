@@ -1,0 +1,619 @@
+---
+import { getEmDashCollection, getTaxonomyTerms } from "emdash";
+import JobBoard from "../../layouts/JobBoard.astro";
+import JobCard from "../../components/JobCard.astro";
+import FilterSidebar from "../../components/FilterSidebar.astro";
+
+// Read filter params from URL
+const categorySlug = Astro.url.searchParams.get("category");
+const locationFilter = Astro.url.searchParams.get("location");
+const typeFilter = Astro.url.searchParams.get("type");
+const salaryFilter = Astro.url.searchParams.get("salary");
+const viewMode = Astro.url.searchParams.get("view") || "list";
+
+// Build the where clause for filtering
+const where: Record<string, string | string[]> = {};
+if (categorySlug) where.category = categorySlug;
+if (typeFilter) where.type = typeFilter;
+
+// Fetch jobs with filters
+const { entries: jobs, cacheHint } = await getEmDashCollection("jobs", {
+	status: "published",
+	orderBy: { published_at: "desc" },
+	where: Object.keys(where).length > 0 ? where : undefined,
+});
+
+Astro.cache.set(cacheHint);
+
+// Fetch taxonomy terms for categories
+const categoryTerms = await getTaxonomyTerms("category");
+const categories = categoryTerms.map(t => ({
+	slug: t.slug,
+	label: t.label,
+}));
+
+// Derive unique locations from jobs
+const locationSet = new Set<string>();
+jobs.forEach(j => {
+	if (j.data.location) locationSet.add(j.data.location);
+});
+const locations = Array.from(locationSet)
+	.sort()
+	.map(loc => ({ value: loc, label: loc }));
+
+// Count jobs by category
+const categoryCounts = new Map<string, number>();
+jobs.forEach(j => {
+	if (j.data.category) {
+		categoryCounts.set(j.data.category, (categoryCounts.get(j.data.category) || 0) + 1);
+	}
+});
+const categoriesWithCounts = categories.map(c => ({
+	...c,
+	count: categoryCounts.get(c.slug) || 0,
+}));
+
+// Check if any filters are active
+const hasActiveFilters = !!(categorySlug || locationFilter || typeFilter || salaryFilter);
+
+// Build active filter pills
+type FilterPill = { label: string; href: string };
+const activeFilters: FilterPill[] = [];
+if (categorySlug) {
+	const term = categoryTerms.find(t => t.slug === categorySlug);
+	activeFilters.push({ label: term?.label || categorySlug, href: "/jobs" });
+}
+if (typeFilter) {
+	const typeLabels: Record<string, string> = {
+		"full-time": "Full-time",
+		"part-time": "Part-time",
+		"contract": "Contract",
+		"freelance": "Freelance",
+	};
+	activeFilters.push({ label: typeLabels[typeFilter] || typeFilter, href: "/jobs" });
+}
+if (locationFilter) {
+	activeFilters.push({ label: locationFilter, href: "/jobs" });
+}
+if (salaryFilter) {
+	const salaryLabels: Record<string, string> = {
+		"50000": "$50k+",
+		"80000": "$80k+",
+		"100000": "$100k+",
+		"150000": "$150k+",
+	};
+	activeFilters.push({ label: salaryLabels[salaryFilter] || salaryFilter, href: "/jobs" });
+}
+
+// Build company logo URL for a job entry
+function getCompanyLogoUrl(job: any): string | undefined {
+	if (!job.data.company_logo) return undefined;
+	const logo = job.data.company_logo;
+	if (typeof logo === "object" && logo?.src) return logo.src;
+	if (typeof logo === "string") return logo;
+	return undefined;
+}
+---
+
+<JobBoard title="Find Tech Jobs" description="Browse the latest tech job openings">
+	<div class="jobs-page">
+		<div class="jobs-container">
+			<!-- Mobile filter toggle -->
+			<div class="jobs-mobile-header">
+				<button
+					type="button"
+					class="filter-toggle"
+					id="filter-toggle"
+					aria-expanded="false"
+					aria-label="Open filters"
+					onclick="toggleFilters()"
+				>
+					<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 3H2l8 9.46V19l4 2v-8.54L22 3z"/></svg>
+					Filters
+					{hasActiveFilters && <span class="filter-active-dot" />}
+				</button>
+
+				<!-- View toggle tabs -->
+				<div class="view-toggle" role="tablist" aria-label="View mode">
+					<a
+						href="/jobs"
+						class={`view-toggle-btn ${viewMode === "list" ? "active" : ""}`}
+						role="tab"
+						aria-selected={viewMode === "list"}
+					>
+						<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+						List
+					</a>
+					<a
+						href="/jobs?view=kanban"
+						class={`view-toggle-btn ${viewMode === "kanban" ? "active" : ""}`}
+						role="tab"
+						aria-selected={viewMode === "kanban"}
+					>
+						<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+						Kanban
+					</a>
+				</div>
+			</div>
+
+			<!-- Sidebar -->
+			<FilterSidebar
+				currentCategory={categorySlug || undefined}
+				currentLocation={locationFilter || undefined}
+				currentType={typeFilter || undefined}
+				currentSalary={salaryFilter || undefined}
+				categories={categoriesWithCounts}
+				locations={locations}
+			/>
+
+			<!-- Main content -->
+			<div class="jobs-main">
+				<!-- Page header -->
+				<div class="jobs-page-header">
+					<h1 class="jobs-title">
+						{categorySlug
+							? categories.find(c => c.slug === categorySlug)?.label || "Jobs"
+							: "Find your next role"}
+					</h1>
+					<p class="jobs-count">
+						{jobs.length} {jobs.length === 1 ? "job" : "jobs"} found
+					</p>
+				</div>
+
+				<!-- Active filter pills -->
+				{activeFilters.length > 0 && (
+					<div class="active-filters" role="list" aria-label="Active filters">
+						{activeFilters.map(f => (
+							<a href={f.href} class="filter-pill" role="listitem">
+								{f.label}
+								<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+							</a>
+						))}
+						<a href="/jobs" class="filter-pill-clear">Clear all</a>
+					</div>
+				)}
+
+				<!-- Job listings -->
+				{jobs.length === 0 ? (
+					<div class="empty-state">
+						<div class="empty-state-icon">
+							<svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+						</div>
+						<h2 class="empty-state-title">No jobs match your filters</h2>
+						<p class="empty-state-text">Try adjusting your search criteria or clearing all filters.</p>
+						<a href="/jobs" class="empty-state-action">Clear all filters</a>
+					</div>
+				) : viewMode === "kanban" ? (
+					<!-- Kanban view: grouped by category -->
+					<div class="kanban-grid">
+						{categories.map(cat => {
+							const catJobs = jobs.filter(j => j.data.category === cat.slug);
+							if (catJobs.length === 0) return null;
+							return (
+								<div class="kanban-column">
+									<div class="kanban-column-header">
+										<h3 class="kanban-column-title">{cat.label}</h3>
+										<span class="kanban-column-count">{catJobs.length}</span>
+									</div>
+									<div class="kanban-column-jobs">
+										{catJobs.map(job => (
+											<JobCard
+												title={job.data.title ?? "Untitled"}
+												company={job.data.company ?? "Unknown"}
+												location={job.data.location ?? "Remote"}
+												salary={job.data.salary}
+												type={job.data.type ?? "full-time"}
+												category={job.data.category ?? ""}
+												experienceLevel={job.data.experience_level}
+												isRemote={!!job.data.is_remote}
+												tags={Array.isArray(job.data.tags) ? job.data.tags : []}
+												companyLogo={getCompanyLogoUrl(job)}
+												href={`/jobs/${job.id}`}
+												postedAt={job.data.publishedAt ?? undefined}
+											/>
+										))}
+									</div>
+								</div>
+							);
+						})}
+					</div>
+				) : (
+					<!-- List view -->
+					<div class="jobs-grid">
+						{jobs.map(job => (
+							<JobCard
+								title={job.data.title ?? "Untitled"}
+								company={job.data.company ?? "Unknown"}
+								location={job.data.location ?? "Remote"}
+								salary={job.data.salary}
+								type={job.data.type ?? "full-time"}
+								category={job.data.category ?? ""}
+								experienceLevel={job.data.experience_level}
+								isRemote={!!job.data.is_remote}
+								tags={Array.isArray(job.data.tags) ? job.data.tags : []}
+								companyLogo={getCompanyLogoUrl(job)}
+								href={`/jobs/${job.id}`}
+								postedAt={job.data.publishedAt ?? undefined}
+							/>
+						))}
+					</div>
+				)}
+
+				<!-- Pagination note -->
+				{jobs.length >= 50 && (
+					<div class="pagination">
+						<span class="pagination-info">Showing {jobs.length} jobs. Refine your search to see more.</span>
+					</div>
+				)}
+			</div>
+		</div>
+	</div>
+</JobBoard>
+
+<script>
+	// Filter sidebar toggle for mobile
+	(window as any).toggleFilters = function () {
+		const sidebar = document.getElementById("filter-sidebar");
+		const toggle = document.getElementById("filter-toggle");
+		if (sidebar && toggle) {
+			const isOpen = sidebar.classList.toggle("open");
+			toggle.setAttribute("aria-expanded", String(isOpen));
+			toggle.setAttribute(
+				"aria-label",
+				isOpen ? "Close filters" : "Open filters"
+			);
+			// Prevent body scroll when filter drawer is open
+			document.body.style.overflow = isOpen ? "hidden" : "";
+		}
+	};
+
+	// Close filter sidebar on escape key
+	document.addEventListener("keydown", (e) => {
+		if (e.key === "Escape") {
+			const sidebar = document.getElementById("filter-sidebar");
+			const toggle = document.getElementById("filter-toggle");
+			if (sidebar?.classList.contains("open")) {
+				sidebar.classList.remove("open");
+				toggle?.setAttribute("aria-expanded", "false");
+				toggle?.setAttribute("aria-label", "Open filters");
+				document.body.style.overflow = "";
+			}
+		}
+	});
+
+	// Close filter sidebar on click outside
+	document.addEventListener("click", (e) => {
+		const sidebar = document.getElementById("filter-sidebar");
+		const toggle = document.getElementById("filter-toggle");
+		if (
+			sidebar?.classList.contains("open") &&
+			toggle &&
+			!toggle.contains(e.target as Node) &&
+			!sidebar.contains(e.target as Node)
+		) {
+			sidebar.classList.remove("open");
+			toggle.setAttribute("aria-expanded", "false");
+			toggle.setAttribute("aria-label", "Open filters");
+			document.body.style.overflow = "";
+		}
+	});
+</script>
+
+<style>
+	.jobs-page {
+		background: var(--color-bg);
+	}
+
+	.jobs-container {
+		display: flex;
+		gap: var(--spacing-6);
+		max-width: var(--wide-width);
+		margin: 0 auto;
+		padding: var(--spacing-6) var(--spacing-6) var(--spacing-12);
+		align-items: flex-start;
+	}
+
+	/* Mobile header */
+	.jobs-mobile-header {
+		display: none;
+		align-items: center;
+		justify-content: space-between;
+		padding: var(--spacing-4);
+		gap: var(--spacing-3);
+		border-bottom: 1px solid var(--color-border);
+		background: var(--color-surface-elevated);
+		position: sticky;
+		top: var(--nav-height);
+		z-index: 50;
+	}
+
+	.filter-toggle {
+		display: inline-flex;
+		align-items: center;
+		gap: var(--spacing-2);
+		padding: var(--spacing-2) var(--spacing-4);
+		font-family: var(--font-sans);
+		font-size: var(--font-size-sm);
+		font-weight: 500;
+		color: var(--color-text);
+		background: var(--color-surface);
+		border: 1px solid var(--color-border);
+		border-radius: var(--radius);
+		cursor: pointer;
+		position: relative;
+		transition: background var(--transition-fast);
+	}
+
+	.filter-toggle:hover {
+		background: var(--color-border-subtle);
+	}
+
+	.filter-active-dot {
+		position: absolute;
+		top: 6px;
+		right: 6px;
+		width: 6px;
+		height: 6px;
+		border-radius: 50%;
+		background: var(--color-accent);
+	}
+
+	/* View toggle */
+	.view-toggle {
+		display: inline-flex;
+		background: var(--color-surface);
+		border: 1px solid var(--color-border);
+		border-radius: var(--radius);
+		overflow: hidden;
+	}
+
+	.view-toggle-btn {
+		display: inline-flex;
+		align-items: center;
+		gap: var(--spacing-2);
+		padding: var(--spacing-2) var(--spacing-3);
+		font-family: var(--font-sans);
+		font-size: var(--font-size-sm);
+		font-weight: 500;
+		color: var(--color-text-secondary);
+		text-decoration: none;
+		transition: background var(--transition-fast), color var(--transition-fast);
+	}
+
+	.view-toggle-btn:hover {
+		color: var(--color-text);
+		background: var(--color-bg-subtle);
+	}
+
+	.view-toggle-btn.active {
+		color: var(--color-accent);
+		background: var(--color-bg);
+		box-shadow: var(--shadow-sm);
+	}
+
+	/* Main content area */
+	.jobs-main {
+		flex: 1;
+		min-width: 0;
+		display: flex;
+		flex-direction: column;
+		gap: var(--spacing-6);
+	}
+
+	/* Page header */
+	.jobs-page-header {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+		gap: var(--spacing-4);
+	}
+
+	.jobs-title {
+		font-size: var(--font-size-2xl);
+		font-weight: 700;
+		color: var(--color-text);
+		margin: 0;
+	}
+
+	.jobs-count {
+		font-size: var(--font-size-sm);
+		color: var(--color-muted);
+		white-space: nowrap;
+	}
+
+	/* Active filter pills */
+	.active-filters {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: var(--spacing-2);
+	}
+
+	.filter-pill {
+		display: inline-flex;
+		align-items: center;
+		gap: var(--spacing-1);
+		padding: var(--spacing-1) var(--spacing-3);
+		font-size: var(--font-size-sm);
+		font-weight: 500;
+		color: var(--color-accent);
+		background: color-mix(in srgb, var(--color-accent) 6%, transparent);
+		border: 1px solid color-mix(in srgb, var(--color-accent) 20%, transparent);
+		border-radius: 999px;
+		text-decoration: none;
+		transition: background var(--transition-fast);
+	}
+
+	.filter-pill:hover {
+		background: color-mix(in srgb, var(--color-accent) 12%, transparent);
+	}
+
+	.filter-pill svg {
+		flex-shrink: 0;
+	}
+
+	.filter-pill-clear {
+		font-size: var(--font-size-sm);
+		color: var(--color-text-secondary);
+		text-decoration: none;
+		padding: var(--spacing-1) var(--spacing-2);
+	}
+
+	.filter-pill-clear:hover {
+		color: var(--color-text);
+	}
+
+	/* Jobs grid (list view) */
+	.jobs-grid {
+		display: grid;
+		gap: var(--spacing-4);
+	}
+
+	/* Kanban view */
+	.kanban-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+		gap: var(--spacing-6);
+	}
+
+	.kanban-column {
+		display: flex;
+		flex-direction: column;
+		gap: var(--spacing-3);
+	}
+
+	.kanban-column-header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: var(--spacing-2) var(--spacing-3);
+		border-bottom: 2px solid var(--color-border);
+	}
+
+	.kanban-column-title {
+		font-size: var(--font-size-sm);
+		font-weight: 600;
+		color: var(--color-text);
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+	}
+
+	.kanban-column-count {
+		font-size: var(--font-size-xs);
+		color: var(--color-muted);
+		background: var(--color-surface);
+		padding: 0 var(--spacing-2);
+		border-radius: 999px;
+		min-width: 20px;
+		text-align: center;
+		line-height: 1.6;
+	}
+
+	.kanban-column-jobs {
+		display: flex;
+		flex-direction: column;
+		gap: var(--spacing-3);
+	}
+
+	/* Empty state */
+	.empty-state {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: var(--spacing-16) var(--spacing-6);
+		gap: var(--spacing-3);
+		background: var(--color-surface-elevated);
+		border: 1px solid var(--color-border);
+		border-radius: var(--radius-lg);
+	}
+
+	.empty-state-icon {
+		color: var(--color-muted);
+		opacity: 0.5;
+	}
+
+	.empty-state-title {
+		font-size: var(--font-size-xl);
+		font-weight: 600;
+		color: var(--color-text);
+		margin: 0;
+	}
+
+	.empty-state-text {
+		font-size: var(--font-size-base);
+		color: var(--color-text-secondary);
+		max-width: 360px;
+	}
+
+	.empty-state-action {
+		display: inline-flex;
+		align-items: center;
+		padding: var(--spacing-2) var(--spacing-4);
+		font-size: var(--font-size-sm);
+		font-weight: 500;
+		color: var(--color-on-accent);
+		background: var(--color-accent);
+		border-radius: var(--radius);
+		text-decoration: none;
+		margin-top: var(--spacing-2);
+		transition: background var(--transition-fast);
+	}
+
+	.empty-state-action:hover {
+		background: var(--color-accent-hover);
+		color: var(--color-on-accent);
+	}
+
+	/* Pagination */
+	.pagination {
+		text-align: center;
+		padding: var(--spacing-8) 0;
+	}
+
+	.pagination-info {
+		font-size: var(--font-size-sm);
+		color: var(--color-muted);
+	}
+
+	/* Responsive */
+	@media (max-width: 1024px) {
+		.jobs-mobile-header {
+			display: flex;
+		}
+
+		.jobs-container {
+			flex-direction: column;
+			padding: 0;
+		}
+
+		.jobs-main {
+			padding: 0 var(--spacing-4) var(--spacing-8);
+		}
+
+		.kanban-grid {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	@media (min-width: 1024px) {
+		.filter-toggle {
+			display: none;
+		}
+	}
+
+	@media (max-width: 640px) {
+		.jobs-title {
+			font-size: var(--font-size-xl);
+		}
+
+		.jobs-page-header {
+			flex-direction: column;
+			gap: var(--spacing-1);
+		}
+
+		.kanban-grid {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>

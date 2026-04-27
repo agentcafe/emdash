@@ -1,0 +1,9 @@
+[     743ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at jt (https://kumo-ui.com/_astro/client.C8QAN2hO.js:24:31372)
+    at Nv (https://kumo-ui.com/_astro/client.C8QAN2hO.js:24:82360)
+    at n1 (https://kumo-ui.com/_astro/client.C8QAN2hO.js:24:116424)
+    at wm (https://kumo-ui.com/_astro/client.C8QAN2hO.js:24:116397)
+    at Wm (https://kumo-ui.com/_astro/client.C8QAN2hO.js:24:116257)
+    at Pv (https://kumo-ui.com/_astro/client.C8QAN2hO.js:24:111821)
+    at z1 (https://kumo-ui.com/_astro/client.C8QAN2hO.js:24:123828)
+    at MessagePort.Ba (https://kumo-ui.com/_astro/client.C8QAN2hO.js:9:1647)

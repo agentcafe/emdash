@@ -1,0 +1,436 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - navigation "Primary navigation" [ref=e4]:
+      - link "TechHire" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - searchbox "Search jobs, companies, or skills..." [ref=e8]
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - link "Find Jobs" [ref=e11] [cursor=pointer]:
+            - /url: /jobs
+          - link "Companies" [ref=e12] [cursor=pointer]:
+            - /url: /jobs/companies
+          - link "About" [ref=e13] [cursor=pointer]:
+            - /url: /pages/about
+        - link "Post a Job" [ref=e14] [cursor=pointer]:
+          - /url: /_emdash/admin/content/jobs/new
+        - link "Sign in" [ref=e15] [cursor=pointer]:
+          - /url: /_emdash/admin
+  - main [ref=e16]:
+    - generic [ref=e18]:
+      - complementary "Filter jobs" [ref=e19]:
+        - generic [ref=e20]:
+          - heading "Filters" [level=2] [ref=e22]
+          - generic [ref=e23]:
+            - generic [ref=e24]: Category
+            - generic [ref=e25]:
+              - radio "All Categories" [checked] [ref=e26]
+              - radio "Data 3" [ref=e27] [cursor=pointer]:
+                - text: Data
+                - generic [ref=e28]: "3"
+              - radio "Design 0" [ref=e29] [cursor=pointer]:
+                - text: Design
+                - generic [ref=e30]: "0"
+              - radio "DevOps & Infrastructure 1" [ref=e31] [cursor=pointer]:
+                - text: DevOps & Infrastructure
+                - generic [ref=e32]: "1"
+              - radio "Development 0" [ref=e33] [cursor=pointer]:
+                - text: Development
+                - generic [ref=e34]: "0"
+              - radio "Engineering 7" [ref=e35] [cursor=pointer]:
+                - text: Engineering
+                - generic [ref=e36]: "7"
+              - radio "Marketing 0" [ref=e37] [cursor=pointer]:
+                - text: Marketing
+                - generic [ref=e38]: "0"
+              - radio "Notes 0" [ref=e39] [cursor=pointer]:
+                - text: Notes
+                - generic [ref=e40]: "0"
+              - radio "Product 1" [ref=e41] [cursor=pointer]:
+                - text: Product
+                - generic [ref=e42]: "1"
+              - radio "Sales 0" [ref=e43] [cursor=pointer]:
+                - text: Sales
+                - generic [ref=e44]: "0"
+              - radio "Security 0" [ref=e45] [cursor=pointer]:
+                - text: Security
+                - generic [ref=e46]: "0"
+          - generic [ref=e47]:
+            - generic [ref=e48]: Location
+            - combobox "Location" [ref=e49] [cursor=pointer]:
+              - option "All locations" [selected]
+              - option "London"
+              - option "New York"
+              - option "Remote"
+              - option "San Francisco"
+              - option "Toronto"
+          - generic [ref=e50]:
+            - generic [ref=e51]: Job Type
+            - combobox "Job Type" [ref=e52] [cursor=pointer]:
+              - option "All types" [selected]
+              - option "Full-time"
+              - option "Part-time"
+              - option "Contract"
+              - option "Freelance"
+          - generic [ref=e53]:
+            - generic [ref=e54]: Salary Range
+            - combobox "Salary Range" [ref=e55] [cursor=pointer]:
+              - option "Any salary" [selected]
+              - option "$50k+"
+              - option "$80k+"
+              - option "$100k+"
+              - option "$150k+"
+          - generic [ref=e56]:
+            - generic [ref=e57]: Experience
+            - combobox "Experience" [ref=e58] [cursor=pointer]:
+              - option "Any level" [selected]
+              - option "Junior"
+              - option "Mid-level"
+              - option "Senior"
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - heading "Find your next role" [level=1] [ref=e61]
+          - paragraph [ref=e62]: 12 jobs found
+        - generic [ref=e63]:
+          - article [ref=e64]:
+            - link "Prompt Engineer at Midjourney, Remote" [ref=e65] [cursor=pointer]:
+              - /url: /jobs/prompt-engineer
+              - generic [ref=e66]:
+                - generic [ref=e68]:
+                  - heading "Prompt Engineer" [level=3] [ref=e69]
+                  - paragraph [ref=e70]: Midjourney
+                - generic [ref=e71]:
+                  - generic [ref=e72]:
+                    - img [ref=e73]
+                    - generic [ref=e76]: Remote
+                  - generic [ref=e77]: $120k – $170k
+                - generic [ref=e78]:
+                  - generic "Contract position" [ref=e79]: Contract
+                  - generic "Remote position" [ref=e80]:
+                    - img [ref=e81]
+                    - text: Remote
+                  - generic [ref=e84]: mid
+              - generic [ref=e85]:
+                - generic [ref=e86]:
+                  - generic [ref=e87]: Prompt Engineering
+                  - generic [ref=e88]: LLMs
+                  - generic [ref=e89]: Python
+                  - generic [ref=e90]: "+2"
+                - generic [ref=e91]: Just now
+          - article [ref=e92]:
+            - link "AI Infrastructure Engineer at OpenAI, San Francisco" [ref=e93] [cursor=pointer]:
+              - /url: /jobs/ai-infrastructure-engineer
+              - generic [ref=e94]:
+                - generic [ref=e96]:
+                  - heading "AI Infrastructure Engineer" [level=3] [ref=e97]
+                  - paragraph [ref=e98]: OpenAI
+                - generic [ref=e99]:
+                  - generic [ref=e100]:
+                    - img [ref=e101]
+                    - generic [ref=e104]: San Francisco
+                  - generic [ref=e105]: $200k – $300k
+                - generic [ref=e106]:
+                  - generic "Full-time position" [ref=e107]: Full-time
+                  - generic [ref=e108]: senior
+              - generic [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Kubernetes
+                  - generic [ref=e112]: GPU Clusters
+                  - generic [ref=e113]: NCCL
+                  - generic [ref=e114]: "+2"
+                - generic [ref=e115]: Just now
+          - article [ref=e116]:
+            - link "Analytics Lead at Databricks, San Francisco" [ref=e117] [cursor=pointer]:
+              - /url: /jobs/analytics-lead
+              - generic [ref=e118]:
+                - generic [ref=e120]:
+                  - heading "Analytics Lead" [level=3] [ref=e121]
+                  - paragraph [ref=e122]: Databricks
+                - generic [ref=e123]:
+                  - generic [ref=e124]:
+                    - img [ref=e125]
+                    - generic [ref=e128]: San Francisco
+                  - generic [ref=e129]: $180k – $240k
+                - generic [ref=e130]:
+                  - generic "Full-time position" [ref=e131]: Full-time
+                  - generic "Remote position" [ref=e132]:
+                    - img [ref=e133]
+                    - text: Remote
+                  - generic [ref=e136]: lead
+              - generic [ref=e137]:
+                - generic [ref=e138]:
+                  - generic [ref=e139]: SQL
+                  - generic [ref=e140]: Spark
+                  - generic [ref=e141]: Python
+                  - generic [ref=e142]: "+2"
+                - generic [ref=e143]: Just now
+          - article [ref=e144]:
+            - link "AI Product Manager at Notion, New York" [ref=e145] [cursor=pointer]:
+              - /url: /jobs/ai-product-manager
+              - generic [ref=e146]:
+                - generic [ref=e148]:
+                  - heading "AI Product Manager" [level=3] [ref=e149]
+                  - paragraph [ref=e150]: Notion
+                - generic [ref=e151]:
+                  - generic [ref=e152]:
+                    - img [ref=e153]
+                    - generic [ref=e156]: New York
+                  - generic [ref=e157]: $170k – $230k
+                - generic [ref=e158]:
+                  - generic "Full-time position" [ref=e159]: Full-time
+                  - generic [ref=e160]: senior
+              - generic [ref=e161]:
+                - generic [ref=e162]:
+                  - generic [ref=e163]: AI Products
+                  - generic [ref=e164]: LLMs
+                  - generic [ref=e165]: Product Strategy
+                  - generic [ref=e166]: "+2"
+                - generic [ref=e167]: Just now
+          - article [ref=e168]:
+            - link "Data Engineer at Stripe, Toronto" [ref=e169] [cursor=pointer]:
+              - /url: /jobs/data-engineer
+              - generic [ref=e170]:
+                - generic [ref=e172]:
+                  - heading "Data Engineer" [level=3] [ref=e173]
+                  - paragraph [ref=e174]: Stripe
+                - generic [ref=e175]:
+                  - generic [ref=e176]:
+                    - img [ref=e177]
+                    - generic [ref=e180]: Toronto
+                  - generic [ref=e181]: $140k – $190k
+                - generic [ref=e182]:
+                  - generic "Full-time position" [ref=e183]: Full-time
+                  - generic [ref=e184]: mid
+              - generic [ref=e185]:
+                - generic [ref=e186]:
+                  - generic [ref=e187]: Python
+                  - generic [ref=e188]: Spark
+                  - generic [ref=e189]: Airflow
+                  - generic [ref=e190]: "+3"
+                - generic [ref=e191]: Just now
+          - article [ref=e192]:
+            - link "Deep Learning Researcher at Meta AI, London" [ref=e193] [cursor=pointer]:
+              - /url: /jobs/deep-learning-researcher
+              - generic [ref=e194]:
+                - generic [ref=e196]:
+                  - heading "Deep Learning Researcher" [level=3] [ref=e197]
+                  - paragraph [ref=e198]: Meta AI
+                - generic [ref=e199]:
+                  - generic [ref=e200]:
+                    - img [ref=e201]
+                    - generic [ref=e204]: London
+                  - generic [ref=e205]: $190k – $250k
+                - generic [ref=e206]:
+                  - generic "Full-time position" [ref=e207]: Full-time
+                  - generic [ref=e208]: lead
+              - generic [ref=e209]:
+                - generic [ref=e210]:
+                  - generic [ref=e211]: Deep Learning
+                  - generic [ref=e212]: PyTorch
+                  - generic [ref=e213]: Transformers
+                  - generic [ref=e214]: "+2"
+                - generic [ref=e215]: Just now
+          - article [ref=e216]:
+            - link "NLP Engineer at Cohere, Toronto" [ref=e217] [cursor=pointer]:
+              - /url: /jobs/nlp-engineer
+              - generic [ref=e218]:
+                - generic [ref=e220]:
+                  - heading "NLP Engineer" [level=3] [ref=e221]
+                  - paragraph [ref=e222]: Cohere
+                - generic [ref=e223]:
+                  - generic [ref=e224]:
+                    - img [ref=e225]
+                    - generic [ref=e228]: Toronto
+                  - generic [ref=e229]: $160k – $220k
+                - generic [ref=e230]:
+                  - generic "Full-time position" [ref=e231]: Full-time
+                  - generic "Remote position" [ref=e232]:
+                    - img [ref=e233]
+                    - text: Remote
+                  - generic [ref=e236]: senior
+              - generic [ref=e237]:
+                - generic [ref=e238]:
+                  - generic [ref=e239]: NLP
+                  - generic [ref=e240]: LLMs
+                  - generic [ref=e241]: RAG
+                  - generic [ref=e242]: "+3"
+                - generic [ref=e243]: Just now
+          - article [ref=e244]:
+            - link "MLOps Engineer at Hugging Face, New York" [ref=e245] [cursor=pointer]:
+              - /url: /jobs/mlops-engineer
+              - generic [ref=e246]:
+                - generic [ref=e248]:
+                  - heading "MLOps Engineer" [level=3] [ref=e249]
+                  - paragraph [ref=e250]: Hugging Face
+                - generic [ref=e251]:
+                  - generic [ref=e252]:
+                    - img [ref=e253]
+                    - generic [ref=e256]: New York
+                  - generic [ref=e257]: $150k – $210k
+                - generic [ref=e258]:
+                  - generic "Full-time position" [ref=e259]: Full-time
+                  - generic "Remote position" [ref=e260]:
+                    - img [ref=e261]
+                    - text: Remote
+                  - generic [ref=e264]: senior
+              - generic [ref=e265]:
+                - generic [ref=e266]:
+                  - generic [ref=e267]: MLOps
+                  - generic [ref=e268]: Kubernetes
+                  - generic [ref=e269]: Docker
+                  - generic [ref=e270]: "+3"
+                - generic [ref=e271]: Just now
+          - article [ref=e272]:
+            - link "Computer Vision Engineer at Scale AI, San Francisco" [ref=e273] [cursor=pointer]:
+              - /url: /jobs/computer-vision-engineer
+              - generic [ref=e274]:
+                - generic [ref=e276]:
+                  - heading "Computer Vision Engineer" [level=3] [ref=e277]
+                  - paragraph [ref=e278]: Scale AI
+                - generic [ref=e279]:
+                  - generic [ref=e280]:
+                    - img [ref=e281]
+                    - generic [ref=e284]: San Francisco
+                  - generic [ref=e285]: $170k – $230k
+                - generic [ref=e286]:
+                  - generic "Full-time position" [ref=e287]: Full-time
+                  - generic [ref=e288]: mid
+              - generic [ref=e289]:
+                - generic [ref=e290]:
+                  - generic [ref=e291]: Computer Vision
+                  - generic [ref=e292]: PyTorch
+                  - generic [ref=e293]: YOLO
+                  - generic [ref=e294]: "+2"
+                - generic [ref=e295]: Just now
+          - article [ref=e296]:
+            - link "Data Scientist at Spotify, New York" [ref=e297] [cursor=pointer]:
+              - /url: /jobs/data-scientist
+              - generic [ref=e298]:
+                - generic [ref=e300]:
+                  - heading "Data Scientist" [level=3] [ref=e301]
+                  - paragraph [ref=e302]: Spotify
+                - generic [ref=e303]:
+                  - generic [ref=e304]:
+                    - img [ref=e305]
+                    - generic [ref=e308]: New York
+                  - generic [ref=e309]: $140k – $190k
+                - generic [ref=e310]:
+                  - generic "Full-time position" [ref=e311]: Full-time
+                  - generic "Remote position" [ref=e312]:
+                    - img [ref=e313]
+                    - text: Remote
+                  - generic [ref=e316]: mid
+              - generic [ref=e317]:
+                - generic [ref=e318]:
+                  - generic [ref=e319]: Python
+                  - generic [ref=e320]: SQL
+                  - generic [ref=e321]: A/B Testing
+                  - generic [ref=e322]: "+2"
+                - generic [ref=e323]: Just now
+          - article [ref=e324]:
+            - link "AI Research Scientist at DeepMind, London" [ref=e325] [cursor=pointer]:
+              - /url: /jobs/ai-research-scientist
+              - generic [ref=e326]:
+                - generic [ref=e328]:
+                  - heading "AI Research Scientist" [level=3] [ref=e329]
+                  - paragraph [ref=e330]: DeepMind
+                - generic [ref=e331]:
+                  - generic [ref=e332]:
+                    - img [ref=e333]
+                    - generic [ref=e336]: London
+                  - generic [ref=e337]: $180k – $240k
+                - generic [ref=e338]:
+                  - generic "Full-time position" [ref=e339]: Full-time
+                  - generic [ref=e340]: lead
+              - generic [ref=e341]:
+                - generic [ref=e342]:
+                  - generic [ref=e343]: Reinforcement Learning
+                  - generic [ref=e344]: PyTorch
+                  - generic [ref=e345]: JAX
+                  - generic [ref=e346]: "+2"
+                - generic [ref=e347]: Just now
+          - article [ref=e348]:
+            - link "Machine Learning Engineer at Anthropic, San Francisco" [ref=e349] [cursor=pointer]:
+              - /url: /jobs/machine-learning-engineer
+              - generic [ref=e350]:
+                - generic [ref=e352]:
+                  - heading "Machine Learning Engineer" [level=3] [ref=e353]
+                  - paragraph [ref=e354]: Anthropic
+                - generic [ref=e355]:
+                  - generic [ref=e356]:
+                    - img [ref=e357]
+                    - generic [ref=e360]: San Francisco
+                  - generic [ref=e361]: $200k – $250k
+                - generic [ref=e362]:
+                  - generic "Full-time position" [ref=e363]: Full-time
+                  - generic [ref=e364]: senior
+              - generic [ref=e365]:
+                - generic [ref=e366]:
+                  - generic [ref=e367]: Python
+                  - generic [ref=e368]: PyTorch
+                  - generic [ref=e369]: Transformers
+                  - generic [ref=e370]: "+2"
+                - generic [ref=e371]: Just now
+  - contentinfo [ref=e372]:
+    - generic [ref=e373]:
+      - generic [ref=e374]:
+        - generic [ref=e375]:
+          - link "TechHire" [ref=e376] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=e377]: Find your next tech role. Connect with companies that value your skills.
+        - generic [ref=e378]:
+          - heading "For Job Seekers" [level=4] [ref=e379]
+          - list [ref=e380]:
+            - listitem [ref=e381]:
+              - link "Browse Jobs" [ref=e382] [cursor=pointer]:
+                - /url: /jobs
+            - listitem [ref=e383]:
+              - link "Engineering" [ref=e384] [cursor=pointer]:
+                - /url: /jobs?category=engineering
+            - listitem [ref=e385]:
+              - link "Design" [ref=e386] [cursor=pointer]:
+                - /url: /jobs?category=design
+            - listitem [ref=e387]:
+              - link "Product" [ref=e388] [cursor=pointer]:
+                - /url: /jobs?category=product
+        - generic [ref=e389]:
+          - heading "For Employers" [level=4] [ref=e390]
+          - list [ref=e391]:
+            - listitem [ref=e392]:
+              - link "Post a Job" [ref=e393] [cursor=pointer]:
+                - /url: /_emdash/admin/content/jobs/new
+            - listitem [ref=e394]:
+              - link "About TechHire" [ref=e395] [cursor=pointer]:
+                - /url: /pages/about
+        - generic [ref=e396]:
+          - heading "Connect" [level=4] [ref=e397]
+          - list [ref=e398]:
+            - listitem [ref=e399]:
+              - link "Twitter" [ref=e400] [cursor=pointer]:
+                - /url: https://twitter.com
+                - img [ref=e401]
+                - generic [ref=e403]: Twitter
+            - listitem [ref=e404]:
+              - link "GitHub" [ref=e405] [cursor=pointer]:
+                - /url: https://github.com
+                - img [ref=e406]
+                - generic [ref=e408]: GitHub
+            - listitem [ref=e409]:
+              - link "LinkedIn" [ref=e410] [cursor=pointer]:
+                - /url: https://linkedin.com
+                - img [ref=e411]
+                - generic [ref=e415]: LinkedIn
+        - generic [ref=e418]:
+          - heading "About TechHire" [level=3] [ref=e419]
+          - paragraph [ref=e421]: TechHire connects talented tech professionals with great companies. We believe the right role changes everything.
+      - generic [ref=e422]:
+        - paragraph [ref=e423]: © 2026 TechHire. All rights reserved.
+        - generic [ref=e424]:
+          - button "Light mode" [ref=e425] [cursor=pointer]:
+            - img [ref=e426]
+          - button "Dark mode" [ref=e432] [cursor=pointer]:
+            - img [ref=e433]
+          - button "System theme" [ref=e435] [cursor=pointer]:
+            - img [ref=e436]

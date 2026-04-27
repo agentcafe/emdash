@@ -1,0 +1,1094 @@
+- generic [ref=e2]:
+    - generic [ref=e3]:
+        - button "Toggle sidebar" [pressed] [ref=e7] [cursor=pointer]:
+            - img [ref=e9]
+        - generic:
+            - heading "Kumo" [level=1]
+        - complementary [ref=e28]:
+            - generic [ref=e30]:
+                - button "Search..." [ref=e31]:
+                    - img [ref=e32]
+                    - generic [ref=e34]: Search...
+                - list [ref=e35]:
+                    - listitem [ref=e36]:
+                        - link "Home" [ref=e37] [cursor=pointer]:
+                            - /url: /
+                    - listitem [ref=e38]:
+                        - link "Installation" [ref=e39] [cursor=pointer]:
+                            - /url: /installation
+                    - listitem [ref=e40]:
+                        - link "Contributing" [ref=e41] [cursor=pointer]:
+                            - /url: /contributing
+                    - listitem [ref=e42]:
+                        - link "Colors" [ref=e43] [cursor=pointer]:
+                            - /url: /colors
+                    - listitem [ref=e44]:
+                        - link "Accessibility" [ref=e45] [cursor=pointer]:
+                            - /url: /accessibility
+                    - listitem [ref=e46]:
+                        - link "Figma Resources" [ref=e47] [cursor=pointer]:
+                            - /url: /figma
+                    - listitem [ref=e48]:
+                        - link "CLI" [ref=e49] [cursor=pointer]:
+                            - /url: /cli
+                    - listitem [ref=e50]:
+                        - link "Registry" [ref=e51] [cursor=pointer]:
+                            - /url: /registry
+                    - listitem [ref=e52]:
+                        - link "Changelog" [ref=e53] [cursor=pointer]:
+                            - /url: /changelog
+                - generic [ref=e55]:
+                    - button "Components" [ref=e56] [cursor=pointer]:
+                        - generic [ref=e57]: Components
+                        - img [ref=e58]
+                    - list [ref=e60]:
+                        - listitem [ref=e61]:
+                            - link "Autocomplete" [ref=e62] [cursor=pointer]:
+                                - /url: /components/autocomplete
+                        - listitem [ref=e63]:
+                            - link "Badge" [ref=e64] [cursor=pointer]:
+                                - /url: /components/badge
+                        - listitem [ref=e65]:
+                            - link "Banner" [ref=e66] [cursor=pointer]:
+                                - /url: /components/banner
+                        - listitem [ref=e67]:
+                            - link "Breadcrumbs" [ref=e68] [cursor=pointer]:
+                                - /url: /components/breadcrumbs
+                        - listitem [ref=e69]:
+                            - link "Button" [ref=e70] [cursor=pointer]:
+                                - /url: /components/button
+                        - listitem [ref=e71]:
+                            - link "Checkbox" [ref=e72] [cursor=pointer]:
+                                - /url: /components/checkbox
+                        - listitem [ref=e73]:
+                            - link "Clipboard Text" [ref=e74] [cursor=pointer]:
+                                - /url: /components/clipboard-text
+                        - listitem [ref=e75]:
+                            - link "Cloudflare Logo" [ref=e76] [cursor=pointer]:
+                                - /url: /components/cloudflare-logo
+                        - listitem [ref=e77]:
+                            - link "CodeHighlighted" [ref=e78] [cursor=pointer]:
+                                - /url: /components/code-highlighted
+                        - listitem [ref=e79]:
+                            - link "Collapsible" [ref=e80] [cursor=pointer]:
+                                - /url: /components/collapsible
+                        - listitem [ref=e81]:
+                            - link "Combobox" [ref=e82] [cursor=pointer]:
+                                - /url: /components/combobox
+                        - listitem [ref=e83]:
+                            - link "Command Palette" [ref=e84] [cursor=pointer]:
+                                - /url: /components/command-palette
+                        - listitem [ref=e85]:
+                            - link "Date Picker" [ref=e86] [cursor=pointer]:
+                                - /url: /components/date-picker
+                        - listitem [ref=e87]:
+                            - link "Dialog" [ref=e88] [cursor=pointer]:
+                                - /url: /components/dialog
+                        - listitem [ref=e89]:
+                            - link "Dropdown" [ref=e90] [cursor=pointer]:
+                                - /url: /components/dropdown
+                        - listitem [ref=e91]:
+                            - link "Empty" [ref=e92] [cursor=pointer]:
+                                - /url: /components/empty
+                        - listitem [ref=e93]:
+                            - link "Flow" [ref=e94] [cursor=pointer]:
+                                - /url: /components/flow
+                        - listitem [ref=e95]:
+                            - link "Grid" [ref=e96] [cursor=pointer]:
+                                - /url: /components/grid
+                        - listitem [ref=e97]:
+                            - link "Input" [ref=e98] [cursor=pointer]:
+                                - /url: /components/input
+                        - listitem [ref=e99]:
+                            - link "InputArea" [ref=e100] [cursor=pointer]:
+                                - /url: /components/input-area
+                        - listitem [ref=e101]:
+                            - link "InputGroup" [ref=e102] [cursor=pointer]:
+                                - /url: /components/input-group
+                        - listitem [ref=e103]:
+                            - link "Label" [ref=e104] [cursor=pointer]:
+                                - /url: /components/label
+                        - listitem [ref=e105]:
+                            - link "Layer Card" [ref=e106] [cursor=pointer]:
+                                - /url: /components/layer-card
+                        - listitem [ref=e107]:
+                            - link "Link" [ref=e108] [cursor=pointer]:
+                                - /url: /components/link
+                        - listitem [ref=e109]:
+                            - link "Loader" [ref=e110] [cursor=pointer]:
+                                - /url: /components/loader
+                        - listitem [ref=e111]:
+                            - link "MenuBar" [ref=e112] [cursor=pointer]:
+                                - /url: /components/menu-bar
+                        - listitem [ref=e113]:
+                            - link "Meter" [ref=e114] [cursor=pointer]:
+                                - /url: /components/meter
+                        - listitem [ref=e115]:
+                            - link "Pagination" [ref=e116] [cursor=pointer]:
+                                - /url: /components/pagination
+                        - listitem [ref=e117]:
+                            - link "Popover" [ref=e118] [cursor=pointer]:
+                                - /url: /components/popover
+                        - listitem [ref=e119]:
+                            - link "Radio" [ref=e120] [cursor=pointer]:
+                                - /url: /components/radio
+                        - listitem [ref=e121]:
+                            - link "Select" [ref=e122] [cursor=pointer]:
+                                - /url: /components/select
+                        - listitem [ref=e123]:
+                            - link "Sensitive Input" [ref=e124] [cursor=pointer]:
+                                - /url: /components/sensitive-input
+                        - listitem [ref=e125]:
+                            - link "Sidebar" [ref=e126] [cursor=pointer]:
+                                - /url: /components/sidebar
+                        - listitem [ref=e127]:
+                            - link "Skeleton Line" [ref=e128] [cursor=pointer]:
+                                - /url: /components/skeleton-line
+                        - listitem [ref=e129]:
+                            - link "Switch" [ref=e130] [cursor=pointer]:
+                                - /url: /components/switch
+                        - listitem [ref=e131]:
+                            - link "Table" [ref=e132] [cursor=pointer]:
+                                - /url: /components/table
+                        - listitem [ref=e133]:
+                            - link "Table of Contents" [ref=e134] [cursor=pointer]:
+                                - /url: /components/table-of-contents
+                        - listitem [ref=e135]:
+                            - link "Tabs" [ref=e136] [cursor=pointer]:
+                                - /url: /components/tabs
+                        - listitem [ref=e137]:
+                            - link "Text" [ref=e138] [cursor=pointer]:
+                                - /url: /components/text
+                        - listitem [ref=e139]:
+                            - link "Toast" [ref=e140] [cursor=pointer]:
+                                - /url: /components/toast
+                        - listitem [ref=e141]:
+                            - link "Tooltip" [ref=e142] [cursor=pointer]:
+                                - /url: /components/tooltip
+                - generic [ref=e143]:
+                    - button "Charts" [ref=e144] [cursor=pointer]:
+                        - generic [ref=e145]: Charts
+                        - img [ref=e146]
+                    - list [ref=e148]:
+                        - listitem [ref=e149]:
+                            - link "Charts" [ref=e150] [cursor=pointer]:
+                                - /url: /charts
+                        - listitem [ref=e151]:
+                            - link "Colors" [ref=e152] [cursor=pointer]:
+                                - /url: /charts/colors
+                        - listitem [ref=e153]:
+                            - link "Timeseries" [ref=e154] [cursor=pointer]:
+                                - /url: /charts/timeseries
+                        - listitem [ref=e155]:
+                            - link "Custom Chart" [ref=e156] [cursor=pointer]:
+                                - /url: /charts/custom
+                - generic [ref=e157]:
+                    - button "Blocks" [ref=e158] [cursor=pointer]:
+                        - generic [ref=e159]: Blocks
+                        - img [ref=e160]
+                    - list [ref=e162]:
+                        - listitem [ref=e163]:
+                            - link "Page Header" [ref=e164] [cursor=pointer]:
+                                - /url: /blocks/page-header
+                        - listitem [ref=e165]:
+                            - link "Resource List" [ref=e166] [cursor=pointer]:
+                                - /url: /blocks/resource-list
+                        - listitem [ref=e167]:
+                            - link "Delete Resource" [ref=e168] [cursor=pointer]:
+                                - /url: /blocks/delete-resource
+    - generic [ref=e170]:
+        - banner [ref=e172]:
+            - generic [ref=e173]:
+                - generic:
+                    - generic: Colors
+                - link "@cloudflare/kumo" [ref=e174] [cursor=pointer]:
+                    - /url: https://github.com/cloudflare/kumo
+            - button "Toggle theme" [ref=e176] [cursor=pointer]:
+                - img [ref=e177]
+        - generic [ref=e181]:
+            - generic [ref=e182]:
+                - heading "Colors" [level=1] [ref=e183]
+                - generic [ref=e186]:
+                    - button "Copy page" [ref=e187] [cursor=pointer]:
+                        - img [ref=e188]
+                        - generic [ref=e190]: Copy page
+                    - button "Copy page options" [ref=e191] [cursor=pointer]:
+                        - img [ref=e192]
+            - paragraph [ref=e194]: Kumo uses semantic color tokens that automatically adapt to light and dark mode. Use these classes in your Tailwind CSS instead of raw color values.
+        - main [ref=e195]:
+            - generic [ref=e198]:
+                - generic [ref=e199]:
+                    - 'heading "Link to section: Usage" [level=2] [ref=e200]':
+                        - 'link "Link to section: Usage" [ref=e201] [cursor=pointer]':
+                            - /url: "#usage"
+                            - img [ref=e203]
+                            - text: Usage
+                    - paragraph [ref=e205]: Always use semantic tokens instead of raw Tailwind colors. This ensures your UI automatically adapts to light and dark mode, and that your components remain consistent across themes.
+                    - 'heading "Link to section: Correct" [level=4] [ref=e206]':
+                        - 'link "Link to section: Correct" [ref=e207] [cursor=pointer]':
+                            - /url: "#correct"
+                            - img [ref=e209]
+                            - text: Correct
+                    - generic [ref=e211]:
+                        - code [ref=e213]:
+                            - generic [ref=e214]: <div className="bg-kumo-base text-kumo-default border-kumo-hairline">
+                            - generic [ref=e215]: <button className="bg-kumo-brand text-white">Primary</button>
+                            - generic [ref=e216]: <button className="bg-kumo-control text-kumo-default">Secondary</button>
+                            - generic [ref=e217]: </div>
+                        - button "Copy code to clipboard" [ref=e218] [cursor=pointer]:
+                            - generic [ref=e219]:
+                                - img [ref=e221]
+                                - img [ref=e224]
+                    - 'heading "Link to section: Incorrect" [level=4] [ref=e226]':
+                        - 'link "Link to section: Incorrect" [ref=e227] [cursor=pointer]':
+                            - /url: "#incorrect"
+                            - img [ref=e229]
+                            - text: Incorrect
+                    - generic [ref=e231]:
+                        - code [ref=e233]:
+                            - generic [ref=e234]: "{"
+                            - generic [ref=e235]: /* Never use raw Tailwind colors */
+                            - generic [ref=e236]: "}"
+                            - generic [ref=e237]: <div className="bg-white dark:bg-gray-900 text-black dark:text-white">
+                            - generic [ref=e238]: <button className="bg-blue-500">Primary</button>
+                            - generic [ref=e239]: </div>;
+                        - button "Copy code to clipboard" [ref=e240] [cursor=pointer]:
+                            - generic [ref=e241]:
+                                - img [ref=e243]
+                                - img [ref=e246]
+                    - blockquote [ref=e248]:
+                        - paragraph [ref=e249]:
+                            - text: "Lint rules enforce this: The"
+                            - code [ref=e250]: no-primitive-colors
+                            - text: rule will flag any raw Tailwind colors like
+                            - code [ref=e251]: bg-blue-500
+                            - text: .
+                    - 'heading "Link to section: Mode" [level=2] [ref=e252]':
+                        - 'link "Link to section: Mode" [ref=e253] [cursor=pointer]':
+                            - /url: "#mode"
+                            - img [ref=e255]
+                            - text: Mode
+                    - paragraph [ref=e257]:
+                        - text: Set
+                        - code [ref=e258]: data-mode
+                        - text: on a parent element to control light/dark mode. Never use Tailwind’s
+                        - code [ref=e259]: "dark:"
+                        - text: variant — semantic tokens handle dark mode automatically via CSS
+                        - code [ref=e260]: light-dark()
+                        - text: .
+                    - generic [ref=e261]:
+                        - code [ref=e263]:
+                            - generic [ref=e264]: // Set mode on html or body
+                            - generic [ref=e265]: <html data-mode="light"> // Light mode
+                            - generic [ref=e266]: <html data-mode="dark"> // Dark mode
+                            - generic [ref=e267]: "// Components automatically adapt - no dark: variants needed"
+                            - generic [ref=e268]: <div className="bg-kumo-base text-kumo-default" />
+                        - button "Copy code to clipboard" [ref=e269] [cursor=pointer]:
+                            - generic [ref=e270]:
+                                - img [ref=e272]
+                                - img [ref=e275]
+                    - 'heading "Link to section: Themes" [level=2] [ref=e277]':
+                        - 'link "Link to section: Themes" [ref=e278] [cursor=pointer]':
+                            - /url: "#themes"
+                            - img [ref=e280]
+                            - text: Themes
+                    - paragraph [ref=e282]:
+                        - text: Themes override semantic token values while preserving the same token names. Set
+                        - code [ref=e283]: data-theme
+                        - text: on a parent element to apply a theme.
+                    - 'heading "Link to section: Available Themes" [level=3] [ref=e284]':
+                        - 'link "Link to section: Available Themes" [ref=e285] [cursor=pointer]':
+                            - /url: "#available-themes"
+                            - img [ref=e287]
+                            - text: Available Themes
+                    - list [ref=e289]:
+                        - listitem [ref=e290]:
+                            - code [ref=e291]: kumo
+                            - text: — Default theme (no attribute needed)
+                        - listitem [ref=e292]:
+                            - code [ref=e293]: fedramp
+                            - text: — Government compliance styling
+                    - generic [ref=e294]:
+                        - code [ref=e296]:
+                            - generic [ref=e297]: // Apply a theme to a section or the whole app
+                            - generic [ref=e298]: <div data-theme="fedramp">
+                            - generic [ref=e299]: "{/* All Kumo components inside use fedramp token overrides */}"
+                            - generic [ref=e300]: <Button>FedRAMP Styled</Button>
+                            - generic [ref=e301]: </div>
+                            - generic [ref=e302]: // Themes work with both light and dark mode
+                            - generic [ref=e303]: <html data-mode="dark" data-theme="fedramp">
+                        - button "Copy code to clipboard" [ref=e304] [cursor=pointer]:
+                            - generic [ref=e305]:
+                                - img [ref=e307]
+                                - img [ref=e310]
+                    - 'heading "Link to section: Theme Generator" [level=3] [ref=e312]':
+                        - 'link "Link to section: Theme Generator" [ref=e313] [cursor=pointer]':
+                            - /url: "#theme-generator"
+                            - img [ref=e315]
+                            - text: Theme Generator
+                    - paragraph [ref=e317]: Themes are defined in a centralized config and generated as CSS files. The theme generator ensures consistency across all themes.
+                    - generic [ref=e318]:
+                        - code [ref=e320]:
+                            - generic [ref=e321]: "# List all tokens and their theme overrides"
+                            - generic [ref=e322]: pnpm --filter @cloudflare/kumo codegen:themes --list
+                            - generic [ref=e323]: "# Generate theme CSS files"
+                            - generic [ref=e324]: pnpm --filter @cloudflare/kumo codegen:themes
+                            - generic [ref=e325]: "# Preview changes without writing files"
+                            - generic [ref=e326]: pnpm --filter @cloudflare/kumo codegen:themes --dry-run
+                        - button "Copy code to clipboard" [ref=e327] [cursor=pointer]:
+                            - generic [ref=e328]:
+                                - img [ref=e330]
+                                - img [ref=e333]
+                    - paragraph [ref=e335]:
+                        - text: "Theme config:"
+                        - code [ref=e336]: packages/kumo/scripts/theme-generator/config.ts
+                    - 'heading "Link to section: Creating a New Theme" [level=3] [ref=e337]':
+                        - 'link "Link to section: Creating a New Theme" [ref=e338] [cursor=pointer]':
+                            - /url: "#creating-a-new-theme"
+                            - img [ref=e340]
+                            - text: Creating a New Theme
+                    - paragraph [ref=e342]: Add theme overrides in the config file. Only override tokens that need to change — all other tokens inherit from the base kumo theme.
+                    - generic [ref=e343]:
+                        - code [ref=e345]:
+                            - generic [ref=e346]: // In scripts/theme-generator/config.ts
+                            - generic [ref=e347]: "export const THEME_CONFIG: ThemeConfig = {"
+                            - generic [ref=e348]: "color: {"
+                            - generic [ref=e349]: '"kumo-base": {'
+                            - generic [ref=e350]: 'newName: "",'
+                            - generic [ref=e351]: "theme: {"
+                            - generic [ref=e352]: "kumo: {"
+                            - generic [ref=e353]: 'light: "var(--color-white, #fff)",'
+                            - generic [ref=e354]: 'dark: "var(--color-black, #000)",'
+                            - generic [ref=e355]: "},"
+                            - generic [ref=e356]: // Add your theme override
+                            - generic [ref=e357]: "myTheme: {"
+                            - generic [ref=e358]: 'light: "#f0f4f8",'
+                            - generic [ref=e359]: 'dark: "#1a1f2e",'
+                            - generic [ref=e360]: "},"
+                            - generic [ref=e361]: "},"
+                            - generic [ref=e362]: "},"
+                            - generic [ref=e363]: // ... other tokens
+                            - generic [ref=e364]: "},"
+                            - generic [ref=e365]: "};"
+                            - generic [ref=e366]: // Add to available themes
+                            - generic [ref=e367]: export const AVAILABLE_THEMES = ["kumo", "fedramp", "myTheme"] as const;
+                        - button "Copy code to clipboard" [ref=e368] [cursor=pointer]:
+                            - generic [ref=e369]:
+                                - img [ref=e371]
+                                - img [ref=e374]
+                    - paragraph [ref=e376]:
+                        - text: Then run
+                        - code [ref=e377]: pnpm codegen:themes
+                        - text: to generate the CSS.
+                    - 'heading "Link to section: Semantic Tokens" [level=2] [ref=e378]':
+                        - 'link "Link to section: Semantic Tokens" [ref=e379] [cursor=pointer]':
+                            - /url: "#semantic-tokens"
+                            - img [ref=e381]
+                            - text: Semantic Tokens
+                    - paragraph [ref=e383]: We use semantic tokens to group colors by purpose. Use the token that matches the role of the element, not the color you want to achieve.
+                    - paragraph [ref=e384]:
+                        - text: Semantic tokens are named by
+                        - strong [ref=e385]: role
+                        - text: ", not by hue. A token like"
+                        - code [ref=e386]: bg-kumo-danger
+                        - text: communicates intent — it doesn’t imply a specific shade of red, and its exact value can change per theme or color mode without touching your component code.
+                    - 'heading "Link to section: Surface Hierarchy" [level=3] [ref=e387]':
+                        - 'link "Link to section: Surface Hierarchy" [ref=e388] [cursor=pointer]':
+                            - /url: "#surface-hierarchy"
+                            - img [ref=e390]
+                            - text: Surface Hierarchy
+                    - paragraph [ref=e392]: Surfaces establish depth and layering in the UI. Use them in order from the outermost background inward.
+                    - table [ref=e394]:
+                        - rowgroup [ref=e398]:
+                            - row "Token Purpose" [ref=e399]:
+                                - columnheader "Token" [ref=e400]
+                                - columnheader "Purpose" [ref=e401]
+                        - rowgroup [ref=e402]:
+                            - row "bg-kumo-canvas The outermost page background — sits behind everything" [ref=e403]:
+                                - cell "bg-kumo-canvas" [ref=e404]:
+                                    - code [ref=e405]: bg-kumo-canvas
+                                - cell "The outermost page background — sits behind everything" [ref=e406]
+                            - row "bg-kumo-base Default component background" [ref=e407]:
+                                - cell "bg-kumo-base" [ref=e408]:
+                                    - code [ref=e409]: bg-kumo-base
+                                - cell "Default component background" [ref=e410]
+                            - row "bg-kumo-elevated Slightly elevated surface, e.g. LayerCard.Secondary" [ref=e411]:
+                                - cell "bg-kumo-elevated" [ref=e412]:
+                                    - code [ref=e413]: bg-kumo-elevated
+                                - cell "Slightly elevated surface, e.g. LayerCard.Secondary" [ref=e414]:
+                                    - text: Slightly elevated surface, e.g.
+                                    - code [ref=e415]: LayerCard.Secondary
+                            - row "bg-kumo-recessed Recessed surface with a subtly darker fill, e.g. segmented Tabs background" [ref=e416]:
+                                - cell "bg-kumo-recessed" [ref=e417]:
+                                    - code [ref=e418]: bg-kumo-recessed
+                                - cell "Recessed surface with a subtly darker fill, e.g. segmented Tabs background" [ref=e419]:
+                                    - text: Recessed surface with a subtly darker fill, e.g. segmented
+                                    - code [ref=e420]: Tabs
+                                    - text: background
+                            - row "bg-kumo-tint Subtle tinted background for tables or hover states" [ref=e421]:
+                                - cell "bg-kumo-tint" [ref=e422]:
+                                    - code [ref=e423]: bg-kumo-tint
+                                - cell "Subtle tinted background for tables or hover states" [ref=e424]
+                            - row "bg-kumo-contrast High-contrast, inverted background" [ref=e425]:
+                                - cell "bg-kumo-contrast" [ref=e426]:
+                                    - code [ref=e427]: bg-kumo-contrast
+                                - cell "High-contrast, inverted background" [ref=e428]
+                    - 'heading "Link to section: Brand" [level=3] [ref=e429]':
+                        - 'link "Link to section: Brand" [ref=e430] [cursor=pointer]':
+                            - /url: "#brand"
+                            - img [ref=e432]
+                            - text: Brand
+                    - table [ref=e435]:
+                        - rowgroup [ref=e439]:
+                            - row "Token Purpose" [ref=e440]:
+                                - columnheader "Token" [ref=e441]
+                                - columnheader "Purpose" [ref=e442]
+                        - rowgroup [ref=e443]:
+                            - row "bg-kumo-brand Primary brand background" [ref=e444]:
+                                - cell "bg-kumo-brand" [ref=e445]:
+                                    - code [ref=e446]: bg-kumo-brand
+                                - cell "Primary brand background" [ref=e447]
+                            - row "bg-kumo-brand-hover Hover state for brand backgrounds" [ref=e448]:
+                                - cell "bg-kumo-brand-hover" [ref=e449]:
+                                    - code [ref=e450]: bg-kumo-brand-hover
+                                - cell "Hover state for brand backgrounds" [ref=e451]
+                    - 'heading "Link to section: Semantic Status Colors" [level=3] [ref=e452]':
+                        - 'link "Link to section: Semantic Status Colors" [ref=e453] [cursor=pointer]':
+                            - /url: "#semantic-status-colors"
+                            - img [ref=e455]
+                            - text: Semantic Status Colors
+                    - paragraph [ref=e457]:
+                        - text: "Each status color comes in two variants: a solid color for icons and indicators, and a"
+                        - code [ref=e458]: "-tint"
+                        - text: variant for background fills behind content (i.e.
+                        - code [ref=e459]: Badge
+                        - text: or
+                        - code [ref=e460]: Banner
+                        - text: ).
+                    - table [ref=e462]:
+                        - rowgroup [ref=e466]:
+                            - row "Token Purpose" [ref=e467]:
+                                - columnheader "Token" [ref=e468]
+                                - columnheader "Purpose" [ref=e469]
+                        - rowgroup [ref=e470]:
+                            - row "bg-kumo-info Info indicator (icon, dot, bar)" [ref=e471]:
+                                - cell "bg-kumo-info" [ref=e472]:
+                                    - code [ref=e473]: bg-kumo-info
+                                - cell "Info indicator (icon, dot, bar)" [ref=e474]
+                            - row "bg-kumo-success Success indicator" [ref=e475]:
+                                - cell "bg-kumo-success" [ref=e476]:
+                                    - code [ref=e477]: bg-kumo-success
+                                - cell "Success indicator" [ref=e478]
+                            - row "bg-kumo-warning Warning indicator" [ref=e479]:
+                                - cell "bg-kumo-warning" [ref=e480]:
+                                    - code [ref=e481]: bg-kumo-warning
+                                - cell "Warning indicator" [ref=e482]
+                            - row "bg-kumo-danger Error/destructive indicator" [ref=e483]:
+                                - cell "bg-kumo-danger" [ref=e484]:
+                                    - code [ref=e485]: bg-kumo-danger
+                                - cell "Error/destructive indicator" [ref=e486]
+                    - paragraph [ref=e487]:
+                        - text: Use the solid token on icons, status dots, borders and rings. Banners and badges use the
+                        - code [ref=e488]: "-tint"
+                        - text: variant with varying opacity values for the different instances.
+                    - generic [ref=e489]:
+                        - code [ref=e491]:
+                            - generic [ref=e492]: // Banner with tinted background and solid icon
+                            - generic [ref=e493]: <div className="bg-kumo-danger-tint text-kumo-danger">
+                            - generic [ref=e494]: <AlertIcon className="text-kumo-danger" />
+                            - generic [ref=e495]: <p>Something went wrong.</p>
+                            - generic [ref=e496]: </div>
+                        - button "Copy code to clipboard" [ref=e497] [cursor=pointer]:
+                            - generic [ref=e498]:
+                                - img [ref=e500]
+                                - img [ref=e503]
+                    - 'heading "Link to section: Text Colors" [level=3] [ref=e505]':
+                        - 'link "Link to section: Text Colors" [ref=e506] [cursor=pointer]':
+                            - /url: "#text-colors"
+                            - img [ref=e508]
+                            - text: Text Colors
+                    - table [ref=e511]:
+                        - rowgroup [ref=e515]:
+                            - row "Token Purpose" [ref=e516]:
+                                - columnheader "Token" [ref=e517]
+                                - columnheader "Purpose" [ref=e518]
+                        - rowgroup [ref=e519]:
+                            - row "text-kumo-default Primary body text" [ref=e520]:
+                                - cell "text-kumo-default" [ref=e521]:
+                                    - code [ref=e522]: text-kumo-default
+                                - cell "Primary body text" [ref=e523]
+                            - row "text-kumo-strong Secondary text with slightly less contrast than default" [ref=e524]:
+                                - cell "text-kumo-strong" [ref=e525]:
+                                    - code [ref=e526]: text-kumo-strong
+                                - cell "Secondary text with slightly less contrast than default" [ref=e527]
+                            - row "text-kumo-subtle Muted text for descriptions, captions, or secondary labels" [ref=e528]:
+                                - cell "text-kumo-subtle" [ref=e529]:
+                                    - code [ref=e530]: text-kumo-subtle
+                                - cell "Muted text for descriptions, captions, or secondary labels" [ref=e531]
+                            - row "text-kumo-inactive Disabled or inactive text" [ref=e532]:
+                                - cell "text-kumo-inactive" [ref=e533]:
+                                    - code [ref=e534]: text-kumo-inactive
+                                - cell "Disabled or inactive text" [ref=e535]
+                            - row "text-kumo-placeholder Placeholder text in inputs" [ref=e536]:
+                                - cell "text-kumo-placeholder" [ref=e537]:
+                                    - code [ref=e538]: text-kumo-placeholder
+                                - cell "Placeholder text in inputs" [ref=e539]
+                            - row "text-kumo-inverse Text intended for use on high-contrast or inverted backgrounds" [ref=e540]:
+                                - cell "text-kumo-inverse" [ref=e541]:
+                                    - code [ref=e542]: text-kumo-inverse
+                                - cell "Text intended for use on high-contrast or inverted backgrounds" [ref=e543]
+                            - row "text-kumo-link Link text" [ref=e544]:
+                                - cell "text-kumo-link" [ref=e545]:
+                                    - code [ref=e546]: text-kumo-link
+                                - cell "Link text" [ref=e547]
+                            - row "text-kumo-info Info-colored text" [ref=e548]:
+                                - cell "text-kumo-info" [ref=e549]:
+                                    - code [ref=e550]: text-kumo-info
+                                - cell "Info-colored text" [ref=e551]
+                            - row "text-kumo-success Success-colored text" [ref=e552]:
+                                - cell "text-kumo-success" [ref=e553]:
+                                    - code [ref=e554]: text-kumo-success
+                                - cell "Success-colored text" [ref=e555]
+                            - row "text-kumo-warning Warning-colored text" [ref=e556]:
+                                - cell "text-kumo-warning" [ref=e557]:
+                                    - code [ref=e558]: text-kumo-warning
+                                - cell "Warning-colored text" [ref=e559]
+                            - row "text-kumo-danger Error/destructive text" [ref=e560]:
+                                - cell "text-kumo-danger" [ref=e561]:
+                                    - code [ref=e562]: text-kumo-danger
+                                - cell "Error/destructive text" [ref=e563]
+                    - 'heading "Link to section: Borders &amp; Rings" [level=3] [ref=e564]':
+                        - 'link "Link to section: Borders &amp; Rings" [ref=e565] [cursor=pointer]':
+                            - /url: "#borders--rings"
+                            - img [ref=e567]
+                            - text: Borders & Rings
+                    - table [ref=e570]:
+                        - rowgroup [ref=e574]:
+                            - row "Token Purpose" [ref=e575]:
+                                - columnheader "Token" [ref=e576]
+                                - columnheader "Purpose" [ref=e577]
+                        - rowgroup [ref=e578]:
+                            - row "kumo-hairline New A border/ring color to distinguish between flat surfaces where no shadow is present (i.e. LayerCard)." [ref=e579]:
+                                - cell "kumo-hairline New" [ref=e580]:
+                                    - generic [ref=e581]:
+                                        - code [ref=e582]: kumo-hairline
+                                        - generic [ref=e583]: New
+                                - cell "A border/ring color to distinguish between flat surfaces where no shadow is present (i.e. LayerCard)." [ref=e584]:
+                                    - text: A border/ring color to distinguish between flat surfaces where no shadow is present (i.e.
+                                    - code [ref=e585]: LayerCard
+                                    - text: ).
+                            - row "kumo-hairline A thicker border/ring color that defines the edge of an elevated surface alongside a shadow." [ref=e586]:
+                                - cell "kumo-hairline" [ref=e587]:
+                                    - code [ref=e588]: kumo-hairline
+                                - cell "A thicker border/ring color that defines the edge of an elevated surface alongside a shadow." [ref=e589]
+                    - 'heading "Link to section: Token Reference" [level=2] [ref=e590]':
+                        - 'link "Link to section: Token Reference" [ref=e591] [cursor=pointer]':
+                            - /url: "#token-reference"
+                            - img [ref=e593]
+                            - text: Token Reference
+                    - paragraph [ref=e595]: Toggle the theme in the header to see how tokens adapt. Tokens marked as “global” are explicit opt-in classes available regardless of theme.
+                    - generic [ref=e597]:
+                        - generic [ref=e598]:
+                            - heading "Colors" [level=2] [ref=e599]
+                            - generic [ref=e600]: Displaying 54 tokens
+                        - generic [ref=e601]:
+                            - heading "Text Colors (12)" [level=2] [ref=e602]
+                            - generic [ref=e603]:
+                                - generic [ref=e605]:
+                                    - generic [ref=e607]: "--text-color-kumo-default"
+                                    - generic [ref=e610]:
+                                        - generic [ref=e611]: Light
+                                        - generic [ref=e612]: var(--color-neutral-900, oklch(21% 0.006 285.885))
+                                    - generic [ref=e615]:
+                                        - generic [ref=e616]: Dark
+                                        - generic [ref=e617]: var(--color-neutral-100, oklch(97% 0 0))
+                                - generic [ref=e619]:
+                                    - generic [ref=e621]: "--text-color-kumo-inverse"
+                                    - generic [ref=e624]:
+                                        - generic [ref=e625]: Light
+                                        - generic [ref=e626]: var(--color-neutral-100, oklch(97% 0 0))
+                                    - generic [ref=e629]:
+                                        - generic [ref=e630]: Dark
+                                        - generic [ref=e631]: var(--color-neutral-900, oklch(20.5% 0 0))
+                                - generic [ref=e633]:
+                                    - generic [ref=e635]: "--text-color-kumo-strong"
+                                    - generic [ref=e638]:
+                                        - generic [ref=e639]: Light
+                                        - generic [ref=e640]: var(--color-neutral-600, oklch(43.9% 0 0))
+                                    - generic [ref=e643]:
+                                        - generic [ref=e644]: Dark
+                                        - generic [ref=e645]: var(--color-neutral-400, oklch(70.8% 0 0))
+                                - generic [ref=e647]:
+                                    - generic [ref=e649]: "--text-color-kumo-subtle"
+                                    - generic [ref=e652]:
+                                        - generic [ref=e653]: Light
+                                        - generic [ref=e654]: var(--color-neutral-500, oklch(55.6% 0 0))
+                                    - generic [ref=e657]:
+                                        - generic [ref=e658]: Dark
+                                        - generic [ref=e659]: var(--color-neutral-400, oklch(70.8% 0 0))
+                                - generic [ref=e661]:
+                                    - generic [ref=e663]: "--text-color-kumo-inactive"
+                                    - generic [ref=e666]:
+                                        - generic [ref=e667]: Light
+                                        - generic [ref=e668]: var(--color-neutral-400, oklch(70.8% 0 0))
+                                    - generic [ref=e671]:
+                                        - generic [ref=e672]: Dark
+                                        - generic [ref=e673]: var(--color-neutral-600, oklch(70.8% 0 0))
+                                - generic [ref=e675]:
+                                    - generic [ref=e677]: "--text-color-kumo-placeholder"
+                                    - generic [ref=e680]:
+                                        - generic [ref=e681]: Light
+                                        - generic [ref=e682]: var(--color-neutral-400, oklch(70.8% 0 0))
+                                    - generic [ref=e685]:
+                                        - generic [ref=e686]: Dark
+                                        - generic [ref=e687]: var(--color-neutral-500, oklch(55.6% 0 0))
+                                - generic [ref=e689]:
+                                    - generic [ref=e691]: "--text-color-kumo-brand"
+                                    - generic [ref=e694]:
+                                        - generic [ref=e695]: Light
+                                        - generic [ref=e696]: "#f6821f"
+                                    - generic [ref=e699]:
+                                        - generic [ref=e700]: Dark
+                                        - generic [ref=e701]: "#f6821f"
+                                - generic [ref=e703]:
+                                    - generic [ref=e705]: "--text-color-kumo-link"
+                                    - generic [ref=e708]:
+                                        - generic [ref=e709]: Light
+                                        - generic [ref=e710]: var(--color-blue-800, oklch(42.4% 0.199 265.638))
+                                    - generic [ref=e713]:
+                                        - generic [ref=e714]: Dark
+                                        - generic [ref=e715]: var(--color-blue-400, oklch(70.7% 0.165 254.624))
+                                - generic [ref=e717]:
+                                    - generic [ref=e719]: "--text-color-kumo-info"
+                                    - generic [ref=e722]:
+                                        - generic [ref=e723]: Light
+                                        - generic [ref=e724]: var(--color-blue-800, oklch(42.4% 0.199 265.638))
+                                    - generic [ref=e727]:
+                                        - generic [ref=e728]: Dark
+                                        - generic [ref=e729]: var(--color-blue-400, oklch(70.7% 0.165 254.624))
+                                - generic [ref=e731]:
+                                    - generic [ref=e733]: "--text-color-kumo-success"
+                                    - generic [ref=e736]:
+                                        - generic [ref=e737]: Light
+                                        - generic [ref=e738]: var(--color-emerald-800, oklch(43.2% 0.095 166.913))
+                                    - generic [ref=e741]:
+                                        - generic [ref=e742]: Dark
+                                        - generic [ref=e743]: var(--color-emerald-200, oklch(90.5% 0.093 164.15))
+                                - generic [ref=e745]:
+                                    - generic [ref=e747]: "--text-color-kumo-danger"
+                                    - generic [ref=e750]:
+                                        - generic [ref=e751]: Light
+                                        - generic [ref=e752]: var(--color-red-700, oklch(50.5% 0.213 27.518))
+                                    - generic [ref=e755]:
+                                        - generic [ref=e756]: Dark
+                                        - generic [ref=e757]: var(--color-red-400, oklch(70.4% 0.191 22.216))
+                                - generic [ref=e759]:
+                                    - generic [ref=e761]: "--text-color-kumo-warning"
+                                    - generic [ref=e764]:
+                                        - generic [ref=e765]: Light
+                                        - generic [ref=e766]: var(--color-yellow-800, oklch(47.6% 0.114 61.907))
+                                    - generic [ref=e769]:
+                                        - generic [ref=e770]: Dark
+                                        - generic [ref=e771]: var(--color-yellow-400, oklch(85.2% 0.199 91.936))
+                        - generic [ref=e772]:
+                            - heading "Surface, State & Theme Colors (28)" [level=2] [ref=e773]
+                            - generic [ref=e774]:
+                                - generic [ref=e776]:
+                                    - generic [ref=e778]: "--color-kumo-canvas"
+                                    - generic [ref=e781]:
+                                        - generic [ref=e782]: Light
+                                        - generic [ref=e783]: var(--color-kumo-neutral-25, oklch(98.75% 0 0))
+                                    - generic [ref=e786]:
+                                        - generic [ref=e787]: Dark
+                                        - generic [ref=e788]: var(--color-kumo-neutral-1000, oklch(10% 0 0))
+                                - generic [ref=e790]:
+                                    - generic [ref=e792]: "--color-kumo-elevated"
+                                    - generic [ref=e795]:
+                                        - generic [ref=e796]: Light
+                                        - generic [ref=e797]: var(--color-kumo-neutral-75, oklch(98% 0 0))
+                                    - generic [ref=e800]:
+                                        - generic [ref=e801]: Dark
+                                        - generic [ref=e802]: var(--color-kumo-neutral-975, oklch(12% 0 0))
+                                - generic [ref=e804]:
+                                    - generic [ref=e806]: "--color-kumo-recessed"
+                                    - generic [ref=e809]:
+                                        - generic [ref=e810]: Light
+                                        - generic [ref=e811]: var(--color-kumo-neutral-125, oklch(96% 0 0))
+                                    - generic [ref=e814]:
+                                        - generic [ref=e815]: Dark
+                                        - generic [ref=e816]: var(--color-kumo-neutral-950, oklch(15% 0 0))
+                                - generic [ref=e818]:
+                                    - generic [ref=e820]: "--color-kumo-base"
+                                    - generic [ref=e823]:
+                                        - generic [ref=e824]: Light
+                                        - generic [ref=e825]: "var(--color-white, #fff)"
+                                    - generic [ref=e828]:
+                                        - generic [ref=e829]: Dark
+                                        - generic [ref=e830]: var(--color-kumo-neutral-925, oklch(17% 0 0))
+                                - generic [ref=e832]:
+                                    - generic [ref=e834]: "--color-kumo-tint"
+                                    - generic [ref=e837]:
+                                        - generic [ref=e838]: Light
+                                        - generic [ref=e839]: var(--color-neutral-100, oklch(97% 0 0))
+                                    - generic [ref=e842]:
+                                        - generic [ref=e843]: Dark
+                                        - generic [ref=e844]: var(--color-kumo-neutral-800, oklch(26.9% 0 0))
+                                - generic [ref=e846]:
+                                    - generic [ref=e848]: "--color-kumo-contrast"
+                                    - generic [ref=e851]:
+                                        - generic [ref=e852]: Light
+                                        - generic [ref=e853]: var(--color-kumo-neutral-975, oklch(8.5% 0 0))
+                                    - generic [ref=e856]:
+                                        - generic [ref=e857]: Dark
+                                        - generic [ref=e858]: var(--color-kumo-neutral-25, oklch(98.5% 0 0))
+                                - generic [ref=e860]:
+                                    - generic [ref=e862]: "--color-kumo-overlay"
+                                    - generic [ref=e865]:
+                                        - generic [ref=e866]: Light
+                                        - generic [ref=e867]: var(--color-kumo-neutral-50, oklch(97.5% 0 0))
+                                    - generic [ref=e870]:
+                                        - generic [ref=e871]: Dark
+                                        - generic [ref=e872]: var(--color-neutral-800, oklch(26.9% 0 0))
+                                - generic [ref=e874]:
+                                    - generic [ref=e876]: "--color-kumo-control"
+                                    - generic [ref=e879]:
+                                        - generic [ref=e880]: Light
+                                        - generic [ref=e881]: "var(--color-white, #fff)"
+                                    - generic [ref=e884]:
+                                        - generic [ref=e885]: Dark
+                                        - generic [ref=e886]: var(--color-neutral-900, oklch(21% 0.006 285.885))
+                                - generic [ref=e888]:
+                                    - generic [ref=e890]: "--color-kumo-interact"
+                                    - generic [ref=e893]:
+                                        - generic [ref=e894]: Light
+                                        - generic [ref=e895]: var(--color-neutral-300, oklch(87% 0 0))
+                                    - generic [ref=e898]:
+                                        - generic [ref=e899]: Dark
+                                        - generic [ref=e900]: var(--color-neutral-700, oklch(37.1% 0 0))
+                                - generic [ref=e902]:
+                                    - generic [ref=e904]: "--color-kumo-fill"
+                                    - generic [ref=e907]:
+                                        - generic [ref=e908]: Light
+                                        - generic [ref=e909]: var(--color-neutral-200, oklch(92.2% 0 0))
+                                    - generic [ref=e912]:
+                                        - generic [ref=e913]: Dark
+                                        - generic [ref=e914]: var(--color-neutral-800, oklch(26.9% 0 0))
+                                - generic [ref=e916]:
+                                    - generic [ref=e918]: "--color-kumo-fill-hover"
+                                    - generic [ref=e921]:
+                                        - generic [ref=e922]: Light
+                                        - generic [ref=e923]: var(--color-kumo-neutral-125, oklch(96.5% 0 0))
+                                    - generic [ref=e926]:
+                                        - generic [ref=e927]: Dark
+                                        - generic [ref=e928]: var(--color-neutral-800, oklch(37.1% 0 0))
+                                - generic [ref=e930]:
+                                    - generic [ref=e932]: "--color-kumo-brand"
+                                    - generic [ref=e935]:
+                                        - generic [ref=e936]: Light
+                                        - generic [ref=e937]: oklch(0.5772 0.2324 260)
+                                    - generic [ref=e940]:
+                                        - generic [ref=e941]: Dark
+                                        - generic [ref=e942]: oklch(0.5772 0.2324 260)
+                                - generic [ref=e944]:
+                                    - generic [ref=e946]: "--color-kumo-brand-hover"
+                                    - generic [ref=e949]:
+                                        - generic [ref=e950]: Light
+                                        - generic [ref=e951]: var(--color-blue-700, oklch(48.8% 0.243 264.376))
+                                    - generic [ref=e954]:
+                                        - generic [ref=e955]: Dark
+                                        - generic [ref=e956]: var(--color-blue-700, oklch(48.8% 0.243 264.376))
+                                - generic [ref=e958]:
+                                    - generic [ref=e960]: "--color-kumo-line"
+                                    - generic [ref=e963]:
+                                        - generic [ref=e964]: Light
+                                        - generic [ref=e965]: oklch(14.5% 0 0 / 0.1)
+                                    - generic [ref=e968]:
+                                        - generic [ref=e969]: Dark
+                                        - generic [ref=e970]: var(--color-kumo-neutral-750, oklch(32% 0 0))
+                                - generic [ref=e972]:
+                                    - generic [ref=e974]: "--color-kumo-hairline"
+                                    - generic [ref=e977]:
+                                        - generic [ref=e978]: Light
+                                        - generic [ref=e979]: var(--color-kumo-neutral-150, oklch(93.5% 0 0))
+                                    - generic [ref=e982]:
+                                        - generic [ref=e983]: Dark
+                                        - generic [ref=e984]: var(--color-neutral-800, oklch(26.9% 0 0))
+                                - generic [ref=e986]:
+                                    - generic [ref=e988]: "--color-kumo-focus"
+                                    - generic [ref=e991]:
+                                        - generic [ref=e992]: Light
+                                        - generic [ref=e993]: var(--color-kumo-neutral-950, oklch(15% 0 0))
+                                    - generic [ref=e996]:
+                                        - generic [ref=e997]: Dark
+                                        - generic [ref=e998]: var(--color-kumo-neutral-150, oklch(93.5% 0 0))
+                                - generic [ref=e1000]:
+                                    - generic [ref=e1002]: "--color-kumo-shadow-edge"
+                                    - generic [ref=e1005]:
+                                        - generic [ref=e1006]: Light
+                                        - generic [ref=e1007]: oklch(0% 0 0 / 0.12)
+                                    - generic [ref=e1010]:
+                                        - generic [ref=e1011]: Dark
+                                        - generic [ref=e1012]: oklch(100% 0 0 / 0.1)
+                                - generic [ref=e1014]:
+                                    - generic [ref=e1016]: "--color-kumo-shadow-drop"
+                                    - generic [ref=e1019]:
+                                        - generic [ref=e1020]: Light
+                                        - generic [ref=e1021]: oklch(0% 0 0 / 0.08)
+                                    - generic [ref=e1024]:
+                                        - generic [ref=e1025]: Dark
+                                        - generic [ref=e1026]: oklch(0% 0 0 / 0.3)
+                                - generic [ref=e1028]:
+                                    - generic [ref=e1030]: "--color-kumo-tip-shadow"
+                                    - generic [ref=e1033]:
+                                        - generic [ref=e1034]: Light
+                                        - generic [ref=e1035]: var(--color-gray-200, oklch(92.8% 0.006 264.531))
+                                    - generic [ref=e1038]:
+                                        - generic [ref=e1039]: Dark
+                                        - generic [ref=e1040]: transparent
+                                - generic [ref=e1042]:
+                                    - generic [ref=e1044]: "--color-kumo-tip-stroke"
+                                    - generic [ref=e1047]:
+                                        - generic [ref=e1048]: Light
+                                        - generic [ref=e1049]: transparent
+                                    - generic [ref=e1052]:
+                                        - generic [ref=e1053]: Dark
+                                        - generic [ref=e1054]: var(--color-neutral-800, oklch(26.9% 0 0))
+                                - generic [ref=e1056]:
+                                    - generic [ref=e1058]: "--color-kumo-info-tint"
+                                    - generic [ref=e1061]:
+                                        - generic [ref=e1062]: Light
+                                        - generic [ref=e1063]: var(--color-blue-100, oklch(93.2% 0.032 255.585))
+                                    - generic [ref=e1066]:
+                                        - generic [ref=e1067]: Dark
+                                        - generic [ref=e1068]: var(--color-blue-900, oklch(37.9% 0.146 265.522))
+                                - generic [ref=e1070]:
+                                    - generic [ref=e1072]: "--color-kumo-info"
+                                    - generic [ref=e1075]:
+                                        - generic [ref=e1076]: Light
+                                        - generic [ref=e1077]: var(--color-blue-300, oklch(80.9% 0.105 251.813))
+                                    - generic [ref=e1080]:
+                                        - generic [ref=e1081]: Dark
+                                        - generic [ref=e1082]: var(--color-blue-900, oklch(37.9% 0.146 265.522))
+                                - generic [ref=e1084]:
+                                    - generic [ref=e1086]: "--color-kumo-warning-tint"
+                                    - generic [ref=e1089]:
+                                        - generic [ref=e1090]: Light
+                                        - generic [ref=e1091]: var(--color-yellow-100, oklch(97.3% 0.071 103.193))
+                                    - generic [ref=e1094]:
+                                        - generic [ref=e1095]: Dark
+                                        - generic [ref=e1096]: var(--color-yellow-700, oklch(55.4% 0.135 66.442))
+                                - generic [ref=e1098]:
+                                    - generic [ref=e1100]: "--color-kumo-warning"
+                                    - generic [ref=e1103]:
+                                        - generic [ref=e1104]: Light
+                                        - generic [ref=e1105]: var(--color-yellow-300, oklch(90.5% 0.182 98.111))
+                                    - generic [ref=e1108]:
+                                        - generic [ref=e1109]: Dark
+                                        - generic [ref=e1110]: var(--color-yellow-900, oklch(42.1% 0.095 57.708))
+                                - generic [ref=e1112]:
+                                    - generic [ref=e1114]: "--color-kumo-danger-tint"
+                                    - generic [ref=e1117]:
+                                        - generic [ref=e1118]: Light
+                                        - generic [ref=e1119]: var(--color-red-100, oklch(93.6% 0.032 17.717))
+                                    - generic [ref=e1122]:
+                                        - generic [ref=e1123]: Dark
+                                        - generic [ref=e1124]: var(--color-red-900, oklch(39.6% 0.141 25.723))
+                                - generic [ref=e1126]:
+                                    - generic [ref=e1128]: "--color-kumo-danger"
+                                    - generic [ref=e1131]:
+                                        - generic [ref=e1132]: Light
+                                        - generic [ref=e1133]: var(--color-red-500, oklch(63.7% 0.237 25.331))
+                                    - generic [ref=e1136]:
+                                        - generic [ref=e1137]: Dark
+                                        - generic [ref=e1138]: var(--color-red-900, oklch(39.6% 0.141 25.723))
+                                - generic [ref=e1140]:
+                                    - generic [ref=e1142]: "--color-kumo-success-tint"
+                                    - generic [ref=e1145]:
+                                        - generic [ref=e1146]: Light
+                                        - generic [ref=e1147]: var(--color-emerald-100, oklch(95% 0.052 163.051))
+                                    - generic [ref=e1150]:
+                                        - generic [ref=e1151]: Dark
+                                        - generic [ref=e1152]: var(--color-emerald-900, oklch(37.8% 0.077 168.94))
+                                - generic [ref=e1154]:
+                                    - generic [ref=e1156]: "--color-kumo-success"
+                                    - generic [ref=e1159]:
+                                        - generic [ref=e1160]: Light
+                                        - generic [ref=e1161]: var(--color-green-300, oklch(87.1% 0.15 154.449))
+                                    - generic [ref=e1164]:
+                                        - generic [ref=e1165]: Dark
+                                        - generic [ref=e1166]: var(--color-green-900, oklch(39.3% 0.095 152.535))
+                        - generic [ref=e1167]:
+                            - heading "Component Colors (14)" [level=2] [ref=e1168]
+                            - generic [ref=e1169]:
+                                - heading "Badge (14)" [level=3] [ref=e1170]
+                                - generic [ref=e1171]:
+                                    - generic [ref=e1173]:
+                                        - generic [ref=e1175]: "--text-color-kumo-badge-orange-subtle"
+                                        - generic [ref=e1178]:
+                                            - generic [ref=e1179]: Light
+                                            - generic [ref=e1180]: var(--color-orange-800, oklch(47% 0.157 37.304))
+                                        - generic [ref=e1183]:
+                                            - generic [ref=e1184]: Dark
+                                            - generic [ref=e1185]: var(--color-orange-200, oklch(90.1% 0.076 70.697))
+                                    - generic [ref=e1187]:
+                                        - generic [ref=e1189]: "--text-color-kumo-badge-teal-subtle"
+                                        - generic [ref=e1192]:
+                                            - generic [ref=e1193]: Light
+                                            - generic [ref=e1194]: var(--color-teal-800, oklch(43.7% 0.078 188.216))
+                                        - generic [ref=e1197]:
+                                            - generic [ref=e1198]: Dark
+                                            - generic [ref=e1199]: var(--color-teal-200, oklch(91% 0.096 180.426))
+                                    - generic [ref=e1201]:
+                                        - generic [ref=e1203]: "--text-color-kumo-badge-neutral-subtle"
+                                        - generic [ref=e1206]:
+                                            - generic [ref=e1207]: Light
+                                            - generic [ref=e1208]: var(--color-neutral-800, oklch(26.9% 0 0))
+                                        - generic [ref=e1211]:
+                                            - generic [ref=e1212]: Dark
+                                            - generic [ref=e1213]: var(--color-neutral-200, oklch(92.2% 0 0))
+                                    - generic [ref=e1215]:
+                                        - generic [ref=e1217]: "--text-color-kumo-badge-inverted"
+                                        - generic [ref=e1220]:
+                                            - generic [ref=e1221]: Light
+                                            - generic [ref=e1222]: "var(--color-white, #fff)"
+                                        - generic [ref=e1225]:
+                                            - generic [ref=e1226]: Dark
+                                            - generic [ref=e1227]: "var(--color-black, #000)"
+                                    - generic [ref=e1229]:
+                                        - generic [ref=e1231]: "--color-kumo-badge-red"
+                                        - generic [ref=e1234]:
+                                            - generic [ref=e1235]: Light
+                                            - generic [ref=e1236]: var(--color-red-600, oklch(57.7% 0.245 27.325))
+                                        - generic [ref=e1239]:
+                                            - generic [ref=e1240]: Dark
+                                            - generic [ref=e1241]: var(--color-red-700, oklch(50.5% 0.213 27.518))
+                                    - generic [ref=e1243]:
+                                        - generic [ref=e1245]: "--color-kumo-badge-orange"
+                                        - generic [ref=e1248]:
+                                            - generic [ref=e1249]: Light
+                                            - generic [ref=e1250]: var(--color-orange-650, oklch(81.5% 0.197 76))
+                                        - generic [ref=e1253]:
+                                            - generic [ref=e1254]: Dark
+                                            - generic [ref=e1255]: var(--color-orange-650, oklch(81.5% 0.197 76))
+                                    - generic [ref=e1257]:
+                                        - generic [ref=e1259]: "--color-kumo-badge-orange-subtle"
+                                        - generic [ref=e1262]:
+                                            - generic [ref=e1263]: Light
+                                            - generic [ref=e1264]: var(--color-orange-100, oklch(95.4% 0.038 75.164))
+                                        - generic [ref=e1267]:
+                                            - generic [ref=e1268]: Dark
+                                            - generic [ref=e1269]: var(--color-orange-900, oklch(40.8% 0.123 38.172))
+                                    - generic [ref=e1271]:
+                                        - generic [ref=e1273]: "--color-kumo-badge-purple"
+                                        - generic [ref=e1276]:
+                                            - generic [ref=e1277]: Light
+                                            - generic [ref=e1278]: var(--color-purple-600, oklch(60% 0.118 184.704))
+                                        - generic [ref=e1281]:
+                                            - generic [ref=e1282]: Dark
+                                            - generic [ref=e1283]: var(--color-purple-700, oklch(50.8% 0.118 165.612))
+                                    - generic [ref=e1285]:
+                                        - generic [ref=e1287]: "--color-kumo-badge-green"
+                                        - generic [ref=e1290]:
+                                            - generic [ref=e1291]: Light
+                                            - generic [ref=e1292]: var(--color-emerald-700, oklch(50.8% 0.118 165.612))
+                                        - generic [ref=e1295]:
+                                            - generic [ref=e1296]: Dark
+                                            - generic [ref=e1297]: var(--color-emerald-700, oklch(50.8% 0.118 165.612))
+                                    - generic [ref=e1299]:
+                                        - generic [ref=e1301]: "--color-kumo-badge-teal"
+                                        - generic [ref=e1304]:
+                                            - generic [ref=e1305]: Light
+                                            - generic [ref=e1306]: var(--color-teal-650, oklch(54.9% 0.096 184.565))
+                                        - generic [ref=e1309]:
+                                            - generic [ref=e1310]: Dark
+                                            - generic [ref=e1311]: var(--color-teal-700, oklch(51.1% 0.096 186.391))
+                                    - generic [ref=e1313]:
+                                        - generic [ref=e1315]: "--color-kumo-badge-teal-subtle"
+                                        - generic [ref=e1318]:
+                                            - generic [ref=e1319]: Light
+                                            - generic [ref=e1320]: var(--color-teal-100, oklch(95.3% 0.051 180.801))
+                                        - generic [ref=e1323]:
+                                            - generic [ref=e1324]: Dark
+                                            - generic [ref=e1325]: var(--color-teal-900, oklch(38.6% 0.063 188.416))
+                                    - generic [ref=e1327]:
+                                        - generic [ref=e1329]: "--color-kumo-badge-blue"
+                                        - generic [ref=e1332]:
+                                            - generic [ref=e1333]: Light
+                                            - generic [ref=e1334]: var(--color-blue-600, oklch(54.6% 0.245 262.881))
+                                        - generic [ref=e1337]:
+                                            - generic [ref=e1338]: Dark
+                                            - generic [ref=e1339]: var(--color-blue-700, oklch(48.8% 0.243 264.376))
+                                    - generic [ref=e1341]:
+                                        - generic [ref=e1343]: "--color-kumo-badge-neutral"
+                                        - generic [ref=e1346]:
+                                            - generic [ref=e1347]: Light
+                                            - generic [ref=e1348]: var(--color-neutral-600, oklch(43.9% 0 0))
+                                        - generic [ref=e1351]:
+                                            - generic [ref=e1352]: Dark
+                                            - generic [ref=e1353]: var(--color-neutral-600, oklch(43.9% 0 0))
+                                    - generic [ref=e1355]:
+                                        - generic [ref=e1357]: "--color-kumo-badge-inverted"
+                                        - generic [ref=e1360]:
+                                            - generic [ref=e1361]: Light
+                                            - generic [ref=e1362]: var(--color-neutral-950, oklch(14.5% 0 0))
+                                        - generic [ref=e1365]:
+                                            - generic [ref=e1366]: Dark
+                                            - generic [ref=e1367]: "var(--color-white, #fff)"
+                - complementary [ref=e1368]:
+                    - navigation "Table of contents" [ref=e1371]:
+                        - paragraph [ref=e1372]: On this page
+                        - list [ref=e1373]:
+                            - listitem [ref=e1374]:
+                                - link "Usage" [ref=e1375] [cursor=pointer]:
+                                    - /url: "#usage"
+                                    - generic [ref=e1376]: Usage
+                            - listitem [ref=e1377]:
+                                - link "Mode" [ref=e1378] [cursor=pointer]:
+                                    - /url: "#mode"
+                                    - generic [ref=e1379]: Mode
+                            - listitem [ref=e1380]:
+                                - link "Themes" [ref=e1381] [cursor=pointer]:
+                                    - /url: "#themes"
+                                    - generic [ref=e1382]: Themes
+                                - list [ref=e1383]:
+                                    - listitem [ref=e1384]:
+                                        - link "Available Themes" [ref=e1385] [cursor=pointer]:
+                                            - /url: "#available-themes"
+                                            - generic [ref=e1386]: Available Themes
+                                    - listitem [ref=e1387]:
+                                        - link "Theme Generator" [ref=e1388] [cursor=pointer]:
+                                            - /url: "#theme-generator"
+                                            - generic [ref=e1389]: Theme Generator
+                                    - listitem [ref=e1390]:
+                                        - link "Creating a New Theme" [ref=e1391] [cursor=pointer]:
+                                            - /url: "#creating-a-new-theme"
+                                            - generic [ref=e1392]: Creating a New Theme
+                            - listitem [ref=e1393]:
+                                - link "Semantic Tokens" [ref=e1394] [cursor=pointer]:
+                                    - /url: "#semantic-tokens"
+                                    - generic [ref=e1395]: Semantic Tokens
+                                - list [ref=e1396]:
+                                    - listitem [ref=e1397]:
+                                        - link "Surface Hierarchy" [ref=e1398] [cursor=pointer]:
+                                            - /url: "#surface-hierarchy"
+                                            - generic [ref=e1399]: Surface Hierarchy
+                                    - listitem [ref=e1400]:
+                                        - link "Brand" [ref=e1401] [cursor=pointer]:
+                                            - /url: "#brand"
+                                            - generic [ref=e1402]: Brand
+                                    - listitem [ref=e1403]:
+                                        - link "Semantic Status Colors" [ref=e1404] [cursor=pointer]:
+                                            - /url: "#semantic-status-colors"
+                                            - generic [ref=e1405]: Semantic Status Colors
+                                    - listitem [ref=e1406]:
+                                        - link "Text Colors" [ref=e1407] [cursor=pointer]:
+                                            - /url: "#text-colors"
+                                            - generic [ref=e1408]: Text Colors
+                                    - listitem [ref=e1409]:
+                                        - link "Borders & Rings" [ref=e1410] [cursor=pointer]:
+                                            - /url: "#borders--rings"
+                                            - generic [ref=e1411]: Borders & Rings
+                            - listitem [ref=e1412]:
+                                - link "Token Reference" [ref=e1413] [cursor=pointer]:
+                                    - /url: "#token-reference"
+                                    - generic [ref=e1414]: Token Reference
