@@ -8,9 +8,11 @@ import { withTransaction } from "../database/transaction.js";
 import type { CollectionTable, Database, FieldTable } from "../database/types.js";
 import { validateIdentifier } from "../database/validate.js";
 import { FTSManager } from "../search/fts-manager.js";
+import { chunks, SQL_BATCH_SIZE } from "../utils/chunks.js";
 import {
 	type Collection,
 	type CollectionSource,
+	type CollectionSupport,
 	type ColumnType,
 	type Field,
 	type CreateCollectionInput,
@@ -47,6 +49,34 @@ function isFieldType(value: string): value is FieldType {
 
 function isColumnType(value: string): value is ColumnType {
 	return COLUMN_TYPES.has(value);
+}
+
+const VALID_COLLECTION_SUPPORTS: ReadonlySet<string> = new Set<CollectionSupport>([
+	"drafts",
+	"revisions",
+	"preview",
+	"scheduling",
+	"search",
+	"seo",
+]);
+
+function isCollectionSupport(value: unknown): value is CollectionSupport {
+	return typeof value === "string" && VALID_COLLECTION_SUPPORTS.has(value);
+}
+
+/**
+ * Parse a collection's `supports` column (stored as a JSON array of
+ * CollectionSupport keys). Unknown/invalid entries are filtered out so the
+ * runtime value matches the declared `CollectionSupport[]` type.
+ *
+ * Throws on malformed JSON so corruption surfaces loudly; returns an empty
+ * array only for explicitly null/empty values or non-array JSON.
+ */
+function parseSupports(raw: string | null | undefined): CollectionSupport[] {
+	if (!raw) return [];
+	const parsed: unknown = JSON.parse(raw);
+	if (!Array.isArray(parsed)) return [];
+	return parsed.filter(isCollectionSupport);
 }
 
 /**
@@ -115,6 +145,61 @@ export class SchemaRegistry {
 	}
 
 	/**
+	 * List every collection together with its fields in O(1) query shapes
+	 * — one for collections, then one batched query for the fields of every
+	 * returned collection — instead of the N+1 pattern of `listCollections`
+	 * + per-collection `listFields`. The fields query is chunked at
+	 * `SQL_BATCH_SIZE` to stay under D1's bound-parameter limit, so on
+	 * sites with more than `SQL_BATCH_SIZE` collections the field fetch
+	 * becomes `ceil(collectionCount / SQL_BATCH_SIZE)` queries — still
+	 * a constant factor, not N+1. Typical sites have well under
+	 * `SQL_BATCH_SIZE` collections, so this is two queries in practice.
+	 *
+	 * Used by the manifest build, which previously paid N+1 round-trips on
+	 * every admin request. Each round-trip costs ~80–150ms against the D1
+	 * primary on a busy link, so a 10-collection site spent ~1 s rebuilding
+	 * a manifest that is now built fresh per admin request (no cache).
+	 */
+	async listCollectionsWithFields(): Promise<CollectionWithFields[]> {
+		const collectionRows = await this.db
+			.selectFrom("_emdash_collections")
+			.selectAll()
+			.orderBy("slug", "asc")
+			.execute();
+
+		if (collectionRows.length === 0) return [];
+
+		const fieldsByCollection = new Map<string, Field[]>();
+		// Chunk to stay under D1's bound-parameter limit. Typical sites have
+		// well under SQL_BATCH_SIZE collections, so this is a single query
+		// in practice; on larger sites it becomes a small constant number
+		// of queries, never N+1.
+		for (const idChunk of chunks(
+			collectionRows.map((c) => c.id),
+			SQL_BATCH_SIZE,
+		)) {
+			const fieldRows = await this.db
+				.selectFrom("_emdash_fields")
+				.where("collection_id", "in", idChunk)
+				.selectAll()
+				.orderBy("collection_id", "asc")
+				.orderBy("sort_order", "asc")
+				.orderBy("created_at", "asc")
+				.execute();
+			for (const row of fieldRows) {
+				const list = fieldsByCollection.get(row.collection_id) ?? [];
+				list.push(this.mapFieldRow(row));
+				fieldsByCollection.set(row.collection_id, list);
+			}
+		}
+
+		return collectionRows.map((c) => ({
+			...this.mapCollectionRow(c),
+			fields: fieldsByCollection.get(c.id) ?? [],
+		}));
+	}
+
+	/**
 	 * Create a new collection
 	 */
 	async createCollection(input: CreateCollectionInput): Promise<Collection> {
@@ -132,11 +217,18 @@ export class SchemaRegistry {
 
 		const id = ulid();
 
+		// Default `supports` to drafts + revisions when the caller didn't
+		// specify it. Explicit empty array (`[]`) is preserved as an opt-out
+		// — only `undefined` triggers the default. This is the canonical
+		// default for new collections; the MCP and admin UI layers used to
+		// duplicate this default but now defer to the registry.
+		const supports = input.supports ?? ["drafts", "revisions"];
+
 		// Insert collection record and create content table in a transaction
 		// so a failure in table creation doesn't leave an orphaned row.
 		// Uses withTransaction for D1 compatibility (no transaction support).
 		// Derive hasSeo from supports array if not explicitly set
-		const hasSeo = input.hasSeo ?? input.supports?.includes("seo") ?? false;
+		const hasSeo = input.hasSeo ?? supports.includes("seo") ?? false;
 
 		await withTransaction(this.db, async (trx) => {
 			await trx
@@ -148,7 +240,7 @@ export class SchemaRegistry {
 					label_singular: input.labelSingular ?? null,
 					description: input.description ?? null,
 					icon: input.icon ?? null,
-					supports: input.supports ? JSON.stringify(input.supports) : null,
+					supports: JSON.stringify(supports),
 					source: input.source ?? "manual",
 					has_seo: hasSeo ? 1 : 0,
 					comments_enabled: input.commentsEnabled ? 1 : 0,
@@ -243,7 +335,7 @@ export class SchemaRegistry {
 			// Sync FTS state when the supports array changes (e.g. search toggled on/off)
 			if (input.supports !== undefined) {
 				const hadSearch = existing.supports.includes("search");
-				const hasSearch = (JSON.parse(row.supports ?? "[]") as string[]).includes("search");
+				const hasSearch = parseSupports(row.supports).includes("search");
 				if (hadSearch !== hasSearch) {
 					await this.syncSearchState(slug, trx);
 				}
@@ -525,7 +617,7 @@ export class SchemaRegistry {
 			.executeTakeFirst();
 		if (!row) return;
 
-		const wantsSearch = (JSON.parse(row.supports ?? "[]") as string[]).includes("search");
+		const wantsSearch = parseSupports(row.supports).includes("search");
 		const searchableFields = await ftsManager.getSearchableFields(collectionSlug);
 		const config = await ftsManager.getSearchConfig(collectionSlug);
 		const ftsActive = config?.enabled === true;
@@ -881,7 +973,7 @@ export class SchemaRegistry {
 			labelSingular: row.label_singular ?? undefined,
 			description: row.description ?? undefined,
 			icon: row.icon ?? undefined,
-			supports: row.supports ? JSON.parse(row.supports) : [],
+			supports: parseSupports(row.supports),
 			source: row.source && isCollectionSource(row.source) ? row.source : undefined,
 			hasSeo: row.has_seo === 1,
 			urlPattern: row.url_pattern ?? undefined,

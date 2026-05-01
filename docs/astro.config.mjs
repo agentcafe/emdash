@@ -5,6 +5,7 @@ import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
+	site: "https://docs.emdashcms.com",
 	integrations: [
 		starlight({
 			title: "EmDash",
@@ -32,6 +33,7 @@ export default defineConfig({
 						{ label: "Introduction", slug: "introduction" },
 						{ label: "Getting Started", slug: "getting-started" },
 						{ label: "Why EmDash?", slug: "why-emdash" },
+						{ label: "Docs MCP for AI Tools", slug: "docs-mcp" },
 					],
 				},
 				{
@@ -68,6 +70,7 @@ export default defineConfig({
 						{ label: "Sections", slug: "guides/sections" },
 						{ label: "Site Settings", slug: "guides/site-settings" },
 						{ label: "Authentication", slug: "guides/authentication" },
+						{ label: "Atmosphere Login", slug: "guides/atmosphere-auth" },
 						{ label: "AI Tools", slug: "guides/ai-tools" },
 						{ label: "x402 Payments", slug: "guides/x402-payments" },
 						{ label: "Preview Mode", slug: "guides/preview" },
@@ -87,6 +90,7 @@ export default defineConfig({
 						{ label: "Plugin Settings", slug: "plugins/settings" },
 						{ label: "Admin UI Extensions", slug: "plugins/admin-ui" },
 						{ label: "Block Kit", slug: "plugins/block-kit" },
+						{ label: "Field Kit", slug: "plugins/field-kit" },
 						{ label: "API Routes", slug: "plugins/api-routes" },
 						{ label: "Sandbox & Security", slug: "plugins/sandbox" },
 						{ label: "Publishing Plugins", slug: "plugins/publishing" },
