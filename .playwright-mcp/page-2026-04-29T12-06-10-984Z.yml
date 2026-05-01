@@ -1,0 +1,134 @@
+- generic [active] [ref=e1]:
+    - generic [ref=e7]:
+        - banner:
+            - complementary [ref=e8]:
+                - generic [ref=e11]:
+                    - generic [ref=e12]:
+                        - link "Home" [ref=e15] [cursor=pointer]:
+                            - /url: /dashboard
+                            - generic [ref=e18]: home
+                            - generic [ref=e19]: Home
+                        - link "Departments" [ref=e156] [cursor=pointer]:
+                            - /url: /departments
+                            - generic [ref=e25]: account_balance
+                            - generic [ref=e157]: Departments
+                        - link "Jobs" [ref=e28] [cursor=pointer]:
+                            - /url: /jobs
+                            - generic [ref=e31]: work
+                            - generic [ref=e32]: Jobs
+                        - link "Candidates" [ref=e35] [cursor=pointer]:
+                            - /url: /candidates
+                            - generic [ref=e38]: group
+                            - generic [ref=e39]: Candidates
+                        - caption [ref=e41]: Recruitment Center
+                        - link "Matches" [ref=e158] [cursor=pointer]:
+                            - /url: /matches
+                            - generic [ref=e48]: device_hub
+                            - generic [ref=e49]: Matches
+                        - link "Employees" [ref=e161] [cursor=pointer]:
+                            - /url: /employees
+                            - generic [ref=e164]: how_to_reg
+                            - generic [ref=e165]: Employees
+                        - link "Activities" [ref=e166] [cursor=pointer]:
+                            - /url: /activities
+                            - generic [ref=e58]: calendar_today
+                            - generic [ref=e59]: Activities
+                        - link "Inbox" [ref=e167] [cursor=pointer]:
+                            - /url: /inbox
+                            - generic [ref=e65]: question_answer
+                            - generic [ref=e66]: Inbox
+                        - caption [ref=e51]: Settings & Analytics
+                        - link "Reports" [ref=e170] [cursor=pointer]:
+                            - /url: /reports
+                            - generic [ref=e173]: poll
+                            - generic [ref=e174]: Reports
+                        - link "Sourcing Hub" [ref=e177] [cursor=pointer]:
+                            - /url: /sourcing-hub
+                            - img [ref=e180]
+                            - generic [ref=e181]: Sourcing Hub
+                        - link "Settings" [ref=e184] [cursor=pointer]:
+                            - /url: /settings
+                            - generic [ref=e187]: settings
+                            - generic [ref=e188]: Settings
+                        - link "Administration" [ref=e191] [cursor=pointer]:
+                            - /url: /administration
+                            - generic [ref=e194]: https
+                            - generic [ref=e195]: Administration
+                        - link "Free trial 14 days left Subscribe now" [ref=e197] [cursor=pointer]:
+                            - /url: /administration/subscription
+                            - generic [ref=e199]: Free trial 14 days left
+                            - generic [ref=e201]: Subscribe now
+                    - generic [ref=e67]:
+                        - caption [ref=e69]: Recently visited
+                        - link "Jobs" [ref=e71] [cursor=pointer]:
+                            - /url: /jobs
+                            - generic [ref=e72]: history
+                            - caption [ref=e73]: Jobs
+                        - link "Home" [ref=e74] [cursor=pointer]:
+                            - /url: /dashboard
+                            - generic [ref=e75]: history
+                            - caption [ref=e76]: Home
+            - navigation [ref=e78]:
+                - generic [ref=e79]:
+                    - button [ref=e81] [cursor=pointer]:
+                        - img [ref=e83]
+                    - link "Agentcafe" [ref=e85] [cursor=pointer]:
+                        - /url: /
+                        - heading "Agentcafe" [level=5] [ref=e86]
+                    - generic [ref=e91]:
+                        - generic [ref=e92]:
+                            - generic: Search by Name, Job, Email or Department
+                            - textbox "Search by Name, Job, Email or Department" [ref=e202]
+                        - generic [ref=e96] [cursor=pointer]: search
+                    - button [ref=e98] [cursor=pointer]:
+                        - generic [ref=e100]: add_circle
+                    - button [ref=e104] [cursor=pointer]:
+                        - img [ref=e105]
+                    - button [ref=e107] [cursor=pointer]:
+                        - generic [ref=e109]: help
+                    - button [ref=e111] [cursor=pointer]:
+                        - generic [ref=e113]: notifications
+                    - button [ref=e115] [cursor=pointer]:
+                        - generic [ref=e119]: AJ
+        - main [ref=e120]:
+            - generic [ref=e204]:
+                - generic [ref=e206]:
+                    - generic [ref=e207]: Jobs
+                    - button [ref=e210] [cursor=pointer]:
+                        - generic [ref=e212]: arrow_drop_down_circle
+                    - generic [ref=e213]:
+                        - button "BOARD" [ref=e215] [cursor=pointer]:
+                            - generic [ref=e216]:
+                                - img [ref=e217]
+                                - generic [ref=e218]: BOARD
+                        - button "LIST" [ref=e220] [cursor=pointer]:
+                            - generic [ref=e221]:
+                                - generic [ref=e222]: list_alt
+                                - generic [ref=e223]: LIST
+                - generic [ref=e226]:
+                    - img [ref=e228]
+                    - heading "You have not created any jobs yet" [level=6] [ref=e230]
+                    - generic [ref=e232]: A Job represents a new job opening, an open position or vacancy listing. Creating a job will allow you to start adding candidates to that job, publish the job onto your career page, post the job to job boards and much more.
+                    - link "Learn more about jobs" [ref=e234] [cursor=pointer]:
+                        - /url: https://support.manatal.com/docs/what-is-a-job
+                    - button "Create job" [ref=e236] [cursor=pointer]:
+                        - generic [ref=e237]:
+                            - generic [ref=e238]: add
+                            - generic [ref=e239]: Create job
+        - img [ref=e241] [cursor=pointer]
+    - iframe [ref=e153]:
+        - generic [ref=f63e2]:
+            - img [ref=f63e4]
+            - generic [ref=f63e11]:
+                - heading "Status embed installed correctly" [level=1] [ref=f63e12]:
+                    - paragraph [ref=f63e13]: Status embed installed correctly
+                - generic [ref=f63e14]: This will be shown if an incident or maintenance is posted on your status page.
+                - link "View latest updates" [ref=f63e16] [cursor=pointer]:
+                    - /url: https://status.manatal.com?utm_source=embed
+            - button [ref=f63e18] [cursor=pointer]:
+                - img [ref=f63e19]
+    - iframe [ref=e154]:
+        - generic [active]:
+            - main:
+                - region
+    - iframe [ref=e155]:

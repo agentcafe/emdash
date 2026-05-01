@@ -1,0 +1,232 @@
+- generic [active] [ref=e1]:
+    - generic [ref=e7]:
+        - banner:
+            - complementary [ref=e8]:
+                - generic [ref=e11]:
+                    - generic [ref=e12]:
+                        - link "Home" [ref=e15] [cursor=pointer]:
+                            - /url: /dashboard
+                            - generic [ref=e18]: home
+                            - generic [ref=e19]: Home
+                        - link "Departments" [ref=e141] [cursor=pointer]:
+                            - /url: /departments
+                            - generic [ref=e25]: account_balance
+                            - generic [ref=e142]: Departments
+                        - link "Jobs" [ref=e28] [cursor=pointer]:
+                            - /url: /jobs
+                            - generic [ref=e31]: work
+                            - generic [ref=e32]: Jobs
+                        - link "Candidates" [ref=e35] [cursor=pointer]:
+                            - /url: /candidates
+                            - generic [ref=e38]: group
+                            - generic [ref=e39]: Candidates
+                        - caption [ref=e41]: Recruitment Center
+                        - link "Matches" [ref=e143] [cursor=pointer]:
+                            - /url: /matches
+                            - generic [ref=e48]: device_hub
+                            - generic [ref=e49]: Matches
+                        - link "Employees" [ref=e146] [cursor=pointer]:
+                            - /url: /employees
+                            - generic [ref=e149]: how_to_reg
+                            - generic [ref=e150]: Employees
+                        - link "Activities" [ref=e151] [cursor=pointer]:
+                            - /url: /activities
+                            - generic [ref=e58]: calendar_today
+                            - generic [ref=e59]: Activities
+                        - link "Inbox" [ref=e152] [cursor=pointer]:
+                            - /url: /inbox
+                            - generic [ref=e65]: question_answer
+                            - generic [ref=e66]: Inbox
+                        - caption [ref=e51]: Settings & Analytics
+                        - link "Reports" [ref=e155] [cursor=pointer]:
+                            - /url: /reports
+                            - generic [ref=e158]: poll
+                            - generic [ref=e159]: Reports
+                        - link "Sourcing Hub" [ref=e162] [cursor=pointer]:
+                            - /url: /sourcing-hub
+                            - img [ref=e165]
+                            - generic [ref=e166]: Sourcing Hub
+                        - link "Settings" [ref=e169] [cursor=pointer]:
+                            - /url: /settings
+                            - generic [ref=e172]: settings
+                            - generic [ref=e173]: Settings
+                        - link "Administration" [ref=e176] [cursor=pointer]:
+                            - /url: /administration
+                            - generic [ref=e179]: https
+                            - generic [ref=e180]: Administration
+                        - link "Free trial 14 days left Subscribe now" [ref=e182] [cursor=pointer]:
+                            - /url: /administration/subscription
+                            - generic [ref=e184]: Free trial 14 days left
+                            - generic [ref=e186]: Subscribe now
+                    - generic [ref=e187]:
+                        - caption [ref=e189]: Recently visited
+                        - link "Activities" [ref=e191] [cursor=pointer]:
+                            - /url: /activities
+                            - generic [ref=e192]: history
+                            - caption [ref=e193]: Activities
+                        - link "Employees" [ref=e194] [cursor=pointer]:
+                            - /url: /employees
+                            - generic [ref=e195]: history
+                            - caption [ref=e196]: Employees
+                        - link "Departments" [ref=e197] [cursor=pointer]:
+                            - /url: /departments
+                            - generic [ref=e198]: history
+                            - caption [ref=e199]: Departments
+                        - link "Administration" [ref=e200] [cursor=pointer]:
+                            - /url: /administration/overview
+                            - generic [ref=e201]: history
+                            - caption [ref=e202]: Administration
+                        - link "Sourcing Hub" [ref=e203] [cursor=pointer]:
+                            - /url: /sourcing-hub
+                            - generic [ref=e204]: history
+                            - caption [ref=e205]: Sourcing Hub
+                        - link "Settings" [ref=e206] [cursor=pointer]:
+                            - /url: /settings
+                            - generic [ref=e207]: history
+                            - caption [ref=e208]: Settings
+                        - link "Inbox" [ref=e209] [cursor=pointer]:
+                            - /url: /inbox
+                            - generic [ref=e210]: history
+                            - caption [ref=e211]: Inbox
+            - navigation [ref=e68]:
+                - generic [ref=e69]:
+                    - button [ref=e71] [cursor=pointer]:
+                        - img [ref=e73]
+                    - link "Agentcafe" [ref=e75] [cursor=pointer]:
+                        - /url: /
+                        - heading "Agentcafe" [level=5] [ref=e76]
+                    - generic [ref=e81]:
+                        - generic [ref=e82]:
+                            - generic: Search by Name, Job, Email or Department
+                            - textbox "Search by Name, Job, Email or Department" [ref=e214]
+                        - generic [ref=e86] [cursor=pointer]: search
+                    - button [ref=e88] [cursor=pointer]:
+                        - generic [ref=e90]: add_circle
+                    - button [ref=e94] [cursor=pointer]:
+                        - img [ref=e95]
+                    - button [ref=e97] [cursor=pointer]:
+                        - generic [ref=e99]: help
+                    - button [ref=e101] [cursor=pointer]:
+                        - generic [ref=e103]: notifications
+                    - button [ref=e105] [cursor=pointer]:
+                        - generic [ref=e218]: AJ
+        - main [ref=e106]:
+            - generic [ref=e220]:
+                - generic [ref=e222]:
+                    - generic [ref=e223]: Upcoming
+                    - button [ref=e226] [cursor=pointer]:
+                        - generic [ref=e228]: arrow_drop_down_circle
+                    - generic [ref=e229]:
+                        - button "DAY" [ref=e232] [cursor=pointer]:
+                            - generic [ref=e233]:
+                                - generic [ref=e234]: view_day
+                                - generic [ref=e235]: DAY
+                        - button "WEEK" [ref=e237] [cursor=pointer]:
+                            - generic [ref=e238]:
+                                - generic [ref=e239]: view_week
+                                - generic [ref=e240]: WEEK
+                        - button "MONTH" [ref=e242] [cursor=pointer]:
+                            - generic [ref=e243]:
+                                - img [ref=e244]
+                                - generic [ref=e245]: MONTH
+                        - button "LIST" [ref=e247] [cursor=pointer]:
+                            - generic [ref=e248]:
+                                - generic [ref=e249]: list_alt
+                                - generic [ref=e250]: LIST
+                - generic [ref=e255]:
+                    - generic [ref=e257]:
+                        - button "Create activity" [ref=e260] [cursor=pointer]:
+                            - generic [ref=e261]:
+                                - generic [ref=e262]: add
+                                - generic [ref=e263]: Create activity
+                        - generic [ref=e265]:
+                            - button "Filters 3" [ref=e266] [cursor=pointer]:
+                                - generic [ref=e267]:
+                                    - generic [ref=e268]: filter_list
+                                    - generic [ref=e269]: Filters
+                                    - generic [ref=e271]: "3"
+                            - button [ref=e275] [cursor=pointer]:
+                                - generic [ref=e277]: more_vert
+                    - generic [ref=e279]:
+                        - generic [ref=e280]:
+                            - generic [ref=e282]:
+                                - generic [ref=e286]:
+                                    - generic [ref=e287] [cursor=pointer]: Assignees is one of Andrew James
+                                    - button [ref=e288] [cursor=pointer]:
+                                        - generic [ref=e290]: cancel
+                                - generic [ref=e293]: and
+                                - generic [ref=e297]:
+                                    - generic [ref=e298] [cursor=pointer]: Status is equal to is not completed
+                                    - button [ref=e299] [cursor=pointer]:
+                                        - generic [ref=e301]: cancel
+                                - generic [ref=e304]: and
+                                - generic [ref=e308]:
+                                    - generic [ref=e309] [cursor=pointer]: Date greater than or equal to 2026-04-29
+                                    - button [ref=e310] [cursor=pointer]:
+                                        - generic [ref=e312]: cancel
+                                - button "Add condition" [ref=e314] [cursor=pointer]:
+                                    - generic [ref=e315]:
+                                        - generic [ref=e316]: add
+                                        - generic [ref=e317]: Add condition
+                            - generic [ref=e320]:
+                                - generic [ref=e322]:
+                                    - button "Apply" [disabled]:
+                                        - generic:
+                                            - img
+                                            - generic: Apply
+                                - button [ref=e324] [cursor=pointer]:
+                                    - generic [ref=e326]: settings
+                        - table [ref=e327]:
+                            - rowgroup [ref=e328]:
+                                - row "Title Type Related To Date Time Duration Assignees Attendees Creator Created Date" [ref=e329]:
+                                    - columnheader "Title" [ref=e330]:
+                                        - generic [ref=e331]:
+                                            - generic [ref=e335]: Title
+                                            - button [ref=e337] [cursor=pointer]:
+                                                - generic [ref=e340]: unfold_more
+                                    - columnheader "Type" [ref=e342]:
+                                        - generic [ref=e343]:
+                                            - generic [ref=e344]: Type
+                                            - button [ref=e346] [cursor=pointer]:
+                                                - generic [ref=e349]: unfold_more
+                                    - columnheader "Related To" [ref=e351]:
+                                        - generic [ref=e353]: Related To
+                                    - columnheader "Date" [ref=e355]:
+                                        - generic [ref=e356]:
+                                            - generic [ref=e357]: Date
+                                            - button [ref=e359] [cursor=pointer]:
+                                                - generic [ref=e362]: unfold_more
+                                    - columnheader "Time" [ref=e364]:
+                                        - generic [ref=e366]: Time
+                                    - columnheader "Duration" [ref=e368]:
+                                        - generic [ref=e370]: Duration
+                                    - columnheader "Assignees" [ref=e372]:
+                                        - generic [ref=e374]: Assignees
+                                    - columnheader "Attendees" [ref=e376]:
+                                        - generic [ref=e378]: Attendees
+                                    - columnheader "Creator" [ref=e380]:
+                                        - generic [ref=e382]: Creator
+                                    - columnheader "Created Date" [ref=e384]:
+                                        - generic [ref=e385]:
+                                            - generic [ref=e386]: Created Date
+                                            - button [ref=e388] [cursor=pointer]:
+                                                - generic [ref=e391]: unfold_more
+                            - rowgroup
+        - img [ref=e394] [cursor=pointer]
+    - iframe [ref=e139]:
+        - generic [ref=f203e2]:
+            - img [ref=f203e4]
+            - generic [ref=f203e11]:
+                - heading "Status embed installed correctly" [level=1] [ref=f203e12]:
+                    - paragraph [ref=f203e13]: Status embed installed correctly
+                - generic [ref=f203e14]: This will be shown if an incident or maintenance is posted on your status page.
+                - link "View latest updates" [ref=f203e16] [cursor=pointer]:
+                    - /url: https://status.manatal.com?utm_source=embed
+            - button [ref=f203e18] [cursor=pointer]:
+                - img [ref=f203e19]
+    - iframe [ref=e140]:
+
+    - iframe [ref=e395]:
+        - generic [active]:
+            - main:
+                - region

@@ -4,12 +4,12 @@ Reference from OpenViking documentation (`docs/en/guides/10-prompt-guide.md`). C
 
 ## Key Templates for Agent Memory
 
-| Template | Stage | What it controls |
-|---|---|---|
-| `compression.memory_extraction` | Session commit | What memory candidates get extracted from session transcripts |
-| `compression.dedup_decision` | Memory deduplication | Whether a new candidate is skipped, created, or merged into existing memory |
-| `compression.structured_summary` | Session archive | How archived sessions get summarized (affects what survives across sessions) |
-| `retrieval.intent_analysis` | Pre-search | How queries get decomposed into typed queries (affects search quality) |
+| Template                         | Stage                | What it controls                                                             |
+| -------------------------------- | -------------------- | ---------------------------------------------------------------------------- |
+| `compression.memory_extraction`  | Session commit       | What memory candidates get extracted from session transcripts                |
+| `compression.dedup_decision`     | Memory deduplication | Whether a new candidate is skipped, created, or merged into existing memory  |
+| `compression.structured_summary` | Session archive      | How archived sessions get summarized (affects what survives across sessions) |
+| `retrieval.intent_analysis`      | Pre-search           | How queries get decomposed into typed queries (affects search quality)       |
 
 ## Memory Schema Extensions
 
@@ -53,9 +53,9 @@ Customize via `prompts.templates_dir` in `ov.conf` or `OPENVIKING_PROMPT_TEMPLAT
 
 ```json
 {
-  "prompts": {
-    "templates_dir": "/path/to/custom-prompts"
-  }
+	"prompts": {
+		"templates_dir": "/path/to/custom-prompts"
+	}
 }
 ```
 
@@ -63,9 +63,9 @@ Copy the built-in template, modify only the prompt body/output requirements, kee
 
 ### Risk Levels
 
-| Change | Risk |
-|---|---|
-| Adjusting tone, adding examples | Low |
-| Changing output style, extraction preference | Medium |
-| Changing variable names, output structure | High |
+| Change                                                | Risk      |
+| ----------------------------------------------------- | --------- |
+| Adjusting tone, adding examples                       | Low       |
+| Changing output style, extraction preference          | Medium    |
+| Changing variable names, output structure             | High      |
 | Changing `directory`, `filename_template`, `merge_op` | Very high |

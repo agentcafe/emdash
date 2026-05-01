@@ -1,0 +1,145 @@
+- generic [active] [ref=e1]:
+    - generic [ref=e7]:
+        - banner:
+            - complementary [ref=e8]:
+                - generic [ref=e11]:
+                    - generic [ref=e12]:
+                        - link "Home" [ref=e15] [cursor=pointer]:
+                            - /url: /dashboard
+                            - generic [ref=e18]: home
+                            - generic [ref=e19]: Home
+                        - link "Departments" [ref=e22] [cursor=pointer]:
+                            - /url: /departments
+                            - generic [ref=e25]: account_balance
+                            - generic [ref=e26]: Departments
+                        - link "Jobs" [ref=e29] [cursor=pointer]:
+                            - /url: /jobs
+                            - generic [ref=e32]: work
+                            - generic [ref=e33]: Jobs
+                        - link "Candidates" [ref=e36] [cursor=pointer]:
+                            - /url: /candidates
+                            - generic [ref=e39]: group
+                            - generic [ref=e40]: Candidates
+                        - caption [ref=e42]: Recruitment Center
+                        - link "Matches" [ref=e46] [cursor=pointer]:
+                            - /url: /matches
+                            - generic [ref=e49]: device_hub
+                            - generic [ref=e50]: Matches
+                        - link "Employees" [ref=e53] [cursor=pointer]:
+                            - /url: /employees
+                            - generic [ref=e56]: how_to_reg
+                            - generic [ref=e57]: Employees
+                        - link "Activities" [ref=e60] [cursor=pointer]:
+                            - /url: /activities
+                            - generic [ref=e63]: calendar_today
+                            - generic [ref=e64]: Activities
+                        - link "Inbox" [ref=e67] [cursor=pointer]:
+                            - /url: /inbox
+                            - generic [ref=e70]: question_answer
+                            - generic [ref=e71]: Inbox
+                        - caption [ref=e73]: Settings & Analytics
+                        - link "Reports" [ref=e77] [cursor=pointer]:
+                            - /url: /reports
+                            - generic [ref=e80]: poll
+                            - generic [ref=e81]: Reports
+                        - link "Sourcing Hub" [ref=e84] [cursor=pointer]:
+                            - /url: /sourcing-hub
+                            - img [ref=e87]
+                            - generic [ref=e88]: Sourcing Hub
+                        - link "Settings" [ref=e91] [cursor=pointer]:
+                            - /url: /settings
+                            - generic [ref=e94]: settings
+                            - generic [ref=e95]: Settings
+                        - link "Administration" [ref=e98] [cursor=pointer]:
+                            - /url: /administration
+                            - generic [ref=e101]: https
+                            - generic [ref=e102]: Administration
+                        - link "Free trial 14 days left Subscribe now" [ref=e104] [cursor=pointer]:
+                            - /url: /administration/subscription
+                            - generic [ref=e106]: Free trial 14 days left
+                            - generic [ref=e108]: Subscribe now
+                    - generic [ref=e109]:
+                        - caption [ref=e111]: Recently visited
+                        - link "Departments" [ref=e113] [cursor=pointer]:
+                            - /url: /departments
+                            - generic [ref=e114]: history
+                            - caption [ref=e115]: Departments
+                        - link "Administration" [ref=e116] [cursor=pointer]:
+                            - /url: /administration/overview
+                            - generic [ref=e117]: history
+                            - caption [ref=e118]: Administration
+                        - link "Sourcing Hub" [ref=e119] [cursor=pointer]:
+                            - /url: /sourcing-hub
+                            - generic [ref=e120]: history
+                            - caption [ref=e121]: Sourcing Hub
+                        - link "Settings" [ref=e122] [cursor=pointer]:
+                            - /url: /settings
+                            - generic [ref=e123]: history
+                            - caption [ref=e124]: Settings
+                        - link "Inbox" [ref=e125] [cursor=pointer]:
+                            - /url: /inbox
+                            - generic [ref=e126]: history
+                            - caption [ref=e127]: Inbox
+                        - link "Reports" [ref=e128] [cursor=pointer]:
+                            - /url: /reports
+                            - generic [ref=e129]: history
+                            - caption [ref=e130]: Reports
+                        - link "Matches" [ref=e131] [cursor=pointer]:
+                            - /url: /matches
+                            - generic [ref=e132]: history
+                            - caption [ref=e133]: Matches
+            - navigation [ref=e137]:
+                - generic [ref=e138]:
+                    - button [ref=e140] [cursor=pointer]:
+                        - img [ref=e142]
+                    - link "Agentcafe" [ref=e144] [cursor=pointer]:
+                        - /url: /
+                        - heading "Agentcafe" [level=5] [ref=e145]
+                    - generic [ref=e150]:
+                        - generic [ref=e151]:
+                            - generic: Search by Name, Job, Email or Department
+                            - textbox "Search by Name, Job, Email or Department" [ref=e152]
+                        - generic [ref=e155] [cursor=pointer]: search
+                    - button [ref=e157] [cursor=pointer]:
+                        - generic [ref=e159]: add_circle
+                    - button [ref=e163] [cursor=pointer]:
+                        - img [ref=e164]
+                    - button [ref=e166] [cursor=pointer]:
+                        - generic [ref=e168]: help
+                    - button [ref=e170] [cursor=pointer]:
+                        - generic [ref=e172]: notifications
+                    - button [ref=e174] [cursor=pointer]:
+                        - generic [ref=e178]: AJ
+        - main [ref=e179]:
+            - generic [ref=e182]:
+                - generic [ref=e184]:
+                    - generic [ref=e185]: Departments
+                    - button [ref=e188] [cursor=pointer]:
+                        - generic [ref=e190]: arrow_drop_down_circle
+                - generic [ref=e193]:
+                    - img [ref=e195]
+                    - heading "You have not created any departments yet" [level=6] [ref=e197]
+                    - generic [ref=e199]: Creating departments will allow you to structure your account by creating jobs, contacts and guests under each of those departments.
+                    - link "Learn more about departments" [ref=e201] [cursor=pointer]:
+                        - /url: https://support.manatal.com/docs/what-is-an-organization
+                    - button "Create department" [ref=e203] [cursor=pointer]:
+                        - generic [ref=e204]:
+                            - generic [ref=e205]: add
+                            - generic [ref=e206]: Create department
+        - img [ref=e208] [cursor=pointer]
+    - iframe [ref=e209]:
+        - generic [ref=f172e2]:
+            - img [ref=f172e4]
+            - generic [ref=f172e11]:
+                - heading "Status embed installed correctly" [level=1] [ref=f172e12]:
+                    - paragraph [ref=f172e13]: Status embed installed correctly
+                - generic [ref=f172e14]: This will be shown if an incident or maintenance is posted on your status page.
+                - link "View latest updates" [ref=f172e16] [cursor=pointer]:
+                    - /url: https://status.manatal.com?utm_source=embed
+            - button [ref=f172e18] [cursor=pointer]:
+                - img [ref=f172e19]
+    - iframe [ref=e210]:
+        - generic [active]:
+            - main:
+                - region
+    - iframe [ref=e211]:

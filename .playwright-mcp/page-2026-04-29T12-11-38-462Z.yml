@@ -1,0 +1,159 @@
+- generic [active] [ref=e1]:
+    - generic [ref=e7]:
+        - banner:
+            - complementary [ref=e8]:
+                - generic [ref=e11]:
+                    - generic [ref=e12]:
+                        - link "Home" [ref=e15] [cursor=pointer]:
+                            - /url: /dashboard
+                            - generic [ref=e18]: home
+                            - generic [ref=e19]: Home
+                        - link "Departments" [ref=e22] [cursor=pointer]:
+                            - /url: /departments
+                            - generic [ref=e25]: account_balance
+                            - generic [ref=e26]: Departments
+                        - link "Jobs" [ref=e29] [cursor=pointer]:
+                            - /url: /jobs
+                            - generic [ref=e32]: work
+                            - generic [ref=e33]: Jobs
+                        - link "Candidates" [ref=e36] [cursor=pointer]:
+                            - /url: /candidates
+                            - generic [ref=e39]: group
+                            - generic [ref=e40]: Candidates
+                        - caption [ref=e42]: Recruitment Center
+                        - link "Matches" [ref=e46] [cursor=pointer]:
+                            - /url: /matches
+                            - generic [ref=e49]: device_hub
+                            - generic [ref=e50]: Matches
+                        - link "Employees" [ref=e53] [cursor=pointer]:
+                            - /url: /employees
+                            - generic [ref=e56]: how_to_reg
+                            - generic [ref=e57]: Employees
+                        - link "Activities" [ref=e60] [cursor=pointer]:
+                            - /url: /activities
+                            - generic [ref=e63]: calendar_today
+                            - generic [ref=e64]: Activities
+                        - link "Inbox" [ref=e67] [cursor=pointer]:
+                            - /url: /inbox
+                            - generic [ref=e70]: question_answer
+                            - generic [ref=e71]: Inbox
+                        - caption [ref=e73]: Settings & Analytics
+                        - link "Reports" [ref=e77] [cursor=pointer]:
+                            - /url: /reports
+                            - generic [ref=e80]: poll
+                            - generic [ref=e81]: Reports
+                        - link "Sourcing Hub" [ref=e84] [cursor=pointer]:
+                            - /url: /sourcing-hub
+                            - img [ref=e87]
+                            - generic [ref=e88]: Sourcing Hub
+                        - link "Settings" [ref=e91] [cursor=pointer]:
+                            - /url: /settings
+                            - generic [ref=e94]: settings
+                            - generic [ref=e95]: Settings
+                        - link "Administration" [ref=e98] [cursor=pointer]:
+                            - /url: /administration
+                            - generic [ref=e101]: https
+                            - generic [ref=e102]: Administration
+                        - link "Free trial 14 days left Subscribe now" [ref=e104] [cursor=pointer]:
+                            - /url: /administration/subscription
+                            - generic [ref=e106]: Free trial 14 days left
+                            - generic [ref=e108]: Subscribe now
+                    - generic [ref=e109]:
+                        - caption [ref=e111]: Recently visited
+                        - link "Folders" [ref=e113] [cursor=pointer]:
+                            - /url: /folders
+                            - generic [ref=e114]: history
+                            - caption [ref=e115]: Folders
+                        - link "Activities" [ref=e116] [cursor=pointer]:
+                            - /url: /activities
+                            - generic [ref=e117]: history
+                            - caption [ref=e118]: Activities
+                        - link "Employees" [ref=e119] [cursor=pointer]:
+                            - /url: /employees
+                            - generic [ref=e120]: history
+                            - caption [ref=e121]: Employees
+                        - link "Departments" [ref=e122] [cursor=pointer]:
+                            - /url: /departments
+                            - generic [ref=e123]: history
+                            - caption [ref=e124]: Departments
+                        - link "Administration" [ref=e125] [cursor=pointer]:
+                            - /url: /administration/overview
+                            - generic [ref=e126]: history
+                            - caption [ref=e127]: Administration
+                        - link "Sourcing Hub" [ref=e128] [cursor=pointer]:
+                            - /url: /sourcing-hub
+                            - generic [ref=e129]: history
+                            - caption [ref=e130]: Sourcing Hub
+                        - link "Settings" [ref=e131] [cursor=pointer]:
+                            - /url: /settings
+                            - generic [ref=e132]: history
+                            - caption [ref=e133]: Settings
+            - navigation [ref=e137]:
+                - generic [ref=e138]:
+                    - button [ref=e140] [cursor=pointer]:
+                        - img [ref=e142]
+                    - link "Agentcafe" [ref=e144] [cursor=pointer]:
+                        - /url: /
+                        - heading "Agentcafe" [level=5] [ref=e145]
+                    - generic [ref=e150]:
+                        - generic [ref=e151]:
+                            - generic: Search by Name, Job, Email or Department
+                            - textbox "Search by Name, Job, Email or Department" [ref=e152]
+                        - generic [ref=e155] [cursor=pointer]: search
+                    - button [ref=e157] [cursor=pointer]:
+                        - generic [ref=e159]: add_circle
+                    - button [ref=e163] [cursor=pointer]:
+                        - img [ref=e164]
+                    - button [ref=e166] [cursor=pointer]:
+                        - generic [ref=e168]: help
+                    - button [ref=e170] [cursor=pointer]:
+                        - generic [ref=e172]: notifications
+                    - button [ref=e174] [cursor=pointer]:
+                        - generic [ref=e178]: AJ
+        - main [ref=e179]:
+            - generic [ref=e182]:
+                - generic [ref=e183]:
+                    - generic [ref=e186]: Candidates
+                    - generic [ref=e190]:
+                        - link "Candidates" [ref=e194] [cursor=pointer]:
+                            - /url: /candidates
+                            - generic [ref=e195]:
+                                - generic [ref=e196]: group
+                                - generic [ref=e197]: Candidates
+                        - link "Folders" [ref=e199] [cursor=pointer]:
+                            - /url: /folders
+                            - generic [ref=e200]:
+                                - generic [ref=e201]: folder_open
+                                - generic [ref=e202]: Folders
+                        - link "AI Advanced search" [ref=e204] [cursor=pointer]:
+                            - /url: /advanced-search/candidates
+                            - generic [ref=e205]:
+                                - img [ref=e206]
+                                - generic [ref=e207]: AI Advanced search
+                - generic [ref=e210]:
+                    - img [ref=e228]
+                    - heading "You have not created any folders yet" [level=6] [ref=e213]
+                    - generic [ref=e215]: Creating folders will allow you to organize candidates in your database by adding them to folders, and share those folders with your team.
+                    - link "Learn more about folders" [ref=e217] [cursor=pointer]:
+                        - /url: https://support.manatal.com/docs/candidate-folders
+                    - button "Create folder" [ref=e219] [cursor=pointer]:
+                        - generic [ref=e220]:
+                            - generic [ref=e221]: add
+                            - generic [ref=e222]: Create folder
+        - img [ref=e224] [cursor=pointer]
+    - iframe [ref=e225]:
+        - generic [ref=f214e2]:
+            - img [ref=f214e4]
+            - generic [ref=f214e11]:
+                - heading "Status embed installed correctly" [level=1] [ref=f214e12]:
+                    - paragraph [ref=f214e13]: Status embed installed correctly
+                - generic [ref=f214e14]: This will be shown if an incident or maintenance is posted on your status page.
+                - link "View latest updates" [ref=f214e16] [cursor=pointer]:
+                    - /url: https://status.manatal.com?utm_source=embed
+            - button [ref=f214e18] [cursor=pointer]:
+                - img [ref=f214e19]
+    - iframe [ref=e226]:
+        - generic [active]:
+            - main:
+                - region
+    - iframe [ref=e227]:

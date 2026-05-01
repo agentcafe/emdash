@@ -11,13 +11,23 @@
 		},
 		"openviking": {
 			"type": "local",
-			"command": [
-				"/opt/homebrew/bin/python3.13",
-				".kilo/mcp/openviking_server.py"
-			],
+			"command": ["/opt/homebrew/bin/python3.13", ".kilo/mcp/openviking_server.py"],
 			"environment": {
 				"OPENVIKING_API_URL": "http://localhost:1933",
-				"OPENVIKING_API_KEY": "${OPENVIKING_API_KEY}"
+				"OPENVIKING_API_KEY": "b13e3586608a84da4894a8bf22ff37b1107d26495aec3d3ed46c681000dc8134"
+			},
+			"enabled": true
+		},
+		"cloudflare-docs": {
+			"type": "remote",
+			"url": "https://docs.mcp.cloudflare.com/mcp",
+			"enabled": true
+		},
+		"linear": {
+			"type": "remote",
+			"url": "https://mcp.linear.app/mcp",
+			"headers": {
+				"Authorization": "Bearer lin_api_nG2cJ5nnvlE3qH7OdPT9NhH0VVbgaHivO4JY2gQv"
 			},
 			"enabled": true
 		}

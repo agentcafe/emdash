@@ -20,6 +20,7 @@ Every agent prompt must include this block. Replace `{agent_name}` with the agen
 **This block is a NON-NEGOTIABLE hard gate.** The agent MUST NOT respond to the user until all three memory reads complete. No greeting, no acknowledgement, no partial response — memory first, always.
 
 On session start the agent must:
+
 1. Call `ov_session_get_or_create` — loads vertical memory (last session decisions, open questions, next steps)
 2. Call `ov_find("{previous_agent} handoff {agent_name}")` — loads horizontal memory (incoming handoff from upstream agent)
 3. Only then confirm context to the user and proceed
@@ -30,6 +31,7 @@ On session start the agent must:
 **HARD GATE — do not respond to the user until all memory reads complete.**
 
 **On session start, execute in order before anything else:**
+
 1. Call `ov_session_get_or_create("kilo-context-{agent_name}", agent_id="{agent_name}")` — loads your vertical memory (prior session decisions, open questions, next steps). If it fails (OpenViking down), fall back to reading `.kilo/handoff/current.md`.
 2. Call `ov_find("handoff {agent_name}")` — loads horizontal memory (incoming handoff from the upstream agent).
 3. Confirm context loaded to the user: summarise last session state + any incoming handoff. Only then proceed.
@@ -47,6 +49,7 @@ Teaches the agent to use the right search tool for the right job.
 You have access to OpenViking MCP tools that index the full project knowledge base (AGENTS.md, all skills, agent prompts, commands, plans, and handoffs).
 
 **Before reading files or implementing:**
+
 1. Use `ov_find("exact term")` for known names, patterns, or code references (fast, FTS, no session context needed)
 2. Use `ov_search("conceptual task")` for complex tasks, problem-solving, or discovering relevant patterns
 3. Read L0 abstracts from results before loading full files
@@ -70,11 +73,15 @@ Two paths: automatic (session commit) and manual (`ov_add_memory`).
 ```markdown
 **Manual:** `ov_add_memory(content, agent_id="{agent_name}")` for key decisions, gotchas, or reusable solutions. REQUIRED after: bug fixes, security vulns, perf fixes, or schema workarounds. Stores in shared resources (searchable by all agents). Format:
 ```
+
 ## Pattern: [one-line]
+
 Root cause: [why]
 Detection: [grep/sql to find others]
 Fix: [idiomatic solution]
+
 ```
+
 ```
 
 **For other agents** (manual path, decision format):
@@ -102,6 +109,7 @@ Copy-paste ready prompt block for a new agent. Sections MUST appear in this exac
 **HARD GATE — do not respond to the user until all memory reads complete.**
 
 **On session start, execute in order before anything else:**
+
 1. Call `ov_session_get_or_create("kilo-context-{name}", agent_id="{name}")` — loads your vertical memory (prior session decisions, open questions, next steps). If it fails (OpenViking down), fall back to reading `.kilo/handoff/current.md`.
 2. Call `ov_find("handoff {name}")` — loads horizontal memory (incoming handoff from the upstream agent).
 3. Confirm context loaded to the user: summarise last session state + any incoming handoff. Only then proceed.
@@ -113,6 +121,7 @@ Copy-paste ready prompt block for a new agent. Sections MUST appear in this exac
 You have access to OpenViking MCP tools that index the full project knowledge base (AGENTS.md, all skills, agent prompts, commands, plans, and handoffs).
 
 **Before reading files or implementing:**
+
 1. Use `ov_find("exact term")` for known names, patterns, or code references (fast, FTS, no session context needed)
 2. Use `ov_search("conceptual task")` for complex tasks, problem-solving, or discovering relevant patterns
 3. Read L0 abstracts from results before loading full files
@@ -132,10 +141,13 @@ This saves context tokens and gets you to the right information faster. Search f
 
 **Manual:** `ov_add_memory(content, agent_id="{name}")` for key decisions, gotchas, or reusable solutions. [For code/review agents: REQUIRED after bug fixes, security vulns, perf fixes, or schema workarounds. Format:
 ```
+
 ## Pattern: [one-line]
+
 Root cause: [why]
 Detection: [grep/sql to find others]
 Fix: [idiomatic solution]
+
 ```
 For all other agents: Format: `## Decision: [Topic]\nDate: YYYY-MM-DD\n\n[2-3 sentences.]`]
 
@@ -147,25 +159,33 @@ When your task phase is complete, execute in order:
 
 **Step 2:** Call `ov_add_memory(content, agent_id="{name}")` with:
 ```
+
 ## Handoff: {name} → {next_agent}
+
 Date: [current date]
 
 ### Summary
+
 [What was done, key decisions, rationale]
 
 ### Files Affected
+
 - [paths]
 
 ### Open Questions
+
 - [Any unresolved issues]
+
 ```
 
 **Step 3:**
 ```
+
 <switch_mode>
 <mode_slug>{next_agent}</mode_slug>
 <reason>[One-line summary]</reason>
 </switch_mode>
+
 ```
 
 ## Domain Rules
@@ -179,41 +199,41 @@ Date: [current date]
 
 ### Tool Selection Guide
 
-| Tool | When | Latency | Session Context | Algorithm |
-|---|---|---|---|---|
-| `ov_find("exact term")` | Known names, code references, grep-style lookups | Low | Not needed | PostgreSQL FTS |
-| `ov_search("conceptual")` | Complex tasks, problem-solving, discovering patterns | Higher | Required | LLM intent analysis → hierarchical vector search → rerank |
-| `ov_session_get_or_create(...)` | Session start | Low | Creates it | Loads last archive overview + pre-archive abstracts |
-| `ov_session_commit(...)` | Session end | Phase 1: sync (~12ms), Phase 2: async (~8s) | Updates it | Archive messages + LLM memory extraction |
-| `ov_add_memory(content, agent_id)` | Mid-session | Low (write), async (vectors) | Uses current | Stores in `viking://resources/` (shared space) |
+| Tool                               | When                                                 | Latency                                     | Session Context | Algorithm                                                 |
+| ---------------------------------- | ---------------------------------------------------- | ------------------------------------------- | --------------- | --------------------------------------------------------- |
+| `ov_find("exact term")`            | Known names, code references, grep-style lookups     | Low                                         | Not needed      | PostgreSQL FTS                                            |
+| `ov_search("conceptual")`          | Complex tasks, problem-solving, discovering patterns | Higher                                      | Required        | LLM intent analysis → hierarchical vector search → rerank |
+| `ov_session_get_or_create(...)`    | Session start                                        | Low                                         | Creates it      | Loads last archive overview + pre-archive abstracts       |
+| `ov_session_commit(...)`           | Session end                                          | Phase 1: sync (~12ms), Phase 2: async (~8s) | Updates it      | Archive messages + LLM memory extraction                  |
+| `ov_add_memory(content, agent_id)` | Mid-session                                          | Low (write), async (vectors)                | Uses current    | Stores in `viking://resources/` (shared space)            |
 
 ### MCP Tools to HTTP Endpoints
 
-| MCP Tool | HTTP Endpoint | Method |
-|---|---|---|
-| `ov_status` | `/api/v1/system/status` | GET |
-| `ov_ls` | `/api/v1/fs/ls` | GET |
-| `ov_tree` | `/api/v1/fs/tree` | GET |
-| `ov_read` | `/api/v1/content/read` | GET |
-| `ov_abstract` | `/api/v1/content/abstract` | GET |
-| `ov_overview` | `/api/v1/content/overview` | GET |
-| `ov_search` | `/api/v1/search/search` | POST |
-| `ov_find` | `/api/v1/search/find` | POST |
-| `ov_grep` | `/api/v1/search/grep` | POST |
-| `ov_add_resource` | `/api/v1/resources` | POST |
-| `ov_add_memory` | `/api/v1/resources` (via temp_upload + add_resource) | POST |
-| `ov_session_get_or_create` | `/api/v1/sessions` + `/api/v1/sessions/{id}` | POST + GET |
-| `ov_session_commit` | `/api/v1/sessions/{id}/commit` | POST |
-| `ov_session_add_message` | `/api/v1/sessions/{id}/messages` | POST |
+| MCP Tool                   | HTTP Endpoint                                        | Method     |
+| -------------------------- | ---------------------------------------------------- | ---------- |
+| `ov_status`                | `/api/v1/system/status`                              | GET        |
+| `ov_ls`                    | `/api/v1/fs/ls`                                      | GET        |
+| `ov_tree`                  | `/api/v1/fs/tree`                                    | GET        |
+| `ov_read`                  | `/api/v1/content/read`                               | GET        |
+| `ov_abstract`              | `/api/v1/content/abstract`                           | GET        |
+| `ov_overview`              | `/api/v1/content/overview`                           | GET        |
+| `ov_search`                | `/api/v1/search/search`                              | POST       |
+| `ov_find`                  | `/api/v1/search/find`                                | POST       |
+| `ov_grep`                  | `/api/v1/search/grep`                                | POST       |
+| `ov_add_resource`          | `/api/v1/resources`                                  | POST       |
+| `ov_add_memory`            | `/api/v1/resources` (via temp_upload + add_resource) | POST       |
+| `ov_session_get_or_create` | `/api/v1/sessions` + `/api/v1/sessions/{id}`         | POST + GET |
+| `ov_session_commit`        | `/api/v1/sessions/{id}/commit`                       | POST       |
+| `ov_session_add_message`   | `/api/v1/sessions/{id}/messages`                     | POST       |
 
 ### Error Codes
 
-| Code | HTTP | Impact |
-|---|---|---|
-| `PERMISSION_DENIED` | 403 | Cross-agent namespace access blocked |
-| `NOT_FOUND` | 404 | Namespace not yet created (expected before first commit) |
-| `UNAUTHENTICATED` | 401 | Server auth issue |
-| `SESSION_EXPIRED` | 410 | Re-create session |
+| Code                | HTTP | Impact                                                   |
+| ------------------- | ---- | -------------------------------------------------------- |
+| `PERMISSION_DENIED` | 403  | Cross-agent namespace access blocked                     |
+| `NOT_FOUND`         | 404  | Namespace not yet created (expected before first commit) |
+| `UNAUTHENTICATED`   | 401  | Server auth issue                                        |
+| `SESSION_EXPIRED`   | 410  | Re-create session                                        |
 
 ---
 
@@ -221,12 +241,12 @@ Date: [current date]
 
 ### Storage Tiers
 
-| Tier | URI Prefix | Visibility | Content |
-|---|---|---|---|
-| Shared resources | `viking://resources/` | All agents | Project knowledge, plans, handoffs, patterns via ov_add_memory |
-| Shared user memories | `viking://user/agentcafe/memories/` | All agents | Preferences, entities, events (auto-extracted from session commits) |
-| Agent-scoped memories | `viking://agent/{name}/memories/` | Only that agent (403) | Cases, patterns (auto-extracted from that agent's sessions) |
-| Agent skills | `viking://agent/{name}/skills/` | Only that agent | Skill registries |
+| Tier                  | URI Prefix                          | Visibility            | Content                                                             |
+| --------------------- | ----------------------------------- | --------------------- | ------------------------------------------------------------------- |
+| Shared resources      | `viking://resources/`               | All agents            | Project knowledge, plans, handoffs, patterns via ov_add_memory      |
+| Shared user memories  | `viking://user/agentcafe/memories/` | All agents            | Preferences, entities, events (auto-extracted from session commits) |
+| Agent-scoped memories | `viking://agent/{name}/memories/`   | Only that agent (403) | Cases, patterns (auto-extracted from that agent's sessions)         |
+| Agent skills          | `viking://agent/{name}/skills/`     | Only that agent       | Skill registries                                                    |
 
 ### URI Architecture
 
@@ -246,11 +266,11 @@ viking://
 
 ### Content Levels (L0/L1/L2)
 
-| Level | Name | Token Limit | Purpose |
-|---|---|---|---|
-| L0 | Abstract | ~100 tokens | Vector search, quick filtering |
-| L1 | Overview | ~2K tokens | Rerank, content navigation |
-| L2 | Detail | Unlimited | Full content, on-demand loading |
+| Level | Name     | Token Limit | Purpose                         |
+| ----- | -------- | ----------- | ------------------------------- |
+| L0    | Abstract | ~100 tokens | Vector search, quick filtering  |
+| L1    | Overview | ~2K tokens  | Rerank, content navigation      |
+| L2    | Detail   | Unlimited   | Full content, on-demand loading |
 
 ### Extraction Pipeline
 
@@ -268,14 +288,14 @@ Searchable via ov_find (immediate, FTS) + ov_search (after vectors built)
 
 ### Six Memory Categories
 
-| Category | Owner | Mergeable | Description |
-|---|---|---|---|
-| profile | user | Yes | User identity/attributes |
-| preferences | user | Yes | User preferences by topic |
-| entities | user | Yes | Entities (people/projects) |
-| events | user | No | Event records (decisions, milestones) |
-| cases | agent | No | Learned problem/solution records |
-| patterns | agent | Yes | Reusable best practices |
+| Category    | Owner | Mergeable | Description                           |
+| ----------- | ----- | --------- | ------------------------------------- |
+| profile     | user  | Yes       | User identity/attributes              |
+| preferences | user  | Yes       | User preferences by topic             |
+| entities    | user  | Yes       | Entities (people/projects)            |
+| events      | user  | No        | Event records (decisions, milestones) |
+| cases       | agent | No        | Learned problem/solution records      |
+| patterns    | agent | Yes       | Reusable best practices               |
 
 ### Access Control
 
@@ -288,13 +308,13 @@ Searchable via ov_find (immediate, FTS) + ov_search (after vectors built)
 
 ### Crash Recovery
 
-| Crash Point | State | Recovery |
-|---|---|---|
-| During Phase 1 archive write | No redo marker | Incomplete archive; next commit rescans, unaffected |
-| Phase 1 complete, messages not cleared | No redo marker | Archive complete + messages still present = redundant but safe |
-| During Phase 2 memory extraction | Redo marker exists | LockManager.start() re-executes extraction from archive |
-| After enqueue, before worker | QueueFS SQLite persists | Worker auto-pulls after restart |
-| Process crash holding lock | Lock file remains | Stale detection auto-cleans after 300s default expiry |
+| Crash Point                            | State                   | Recovery                                                       |
+| -------------------------------------- | ----------------------- | -------------------------------------------------------------- |
+| During Phase 1 archive write           | No redo marker          | Incomplete archive; next commit rescans, unaffected            |
+| Phase 1 complete, messages not cleared | No redo marker          | Archive complete + messages still present = redundant but safe |
+| During Phase 2 memory extraction       | Redo marker exists      | LockManager.start() re-executes extraction from archive        |
+| After enqueue, before worker           | QueueFS SQLite persists | Worker auto-pulls after restart                                |
+| Process crash holding lock             | Lock file remains       | Stale detection auto-cleans after 300s default expiry          |
 
 ---
 
@@ -314,6 +334,7 @@ This skill was validated across 7 agents in the EmDash monorepo (architect, code
 ### When to Use
 
 USE this skill when:
+
 - Creating a new Kilo agent that needs OpenViking memory integration
 - Auditing existing agent configurations for memory coverage
 - Updating session bookmark, context gathering, or memory persistence patterns across all agents
@@ -321,6 +342,7 @@ USE this skill when:
 - OpenViking MCP server is updated and agent prompts need re-verification
 
 DO NOT use this skill when:
+
 - Debugging OpenViking server issues → check server logs and `ov_status`
 - Writing code or implementing features → use the appropriate builder agent
 - Designing schemas or architectures → use architect agent
@@ -396,5 +418,3 @@ DO NOT use this skill when:
 - `references/ov-prompt-customization.md` — memory extraction tuning, custom memory schemas, dedup customization
 - `references/ov-architecture.md` — product philosophy, URI architecture, context types, memory categories
 - `references/ov-architecture-overview.md` — system architecture, core modules, data flow, design principles
-
-

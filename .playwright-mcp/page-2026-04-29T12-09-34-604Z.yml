@@ -1,0 +1,205 @@
+- generic [active] [ref=e1]:
+    - generic [ref=e7]:
+        - banner:
+            - complementary [ref=e8]:
+                - generic [ref=e11]:
+                    - generic [ref=e12]:
+                        - link "Home" [ref=e15] [cursor=pointer]:
+                            - /url: /dashboard
+                            - generic [ref=e18]: home
+                            - generic [ref=e19]: Home
+                        - link "Departments" [ref=e22] [cursor=pointer]:
+                            - /url: /departments
+                            - generic [ref=e25]: account_balance
+                            - generic [ref=e26]: Departments
+                        - link "Jobs" [ref=e29] [cursor=pointer]:
+                            - /url: /jobs
+                            - generic [ref=e32]: work
+                            - generic [ref=e33]: Jobs
+                        - link "Candidates" [ref=e36] [cursor=pointer]:
+                            - /url: /candidates
+                            - generic [ref=e39]: group
+                            - generic [ref=e40]: Candidates
+                        - caption [ref=e42]: Recruitment Center
+                        - link "Matches" [ref=e46] [cursor=pointer]:
+                            - /url: /matches
+                            - generic [ref=e49]: device_hub
+                            - generic [ref=e50]: Matches
+                        - link "Employees" [ref=e53] [cursor=pointer]:
+                            - /url: /employees
+                            - generic [ref=e56]: how_to_reg
+                            - generic [ref=e57]: Employees
+                        - link "Activities" [ref=e60] [cursor=pointer]:
+                            - /url: /activities
+                            - generic [ref=e63]: calendar_today
+                            - generic [ref=e64]: Activities
+                        - link "Inbox" [ref=e67] [cursor=pointer]:
+                            - /url: /inbox
+                            - generic [ref=e70]: question_answer
+                            - generic [ref=e71]: Inbox
+                        - caption [ref=e73]: Settings & Analytics
+                        - link "Reports" [ref=e77] [cursor=pointer]:
+                            - /url: /reports
+                            - generic [ref=e80]: poll
+                            - generic [ref=e81]: Reports
+                        - link "Sourcing Hub" [ref=e84] [cursor=pointer]:
+                            - /url: /sourcing-hub
+                            - img [ref=e87]
+                            - generic [ref=e88]: Sourcing Hub
+                        - link "Settings" [ref=e91] [cursor=pointer]:
+                            - /url: /settings
+                            - generic [ref=e94]: settings
+                            - generic [ref=e95]: Settings
+                        - link "Administration" [ref=e98] [cursor=pointer]:
+                            - /url: /administration
+                            - generic [ref=e101]: https
+                            - generic [ref=e102]: Administration
+                        - link "Free trial 14 days left Subscribe now" [ref=e104] [cursor=pointer]:
+                            - /url: /administration/subscription
+                            - generic [ref=e106]: Free trial 14 days left
+                            - generic [ref=e108]: Subscribe now
+                    - generic [ref=e109]:
+                        - caption [ref=e111]: Recently visited
+                        - link "Administration" [ref=e113] [cursor=pointer]:
+                            - /url: /administration/overview
+                            - generic [ref=e114]: history
+                            - caption [ref=e115]: Administration
+                        - link "Sourcing Hub" [ref=e116] [cursor=pointer]:
+                            - /url: /sourcing-hub
+                            - generic [ref=e117]: history
+                            - caption [ref=e118]: Sourcing Hub
+                        - link "Settings" [ref=e119] [cursor=pointer]:
+                            - /url: /settings
+                            - generic [ref=e120]: history
+                            - caption [ref=e121]: Settings
+                        - link "Inbox" [ref=e122] [cursor=pointer]:
+                            - /url: /inbox
+                            - generic [ref=e123]: history
+                            - caption [ref=e124]: Inbox
+                        - link "Reports" [ref=e125] [cursor=pointer]:
+                            - /url: /reports
+                            - generic [ref=e126]: history
+                            - caption [ref=e127]: Reports
+                        - link "Matches" [ref=e128] [cursor=pointer]:
+                            - /url: /matches
+                            - generic [ref=e129]: history
+                            - caption [ref=e130]: Matches
+                        - link "Candidates" [ref=e131] [cursor=pointer]:
+                            - /url: /candidates
+                            - generic [ref=e132]: history
+                            - caption [ref=e133]: Candidates
+            - navigation [ref=e137]:
+                - generic [ref=e138]:
+                    - button [ref=e140] [cursor=pointer]:
+                        - img [ref=e142]
+                    - link "Agentcafe" [ref=e144] [cursor=pointer]:
+                        - /url: /
+                        - heading "Agentcafe" [level=5] [ref=e145]
+                    - generic [ref=e150]:
+                        - generic [ref=e151]:
+                            - generic: Search by Name, Job, Email or Department
+                            - textbox "Search by Name, Job, Email or Department" [ref=e152]
+                        - generic [ref=e155] [cursor=pointer]: search
+                    - button [ref=e157] [cursor=pointer]:
+                        - generic [ref=e159]: add_circle
+                    - button [ref=e163] [cursor=pointer]:
+                        - img [ref=e164]
+                    - button [ref=e166] [cursor=pointer]:
+                        - generic [ref=e168]: help
+                    - button [ref=e170] [cursor=pointer]:
+                        - generic [ref=e172]: notifications
+                    - button [ref=e174] [cursor=pointer]:
+                        - generic [ref=e178]: AJ
+        - main [ref=e179]:
+            - generic [ref=e184]:
+                - heading "You currently have 14 days remaining in your free trial. To keep using Manatal, Subscribe now" [level=6] [ref=e186]:
+                    - generic [ref=e187]: You currently have 14 days remaining in your free trial. To keep using Manatal,
+                    - button "Subscribe now" [ref=e189] [cursor=pointer]:
+                        - generic [ref=e191]: Subscribe now
+                - generic [ref=e192]:
+                    - generic [ref=e194]:
+                        - generic [ref=e196]:
+                            - heading "Account & Users" [level=6] [ref=e198]
+                            - paragraph [ref=e200]: Manage your account details, users, groups and guests.
+                        - link "Manage your account" [ref=e209] [cursor=pointer]:
+                            - /url: /administration/account-and-users
+                            - generic [ref=e210]: Manage your account
+                    - generic [ref=e212]:
+                        - generic [ref=e214]:
+                            - heading "Data Management" [level=6] [ref=e216]
+                            - paragraph [ref=e218]: Track GDPR consent and view logs. Import candidates, jobs and more.
+                        - link "Manage your data" [ref=e227] [cursor=pointer]:
+                            - /url: /administration/data-management
+                            - generic [ref=e228]: Manage your data
+                    - generic [ref=e230]:
+                        - generic [ref=e232]:
+                            - heading "Integrations" [level=6] [ref=e234]
+                            - paragraph [ref=e236]: Manage your third-party software and tool integrations.
+                        - link "Manage third-party integrations" [ref=e245] [cursor=pointer]:
+                            - /url: /administration/integrations
+                            - generic [ref=e246]: Manage third-party integrations
+                    - generic [ref=e248]:
+                        - generic [ref=e250]:
+                            - heading "Subscription" [level=6] [ref=e252]
+                            - paragraph [ref=e254]: Manage your subscription, payment methods, and access your invoices.
+                        - link "Manage your subscription" [ref=e263] [cursor=pointer]:
+                            - /url: /administration/subscription
+                            - generic [ref=e264]: Manage your subscription
+                    - generic [ref=e266]:
+                        - generic [ref=e268]:
+                            - heading "Career Page" [level=6] [ref=e270]
+                            - paragraph [ref=e272]: Enable and set-up your career page.
+                        - link "Manage your career page" [ref=e281] [cursor=pointer]:
+                            - /url: /administration/career-page
+                            - generic [ref=e282]: Manage your career page
+                    - generic [ref=e284]:
+                        - generic [ref=e286]:
+                            - heading "Job Boards" [level=6] [ref=e288]
+                            - paragraph [ref=e290]: Manage your free job boards, premium job posting permissions and view your premium job posting history.
+                        - link "Manage your job boards" [ref=e299] [cursor=pointer]:
+                            - /url: /administration/job-boards
+                            - generic [ref=e300]: Manage your job boards
+                    - generic [ref=e302]:
+                        - generic [ref=e304]:
+                            - heading "Resumes" [level=6] [ref=e306]
+                            - paragraph [ref=e308]: Set up your candidate resumes via branded and custom resume features.
+                        - link "Customize resumes" [ref=e317] [cursor=pointer]:
+                            - /url: /administration/resumes
+                            - generic [ref=e318]: Customize resumes
+                    - generic [ref=e320]:
+                        - generic [ref=e322]:
+                            - heading "Customization" [level=6] [ref=e324]
+                            - paragraph [ref=e326]: Customize your jobs, departments, contacts, candidates, and dashboard.
+                        - link "Customize your account" [ref=e335] [cursor=pointer]:
+                            - /url: /administration/customization
+                            - generic [ref=e336]: Customize your account
+                    - generic [ref=e338]:
+                        - generic [ref=e340]:
+                            - heading "Features" [level=6] [ref=e342]
+                            - paragraph [ref=e344]: Manage duplicate detection, vendors, employees and other settings.
+                        - link "Manage features" [ref=e353] [cursor=pointer]:
+                            - /url: /administration/features
+                            - generic [ref=e354]: Manage features
+                    - generic [ref=e356]:
+                        - generic [ref=e358]:
+                            - heading "Support" [level=6] [ref=e360]
+                            - paragraph [ref=e362]: Grant our support team access to your Manatal account, check our documentations or report an incident.
+                        - link "Manatal support" [ref=e371] [cursor=pointer]:
+                            - /url: /administration/support
+                            - generic [ref=e372]: Manatal support
+        - img [ref=e374] [cursor=pointer]
+    - iframe [ref=e375]:
+        - generic [ref=f158e2]:
+            - img [ref=f158e4]
+            - generic [ref=f158e11]:
+                - heading "Status embed installed correctly" [level=1] [ref=f158e12]:
+                    - paragraph [ref=f158e13]: Status embed installed correctly
+                - generic [ref=f158e14]: This will be shown if an incident or maintenance is posted on your status page.
+                - link "View latest updates" [ref=f158e16] [cursor=pointer]:
+                    - /url: https://status.manatal.com?utm_source=embed
+            - button [ref=f158e18] [cursor=pointer]:
+                - img [ref=f158e19]
+    - iframe [ref=e376]:
+        - generic [active]:
+            - main:
+                - region

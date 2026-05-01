@@ -1,66 +1,361 @@
-# OpenViking API Overview
+# API Overview
 
-Reference from OpenViking documentation. Covers connection modes, response formats, error codes, and all API endpoints.
+This page covers how to connect to OpenViking and the conventions shared across all API endpoints.
 
-## Connection Modes
+## Connecting to OpenViking
 
-| Mode | Use Case | Description |
-|---|---|---|
-| Embedded | Local development, single process | Runs locally with local data storage |
-| HTTP | Connect to OpenViking Server | Connects to remote server via HTTP |
-| CLI | Shell scripting, agent tool-use | Connects via CLI commands |
+OpenViking supports three connection modes:
 
-### HTTP Client (used by Kilo MCP server)
+| Mode     | Use Case                          | Description                              |
+| -------- | --------------------------------- | ---------------------------------------- |
+| Embedded | Local development, single process | Runs locally with local data storage     |
+| HTTP     | Connect to OpenViking Server      | Connects to a remote server via HTTP API |
+| CLI      | Shell scripting, agent tool-use   | Connects to server via CLI commands      |
+
+### Embedded Mode
+
 ```python
-client = ov.SyncHTTPClient(
-    url="http://localhost:1933",
-    api_key="your-key",
-    agent_id="my-agent",     # Critical for namespace isolation
-    timeout=120.0,
-)
-```
+import openviking as ov
 
-### Embedded Client
-```python
 client = ov.OpenViking(path="./data")
 client.initialize()
 ```
 
-## Response Format
+Embedded mode uses `ov.conf` to configure embedding, vlm, storage, and other modules. Default path: `~/.openviking/ov.conf`. You can also specify the path via environment variable:
 
-```json
-{"status": "ok", "result": {...}, "time": 0.123}
-{"status": "error", "error": {"code": "NOT_FOUND", "message": "..."}, "time": 0.01}
+```bash
+export OPENVIKING_CONFIG_FILE=/path/to/ov.conf
 ```
 
-## Error Codes Relevant to Agents
+Minimal configuration example:
 
-| Code | HTTP | Description | Agent Impact |
-|---|---|---|---|
-| PERMISSION_DENIED | 403 | Insufficient permissions | Cross-agent namespace access blocked |
-| NOT_FOUND | 404 | Resource not found | Namespace not yet created (expected) |
-| UNAUTHENTICATED | 401 | Missing/invalid API key | Server auth issue |
-| SESSION_EXPIRED | 410 | Session no longer exists | Re-create session |
+```json
+{
+	"embedding": {
+		"dense": {
+			"api_base": "<api-endpoint>",
+			"api_key": "<your-api-key>",
+			"provider": "<volcengine|openai|jina>",
+			"dimension": 1024,
+			"model": "<model-name>"
+		}
+	},
+	"vlm": {
+		"api_base": "<api-endpoint>",
+		"api_key": "<your-api-key>",
+		"provider": "<volcengine|openai|jina>",
+		"model": "<model-name>"
+	}
+}
+```
 
-## API Endpoints Used by Agent MCP Tools
+For full configuration options and provider-specific examples, see the Configuration Guide.
 
-| MCP Tool | Endpoint | Method |
-|---|---|---|
-| ov_status | GET /api/v1/system/status | Health check |
-| ov_ls | GET /api/v1/fs/ls | List directory |
-| ov_tree | GET /api/v1/fs/tree | Directory tree |
-| ov_read | POST /api/v1/content/read | Read L2 content |
-| ov_abstract | POST /api/v1/content/abstract | Read L0 abstract |
-| ov_overview | POST /api/v1/content/overview | Read L1 overview |
-| ov_search | POST /api/v1/search/search | Semantic search (LLM intent analysis + vector rerank) |
-| ov_find | POST /api/v1/search/find | Full-text search (PostgreSQL FTS, no session context) |
-| ov_grep | POST /api/v1/search/grep | Pattern search |
-| ov_add_resource | POST /api/v1/resources | Add resource |
-| ov_add_memory | POST /api/v1/resources | Add memory (via temp_upload + add_resource) |
-| ov_session_get_or_create | POST /api/v1/sessions + GET | Create/get session |
-| ov_session_commit | POST /api/v1/sessions/{id}/commit | Commit session |
-| ov_session_add_message | POST /api/v1/sessions/{id}/messages | Add message |
+### HTTP Mode
 
-## Admin Endpoints (Multi-tenant)
+```python
+client = ov.SyncHTTPClient(
+    url="http://localhost:1933",
+    api_key="your-key",
+    agent_id="my-agent",
+    timeout=120.0,
+)
+client.initialize()
+```
 
-OpenViking supports multi-tenant workspaces with ROOT and ADMIN roles. The agent system uses a single workspace (`agentcafe`) with per-agent API keys for namespace isolation. See Authentication Guide for key management.
+When `url` is not explicitly provided, the HTTP client automatically loads connection info from `ovcli.conf`. This config file is shared between the HTTP client and CLI. Default path: `~/.openviking/ovcli.conf`. You can also specify the path via environment variable:
+
+```bash
+export OPENVIKING_CLI_CONFIG_FILE=/path/to/ovcli.conf
+```
+
+```json
+{
+	"url": "http://localhost:1933",
+	"api_key": "your-key",
+	"agent_id": "my-agent"
+}
+```
+
+| Field   | Description                              | Default        |
+| ------- | ---------------------------------------- | -------------- |
+| url     | Server address                           | (required)     |
+| api_key | API key                                  | null (no auth) |
+| timeout | HTTP request timeout in seconds          | 60.0           |
+| output  | Default output format: "table" or "json" | "table"        |
+
+See the Configuration Guide for details.
+
+Direct HTTP (curl):
+
+```bash
+curl http://localhost:1933/api/v1/fs/ls?uri=viking:// \
+  -H "X-API-Key: your-key"
+```
+
+### CLI Mode
+
+The CLI connects to an OpenViking server and exposes all operations as shell commands. The CLI also loads connection info from `ovcli.conf` (shared with the HTTP client).
+
+Basic Usage:
+
+```
+openviking [global options] <command> [arguments] [command options]
+```
+
+Global Options (must be placed before the command name):
+
+| Option       | Description                          |
+| ------------ | ------------------------------------ |
+| --output, -o | Output format: table (default), json |
+| --version    | Show CLI version                     |
+
+Example:
+
+```bash
+openviking -o json ls viking://resources/
+```
+
+## Lifecycle
+
+### Embedded Mode
+
+```python
+import openviking as ov
+
+client = ov.OpenViking(path="./data")
+client.initialize()
+
+# ... use client ...
+
+client.close()
+```
+
+### HTTP Mode
+
+```python
+import openviking as ov
+
+client = ov.SyncHTTPClient(url="http://localhost:1933")
+client.initialize()
+
+# ... use client ...
+
+client.close()
+```
+
+## Authentication
+
+See Authentication Guide for full details.
+
+- `X-API-Key` header: `X-API-Key: your-key`
+- `Bearer` header: `Authorization: Bearer your-key`
+- If no API key is configured on the server, authentication is skipped.
+- The `/health` endpoint never requires authentication.
+
+## Response Format
+
+All HTTP API responses follow a unified format:
+
+Success:
+
+```json
+{
+  "status": "ok",
+  "result": { ... },
+  "time": 0.123
+}
+```
+
+Error:
+
+```json
+{
+	"status": "error",
+	"error": {
+		"code": "NOT_FOUND",
+		"message": "Resource not found: viking://resources/nonexistent/"
+	},
+	"time": 0.01
+}
+```
+
+## CLI Output Format
+
+### Table Mode (default)
+
+List data is rendered as tables; non-list data falls back to formatted JSON:
+
+```bash
+openviking ls viking://resources/
+# name          size  mode  isDir  uri
+# .abstract.md  100   420   False  viking://resources/.abstract.md
+```
+
+### JSON Mode (--output json)
+
+All commands output formatted JSON matching the API response result structure:
+
+```bash
+openviking -o json ls viking://resources/
+# [{ "name": "...", "size": 100, ... }, ...]
+```
+
+The default output format can be set in `ovcli.conf`:
+
+```json
+{
+	"url": "http://localhost:1933",
+	"output": "json"
+}
+```
+
+### Script Mode (-o json)
+
+Compact JSON with status wrapper (when `--compact` is true, which is the default), suitable for scripting:
+
+Success:
+
+```json
+{"ok": true, "result": ...}
+```
+
+Error:
+
+```json
+{ "ok": false, "error": { "code": "NOT_FOUND", "message": "Resource not found", "details": {} } }
+```
+
+### Special Cases
+
+- String results (read, abstract, overview): printed directly as plain text
+- None results (mkdir, rm, mv): no output
+
+## Exit Codes
+
+| Code | Meaning             |
+| ---- | ------------------- |
+| 0    | Success             |
+| 1    | General error       |
+| 2    | Configuration error |
+| 3    | Connection error    |
+
+## Error Codes
+
+| Code                | HTTP Status | Description                 |
+| ------------------- | ----------- | --------------------------- |
+| OK                  | 200         | Success                     |
+| INVALID_ARGUMENT    | 400         | Invalid parameter           |
+| INVALID_URI         | 400         | Invalid Viking URI format   |
+| NOT_FOUND           | 404         | Resource not found          |
+| ALREADY_EXISTS      | 409         | Resource already exists     |
+| UNAUTHENTICATED     | 401         | Missing or invalid API key  |
+| PERMISSION_DENIED   | 403         | Insufficient permissions    |
+| RESOURCE_EXHAUSTED  | 429         | Rate limit exceeded         |
+| FAILED_PRECONDITION | 412         | Precondition failed         |
+| DEADLINE_EXCEEDED   | 504         | Operation timed out         |
+| UNAVAILABLE         | 503         | Service unavailable         |
+| INTERNAL            | 500         | Internal server error       |
+| UNIMPLEMENTED       | 501         | Feature not implemented     |
+| EMBEDDING_FAILED    | 500         | Embedding generation failed |
+| VLM_FAILED          | 500         | VLM call failed             |
+| SESSION_EXPIRED     | 410         | Session no longer exists    |
+
+## API Endpoints
+
+### System
+
+| Method | Path                  | Description            |
+| ------ | --------------------- | ---------------------- |
+| GET    | /health               | Health check (no auth) |
+| GET    | /api/v1/system/status | System status          |
+| POST   | /api/v1/system/wait   | Wait for processing    |
+
+### Resources
+
+| Method | Path                | Description    |
+| ------ | ------------------- | -------------- |
+| POST   | /api/v1/resources   | Add resource   |
+| POST   | /api/v1/skills      | Add skill      |
+| POST   | /api/v1/pack/export | Export .ovpack |
+| POST   | /api/v1/pack/import | Import .ovpack |
+
+### File System
+
+| Method | Path             | Description      |
+| ------ | ---------------- | ---------------- |
+| GET    | /api/v1/fs/ls    | List directory   |
+| GET    | /api/v1/fs/tree  | Directory tree   |
+| GET    | /api/v1/fs/stat  | Resource status  |
+| POST   | /api/v1/fs/mkdir | Create directory |
+| DELETE | /api/v1/fs       | Delete resource  |
+| POST   | /api/v1/fs/mv    | Move resource    |
+
+### Content
+
+| Method | Path                     | Description            |
+| ------ | ------------------------ | ---------------------- |
+| GET    | /api/v1/content/read     | Read full content (L2) |
+| GET    | /api/v1/content/abstract | Read abstract (L0)     |
+| GET    | /api/v1/content/overview | Read overview (L1)     |
+
+### Search
+
+| Method | Path                  | Description           |
+| ------ | --------------------- | --------------------- |
+| POST   | /api/v1/search/find   | Semantic search       |
+| POST   | /api/v1/search/search | Context-aware search  |
+| POST   | /api/v1/search/grep   | Pattern search        |
+| POST   | /api/v1/search/glob   | File pattern matching |
+
+### Relations
+
+| Method | Path                   | Description   |
+| ------ | ---------------------- | ------------- |
+| GET    | /api/v1/relations      | Get relations |
+| POST   | /api/v1/relations/link | Create link   |
+| DELETE | /api/v1/relations/link | Remove link   |
+
+### Sessions
+
+| Method | Path                           | Description    |
+| ------ | ------------------------------ | -------------- |
+| POST   | /api/v1/sessions               | Create session |
+| GET    | /api/v1/sessions               | List sessions  |
+| GET    | /api/v1/sessions/{id}          | Get session    |
+| DELETE | /api/v1/sessions/{id}          | Delete session |
+| POST   | /api/v1/sessions/{id}/commit   | Commit session |
+| POST   | /api/v1/sessions/{id}/messages | Add message    |
+
+### Observer
+
+| Method | Path                      | Description        |
+| ------ | ------------------------- | ------------------ |
+| GET    | /api/v1/observer/queue    | Queue status       |
+| GET    | /api/v1/observer/vikingdb | VikingDB status    |
+| GET    | /api/v1/observer/vlm      | VLM status         |
+| GET    | /api/v1/observer/system   | System status      |
+| GET    | /api/v1/debug/health      | Quick health check |
+
+### Admin (Multi-tenant)
+
+| Method | Path                                                     | Description                           |
+| ------ | -------------------------------------------------------- | ------------------------------------- |
+| POST   | /api/v1/admin/accounts                                   | Create workspace + first admin (ROOT) |
+| GET    | /api/v1/admin/accounts                                   | List workspaces (ROOT)                |
+| DELETE | /api/v1/admin/accounts/{account_id}                      | Delete workspace (ROOT)               |
+| POST   | /api/v1/admin/accounts/{account_id}/users                | Register user (ROOT, ADMIN)           |
+| GET    | /api/v1/admin/accounts/{account_id}/users                | List users (ROOT, ADMIN)              |
+| DELETE | /api/v1/admin/accounts/{account_id}/users/{user_id}      | Remove user (ROOT, ADMIN)             |
+| PUT    | /api/v1/admin/accounts/{account_id}/users/{user_id}/role | Change user role (ROOT)               |
+| POST   | /api/v1/admin/accounts/{account_id}/users/{user_id}/key  | Regenerate user key (ROOT, ADMIN)     |
+
+## Related Documentation
+
+- Resources - Resource management API
+- Retrieval - Search API
+- File System - File system operations
+- Sessions - Session management
+- Skills - Skill management
+- System - System and monitoring API
+- Admin - Multi-tenant management API

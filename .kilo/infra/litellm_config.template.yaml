@@ -1,0 +1,148 @@
+# LiteLLM proxy configuration — routes model calls from Kilo agents to providers.
+#
+# Setup:
+#   1. Copy this file to .kilo/infra/litellm_config.yaml
+#   2. Replace ${VARS} with your actual API keys
+#   3. Verify: curl http://localhost:4000/v1/models
+#
+# The actual config is gitignored — never commit API keys.
+
+model_list:
+  # === Local Models ===
+  - model_name: qwen3-coder-next
+    litellm_params:
+      model: openai/qwen3-coder-next
+      api_base: "http://192.168.0.10:8080/v1"
+      api_key: "dummy"
+      timeout: 180
+      stream_timeout: 120
+
+  - model_name: qwen3.6-35b
+    litellm_params:
+      model: openai/qwen3.6-35b
+      api_base: "http://192.168.0.10:8081/v1"
+      api_key: "dummy"
+      timeout: 120
+
+  - model_name: gemma-4-local
+    litellm_params:
+      model: openai/unsloth/gemma-4-E4B-it-UD-MLX-4bit
+      api_base: "http://host.docker.internal:12345/v1"
+      api_key: "sk-local-mac"
+      max_tokens: 8192
+
+  # === AWS Bedrock Models ===
+  - model_name: claude-4-5-haiku
+    litellm_params:
+      model: bedrock/converse/us.anthropic.claude-haiku-4-5-20251001-v1:0
+      aws_region_name: us-east-1
+
+  - model_name: claude-sonnet-4-6
+    litellm_params:
+      model: bedrock/converse/us.anthropic.claude-sonnet-4-6
+      aws_region_name: us-east-1
+
+  - model_name: claude-opus-4-6
+    litellm_params:
+      model: bedrock/converse/us.anthropic.claude-opus-4-6-v1
+      aws_region_name: us-east-1
+
+  - model_name: titan-embed-v2
+    litellm_params:
+      model: bedrock/amazon.titan-embed-text-v2:0
+      aws_region_name: us-east-1
+    model_info:
+      mode: embedding
+
+  # === DeepSeek V4 Pro Tiers ===
+  # Tier    | reasoning_effort | thinking        | Use
+  # --------|------------------|-----------------|---------------------------
+  # Pro-max | max              | enabled         | Architect (high-context)
+  # Pro-high| high             | enabled         | Plan (workflow design)
+  # Pro-none| none             | disabled        | Implementation agents
+  # Flash-high| high           | enabled         | Review (adversarial)
+  # Flash-none| —              | disabled        | Code, GitHub, Site-builder
+
+  - model_name: DeepSeek-V4-Pro-max
+    litellm_params:
+      model: deepseek/deepseek-v4-pro
+      api_key: ${DEEPSEEK_API_KEY}
+      reasoning_effort: "max"
+      extra_body:
+        thinking: { type: "enabled" }
+      merge_reasoning_content_in_choices: false
+
+  - model_name: DeepSeek-V4-Pro-high
+    litellm_params:
+      model: deepseek/deepseek-v4-pro
+      api_key: ${DEEPSEEK_API_KEY}
+      reasoning_effort: "high"
+      extra_body:
+        thinking: { type: "enabled" }
+      merge_reasoning_content_in_choices: false
+
+  - model_name: DeepSeek-V4-Pro-medium
+    litellm_params:
+      model: deepseek/deepseek-v4-pro
+      api_key: ${DEEPSEEK_API_KEY}
+      reasoning_effort: "high"
+      extra_body:
+        thinking: { type: "enabled" }
+      merge_reasoning_content_in_choices: false
+
+  - model_name: DeepSeek-V4-Pro-low
+    litellm_params:
+      model: deepseek/deepseek-v4-pro
+      api_key: ${DEEPSEEK_API_KEY}
+      reasoning_effort: "high"
+      extra_body:
+        thinking: { type: "enabled" }
+      merge_reasoning_content_in_choices: false
+
+  - model_name: DeepSeek-V4-Pro-none
+    litellm_params:
+      model: deepseek/deepseek-v4-pro
+      api_key: ${DEEPSEEK_API_KEY}
+      reasoning_effort: "none"
+      extra_body:
+        thinking: { type: "disabled" }
+
+  # === DeepSeek V4 Flash Tiers ===
+  - model_name: DeepSeek-V4-Flash-high
+    litellm_params:
+      model: deepseek/deepseek-v4-flash
+      api_key: ${DEEPSEEK_API_KEY}
+      reasoning_effort: "high"
+      extra_body:
+        thinking: { type: "enabled" }
+      merge_reasoning_content_in_choices: false
+
+  - model_name: DeepSeek-V4-Flash-low
+    litellm_params:
+      model: deepseek/deepseek-v4-flash
+      api_key: ${DEEPSEEK_API_KEY}
+      reasoning_effort: "high"
+      extra_body:
+        thinking: { type: "enabled" }
+      merge_reasoning_content_in_choices: false
+
+  - model_name: DeepSeek-V4-Flash-none
+    litellm_params:
+      model: deepseek/deepseek-v4-flash
+      api_key: ${DEEPSEEK_API_KEY}
+      extra_body:
+        thinking: { type: "disabled" }
+
+  # === OpenAI ===
+  - model_name: o4-mini
+    litellm_params:
+      model: openai/o4-mini
+      api_key: ${OPENAI_API_KEY}
+
+general_settings:
+  master_key: sk-1234
+
+litellm_settings:
+  drop_params: true
+  modify_params: true
+  request_timeout: 120

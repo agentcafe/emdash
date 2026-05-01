@@ -70,3 +70,6 @@ examples/wp-theme-unit-test/
 
 .perf-query-counts
 query-counts-out/
+
+# Kilo infrastructure config with secrets
+.kilo/infra/litellm_config.yaml

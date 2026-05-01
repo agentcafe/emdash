@@ -12,7 +12,7 @@ import urllib.error
 import mimetypes
 
 OV_API_BASE = "http://localhost:1933"
-OV_API_KEY = os.environ.get("OPENVIKING_API_KEY", "dc68bc30f99207b9f07085cf84037abb05529f63d87e2be5b495adffdf5e4099")
+OV_API_KEY = os.environ.get("OPENVIKING_API_KEY", "b13e3586608a84da4894a8bf22ff37b1107d26495aec3d3ed46c681000dc8134")
 PROJECT_ROOT = "/Users/agentcafe/Developer/emdash"
 TARGET = "viking://resources/work/emdash"
 

@@ -1,0 +1,55 @@
+- generic [active] [ref=e1]:
+    - generic [ref=e5]:
+        - generic [ref=e6]:
+            - generic [ref=e10]: EN
+            - img [ref=e12]
+        - generic [ref=e17]:
+            - heading "Log in to Manatal" [level=1] [ref=e19]
+            - generic [ref=e20]:
+                - generic [ref=e24]:
+                    - generic: Email Address
+                    - textbox "Email Address" [ref=e25]
+                - generic [ref=e30]:
+                    - generic: Password
+                    - textbox "Password" [ref=e31]
+                - iframe [ref=e34]:
+                    - generic [ref=f3e5]:
+                        - generic [ref=f3e6]:
+                            - text: protected by
+                            - strong [ref=f3e7]: reCAPTCHA
+                        - generic [ref=f3e9]:
+                            - text: This site is exceeding
+                            - link "reCAPTCHA Enterprise free quota" [ref=f3e10] [cursor=pointer]:
+                                - /url: https://cloud.google.com/recaptcha/docs/billing-information
+                            - text: .
+                - button "Log in" [ref=e36] [cursor=pointer]:
+                    - generic [ref=e38]: Log in
+            - generic [ref=e39]:
+                - generic [ref=e40]:
+                    - link "Forgot your password?" [ref=e41] [cursor=pointer]:
+                        - /url: /forgotpassword
+                    - generic [ref=e42]: Not registered on Manatal yet?
+                    - link "Create your account" [ref=e43] [cursor=pointer]:
+                        - /url: /signup/
+                - generic [ref=e44]:
+                    - generic [ref=e51]: Or
+                    - generic [ref=e53]:
+                        - button "Log in with Google" [ref=e54] [cursor=pointer]:
+                            - generic [ref=e55]:
+                                - img [ref=e56]
+                                - generic [ref=e57]: Log in with Google
+                        - button "Log in with SSO" [ref=e58] [cursor=pointer]:
+                            - generic [ref=e59]:
+                                - img [ref=e60]
+                                - generic [ref=e61]: Log in with SSO
+    - iframe [ref=e62]:
+        - generic [ref=f2e2]:
+            - img [ref=f2e4]
+            - generic [ref=f2e11]:
+                - heading "Status embed installed correctly" [level=1] [ref=f2e12]:
+                    - paragraph [ref=f2e13]: Status embed installed correctly
+                - generic [ref=f2e14]: This will be shown if an incident or maintenance is posted on your status page.
+                - link "View latest updates" [ref=f2e16] [cursor=pointer]:
+                    - /url: https://status.manatal.com?utm_source=embed
+            - button [ref=f2e18] [cursor=pointer]:
+                - img [ref=f2e19]

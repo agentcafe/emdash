@@ -1,0 +1,179 @@
+- generic [active] [ref=e1]:
+    - generic [ref=e7]:
+        - banner:
+            - complementary [ref=e8]:
+                - generic [ref=e11]:
+                    - generic [ref=e12]:
+                        - link "Home" [ref=e15] [cursor=pointer]:
+                            - /url: /dashboard
+                            - generic [ref=e18]: home
+                            - generic [ref=e19]: Home
+                        - link "Departments" [ref=e167] [cursor=pointer]:
+                            - /url: /departments
+                            - generic [ref=e25]: account_balance
+                            - generic [ref=e168]: Departments
+                        - link "Jobs" [ref=e28] [cursor=pointer]:
+                            - /url: /jobs
+                            - generic [ref=e31]: work
+                            - generic [ref=e32]: Jobs
+                        - link "Candidates" [ref=e35] [cursor=pointer]:
+                            - /url: /candidates
+                            - generic [ref=e38]: group
+                            - generic [ref=e39]: Candidates
+                        - caption [ref=e41]: Recruitment Center
+                        - link "Matches" [ref=e169] [cursor=pointer]:
+                            - /url: /matches
+                            - generic [ref=e48]: device_hub
+                            - generic [ref=e49]: Matches
+                        - link "Employees" [ref=e172] [cursor=pointer]:
+                            - /url: /employees
+                            - generic [ref=e175]: how_to_reg
+                            - generic [ref=e176]: Employees
+                        - link "Activities" [ref=e177] [cursor=pointer]:
+                            - /url: /activities
+                            - generic [ref=e58]: calendar_today
+                            - generic [ref=e59]: Activities
+                        - link "Inbox" [ref=e178] [cursor=pointer]:
+                            - /url: /inbox
+                            - generic [ref=e65]: question_answer
+                            - generic [ref=e66]: Inbox
+                        - caption [ref=e51]: Settings & Analytics
+                        - link "Reports" [ref=e181] [cursor=pointer]:
+                            - /url: /reports
+                            - generic [ref=e184]: poll
+                            - generic [ref=e185]: Reports
+                        - link "Sourcing Hub" [ref=e188] [cursor=pointer]:
+                            - /url: /sourcing-hub
+                            - img [ref=e191]
+                            - generic [ref=e192]: Sourcing Hub
+                        - link "Settings" [ref=e195] [cursor=pointer]:
+                            - /url: /settings
+                            - generic [ref=e198]: settings
+                            - generic [ref=e199]: Settings
+                        - link "Administration" [ref=e202] [cursor=pointer]:
+                            - /url: /administration
+                            - generic [ref=e205]: https
+                            - generic [ref=e206]: Administration
+                        - link "Free trial 14 days left Subscribe now" [ref=e208] [cursor=pointer]:
+                            - /url: /administration/subscription
+                            - generic [ref=e210]: Free trial 14 days left
+                            - generic [ref=e212]: Subscribe now
+                    - generic [ref=e67]:
+                        - caption [ref=e69]: Recently visited
+                        - link "Settings" [ref=e71] [cursor=pointer]:
+                            - /url: /settings
+                            - generic [ref=e72]: history
+                            - caption [ref=e73]: Settings
+                        - link "Inbox" [ref=e74] [cursor=pointer]:
+                            - /url: /inbox
+                            - generic [ref=e75]: history
+                            - caption [ref=e76]: Inbox
+                        - link "Reports" [ref=e77] [cursor=pointer]:
+                            - /url: /reports
+                            - generic [ref=e78]: history
+                            - caption [ref=e79]: Reports
+                        - link "Matches" [ref=e80] [cursor=pointer]:
+                            - /url: /matches
+                            - generic [ref=e81]: history
+                            - caption [ref=e82]: Matches
+                        - link "Candidates" [ref=e83] [cursor=pointer]:
+                            - /url: /candidates
+                            - generic [ref=e84]: history
+                            - caption [ref=e85]: Candidates
+                        - link "Jobs" [ref=e86] [cursor=pointer]:
+                            - /url: /jobs
+                            - generic [ref=e87]: history
+                            - caption [ref=e88]: Jobs
+                        - link "Home" [ref=e89] [cursor=pointer]:
+                            - /url: /dashboard
+                            - generic [ref=e90]: history
+                            - caption [ref=e91]: Home
+            - navigation [ref=e93]:
+                - generic [ref=e94]:
+                    - button [ref=e96] [cursor=pointer]:
+                        - img [ref=e98]
+                    - link "Agentcafe" [ref=e100] [cursor=pointer]:
+                        - /url: /
+                        - heading "Agentcafe" [level=5] [ref=e101]
+                    - generic [ref=e106]:
+                        - generic [ref=e107]:
+                            - generic: Search by Name, Job, Email or Department
+                            - textbox "Search by Name, Job, Email or Department" [ref=e215]
+                        - generic [ref=e111] [cursor=pointer]: search
+                    - button [ref=e113] [cursor=pointer]:
+                        - generic [ref=e115]: add_circle
+                    - button [ref=e119] [cursor=pointer]:
+                        - img [ref=e120]
+                    - button [ref=e122] [cursor=pointer]:
+                        - generic [ref=e124]: help
+                    - button [ref=e126] [cursor=pointer]:
+                        - generic [ref=e128]: notifications
+                    - button [ref=e130] [cursor=pointer]:
+                        - generic [ref=e219]: AJ
+        - main [ref=e131]:
+            - generic [ref=e224]:
+                - link "Profile View and edit your personal profile settings. Manage your password." [ref=e226] [cursor=pointer]:
+                    - /url: /settings/profile
+                    - generic [ref=e227]:
+                        - generic [ref=e233]:
+                            - heading "Profile" [level=6] [ref=e235]
+                            - paragraph [ref=e237]: View and edit your personal profile settings. Manage your password.
+                        - button [ref=e239]:
+                            - generic [ref=e241]: keyboard_arrow_right
+                - link "Preferences Set your preferred currency, as well as time and date formats." [ref=e243] [cursor=pointer]:
+                    - /url: /settings/preferences
+                    - generic [ref=e244]:
+                        - generic [ref=e250]:
+                            - heading "Preferences" [level=6] [ref=e252]
+                            - paragraph [ref=e254]: Set your preferred currency, as well as time and date formats.
+                        - button [ref=e256]:
+                            - generic [ref=e258]: keyboard_arrow_right
+                - link "Integrations Manage your calendar and email integrations." [ref=e260] [cursor=pointer]:
+                    - /url: /settings/integrations
+                    - generic [ref=e261]:
+                        - generic [ref=e267]:
+                            - heading "Integrations" [level=6] [ref=e269]
+                            - paragraph [ref=e271]: Manage your calendar and email integrations.
+                        - button [ref=e273]:
+                            - generic [ref=e275]: keyboard_arrow_right
+                - link "Notifications Manage your in-app and email notifications." [ref=e277] [cursor=pointer]:
+                    - /url: /settings/notifications
+                    - generic [ref=e278]:
+                        - generic [ref=e284]:
+                            - heading "Notifications" [level=6] [ref=e286]
+                            - paragraph [ref=e288]: Manage your in-app and email notifications.
+                        - button [ref=e290]:
+                            - generic [ref=e292]: keyboard_arrow_right
+                - link "Email Settings Manage your email settings and templates." [ref=e294] [cursor=pointer]:
+                    - /url: /settings/email-settings
+                    - generic [ref=e295]:
+                        - generic [ref=e301]:
+                            - heading "Email Settings" [level=6] [ref=e303]
+                            - paragraph [ref=e305]: Manage your email settings and templates.
+                        - button [ref=e307]:
+                            - generic [ref=e309]: keyboard_arrow_right
+                - link "Two-Factor Authentication Enhance the security of your account with Two-Factor Authentication." [ref=e311] [cursor=pointer]:
+                    - /url: /settings/2fa
+                    - generic [ref=e312]:
+                        - generic [ref=e318]:
+                            - heading "Two-Factor Authentication" [level=6] [ref=e320]
+                            - paragraph [ref=e322]: Enhance the security of your account with Two-Factor Authentication.
+                        - button [ref=e324]:
+                            - generic [ref=e326]: keyboard_arrow_right
+        - img [ref=e328] [cursor=pointer]
+    - iframe [ref=e164]:
+        - generic [ref=f133e2]:
+            - img [ref=f133e4]
+            - generic [ref=f133e11]:
+                - heading "Status embed installed correctly" [level=1] [ref=f133e12]:
+                    - paragraph [ref=f133e13]: Status embed installed correctly
+                - generic [ref=f133e14]: This will be shown if an incident or maintenance is posted on your status page.
+                - link "View latest updates" [ref=f133e16] [cursor=pointer]:
+                    - /url: https://status.manatal.com?utm_source=embed
+            - button [ref=f133e18] [cursor=pointer]:
+                - img [ref=f133e19]
+    - iframe [ref=e165]:
+        - generic [active]:
+            - main:
+                - region
+    - iframe [ref=e166]:

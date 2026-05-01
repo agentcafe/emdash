@@ -1,0 +1,83 @@
+- generic [active] [ref=e1]:
+    - generic [ref=e7]:
+        - banner:
+            - complementary [ref=e8]:
+                - generic [ref=e11]:
+                    - generic [ref=e12]:
+                        - link "Home" [ref=e15] [cursor=pointer]:
+                            - /url: /dashboard
+                            - generic [ref=e18]: home
+                            - generic [ref=e19]: Home
+                        - link [ref=e22] [cursor=pointer]:
+                            - /url: /departments
+                            - generic [ref=e25]: account_balance
+                        - link "Jobs" [ref=e28] [cursor=pointer]:
+                            - /url: /jobs
+                            - generic [ref=e31]: work
+                            - generic [ref=e32]: Jobs
+                        - link "Candidates" [ref=e35] [cursor=pointer]:
+                            - /url: /candidates
+                            - generic [ref=e38]: group
+                            - generic [ref=e39]: Candidates
+                        - caption [ref=e41]: Recruitment Center
+                        - link "Activities" [ref=e45] [cursor=pointer]:
+                            - /url: /activities
+                            - generic [ref=e48]: calendar_today
+                            - generic [ref=e49]: Activities
+                        - caption [ref=e51]: Settings & Analytics
+                        - link "Settings" [ref=e55] [cursor=pointer]:
+                            - /url: /settings
+                            - generic [ref=e58]: settings
+                            - generic [ref=e59]: Settings
+                        - link "Administration" [ref=e62] [cursor=pointer]:
+                            - /url: /administration
+                            - generic [ref=e65]: https
+                            - generic [ref=e66]: Administration
+                    - generic [ref=e67]:
+                        - caption [ref=e69]: Recently visited
+                        - link "Jobs" [ref=e71] [cursor=pointer]:
+                            - /url: /jobs
+                            - generic [ref=e72]: history
+                            - caption [ref=e73]: Jobs
+                        - link "Home" [ref=e74] [cursor=pointer]:
+                            - /url: /dashboard
+                            - generic [ref=e75]: history
+                            - caption [ref=e76]: Home
+            - navigation [ref=e78]:
+                - generic [ref=e79]:
+                    - button [ref=e81] [cursor=pointer]:
+                        - img [ref=e83]
+                    - link "Agentcafe" [ref=e85] [cursor=pointer]:
+                        - /url: /
+                        - heading "Agentcafe" [level=5] [ref=e86]
+                    - generic [ref=e91]:
+                        - generic [ref=e92]:
+                            - generic: Search by Name, Job, Email or
+                            - textbox "Search by Name, Job, Email or" [ref=e93]
+                        - generic [ref=e96] [cursor=pointer]: search
+                    - button [ref=e98] [cursor=pointer]:
+                        - generic [ref=e100]: add_circle
+                    - button [disabled] [ref=e104]:
+                        - img [ref=e105]
+                    - button [ref=e107] [cursor=pointer]:
+                        - generic [ref=e109]: help
+                    - button [ref=e111] [cursor=pointer]:
+                        - generic [ref=e113]: notifications
+                    - button [ref=e115] [cursor=pointer]:
+                        - generic [ref=e119]: AJ
+        - main [ref=e120]
+    - iframe [ref=e153]:
+        - generic [ref=f63e2]:
+            - img [ref=f63e4]
+            - generic [ref=f63e11]:
+                - heading "Status embed installed correctly" [level=1] [ref=f63e12]:
+                    - paragraph [ref=f63e13]: Status embed installed correctly
+                - generic [ref=f63e14]: This will be shown if an incident or maintenance is posted on your status page.
+                - link "View latest updates" [ref=f63e16] [cursor=pointer]:
+                    - /url: https://status.manatal.com?utm_source=embed
+            - button [ref=f63e18] [cursor=pointer]:
+                - img [ref=f63e19]
+    - iframe [ref=e154]:
+        - generic [active]:
+            - main
+    - iframe [ref=e155]:
