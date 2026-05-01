@@ -1,0 +1,14 @@
+node_modules
+package.json
+package-lock.json
+pnpm-lock.yaml
+bun.lock
+yarn.lock
+
+# Kilo runtime — survives branch switches
+agent-manager.json
+handoff/
+sessions/
+worktrees/
+infra/
+.venv/

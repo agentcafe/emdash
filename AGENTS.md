@@ -1,5 +1,18 @@
 This file provides guidance to agentic coding tools when working with code in this repository.
 
+## Kilo Pipeline
+
+This project uses a multi-agent pipeline managed by Kilo Code. Architecture docs live in `.kilo/architecture/`:
+
+| File | Purpose |
+|------|---------|
+| `.kilo/architecture/pipeline.md` | **Canonical procedures** — stages, quality gates, handoff protocol, worktree lifecycle, GitHub flow |
+| `.kilo/architecture/agent-team.md` | Agent org chart, complexity assessment, dispatch matrix, cost profile |
+| `.kilo/architecture/agent-team-report.md` | Gap analysis (resolved/partial/open) |
+| `.kilo/architecture/ats-v1-alignment.md` | Talent247 roadmap — deliverable mapping, waves, Linear issue map |
+
+Any Kilo agent should read `pipeline.md` on session start.
+
 ## Project Status
 
 **Beta, post pre-release.** EmDash is published to npm and in active use, with i18n, RTL, and the plugin system shipped. We're no longer in the scorched-earth pre-release phase -- real users depend on current behavior, so backwards compatibility now matters (see Rules below). All development happens inside this monorepo using `workspace:*` links. See [CONTRIBUTING.md](CONTRIBUTING.md) for the human-readable contributor guide (setup, repo layout, "build your own site" workflow).
